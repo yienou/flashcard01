@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Memory Cards</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b1020;
+      --panel: #141b31;
+      --panel-2: #1b2440;
+      --card: #f8fbff;
+      --ink: #111827;
+      --text: #f4f7ff;
+      --muted: #aeb8d7;
+      --line: rgba(255, 255, 255, 0.13);
+      --accent: #7c5cff;
+      --accent-2: #29c7ac;
+      --warn: #f6b84b;
+      --bad: #ef5a78;
+      --good: #28c985;
+      --shadow: 0 20px 60px rgba(0, 0, 0, 0.32);
+      --radius: 18px;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { min-height: 100%; margin: 0; }
+    body {
+      font-family: "Segoe UI", "Microsoft JhengHei", sans-serif;
+      background:
+        radial-gradient(circle at 12% 8%, rgba(124, 92, 255, 0.24), transparent 28%),
+        radial-gradient(circle at 88% 16%, rgba(41, 199, 172, 0.16), transparent 24%),
+        linear-gradient(135deg, #080d1a, #10162a 48%, #0c1324);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    button, input, select { font: inherit; }
+    button { cursor: pointer; }
+    img { display: block; max-width: 100%; }
+
+    .app {
+      width: min(1440px, calc(100vw - 28px));
+      margin: 0 auto;
+      padding: 18px 0 28px;
+    }
+
+    .topbar {
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) auto;
+      gap: 14px;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .brand-mark {
+      width: 44px;
+      height: 44px;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, var(--accent), #9b7cff);
+      box-shadow: 0 12px 28px rgba(124, 92, 255, 0.34);
+      font-weight: 900;
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-size: 1.18rem;
+      line-height: 1.15;
+    }
+
+    .brand p {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .top-actions,
+    .mode-tabs,
+    .unit-strip,
+    .card-actions,
+    .game-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .top-actions { justify-content: flex-end; }
+
+    .btn,
+    .mode-tab,
+    .unit-tab,
+    .choice,
+    .pair-tile {
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.07);
+      color: var(--text);
+      border-radius: 999px;
+      min-height: 42px;
+      padding: 10px 14px;
+      font-weight: 800;
+      transition: transform 130ms ease, background 130ms ease, border-color 130ms ease;
+    }
+
+    .btn:hover,
+    .mode-tab:hover,
+    .unit-tab:hover,
+    .choice:hover,
+    .pair-tile:hover {
+      transform: translateY(-1px);
+      border-color: rgba(255, 255, 255, 0.28);
+      background: rgba(255, 255, 255, 0.11);
+    }
+
+    .btn.primary,
+    .mode-tab.active,
+    .unit-tab.active {
+      border-color: transparent;
+      background: linear-gradient(135deg, var(--accent), #9b67ff);
+      color: #fff;
+      box-shadow: 0 12px 30px rgba(124, 92, 255, 0.28);
+    }
+
+    .btn.good { background: rgba(40, 201, 133, 0.18); color: #b9ffd8; }
+    .btn.warn { background: rgba(246, 184, 75, 0.16); color: #ffe4a8; }
+
+    .panel {
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(18px);
+    }
+
+    .controls {
+      display: grid;
+      gap: 12px;
+      padding: 14px;
+      margin-bottom: 14px;
+    }
+
+    .unit-strip {
+      overflow-x: auto;
+      padding-bottom: 4px;
+    }
+
+    .unit-tab {
+      flex: 0 0 auto;
+      border-radius: 14px;
+      min-width: 112px;
+      display: grid;
+      gap: 3px;
+      text-align: left;
+    }
+
+    .unit-tab small {
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 320px;
+      gap: 14px;
+      align-items: start;
+    }
+
+    .stage {
+      min-height: 680px;
+      padding: 18px;
+    }
+
+    .status-panel {
+      position: sticky;
+      top: 12px;
+      padding: 16px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .meter {
+      display: grid;
+      gap: 8px;
+    }
+
+    .meter-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      color: var(--muted);
+      font-weight: 800;
+      font-size: 0.92rem;
+    }
+
+    .bar {
+      height: 10px;
+      border-radius: 999px;
+      overflow: hidden;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid var(--line);
+    }
+
+    .bar span {
+      display: block;
+      height: 100%;
+      width: 0%;
+      border-radius: inherit;
+      background: linear-gradient(135deg, var(--accent-2), var(--accent));
+    }
+
+    .stat-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .stat {
+      padding: 12px;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--line);
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 1.45rem;
+    }
+
+    .stat span {
+      color: var(--muted);
+      font-size: 0.84rem;
+      font-weight: 700;
+    }
+
+    .view { display: none; }
+    .view.active { display: grid; gap: 16px; }
+
+    .study-shell {
+      display: grid;
+      gap: 16px;
+      justify-items: center;
+    }
+
+    .memory-card {
+      width: min(640px, 100%);
+      min-height: 500px;
+      perspective: 1400px;
+    }
+
+    .memory-card-inner {
+      position: relative;
+      width: 100%;
+      min-height: 500px;
+      transform-style: preserve-3d;
+      transition: transform 360ms ease;
+    }
+
+    .memory-card.flipped .memory-card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .card-face {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      align-content: center;
+      gap: 18px;
+      padding: 28px;
+      border-radius: 24px;
+      background: var(--card);
+      color: var(--ink);
+      backface-visibility: hidden;
+      box-shadow: 0 22px 70px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+    }
+
+    .card-face.back {
+      transform: rotateY(180deg);
+      align-content: start;
+    }
+
+    .front-word {
+      margin: 0;
+      text-align: center;
+      font-size: 4rem;
+      line-height: 1.05;
+      word-break: break-word;
+    }
+
+    .front-meta {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 7px 11px;
+      border-radius: 999px;
+      background: #edf2ff;
+      color: #334155;
+      font-weight: 900;
+      font-size: 0.86rem;
+    }
+
+    .card-image-box {
+      width: 100%;
+      height: min(380px, 48vh);
+      display: grid;
+      place-items: center;
+      border-radius: 18px;
+      background: #eef4fb;
+      border: 1px solid #dbe5f0;
+      overflow: hidden;
+    }
+
+    .card-image-box img {
+      display: block;
+      width: auto;
+      max-width: 100%;
+      height: auto;
+      max-height: 100%;
+      object-fit: contain;
+    }
+
+    .answer-block {
+      display: grid;
+      gap: 8px;
+      color: #293142;
+    }
+
+    .answer-block h2 {
+      margin: 0;
+      font-size: 2rem;
+      line-height: 1.1;
+    }
+
+    .answer-block p {
+      margin: 0;
+      color: #5b6475;
+      line-height: 1.55;
+      font-size: 1.02rem;
+    }
+
+    .card-actions {
+      justify-content: center;
+    }
+
+    .game-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .game-title h2 {
+      margin: 0;
+      font-size: 1.45rem;
+    }
+
+    .game-title p {
+      margin: 4px 0 0;
+      color: var(--muted);
+    }
+
+    .prompt-card {
+      padding: 18px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid var(--line);
+      display: grid;
+      gap: 8px;
+    }
+
+    .prompt-word {
+      margin: 0;
+      font-size: 2rem;
+      line-height: 1.1;
+    }
+
+    .choice-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .choice {
+      border-radius: 18px;
+      padding: 12px;
+      display: grid;
+      gap: 8px;
+      text-align: center;
+      min-height: 160px;
+      align-content: center;
+    }
+
+    .choice img {
+      width: 100%;
+      height: 138px;
+      object-fit: contain;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .choice.correct,
+    .pair-tile.correct {
+      border-color: rgba(40, 201, 133, 0.82);
+      background: rgba(40, 201, 133, 0.18);
+    }
+
+    .choice.wrong,
+    .pair-tile.wrong {
+      border-color: rgba(239, 90, 120, 0.8);
+      background: rgba(239, 90, 120, 0.16);
+    }
+
+    .pair-board {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .pair-column {
+      display: grid;
+      gap: 10px;
+    }
+
+    .pair-tile {
+      border-radius: 16px;
+      min-height: 58px;
+      text-align: left;
+    }
+
+    .pair-tile.selected {
+      border-color: transparent;
+      background: linear-gradient(135deg, var(--accent), #9b67ff);
+    }
+
+    .pair-tile.matched {
+      opacity: 0.42;
+      pointer-events: none;
+    }
+
+    .spell-box {
+      display: grid;
+      grid-template-columns: minmax(220px, 360px) minmax(0, 1fr);
+      gap: 18px;
+      align-items: center;
+    }
+
+    .spell-image {
+      min-height: 260px;
+      display: grid;
+      place-items: center;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid var(--line);
+      overflow: hidden;
+    }
+
+    .spell-image img {
+      width: 100%;
+      height: 260px;
+      object-fit: contain;
+    }
+
+    .spell-form {
+      display: grid;
+      gap: 12px;
+    }
+
+    .spell-form input {
+      width: 100%;
+      min-height: 56px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text);
+      padding: 12px 14px;
+      outline: none;
+      font-size: 1.1rem;
+    }
+
+    .spell-form input:focus {
+      border-color: rgba(124, 92, 255, 0.9);
+      box-shadow: 0 0 0 4px rgba(124, 92, 255, 0.15);
+    }
+
+    .feedback {
+      min-height: 28px;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .sprint-card {
+      display: grid;
+      gap: 16px;
+      justify-items: center;
+      text-align: center;
+      padding: 24px;
+      border-radius: 24px;
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid var(--line);
+    }
+
+    .sprint-card h2 {
+      margin: 0;
+      font-size: 3rem;
+      line-height: 1.05;
+    }
+
+    @media (max-width: 1000px) {
+      .layout { grid-template-columns: 1fr; }
+      .status-panel { position: static; }
+      .spell-box { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 720px) {
+      .topbar { grid-template-columns: 1fr; }
+      .top-actions { justify-content: flex-start; }
+      .stage { min-height: 0; padding: 12px; }
+      .memory-card,
+      .memory-card-inner { min-height: 460px; }
+      .front-word { font-size: 2.8rem; }
+      .choice-grid,
+      .pair-board { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">M</div>
+        <div>
+          <h1>Memory Cards</h1>
+          <p>國中英文單字快速記憶</p>
+        </div>
+      </div>
+      <div class="top-actions">
+        <button class="btn" type="button" id="reset-progress">重置進度</button>
+        <button class="btn primary" type="button" id="speak-current">發音</button>
+      </div>
+    </header>
+
+    <section class="controls panel">
+      <nav class="mode-tabs" id="mode-tabs" aria-label="模式">
+        <button class="mode-tab active" type="button" data-mode="cards">單字卡</button>
+        <button class="mode-tab" type="button" data-mode="image">圖片配對</button>
+        <button class="mode-tab" type="button" data-mode="pair">中英配對</button>
+        <button class="mode-tab" type="button" data-mode="spell">拼字</button>
+        <button class="mode-tab" type="button" data-mode="sprint">快問快答</button>
+      </nav>
+      <nav class="unit-strip" id="unit-strip" aria-label="單元"></nav>
+    </section>
+
+    <section class="layout">
+      <section class="stage panel">
+        <section class="view active" id="cards-view"></section>
+        <section class="view" id="image-view"></section>
+        <section class="view" id="pair-view"></section>
+        <section class="view" id="spell-view"></section>
+        <section class="view" id="sprint-view"></section>
+      </section>
+
+      <aside class="status-panel panel">
+        <div class="meter">
+          <div class="meter-row">
+            <span id="meter-label">進度</span>
+            <span id="meter-percent">0%</span>
+          </div>
+          <div class="bar"><span id="meter-fill"></span></div>
+        </div>
+        <div class="stat-grid">
+          <div class="stat"><strong id="stat-known">0</strong><span>已熟悉</span></div>
+          <div class="stat"><strong id="stat-weak">0</strong><span>待加強</span></div>
+          <div class="stat"><strong id="stat-seen">0</strong><span>已看過</span></div>
+          <div class="stat"><strong id="stat-total">0</strong><span>本單元</span></div>
+        </div>
+        <div class="game-actions">
+          <button class="btn" type="button" id="review-weak">練待加強</button>
+          <button class="btn" type="button" id="shuffle-deck">隨機順序</button>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="./vocabulary-data.js"></script>
+  <script src="./memory-cards.js"></script>
+</body>
+</html>
