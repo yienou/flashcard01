@@ -122,6 +122,11 @@
     .stat { border: 1px solid var(--line); background: #f8fbff; border-radius: 8px; padding: 12px; }
     .stat strong { display: block; font-size: 1.45rem; }
     .stat span { color: var(--muted); font-weight: 800; font-size: 0.9rem; }
+    .progress-title { margin: 18px 0 8px; font-size: 1rem; }
+    .unit-progress { display: grid; gap: 8px; margin-top: 10px; }
+    .unit-row { border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 10px; }
+    .unit-row strong { display: block; font-size: 0.95rem; line-height: 1.3; }
+    .unit-row span { display: block; margin-top: 3px; color: var(--muted); font-size: 0.84rem; line-height: 1.35; }
     .word-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 10px; max-height: 640px; overflow: auto; padding-right: 4px; }
     .word-row { border: 1px solid var(--line); border-radius: 8px; padding: 12px; background: #fff; }
     .word-row strong { display: block; margin-bottom: 4px; font-size: 1.12rem; overflow-wrap: anywhere; }
@@ -282,6 +287,16 @@
           <div class="stat"><strong id="stat-seen">0</strong><span>已看過</span></div>
           <div class="stat"><strong id="stat-total">2029</strong><span>目前字數</span></div>
         </div>
+        <h3 class="progress-title">全書紀錄</h3>
+        <div class="stats-grid">
+          <div class="stat"><strong id="overall-seen">0</strong><span>全書已看</span></div>
+          <div class="stat"><strong id="overall-known">0</strong><span>全書熟悉</span></div>
+          <div class="stat"><strong id="overall-accuracy">--</strong><span>答題正確率</span></div>
+          <div class="stat"><strong id="last-studied">尚未開始</strong><span>最後學習</span></div>
+        </div>
+        <h3 class="progress-title">已學單元</h3>
+        <div class="unit-progress" id="unit-progress"></div>
+        <p class="tip">進度會保存在目前這個瀏覽器與裝置中；清除網站資料或換裝置時，需要重新開始。</p>
         <p class="tip">已依 2029 筆主清單分類；每張卡背面都有中文意思、英文例句與中文例句翻譯；2 筆英文 OCR 錯字已校正，1 筆保留為待查。</p>
       </aside>
     </section>

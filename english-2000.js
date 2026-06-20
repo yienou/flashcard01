@@ -6,6 +6,7 @@
   }
 
   const STORE_KEY = 'english-2000-progress-v1';
+  const META_KEY = '__meta';
   const LEVEL_SIZE = 20;
   const chapters = raw.chapters || [];
   const units = raw.units || [];
@@ -107,7 +108,8 @@
     molePrompt: $('mole-prompt'), moleHint: $('mole-hint'), moleGrid: $('mole-grid'), moleFeedback: $('mole-feedback'), moleSpeak: $('mole-speak'), moleNext: $('mole-next'),
     speedTime: $('speed-time'), speedScore: $('speed-score'), speedStreak: $('speed-streak'), speedWord: $('speed-word'), speedChoices: $('speed-choices'), speedFeedback: $('speed-feedback'), speedStart: $('speed-start'),
     judgeWord: $('judge-word'), judgeLabel: $('judge-label'), judgeTrue: $('judge-true'), judgeFalse: $('judge-false'), judgeFeedback: $('judge-feedback'), judgeSpeak: $('judge-speak'), judgeNext: $('judge-next'),
-    wordGrid: $('word-grid'), copyList: $('copy-list'), scopeLabel: $('scope-label'), statKnown: $('stat-known'), statWeak: $('stat-weak'), statSeen: $('stat-seen'), statTotal: $('stat-total')
+    wordGrid: $('word-grid'), copyList: $('copy-list'), scopeLabel: $('scope-label'), statKnown: $('stat-known'), statWeak: $('stat-weak'), statSeen: $('stat-seen'), statTotal: $('stat-total'),
+    overallSeen: $('overall-seen'), overallKnown: $('overall-known'), overallAccuracy: $('overall-accuracy'), lastStudied: $('last-studied'), unitProgress: $('unit-progress')
   };
 
   const state = {
@@ -365,17 +367,75 @@
   }
 
   function renderStats() {
-    const known = state.deck.filter((word) => progressOf(word.id).status === 'known').length;
-    const weak = state.deck.filter((word) => progressOf(word.id).status === 'weak').length;
-    const seen = state.deck.filter((word) => progressOf(word.id).seen).length;
-    els.statKnown.textContent = known;
-    els.statWeak.textContent = weak;
-    els.statSeen.textContent = seen;
+    const scope = progressSummary(state.deck);
+    const overall = progressSummary(words);
+    els.statKnown.textContent = scope.known;
+    els.statWeak.textContent = scope.weak;
+    els.statSeen.textContent = scope.seen;
     els.statTotal.textContent = state.deck.length;
+    if (els.overallSeen) els.overallSeen.textContent = overall.seen;
+    if (els.overallKnown) els.overallKnown.textContent = overall.known;
+    if (els.overallAccuracy) els.overallAccuracy.textContent = overall.attempts ? `${overall.accuracy}%` : '--';
+    if (els.lastStudied) els.lastStudied.textContent = formatTime(progressMeta().lastStudiedAt);
+    renderUnitProgress();
     const chapter = state.chapter === 'all' ? '全部章節' : `${state.chapter}. ${chapterMap.get(Number(state.chapter))?.title}`;
     const unit = state.unit === 'all' ? '全部單元' : `${state.unit}. ${unitMap.get(Number(state.unit))?.title}`;
     const level = state.level === 'all' ? '全部關卡' : `第 ${state.level} 關`;
     els.scopeLabel.textContent = `${chapter} / ${unit} / ${level} / ${state.deck.length} 字`;
+  }
+
+  function progressSummary(list) {
+    const summary = list.reduce((acc, word) => {
+      const progress = readProgress(word.id);
+      if (progress.seen) acc.seen += 1;
+      if (progress.status === 'known') acc.known += 1;
+      if (progress.status === 'weak') acc.weak += 1;
+      acc.correct += progress.correct || 0;
+      acc.attempts += progress.answers || 0;
+      return acc;
+    }, { seen: 0, known: 0, weak: 0, correct: 0, attempts: 0 });
+    summary.accuracy = summary.attempts ? Math.round((summary.correct / summary.attempts) * 100) : 0;
+    return summary;
+  }
+
+  function renderUnitProgress() {
+    if (!els.unitProgress) return;
+    const rows = units.map((unit) => {
+      const list = words.filter((word) => word.unitNo === unit.unitNo);
+      const summary = progressSummary(list);
+      const last = Math.max(0, ...list.map((word) => {
+        const progress = readProgress(word.id);
+        return progress.updatedAt || progress.lastAnswerAt || 0;
+      }));
+      return { unit, summary, last };
+    }).filter((row) => row.summary.seen || row.summary.attempts || row.summary.known || row.summary.weak)
+      .sort((a, b) => b.last - a.last || b.summary.seen - a.summary.seen)
+      .slice(0, 8);
+    els.unitProgress.innerHTML = '';
+    if (!rows.length) {
+      const empty = document.createElement('p');
+      empty.className = 'tip';
+      empty.textContent = '開始翻卡或答題後，這裡會顯示已學過的單元。';
+      els.unitProgress.appendChild(empty);
+      return;
+    }
+    rows.forEach((row) => {
+      const article = document.createElement('article');
+      article.className = 'unit-row';
+      const pct = row.unit.count ? Math.round((row.summary.known / row.unit.count) * 100) : 0;
+      article.innerHTML = `<strong>${escapeHtml(row.unit.unitNo)}. ${escapeHtml(row.unit.title)}</strong><span>看過 ${row.summary.seen}/${row.unit.count} 字，熟悉 ${row.summary.known} 字，待加強 ${row.summary.weak} 字，熟悉度 ${pct}%</span>`;
+      els.unitProgress.appendChild(article);
+    });
+  }
+
+  function formatTime(value) {
+    if (!value) return '尚未開始';
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return '尚未開始';
+    const today = new Date();
+    const sameDay = date.getFullYear() === today.getFullYear() && date.getMonth() === today.getMonth() && date.getDate() === today.getDate();
+    const time = `${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`;
+    return sameDay ? `今天 ${time}` : `${date.getMonth() + 1}/${date.getDate()} ${time}`;
   }
 
   function renderQuizStatus() {
@@ -790,7 +850,7 @@
     const game = state.speed;
     if (!game?.running) return;
     const correct = choice.id === game.answer.id;
-    recordAnswer(correct);
+    recordAnswer(game.answer, correct);
     if (correct) {
       game.score += 10 + Math.min(game.streak, 5);
       game.streak += 1;
@@ -821,20 +881,43 @@
   }
 
   function finishAnswer(word, correct, nextFn) {
-    recordAnswer(correct);
+    recordAnswer(word, correct);
     mark(word.id, correct ? 'known' : 'weak');
     renderStats();
     renderQuizStatus();
     scheduleAutoNext(nextFn);
   }
 
-  function recordAnswer(correct) {
+  function recordAnswer(word, correct) {
+    if (typeof word === 'boolean') {
+      correct = word;
+      word = null;
+    }
+    const now = Date.now();
     state.quiz.attempts += 1;
     if (correct) {
       state.quiz.correct += 1;
       state.quiz.streak += 1;
     } else {
       state.quiz.streak = 0;
+    }
+    const meta = progressMeta();
+    meta.totalAnswers += 1;
+    if (correct) meta.correctAnswers += 1;
+    meta.lastStudiedAt = now;
+    if (word?.id) {
+      const progress = progressOf(word.id);
+      progress.seen = true;
+      progress.answers += 1;
+      progress.lastAnswerAt = now;
+      progress.updatedAt = now;
+      if (correct) {
+        progress.correct += 1;
+        progress.streak += 1;
+      } else {
+        progress.wrong += 1;
+        progress.streak = 0;
+      }
     }
   }
 
@@ -921,22 +1004,48 @@
   }
 
   function mark(id, status) {
+    const now = Date.now();
     const progress = progressOf(id);
     progress.status = status;
     progress.seen = true;
-    progress.updatedAt = Date.now();
+    progress.updatedAt = now;
+    progressMeta().lastStudiedAt = now;
     saveProgress();
   }
 
   function touch(id) {
+    const now = Date.now();
     const progress = progressOf(id);
     progress.seen = true;
-    progress.updatedAt = progress.updatedAt || Date.now();
+    progress.updatedAt = progress.updatedAt || now;
+    progressMeta().lastStudiedAt = now;
   }
 
   function progressOf(id) {
-    if (!state.progress[id]) state.progress[id] = { seen: false, status: 'new', updatedAt: 0 };
-    return state.progress[id];
+    if (!state.progress[id]) state.progress[id] = {};
+    const progress = state.progress[id];
+    progress.seen = Boolean(progress.seen);
+    progress.status = progress.status || 'new';
+    progress.updatedAt = progress.updatedAt || 0;
+    progress.answers = progress.answers || 0;
+    progress.correct = progress.correct || 0;
+    progress.wrong = progress.wrong || 0;
+    progress.lastAnswerAt = progress.lastAnswerAt || 0;
+    progress.streak = progress.streak || 0;
+    return progress;
+  }
+
+  function readProgress(id) {
+    return state.progress[id] || { seen: false, status: 'new', updatedAt: 0, answers: 0, correct: 0, wrong: 0, lastAnswerAt: 0, streak: 0 };
+  }
+
+  function progressMeta() {
+    if (!state.progress[META_KEY]) state.progress[META_KEY] = {};
+    const meta = state.progress[META_KEY];
+    meta.totalAnswers = meta.totalAnswers || 0;
+    meta.correctAnswers = meta.correctAnswers || 0;
+    meta.lastStudiedAt = meta.lastStudiedAt || 0;
+    return meta;
   }
 
   function currentCard() {
