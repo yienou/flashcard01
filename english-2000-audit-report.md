@@ -10,6 +10,7 @@
 - Machine translations added: 1260
 - Source examples kept: 695
 - Generated examples added: 1321
+- Chinese example translations: 2029
 - English OCR corrections from raw note: 2
 
 ## Translation Sources

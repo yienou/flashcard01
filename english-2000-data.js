@@ -19,6 +19,7 @@ window.ENGLISH_2000_DATA = {
     "manualCorrections": 2,
     "sourceExamples": 695,
     "generatedExamples": 1321,
+    "exampleTranslations": 2029,
     "qaSummary": {
       "duplicate_word": 202,
       "english_corrected_from_raw_note": 2,
@@ -1132,7 +1133,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嬰兒太小了，安妮不敢抱它。",
+      "examplesZh": [
+        "嬰兒太小了，安妮不敢抱它。"
+      ]
     },
     {
       "id": "0002",
@@ -1156,7 +1161,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "吉米出生於一月。",
+      "examplesZh": [
+        "吉米出生於一月。",
+        ""
+      ]
     },
     {
       "id": "0003",
@@ -1179,7 +1189,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "馬修是家裡唯一的孩子。",
+      "examplesZh": [
+        "馬修是家裡唯一的孩子。"
+      ]
     },
     {
       "id": "0004",
@@ -1202,7 +1216,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "黛西喜歡和孩子們在一起。",
+      "examplesZh": [
+        "黛西喜歡和孩子們在一起。"
+      ]
     },
     {
       "id": "0005",
@@ -1225,7 +1243,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "小時候，我常在湖裡游泳。",
+      "examplesZh": [
+        "小時候，我常在湖裡游泳。"
+      ]
     },
     {
       "id": "0006",
@@ -1248,7 +1270,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你不再是男孩了。做個男人吧！",
+      "examplesZh": [
+        "你不再是男孩了。做個男人吧！"
+      ]
     },
     {
       "id": "0007",
@@ -1271,7 +1297,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "女孩們，請把芭蕾舞鞋拿出來。",
+      "examplesZh": [
+        "女孩們，請把芭蕾舞鞋拿出來。"
+      ]
     },
     {
       "id": "0008",
@@ -1294,7 +1324,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "許多青少年喜歡玩電腦遊戲。",
+      "examplesZh": [
+        "許多青少年喜歡玩電腦遊戲。"
+      ]
     },
     {
       "id": "0009",
@@ -1317,7 +1351,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我年輕時的大部分時間都在閱讀漫畫書。",
+      "examplesZh": [
+        "我年輕時的大部分時間都在閱讀漫畫書。"
+      ]
     },
     {
       "id": "0010",
@@ -1341,7 +1379,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "蘇珊計劃成年後成為作家。",
+      "examplesZh": [
+        "蘇珊計劃成年後成為作家。",
+        ""
+      ]
     },
     {
       "id": "0011",
@@ -1364,7 +1407,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這個人的名字叫亞當‧斯密。",
+      "examplesZh": [
+        "這個人的名字叫亞當‧斯密。"
+      ]
     },
     {
       "id": "0012",
@@ -1387,7 +1434,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "布萊恩是一個非常好的人。",
+      "examplesZh": [
+        "布萊恩是一個非常好的人。"
+      ]
     },
     {
       "id": "0013",
@@ -1410,7 +1461,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "那個黑衣女人是我的妹妹。",
+      "examplesZh": [
+        "那個黑衣女人是我的妹妹。"
+      ]
     },
     {
       "id": "0014",
@@ -1433,7 +1488,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "女性可以生孩子，但男性不能。",
+      "examplesZh": [
+        "女性可以生孩子，但男性不能。"
+      ]
     },
     {
       "id": "0015",
@@ -1456,7 +1515,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「生命階段」單元中使用「女性」一詞。",
+      "examplesZh": [
+        "本課程在「生命階段」單元中使用「女性」一詞。"
+      ]
     },
     {
       "id": "0016",
@@ -1479,7 +1542,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你知道亞瑟王的故事嗎？",
+      "examplesZh": [
+        "你知道亞瑟王的故事嗎？"
+      ]
     },
     {
       "id": "0017",
@@ -1502,7 +1569,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "女王在這個國家擁有很大的權力。",
+      "examplesZh": [
+        "女王在這個國家擁有很大的權力。"
+      ]
     },
     {
       "id": "0018",
@@ -1525,7 +1596,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "那個女人又高又漂亮。她是美女！",
+      "examplesZh": [
+        "那個女人又高又漂亮。她是美女！"
+      ]
     },
     {
       "id": "0019",
@@ -1549,7 +1624,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "老國王死後，王子將成為",
+      "examplesZh": [
+        "老國王死後，王子將成為",
+        ""
+      ]
     },
     {
       "id": "0020",
@@ -1572,7 +1652,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "國王非常愛他的女兒戴安娜王妃。",
+      "examplesZh": [
+        "國王非常愛他的女兒戴安娜王妃。"
+      ]
     },
     {
       "id": "0021",
@@ -1596,7 +1680,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "許多人認為天使是上帝派來照顧的",
+      "examplesZh": [
+        "許多人認為天使是上帝派來照顧的",
+        ""
+      ]
     },
     {
       "id": "0022",
@@ -1620,7 +1709,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你相信上帝嗎？",
+      "examplesZh": [
+        "你相信上帝嗎？",
+        ""
+      ]
     },
     {
       "id": "0023",
@@ -1644,7 +1738,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "人類可以思考和說話。",
+      "examplesZh": [
+        "人類可以思考和說話。",
+        ""
+      ]
     },
     {
       "id": "0024",
@@ -1667,7 +1766,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "埃里克是一個好人。",
+      "examplesZh": [
+        "埃里克是一個好人。"
+      ]
     },
     {
       "id": "0025",
@@ -1690,7 +1793,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "一組有 10 個人。",
+      "examplesZh": [
+        "一組有 10 個人。"
+      ]
     },
     {
       "id": "0026",
@@ -1714,7 +1821,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "滑板車在台灣確實很常見。",
+      "examplesZh": [
+        "滑板車在台灣確實很常見。",
+        ""
+      ]
     },
     {
       "id": "0027",
@@ -1737,7 +1849,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "僕人侍奉他的主人。",
+      "examplesZh": [
+        "僕人侍奉他的主人。"
+      ]
     },
     {
       "id": "0028",
@@ -1764,6 +1880,12 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "林叔叔是玉米農。",
+      "examplesZh": [
+        "林叔叔是玉米農。",
+        "",
+        ""
       ]
     },
     {
@@ -1787,7 +1909,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這是王國最大的城堡。",
+      "examplesZh": [
+        "這是王國最大的城堡。"
+      ]
     },
     {
       "id": "0030",
@@ -1810,7 +1936,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在單元“王國”中使用“城堡”一詞。",
+      "examplesZh": [
+        "本課程在單元“王國”中使用“城堡”一詞。"
+      ]
     },
     {
       "id": "0031",
@@ -1833,7 +1963,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "僕人必須服從他們的主人亨利。",
+      "examplesZh": [
+        "僕人必須服從他們的主人亨利。"
+      ]
     },
     {
       "id": "0032",
@@ -1856,7 +1990,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我應該對您使用什麼頭銜，教授還是博士？",
+      "examplesZh": [
+        "我應該對您使用什麼頭銜，教授還是博士？"
+      ]
     },
     {
       "id": "0033",
@@ -1879,7 +2017,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "先生，我可以接受您的命令嗎？",
+      "examplesZh": [
+        "先生，我可以接受您的命令嗎？"
+      ]
     },
     {
       "id": "0034",
@@ -1902,7 +2044,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "史密斯先生對我很好。",
+      "examplesZh": [
+        "史密斯先生對我很好。"
+      ]
     },
     {
       "id": "0035",
@@ -1929,6 +2075,12 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "您是張小姐嗎？請進來。",
+      "examplesZh": [
+        "您是張小姐嗎？請進來。",
+        "",
+        ""
       ]
     },
     {
@@ -1952,7 +2104,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「稱呼形式」單元中使用「女士」一詞。",
+      "examplesZh": [
+        "本課程在「稱呼形式」單元中使用「女士」一詞。"
+      ]
     },
     {
       "id": "0037",
@@ -1975,7 +2131,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這是泰勒斯女士的辦公室嗎？",
+      "examplesZh": [
+        "這是泰勒斯女士的辦公室嗎？"
+      ]
     },
     {
       "id": "0038",
@@ -1998,7 +2158,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "林太太今晚請我們吃飯。",
+      "examplesZh": [
+        "林太太今晚請我們吃飯。"
+      ]
     },
     {
       "id": "0039",
@@ -2023,6 +2187,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "安琪拉是一位已婚婦女。",
+      "examplesZh": [
+        "安琪拉是一位已婚婦女。"
       ]
     },
     {
@@ -2046,7 +2214,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "謝謝你幫助我。你是一位真正的紳士。",
+      "examplesZh": [
+        "謝謝你幫助我。你是一位真正的紳士。"
+      ]
     },
     {
       "id": "0041",
@@ -2069,7 +2241,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "前台的女士會幫助你。",
+      "examplesZh": [
+        "前台的女士會幫助你。"
+      ]
     },
     {
       "id": "0042",
@@ -2092,7 +2268,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "王醫生明天會來看我們。",
+      "examplesZh": [
+        "王醫生明天會來看我們。"
+      ]
     },
     {
       "id": "0043",
@@ -2115,7 +2295,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我常常寫信給我最親愛的朋友。",
+      "examplesZh": [
+        "我常常寫信給我最親愛的朋友。"
+      ]
     },
     {
       "id": "0044",
@@ -2138,7 +2322,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嗨，我叫麥克。很高興見到你。",
+      "examplesZh": [
+        "嗨，我叫麥克。很高興見到你。"
+      ]
     },
     {
       "id": "0045",
@@ -2162,7 +2350,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我的名字是大衛，我兄弟的名字",
+      "examplesZh": [
+        "我的名字是大衛，我兄弟的名字",
+        ""
+      ]
     },
     {
       "id": "0046",
@@ -2185,7 +2378,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「地址形式」單元中使用「姓氏」一詞。",
+      "examplesZh": [
+        "本課程在「地址形式」單元中使用「姓氏」一詞。"
+      ]
     },
     {
       "id": "0047",
@@ -2208,7 +2405,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "藝術家創作藝術。",
+      "examplesZh": [
+        "藝術家創作藝術。"
+      ]
     },
     {
       "id": "0048",
@@ -2231,7 +2432,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "您可以用紙和筆創作藝術。",
+      "examplesZh": [
+        "您可以用紙和筆創作藝術。"
+      ]
     },
     {
       "id": "0049",
@@ -2254,7 +2459,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我把杯子的外面漆成藍色。",
+      "examplesZh": [
+        "我把杯子的外面漆成藍色。"
+      ]
     },
     {
       "id": "0050",
@@ -2277,7 +2486,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "他就是畫這幅畫的著名畫家。",
+      "examplesZh": [
+        "他就是畫這幅畫的著名畫家。"
+      ]
     },
     {
       "id": "0051",
@@ -2300,7 +2513,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "那部電視劇裡的演員都很有趣。",
+      "examplesZh": [
+        "那部電視劇裡的演員都很有趣。"
+      ]
     },
     {
       "id": "0052",
@@ -2323,7 +2540,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "她是我最喜歡的女演員。我喜歡她的電影。",
+      "examplesZh": [
+        "她是我最喜歡的女演員。我喜歡她的電影。"
+      ]
     },
     {
       "id": "0053",
@@ -2346,7 +2567,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你想在學校話劇中表演嗎？",
+      "examplesZh": [
+        "你想在學校話劇中表演嗎？"
+      ]
     },
     {
       "id": "0054",
@@ -2369,7 +2594,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "牛仔騎著馬過河",
+      "examplesZh": [
+        "牛仔騎著馬過河"
+      ]
     },
     {
       "id": "0055",
@@ -2392,7 +2621,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "Ryan 是一位出色的吉他手。",
+      "examplesZh": [
+        "Ryan 是一位出色的吉他手。"
+      ]
     },
     {
       "id": "0056",
@@ -2415,7 +2648,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這位魔術師能從帽子裡變出一隻兔子。",
+      "examplesZh": [
+        "這位魔術師能從帽子裡變出一隻兔子。"
+      ]
     },
     {
       "id": "0057",
@@ -2439,7 +2676,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我的魔鏡讓我消失了！",
+      "examplesZh": [
+        "我的魔鏡讓我消失了！",
+        ""
+      ]
     },
     {
       "id": "0058",
@@ -2462,7 +2704,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "模特兒的衣服非常時尚。",
+      "examplesZh": [
+        "模特兒的衣服非常時尚。"
+      ]
     },
     {
       "id": "0059",
@@ -2485,7 +2731,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "那位音樂家正在出售她的 CD。",
+      "examplesZh": [
+        "那位音樂家正在出售她的 CD。"
+      ]
     },
     {
       "id": "0060",
@@ -2508,7 +2758,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "史蒂夫是一位婚禮歌手。",
+      "examplesZh": [
+        "史蒂夫是一位婚禮歌手。"
+      ]
     },
     {
       "id": "0061",
@@ -2533,6 +2787,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "惠特尼唱歌很好聽。",
+      "examplesZh": [
+        "惠特尼唱歌很好聽。"
       ]
     },
     {
@@ -2556,7 +2814,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "那家公司生產玩具車。",
+      "examplesZh": [
+        "那家公司生產玩具車。"
+      ]
     },
     {
       "id": "0063",
@@ -2579,7 +2841,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "經理告訴工人該做什麼。",
+      "examplesZh": [
+        "經理告訴工人該做什麼。"
+      ]
     },
     {
       "id": "0064",
@@ -2602,7 +2868,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我的助理幫助我做我的工作。",
+      "examplesZh": [
+        "我的助理幫助我做我的工作。"
+      ]
     },
     {
       "id": "0065",
@@ -2625,7 +2895,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "秘書將在會議上做記錄。",
+      "examplesZh": [
+        "秘書將在會議上做記錄。"
+      ]
     },
     {
       "id": "0066",
@@ -2648,7 +2922,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "軍隊保護國家免受敵人的侵害。",
+      "examplesZh": [
+        "軍隊保護國家免受敵人的侵害。"
+      ]
     },
     {
       "id": "0067",
@@ -2671,7 +2949,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "船長決定要去哪裡。",
+      "examplesZh": [
+        "船長決定要去哪裡。"
+      ]
     },
     {
       "id": "0068",
@@ -2695,7 +2977,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "將軍來了！大家都站起來！",
+      "examplesZh": [
+        "將軍來了！大家都站起來！",
+        ""
+      ]
     },
     {
       "id": "0069",
@@ -2720,6 +3007,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "將軍是軍隊中少校的上司。",
+      "examplesZh": [
+        "將軍是軍隊中少校的上司。"
       ]
     },
     {
@@ -2743,7 +3034,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "水手在船上航行。",
+      "examplesZh": [
+        "水手在船上航行。"
+      ]
     },
     {
       "id": "0071",
@@ -2766,7 +3061,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "士兵在戰爭中駕駛坦克車。",
+      "examplesZh": [
+        "士兵在戰爭中駕駛坦克車。"
+      ]
     },
     {
       "id": "0072",
@@ -2789,7 +3088,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論工作時，「坦克」這個詞很有用。",
+      "examplesZh": [
+        "在談論工作時，「坦克」這個詞很有用。"
+      ]
     },
     {
       "id": "0073",
@@ -2813,7 +3116,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "全國人民選出一位總統來領導",
+      "examplesZh": [
+        "全國人民選出一位總統來領導",
+        ""
+      ]
     },
     {
       "id": "0074",
@@ -2836,7 +3144,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "警察正在指揮交通。",
+      "examplesZh": [
+        "警察正在指揮交通。"
+      ]
     },
     {
       "id": "0075",
@@ -2859,7 +3171,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我想我們應該報警。",
+      "examplesZh": [
+        "我想我們應該報警。"
+      ]
     },
     {
       "id": "0076",
@@ -2882,7 +3198,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "照顧人民是總統的職責。",
+      "examplesZh": [
+        "照顧人民是總統的職責。"
+      ]
     },
     {
       "id": "0077",
@@ -2906,7 +3226,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "curated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "小偷逃離了商店。",
+      "examplesZh": [
+        "小偷逃離了商店。",
+        ""
+      ]
     },
     {
       "id": "0078",
@@ -2929,7 +3254,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "弗蘭克需要去看醫生。",
+      "examplesZh": [
+        "弗蘭克需要去看醫生。"
+      ]
     },
     {
       "id": "0079",
@@ -2952,7 +3281,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "牙醫正在照顧男子的牙齒。",
+      "examplesZh": [
+        "牙醫正在照顧男子的牙齒。"
+      ]
     },
     {
       "id": "0080",
@@ -2975,7 +3308,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我生病時，一位優秀的護士照顧我。",
+      "examplesZh": [
+        "當我生病時，一位優秀的護士照顧我。"
+      ]
     },
     {
       "id": "0081",
@@ -2998,7 +3335,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "美國和中國外交官將於今天下午舉行會議。",
+      "examplesZh": [
+        "美國和中國外交官將於今天下午舉行會議。"
+      ]
     },
     {
       "id": "0082",
@@ -3022,7 +3363,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "法官正在法庭上聽取律師的陳述。",
+      "examplesZh": [
+        "法官正在法庭上聽取律師的陳述。",
+        ""
+      ]
     },
     {
       "id": "0083",
@@ -3045,7 +3391,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "她正在學習法律，因為她想成為一名律師。",
+      "examplesZh": [
+        "她正在學習法律，因為她想成為一名律師。"
+      ]
     },
     {
       "id": "0084",
@@ -3068,7 +3418,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "律師和法官處理許多法律和規則。",
+      "examplesZh": [
+        "律師和法官處理許多法律和規則。"
+      ]
     },
     {
       "id": "0085",
@@ -3091,7 +3445,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我需要一名機械師來修理我的車。",
+      "examplesZh": [
+        "我需要一名機械師來修理我的車。"
+      ]
     },
     {
       "id": "0086",
@@ -3116,6 +3474,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "請檢查並修復破損的水管。",
+      "examplesZh": [
+        "請檢查並修復破損的水管。"
       ]
     },
     {
@@ -3139,7 +3501,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "工程師設計機器。",
+      "examplesZh": [
+        "工程師設計機器。"
+      ]
     },
     {
       "id": "0088",
@@ -3162,7 +3528,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "醫生很累，因為他剛做了十個小時的手術。",
+      "examplesZh": [
+        "醫生很累，因為他剛做了十個小時的手術。"
+      ]
     },
     {
       "id": "0089",
@@ -3185,7 +3555,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "科學家研究生物學、化學和物理學。",
+      "examplesZh": [
+        "科學家研究生物學、化學和物理學。"
+      ]
     },
     {
       "id": "0090",
@@ -3208,7 +3582,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "科學家正在嘗試發明新形式的能源。",
+      "examplesZh": [
+        "科學家正在嘗試發明新形式的能源。"
+      ]
     },
     {
       "id": "0091",
@@ -3232,7 +3610,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們的教練教我們如何踢好足球。",
+      "examplesZh": [
+        "我們的教練教我們如何踢好足球。",
+        ""
+      ]
     },
     {
       "id": "0092",
@@ -3255,7 +3638,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論工作時，“服務”這個詞很有用。",
+      "examplesZh": [
+        "當談論工作時，“服務”這個詞很有用。"
+      ]
     },
     {
       "id": "0093",
@@ -3278,7 +3665,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "理髮師把我的鬍子剪得太短了。",
+      "examplesZh": [
+        "理髮師把我的鬍子剪得太短了。"
+      ]
     },
     {
       "id": "0094",
@@ -3301,7 +3692,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我喜歡理髮師幫你剪頭髮的方式。",
+      "examplesZh": [
+        "我喜歡理髮師幫你剪頭髮的方式。"
+      ]
     },
     {
       "id": "0095",
@@ -3327,6 +3722,11 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "史丹利是個好廚師。",
+      "examplesZh": [
+        "史丹利是個好廚師。",
+        ""
       ]
     },
     {
@@ -3350,7 +3750,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "服務員，我們現在可以點菜了。",
+      "examplesZh": [
+        "服務員，我們現在可以點菜了。"
+      ]
     },
     {
       "id": "0097",
@@ -3373,7 +3777,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "女服務生給我端了一杯水。",
+      "examplesZh": [
+        "女服務生給我端了一杯水。"
+      ]
     },
     {
       "id": "0098",
@@ -3396,7 +3804,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "服務生一會兒就會為您服務。",
+      "examplesZh": [
+        "服務生一會兒就會為您服務。"
+      ]
     },
     {
       "id": "0099",
@@ -3419,7 +3831,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我父親是一名出租車司機。",
+      "examplesZh": [
+        "我父親是一名出租車司機。"
+      ]
     },
     {
       "id": "0100",
@@ -3442,7 +3858,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "郵差遞送了我的郵件。",
+      "examplesZh": [
+        "郵差遞送了我的郵件。"
+      ]
     },
     {
       "id": "0101",
@@ -3465,7 +3885,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論工作時，「郵件」這個詞很有用。",
+      "examplesZh": [
+        "在談論工作時，「郵件」這個詞很有用。"
+      ]
     },
     {
       "id": "0102",
@@ -3489,7 +3913,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "導遊帶我們參觀了城裡著名的寺廟。",
+      "examplesZh": [
+        "導遊帶我們參觀了城裡著名的寺廟。",
+        ""
+      ]
     },
     {
       "id": "0103",
@@ -3512,7 +3941,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們的導遊將帶領我們翻山越嶺。",
+      "examplesZh": [
+        "我們的導遊將帶領我們翻山越嶺。"
+      ]
     },
     {
       "id": "0104",
@@ -3535,7 +3968,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這位記者為很多雜誌撰稿。",
+      "examplesZh": [
+        "這位記者為很多雜誌撰稿。"
+      ]
     },
     {
       "id": "0105",
@@ -3558,7 +3995,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "新聞記者說話聲音很大。",
+      "examplesZh": [
+        "新聞記者說話聲音很大。"
+      ]
     },
     {
       "id": "0106",
@@ -3581,7 +4022,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我透過她的書了解了這位著名作家。",
+      "examplesZh": [
+        "我透過她的書了解了這位著名作家。"
+      ]
     },
     {
       "id": "0107",
@@ -3604,7 +4049,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "給您的這個包裹已於今天早上送達。",
+      "examplesZh": [
+        "給您的這個包裹已於今天早上送達。"
+      ]
     },
     {
       "id": "0108",
@@ -3627,7 +4076,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我剛剛和我的老闆談過話。",
+      "examplesZh": [
+        "我剛剛和我的老闆談過話。"
+      ]
     },
     {
       "id": "0109",
@@ -3650,7 +4103,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "該公司的老闆約翰曾經擁有一家餐廳。",
+      "examplesZh": [
+        "該公司的老闆約翰曾經擁有一家餐廳。"
+      ]
     },
     {
       "id": "0110",
@@ -3673,7 +4130,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論工作時，「自己」這個詞很有用。",
+      "examplesZh": [
+        "在談論工作時，「自己」這個詞很有用。"
+      ]
     },
     {
       "id": "0111",
@@ -3696,7 +4157,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "郭台銘是一位成功的商人。",
+      "examplesZh": [
+        "郭台銘是一位成功的商人。"
+      ]
     },
     {
       "id": "0112",
@@ -3719,7 +4184,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "麥克與美國公司做生意。",
+      "examplesZh": [
+        "麥克與美國公司做生意。"
+      ]
     },
     {
       "id": "0113",
@@ -3744,6 +4213,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我的分公司僱用了 500 名工人。",
+      "examplesZh": [
+        "我的分公司僱用了 500 名工人。"
       ]
     },
     {
@@ -3767,7 +4240,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論工作時，「僱用」這個詞很有用。",
+      "examplesZh": [
+        "當談論工作時，「僱用」這個詞很有用。"
+      ]
     },
     {
       "id": "0115",
@@ -3790,7 +4267,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "珍妮曾經是那家公司的工人。",
+      "examplesZh": [
+        "珍妮曾經是那家公司的工人。"
+      ]
     },
     {
       "id": "0116",
@@ -3813,7 +4294,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們需要雇用更多的人為我們的公司工作。",
+      "examplesZh": [
+        "我們需要雇用更多的人為我們的公司工作。"
+      ]
     },
     {
       "id": "0117",
@@ -3836,7 +4321,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "下午 4 點我必須去參加一個會議。",
+      "examplesZh": [
+        "下午 4 點我必須去參加一個會議。"
+      ]
     },
     {
       "id": "0118",
@@ -3859,7 +4348,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我與這家公司簽訂了為期五年的合約。",
+      "examplesZh": [
+        "我與這家公司簽訂了為期五年的合約。"
+      ]
     },
     {
       "id": "0119",
@@ -3882,7 +4375,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "辦公室職員將為您把這些文件收起來。",
+      "examplesZh": [
+        "辦公室職員將為您把這些文件收起來。"
+      ]
     },
     {
       "id": "0120",
@@ -3905,7 +4402,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "不要對面試感到緊張。我知道你會得到這份工作！",
+      "examplesZh": [
+        "不要對面試感到緊張。我知道你會得到這份工作！"
+      ]
     },
     {
       "id": "0121",
@@ -3928,7 +4429,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論工作時，面試這個詞很有用。",
+      "examplesZh": [
+        "在談論工作時，面試這個詞很有用。"
+      ]
     },
     {
       "id": "0122",
@@ -3952,7 +4457,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "工作進度如何？",
+      "examplesZh": [
+        "工作進度如何？",
+        ""
+      ]
     },
     {
       "id": "0123",
@@ -3975,7 +4485,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "朱迪沒有銷售經驗。",
+      "examplesZh": [
+        "朱迪沒有銷售經驗。"
+      ]
     },
     {
       "id": "0124",
@@ -3998,7 +4512,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "米歇爾的收入很高，所以她很有錢。",
+      "examplesZh": [
+        "米歇爾的收入很高，所以她很有錢。"
+      ]
     },
     {
       "id": "0125",
@@ -4021,7 +4539,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論工作時，收入這個詞很有用。",
+      "examplesZh": [
+        "當談論工作時，收入這個詞很有用。"
+      ]
     },
     {
       "id": "0126",
@@ -4044,7 +4566,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "公司的生產團隊速度很快，所以很快就能生產東西。",
+      "examplesZh": [
+        "公司的生產團隊速度很快，所以很快就能生產東西。"
+      ]
     },
     {
       "id": "0127",
@@ -4067,7 +4593,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "他是一位出色的推銷員。他可以賣任何東西。",
+      "examplesZh": [
+        "他是一位出色的推銷員。他可以賣任何東西。"
+      ]
     },
     {
       "id": "0128",
@@ -4090,7 +4620,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這裡有賣手套嗎？",
+      "examplesZh": [
+        "這裡有賣手套嗎？"
+      ]
     },
     {
       "id": "0129",
@@ -4113,7 +4647,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在這個黑暗的地下室裡我什麼也看不見。",
+      "examplesZh": [
+        "在這個黑暗的地下室裡我什麼也看不見。"
+      ]
     },
     {
       "id": "0130",
@@ -4136,7 +4674,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "該企業發現了一種更好的家俱生產方法。",
+      "examplesZh": [
+        "該企業發現了一種更好的家俱生產方法。"
+      ]
     },
     {
       "id": "0131",
@@ -4159,7 +4701,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "那個博物館裡面有很多有價值的藝術品。",
+      "examplesZh": [
+        "那個博物館裡面有很多有價值的藝術品。"
+      ]
     },
     {
       "id": "0132",
@@ -4182,7 +4728,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "老闆想增加銷售額。",
+      "examplesZh": [
+        "老闆想增加銷售額。"
+      ]
     },
     {
       "id": "0133",
@@ -4205,7 +4755,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這種水果不適合出售。",
+      "examplesZh": [
+        "這種水果不適合出售。"
+      ]
     },
     {
       "id": "0134",
@@ -4229,7 +4783,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "curated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "下週價格將會下降。",
+      "examplesZh": [
+        "下週價格將會下降。",
+        ""
+      ]
     },
     {
       "id": "0135",
@@ -4252,7 +4811,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我可以在哪裡找到你的老闆？",
+      "examplesZh": [
+        "我可以在哪裡找到你的老闆？"
+      ]
     },
     {
       "id": "0136",
@@ -4275,7 +4838,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "該工廠生產電腦零件。",
+      "examplesZh": [
+        "該工廠生產電腦零件。"
+      ]
     },
     {
       "id": "0137",
@@ -4298,7 +4865,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我寫了一份招聘廣告，這樣我們就可以僱用一些新工人。",
+      "examplesZh": [
+        "我寫了一份招聘廣告，這樣我們就可以僱用一些新工人。"
+      ]
     },
     {
       "id": "0138",
@@ -4321,7 +4892,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "蘋果和橘子差異太大，無法比較。",
+      "examplesZh": [
+        "蘋果和橘子差異太大，無法比較。"
+      ]
     },
     {
       "id": "0139",
@@ -4344,7 +4919,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我會向經理抱怨糟糕的服務。",
+      "examplesZh": [
+        "我會向經理抱怨糟糕的服務。"
+      ]
     },
     {
       "id": "0140",
@@ -4367,7 +4946,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "該公司努力滿足客戶的願望。",
+      "examplesZh": [
+        "該公司努力滿足客戶的願望。"
+      ]
     },
     {
       "id": "0141",
@@ -4390,7 +4973,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這位歌手在歌曲中表達了她的感受。",
+      "examplesZh": [
+        "這位歌手在歌曲中表達了她的感受。"
+      ]
     },
     {
       "id": "0142",
@@ -4414,7 +5001,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "祝您生活取得巨大成功。",
+      "examplesZh": [
+        "祝您生活取得巨大成功。",
+        ""
+      ]
     },
     {
       "id": "0143",
@@ -4437,7 +5029,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "他成功地發明了一種更好的機器。",
+      "examplesZh": [
+        "他成功地發明了一種更好的機器。"
+      ]
     },
     {
       "id": "0144",
@@ -4460,7 +5056,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "蒂娜想成為一名成功的科學家。",
+      "examplesZh": [
+        "蒂娜想成為一名成功的科學家。"
+      ]
     },
     {
       "id": "0145",
@@ -4483,7 +5083,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "請努力在九點鐘前上班。",
+      "examplesZh": [
+        "請努力在九點鐘前上班。"
+      ]
     },
     {
       "id": "0146",
@@ -4507,7 +5111,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "記者為她的新故事收集了資訊。",
+      "examplesZh": [
+        "記者為她的新故事收集了資訊。",
+        ""
+      ]
     },
     {
       "id": "0147",
@@ -4530,7 +5139,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "那本雜誌裡面有很多有用的資訊。",
+      "examplesZh": [
+        "那本雜誌裡面有很多有用的資訊。"
+      ]
     },
     {
       "id": "0148",
@@ -4555,7 +5168,13 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "扎克斯，保持冷靜！",
+      "examplesZh": [
+        "扎克斯，保持冷靜！",
+        "",
+        ""
+      ]
     },
     {
       "id": "0149",
@@ -4579,7 +5198,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "珍妮特總是對她的生活感到快樂和積極。",
+      "examplesZh": [
+        "珍妮特總是對她的生活感到快樂和積極。",
+        ""
+      ]
     },
     {
       "id": "0150",
@@ -4602,7 +5226,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "拉拉隊員們大聲​​地為選手們吶喊。",
+      "examplesZh": [
+        "拉拉隊員們大聲​​地為選手們吶喊。"
+      ]
     },
     {
       "id": "0151",
@@ -4625,7 +5253,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我希望我們能繼續增加收入。",
+      "examplesZh": [
+        "我希望我們能繼續增加收入。"
+      ]
     },
     {
       "id": "0152",
@@ -4650,6 +5282,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "太吵鬧時凱文無法集中註意力。",
+      "examplesZh": [
+        "太吵鬧時凱文無法集中註意力。"
       ]
     },
     {
@@ -4673,7 +5309,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你現在準備好出發了嗎？",
+      "examplesZh": [
+        "你現在準備好出發了嗎？"
+      ]
     },
     {
       "id": "0154",
@@ -4696,7 +5336,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "總統必須處理許多不同的事情",
+      "examplesZh": [
+        "總統必須處理許多不同的事情"
+      ]
     },
     {
       "id": "0155",
@@ -4720,7 +5364,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "curated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這個問題對我來說很難。",
+      "examplesZh": [
+        "這個問題對我來說很難。",
+        ""
+      ]
     },
     {
       "id": "0156",
@@ -4744,7 +5393,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "curated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "孩子每天都會發展新技能。",
+      "examplesZh": [
+        "孩子每天都會發展新技能。",
+        ""
+      ]
     },
     {
       "id": "0157",
@@ -4767,7 +5421,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "白雪公主是一位美麗的公主。",
+      "examplesZh": [
+        "白雪公主是一位美麗的公主。"
+      ]
     },
     {
       "id": "0158",
@@ -4790,7 +5448,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "露西是個漂亮的小女孩。",
+      "examplesZh": [
+        "露西是個漂亮的小女孩。"
+      ]
     },
     {
       "id": "0159",
@@ -4813,7 +5475,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "Vicky的理想男友一定是英俊的。",
+      "examplesZh": [
+        "Vicky的理想男友一定是英俊的。"
+      ]
     },
     {
       "id": "0160",
@@ -4836,7 +5502,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "他是個英俊的男人，但我不喜歡他的衣服。",
+      "examplesZh": [
+        "他是個英俊的男人，但我不喜歡他的衣服。"
+      ]
     },
     {
       "id": "0161",
@@ -4859,7 +5529,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "孩子們害怕電影中醜陋的怪物。",
+      "examplesZh": [
+        "孩子們害怕電影中醜陋的怪物。"
+      ]
     },
     {
       "id": "0162",
@@ -4884,6 +5558,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "雖然他個子矮小，但是他的聲音卻比任何人都響亮。",
+      "examplesZh": [
+        "雖然他個子矮小，但是他的聲音卻比任何人都響亮。"
       ]
     },
     {
@@ -4907,7 +5585,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你有多高？",
+      "examplesZh": [
+        "你有多高？"
+      ]
     },
     {
       "id": "0164",
@@ -4930,7 +5612,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本雖然胖，但動作卻很快。",
+      "examplesZh": [
+        "本雖然胖，但動作卻很快。"
+      ]
     },
     {
       "id": "0165",
@@ -4953,7 +5639,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "胖男孩有一張胖胖的臉。",
+      "examplesZh": [
+        "胖男孩有一張胖胖的臉。"
+      ]
     },
     {
       "id": "0166",
@@ -4976,7 +5666,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "尼克是個又高又重的男人。",
+      "examplesZh": [
+        "尼克是個又高又重的男人。"
+      ]
     },
     {
       "id": "0167",
@@ -4999,7 +5693,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "如果你吃太多，你就會變得超重。",
+      "examplesZh": [
+        "如果你吃太多，你就會變得超重。"
+      ]
     },
     {
       "id": "0168",
@@ -5022,7 +5720,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "體重不足的孩子應該多吃食物。",
+      "examplesZh": [
+        "體重不足的孩子應該多吃食物。"
+      ]
     },
     {
       "id": "0169",
@@ -5045,7 +5747,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "大多數人都想變瘦，而不是變胖。",
+      "examplesZh": [
+        "大多數人都想變瘦，而不是變胖。"
+      ]
     },
     {
       "id": "0170",
@@ -5068,7 +5774,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "女人的腿又長又細，很漂亮。",
+      "examplesZh": [
+        "女人的腿又長又細，很漂亮。"
+      ]
     },
     {
       "id": "0171",
@@ -5091,7 +5801,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我姐姐身材苗條、活潑、健康。",
+      "examplesZh": [
+        "我姐姐身材苗條、活潑、健康。"
+      ]
     },
     {
       "id": "0172",
@@ -5116,6 +5830,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "你太瘦了。多吃點！",
+      "examplesZh": [
+        "你太瘦了。多吃點！"
       ]
     },
     {
@@ -5139,7 +5857,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我的老師很和藹，人品很好。",
+      "examplesZh": [
+        "我的老師很和藹，人品很好。"
+      ]
     },
     {
       "id": "0174",
@@ -5162,7 +5884,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「個性 1」單元中使用「體貼」一詞。",
+      "examplesZh": [
+        "本課程在「個性 1」單元中使用「體貼」一詞。"
+      ]
     },
     {
       "id": "0175",
@@ -5186,7 +5912,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你真好！",
+      "examplesZh": [
+        "你真好！",
+        ""
+      ]
     },
     {
       "id": "0176",
@@ -5209,7 +5940,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這個鎮上的人們非常友好。",
+      "examplesZh": [
+        "這個鎮上的人們非常友好。"
+      ]
     },
     {
       "id": "0177",
@@ -5233,7 +5968,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "史密斯先生對我很好。",
+      "examplesZh": [
+        "史密斯先生對我很好。",
+        ""
+      ]
     },
     {
       "id": "0178",
@@ -5256,7 +5996,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "丹尼是個溫柔的男孩，所以他沒有殺死蜘蛛。",
+      "examplesZh": [
+        "丹尼是個溫柔的男孩，所以他沒有殺死蜘蛛。"
+      ]
     },
     {
       "id": "0179",
@@ -5279,7 +6023,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "如果你真誠，人們就會信任你。",
+      "examplesZh": [
+        "如果你真誠，人們就會信任你。"
+      ]
     },
     {
       "id": "0180",
@@ -5302,7 +6050,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "耐心等待你想要的東西並不容易。",
+      "examplesZh": [
+        "耐心等待你想要的東西並不容易。"
+      ]
     },
     {
       "id": "0181",
@@ -5325,7 +6077,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這位慷慨的女士為大家買了晚餐。",
+      "examplesZh": [
+        "這位慷慨的女士為大家買了晚餐。"
+      ]
     },
     {
       "id": "0182",
@@ -5348,7 +6104,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "艾米麗是一個有禮貌的女孩，每個人都喜歡她。",
+      "examplesZh": [
+        "艾米麗是一個有禮貌的女孩，每個人都喜歡她。"
+      ]
     },
     {
       "id": "0183",
@@ -5371,7 +6131,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在公車上大聲打電話是不禮貌的。",
+      "examplesZh": [
+        "在公車上大聲打電話是不禮貌的。"
+      ]
     },
     {
       "id": "0184",
@@ -5394,7 +6158,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "忽視與你說話的人是不禮貌的。",
+      "examplesZh": [
+        "忽視與你說話的人是不禮貌的。"
+      ]
     },
     {
       "id": "0185",
@@ -5417,7 +6185,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "自私的人不喜歡與別人分享。",
+      "examplesZh": [
+        "自私的人不喜歡與別人分享。"
+      ]
     },
     {
       "id": "0186",
@@ -5440,7 +6212,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這個殘忍的人踢了狗。",
+      "examplesZh": [
+        "這個殘忍的人踢了狗。"
+      ]
     },
     {
       "id": "0187",
@@ -5463,7 +6239,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你是善人還是惡人？",
+      "examplesZh": [
+        "你是善人還是惡人？"
+      ]
     },
     {
       "id": "0188",
@@ -5486,7 +6266,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "她的善良是我們大家的榜樣。",
+      "examplesZh": [
+        "她的善良是我們大家的榜樣。"
+      ]
     },
     {
       "id": "0189",
@@ -5509,7 +6293,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你應該要更加小心。",
+      "examplesZh": [
+        "你應該要更加小心。"
+      ]
     },
     {
       "id": "0190",
@@ -5532,7 +6320,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這個粗心的男孩打翻了杯子。",
+      "examplesZh": [
+        "這個粗心的男孩打翻了杯子。"
+      ]
     },
     {
       "id": "0191",
@@ -5555,7 +6347,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "保羅被他朋友的幼稚笑話逗笑了。",
+      "examplesZh": [
+        "保羅被他朋友的幼稚笑話逗笑了。"
+      ]
     },
     {
       "id": "0192",
@@ -5578,7 +6374,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "貪婪的商人是吝嗇的，所以他不想花他的錢。",
+      "examplesZh": [
+        "貪婪的商人是吝嗇的，所以他不想花他的錢。"
+      ]
     },
     {
       "id": "0193",
@@ -5601,7 +6401,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在「性格 2」單元中使用了「吝嗇」一詞。",
+      "examplesZh": [
+        "本課在「性格 2」單元中使用了「吝嗇」一詞。"
+      ]
     },
     {
       "id": "0194",
@@ -5624,7 +6428,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "吉米很努力，所有科目都取得了好成績。",
+      "examplesZh": [
+        "吉米很努力，所有科目都取得了好成績。"
+      ]
     },
     {
       "id": "0195",
@@ -5647,7 +6455,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這個勤奮的學生很快就完成了作業。",
+      "examplesZh": [
+        "這個勤奮的學生很快就完成了作業。"
+      ]
     },
     {
       "id": "0196",
@@ -5670,7 +6482,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "別這麼懶！站起來做點什麼。",
+      "examplesZh": [
+        "別這麼懶！站起來做點什麼。"
+      ]
     },
     {
       "id": "0197",
@@ -5693,7 +6509,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "父母要對孩子負責。",
+      "examplesZh": [
+        "父母要對孩子負責。"
+      ]
     },
     {
       "id": "0198",
@@ -5716,7 +6536,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "比爾說他沒有偷錢，但他並不誠實。",
+      "examplesZh": [
+        "比爾說他沒有偷錢，但他並不誠實。"
+      ]
     },
     {
       "id": "0199",
@@ -5739,7 +6563,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "如果您希望人們信任您，誠實很重要。",
+      "examplesZh": [
+        "如果您希望人們信任您，誠實很重要。"
+      ]
     },
     {
       "id": "0200",
@@ -5762,7 +6590,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "不誠實的人常常說謊。",
+      "examplesZh": [
+        "不誠實的人常常說謊。"
+      ]
     },
     {
       "id": "0201",
@@ -5785,7 +6617,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "請坦白說實話。",
+      "examplesZh": [
+        "請坦白說實話。"
+      ]
     },
     {
       "id": "0202",
@@ -5808,7 +6644,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這位謙虛的醫生不喜歡他的工作受到讚揚。",
+      "examplesZh": [
+        "這位謙虛的醫生不喜歡他的工作受到讚揚。"
+      ]
     },
     {
       "id": "0203",
@@ -5833,6 +6673,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嫉妒的人總是想要別人擁有的東西。",
+      "examplesZh": [
+        "嫉妒的人總是想要別人擁有的東西。"
       ]
     },
     {
@@ -5856,7 +6700,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "艾迪是個瘋子。",
+      "examplesZh": [
+        "艾迪是個瘋子。"
+      ]
     },
     {
       "id": "0205",
@@ -5879,7 +6727,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "喬治很有幽默感。",
+      "examplesZh": [
+        "喬治很有幽默感。"
+      ]
     },
     {
       "id": "0206",
@@ -5902,7 +6754,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "她的演講非常幽默，讓我忍不住笑了起來。",
+      "examplesZh": [
+        "她的演講非常幽默，讓我忍不住笑了起來。"
+      ]
     },
     {
       "id": "0207",
@@ -5925,7 +6781,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "自信的玩家認為他會贏得比賽。",
+      "examplesZh": [
+        "自信的玩家認為他會贏得比賽。"
+      ]
     },
     {
       "id": "0208",
@@ -5948,7 +6808,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "勇敢的英雄與惡龍戰鬥。",
+      "examplesZh": [
+        "勇敢的英雄與惡龍戰鬥。"
+      ]
     },
     {
       "id": "0209",
@@ -5971,7 +6835,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "警察有勇氣做勇敢的事。",
+      "examplesZh": [
+        "警察有勇氣做勇敢的事。"
+      ]
     },
     {
       "id": "0210",
@@ -5994,7 +6862,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我可以為自己做事。我是獨立的。",
+      "examplesZh": [
+        "我可以為自己做事。我是獨立的。"
+      ]
     },
     {
       "id": "0211",
@@ -6017,7 +6889,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "活躍的學生在學校努力學習。",
+      "examplesZh": [
+        "活躍的學生在學校努力學習。"
+      ]
     },
     {
       "id": "0212",
@@ -6040,7 +6916,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "好奇的孩子常常會問很多問題。",
+      "examplesZh": [
+        "好奇的孩子常常會問很多問題。"
+      ]
     },
     {
       "id": "0213",
@@ -6063,7 +6943,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "妮娜在她的朋友面前很健談。",
+      "examplesZh": [
+        "妮娜在她的朋友面前很健談。"
+      ]
     },
     {
       "id": "0214",
@@ -6086,7 +6970,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "她非常善於交際，有很多朋友。",
+      "examplesZh": [
+        "她非常善於交際，有很多朋友。"
+      ]
     },
     {
       "id": "0215",
@@ -6109,7 +6997,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "男人緊張得雙腿都開始發抖。",
+      "examplesZh": [
+        "男人緊張得雙腿都開始發抖。"
+      ]
     },
     {
       "id": "0216",
@@ -6132,7 +7024,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "別害羞！快來加入我們吧。",
+      "examplesZh": [
+        "別害羞！快來加入我們吧。"
+      ]
     },
     {
       "id": "0217",
@@ -6155,7 +7051,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "別怕。你可以做到的。",
+      "examplesZh": [
+        "別怕。你可以做到的。"
+      ]
     },
     {
       "id": "0218",
@@ -6178,7 +7078,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我害怕在人面前講話。",
+      "examplesZh": [
+        "我害怕在人面前講話。"
+      ]
     },
     {
       "id": "0219",
@@ -6202,7 +7106,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "許多狗害怕打雷。",
+      "examplesZh": [
+        "許多狗害怕打雷。",
+        ""
+      ]
     },
     {
       "id": "0220",
@@ -6226,7 +7135,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "凱文的擔憂表現在臉上。",
+      "examplesZh": [
+        "凱文的擔憂表現在臉上。",
+        ""
+      ]
     },
     {
       "id": "0221",
@@ -6249,7 +7163,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "伊恩很高興見到他的祖母。",
+      "examplesZh": [
+        "伊恩很高興見到他的祖母。"
+      ]
     },
     {
       "id": "0222",
@@ -6272,7 +7190,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我很高興收到了我想要的生日禮物。",
+      "examplesZh": [
+        "我很高興收到了我想要的生日禮物。"
+      ]
     },
     {
       "id": "0223",
@@ -6295,7 +7217,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我很高興能提供協助。",
+      "examplesZh": [
+        "我很高興能提供協助。"
+      ]
     },
     {
       "id": "0224",
@@ -6318,7 +7244,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "唱歌帶給我快樂。",
+      "examplesZh": [
+        "唱歌帶給我快樂。"
+      ]
     },
     {
       "id": "0225",
@@ -6341,7 +7271,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "坐在河邊真是太安靜了。",
+      "examplesZh": [
+        "坐在河邊真是太安靜了。"
+      ]
     },
     {
       "id": "0226",
@@ -6364,7 +7298,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "1 很高興見到你心情如此愉快。",
+      "examplesZh": [
+        "1 很高興見到你心情如此愉快。"
+      ]
     },
     {
       "id": "0227",
@@ -6387,7 +7325,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "去野餐總是帶給我快樂。",
+      "examplesZh": [
+        "去野餐總是帶給我快樂。"
+      ]
     },
     {
       "id": "0228",
@@ -6410,7 +7352,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "精力充沛的人精力充沛。",
+      "examplesZh": [
+        "精力充沛的人精力充沛。"
+      ]
     },
     {
       "id": "0229",
@@ -6433,7 +7379,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "羅絲最近似乎不太開心。",
+      "examplesZh": [
+        "羅絲最近似乎不太開心。"
+      ]
     },
     {
       "id": "0230",
@@ -6456,7 +7406,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "莎莉感到非常難過。",
+      "examplesZh": [
+        "莎莉感到非常難過。"
+      ]
     },
     {
       "id": "0231",
@@ -6481,6 +7435,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "蒂姆因為他的球隊輸掉了比賽而情緒低落。",
+      "examplesZh": [
+        "蒂姆因為他的球隊輸掉了比賽而情緒低落。"
       ]
     },
     {
@@ -6504,7 +7462,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我對安迪很生氣，因為他遲到了。",
+      "examplesZh": [
+        "我對安迪很生氣，因為他遲到了。"
+      ]
     },
     {
       "id": "0233",
@@ -6527,7 +7489,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "男孩們打破了我的眼鏡，所以我對他們很生氣。",
+      "examplesZh": [
+        "男孩們打破了我的眼鏡，所以我對他們很生氣。"
+      ]
     },
     {
       "id": "0234",
@@ -6550,7 +7516,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "想家的孩子想回家。",
+      "examplesZh": [
+        "想家的孩子想回家。"
+      ]
     },
     {
       "id": "0235",
@@ -6573,7 +7543,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "羅佈在新學校感到孤獨。",
+      "examplesZh": [
+        "羅佈在新學校感到孤獨。"
+      ]
     },
     {
       "id": "0236",
@@ -6596,7 +7570,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "傑西擅長數學。",
+      "examplesZh": [
+        "傑西擅長數學。"
+      ]
     },
     {
       "id": "0237",
@@ -6619,7 +7597,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這所學校有很棒的音樂課程。",
+      "examplesZh": [
+        "這所學校有很棒的音樂課程。"
+      ]
     },
     {
       "id": "0238",
@@ -6642,7 +7624,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "特雷西是一個非常聰明的女孩。",
+      "examplesZh": [
+        "特雷西是一個非常聰明的女孩。"
+      ]
     },
     {
       "id": "0239",
@@ -6665,7 +7651,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們睿智的老教授正在跟我們講他的故事。",
+      "examplesZh": [
+        "我們睿智的老教授正在跟我們講他的故事。"
+      ]
     },
     {
       "id": "0240",
@@ -6688,7 +7678,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這位聰明的記者問了總統一個非常好的問題。",
+      "examplesZh": [
+        "這位聰明的記者問了總統一個非常好的問題。"
+      ]
     },
     {
       "id": "0241",
@@ -6711,7 +7705,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "聰明的狗找到了骨頭。",
+      "examplesZh": [
+        "聰明的狗找到了骨頭。"
+      ]
     },
     {
       "id": "0242",
@@ -6735,7 +7733,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "傑克是一位得力的助手。",
+      "examplesZh": [
+        "傑克是一位得力的助手。",
+        ""
+      ]
     },
     {
       "id": "0243",
@@ -6758,7 +7761,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "如果你想成功，你必須更加努力。",
+      "examplesZh": [
+        "如果你想成功，你必須更加努力。"
+      ]
     },
     {
       "id": "0244",
@@ -6781,7 +7788,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "她是一位技藝精湛的藝術家。她什麼都能畫。",
+      "examplesZh": [
+        "她是一位技藝精湛的藝術家。她什麼都能畫。"
+      ]
     },
     {
       "id": "0245",
@@ -6804,7 +7815,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這是一個針對初學者的英語課程。",
+      "examplesZh": [
+        "這是一個針對初學者的英語課程。"
+      ]
     },
     {
       "id": "0246",
@@ -6827,7 +7842,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這位歌手具有很高的音樂天賦。",
+      "examplesZh": [
+        "這位歌手具有很高的音樂天賦。"
+      ]
     },
     {
       "id": "0247",
@@ -6851,7 +7870,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "凱特是個天才。她將成為一名非常優秀的科學家。",
+      "examplesZh": [
+        "凱特是個天才。她將成為一名非常優秀的科學家。",
+        ""
+      ]
     },
     {
       "id": "0248",
@@ -6874,7 +7898,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在「能力」單元中使用了「愚蠢」一詞。",
+      "examplesZh": [
+        "本課在「能力」單元中使用了「愚蠢」一詞。"
+      ]
     },
     {
       "id": "0249",
@@ -6897,7 +7925,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "傻姑娘相信了我的謊言。",
+      "examplesZh": [
+        "傻姑娘相信了我的謊言。"
+      ]
     },
     {
       "id": "0250",
@@ -6920,7 +7952,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我會覺得做這樣的事很愚蠢。",
+      "examplesZh": [
+        "我會覺得做這樣的事很愚蠢。"
+      ]
     },
     {
       "id": "0251",
@@ -6943,7 +7979,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "艾倫英文不好。",
+      "examplesZh": [
+        "艾倫英文不好。"
+      ]
     },
     {
       "id": "0252",
@@ -6966,7 +8006,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "凱莉20歲時結婚了。",
+      "examplesZh": [
+        "凱莉20歲時結婚了。"
+      ]
     },
     {
       "id": "0253",
@@ -6989,7 +8033,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "他的祖父是一位非常慈祥的老人。",
+      "examplesZh": [
+        "他的祖父是一位非常慈祥的老人。"
+      ]
     },
     {
       "id": "0254",
@@ -7012,7 +8060,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "經常運動使妮娜看起來年輕。",
+      "examplesZh": [
+        "經常運動使妮娜看起來年輕。"
+      ]
     },
     {
       "id": "0255",
@@ -7035,7 +8087,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這隻狗的一隻眼睛是瞎的。",
+      "examplesZh": [
+        "這隻狗的一隻眼睛是瞎的。"
+      ]
     },
     {
       "id": "0256",
@@ -7058,7 +8114,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "即使你大喊大叫，聾啞女孩也聽不到你的聲音。",
+      "examplesZh": [
+        "即使你大喊大叫，聾啞女孩也聽不到你的聲音。"
+      ]
     },
     {
       "id": "0257",
@@ -7081,7 +8141,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這孩子雖然笨，但他會寫字。",
+      "examplesZh": [
+        "這孩子雖然笨，但他會寫字。"
+      ]
     },
     {
       "id": "0258",
@@ -7105,7 +8169,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "冷靜的老師永遠不會對她的學生生氣。",
+      "examplesZh": [
+        "冷靜的老師永遠不會對她的學生生氣。",
+        ""
+      ]
     },
     {
       "id": "0259",
@@ -7129,7 +8198,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "別笑。 11m 嚴重。",
+      "examplesZh": [
+        "別笑。 11m 嚴重。",
+        ""
+      ]
     },
     {
       "id": "0260",
@@ -7152,7 +8226,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我覺得很無聊。你想出去玩嗎？",
+      "examplesZh": [
+        "我覺得很無聊。你想出去玩嗎？"
+      ]
     },
     {
       "id": "0261",
@@ -7175,7 +8253,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "琳達對和傑克出去感到非常興奮。",
+      "examplesZh": [
+        "琳達對和傑克出去感到非常興奮。"
+      ]
     },
     {
       "id": "0262",
@@ -7198,7 +8280,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我對那個故事不感興趣。",
+      "examplesZh": [
+        "我對那個故事不感興趣。"
+      ]
     },
     {
       "id": "0263",
@@ -7221,7 +8307,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "他對吉米的行為感到驚訝。",
+      "examplesZh": [
+        "他對吉米的行為感到驚訝。"
+      ]
     },
     {
       "id": "0264",
@@ -7247,7 +8337,14 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "艾米太驕傲了，無法說對不起。",
+      "examplesZh": [
+        "艾米太驕傲了，無法說對不起。",
+        "",
+        "",
+        ""
+      ]
     },
     {
       "id": "0265",
@@ -7271,7 +8368,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "讓我考慮一下。",
+      "examplesZh": [
+        "讓我考慮一下。",
+        ""
+      ]
     },
     {
       "id": "0266",
@@ -7294,7 +8396,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我猜到了他的想法。",
+      "examplesZh": [
+        "我猜到了他的想法。"
+      ]
     },
     {
       "id": "0267",
@@ -7317,7 +8423,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在決定之前需要考慮這個問題。",
+      "examplesZh": [
+        "我們在決定之前需要考慮這個問題。"
+      ]
     },
     {
       "id": "0268",
@@ -7340,7 +8450,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "弗蘭克原以為會議會在三點舉行，但事實並非如此。",
+      "examplesZh": [
+        "弗蘭克原以為會議會在三點舉行，但事實並非如此。"
+      ]
     },
     {
       "id": "0269",
@@ -7363,7 +8477,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "想像一下贏得一百萬美元。你會怎麼辦？",
+      "examplesZh": [
+        "想像一下贏得一百萬美元。你會怎麼辦？"
+      ]
     },
     {
       "id": "0270",
@@ -7387,7 +8505,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你知道亞瑟王的故事嗎？",
+      "examplesZh": [
+        "你知道亞瑟王的故事嗎？",
+        ""
+      ]
     },
     {
       "id": "0271",
@@ -7410,7 +8533,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "法官這才意識到真相。",
+      "examplesZh": [
+        "法官這才意識到真相。"
+      ]
     },
     {
       "id": "0272",
@@ -7434,7 +8561,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "有些人相信鬼魂確實存在。",
+      "examplesZh": [
+        "有些人相信鬼魂確實存在。",
+        ""
+      ]
     },
     {
       "id": "0273",
@@ -7458,7 +8590,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你最大的願望是什麼？",
+      "examplesZh": [
+        "你最大的願望是什麼？",
+        ""
+      ]
     },
     {
       "id": "0274",
@@ -7481,7 +8618,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "抱歉，我不是故意讓你難堪的。",
+      "examplesZh": [
+        "抱歉，我不是故意讓你難堪的。"
+      ]
     },
     {
       "id": "0275",
@@ -7504,7 +8645,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "朱迪討厭做她的英文作業。",
+      "examplesZh": [
+        "朱迪討厭做她的英文作業。"
+      ]
     },
     {
       "id": "0276",
@@ -7531,6 +8676,12 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我喜歡紅西紅柿。",
+      "examplesZh": [
+        "我喜歡紅西紅柿。",
+        "",
+        ""
       ]
     },
     {
@@ -7554,7 +8705,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你後悔說過那些刻薄的話嗎？",
+      "examplesZh": [
+        "你後悔說過那些刻薄的話嗎？"
+      ]
     },
     {
       "id": "0278",
@@ -7578,7 +8733,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "官兵們聽了隊長的講話，深受鼓舞。",
+      "examplesZh": [
+        "官兵們聽了隊長的講話，深受鼓舞。",
+        ""
+      ]
     },
     {
       "id": "0279",
@@ -7601,7 +8761,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我臉上有東西嗎？",
+      "examplesZh": [
+        "我臉上有東西嗎？"
+      ]
     },
     {
       "id": "0280",
@@ -7624,7 +8788,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "男人的鬍子讓他的臉保持溫暖。",
+      "examplesZh": [
+        "男人的鬍子讓他的臉保持溫暖。"
+      ]
     },
     {
       "id": "0281",
@@ -7647,7 +8815,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你能把下巴碰到脖子上嗎？",
+      "examplesZh": [
+        "你能把下巴碰到脖子上嗎？"
+      ]
     },
     {
       "id": "0282",
@@ -7670,7 +8842,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "狗的鼻子可以很好地聞到氣味。",
+      "examplesZh": [
+        "狗的鼻子可以很好地聞到氣味。"
+      ]
     },
     {
       "id": "0283",
@@ -7693,7 +8869,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「臉部」單元中使用「氣味」一詞。",
+      "examplesZh": [
+        "本課程在「臉部」單元中使用「氣味」一詞。"
+      ]
     },
     {
       "id": "0284",
@@ -7716,7 +8896,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們用舌頭品嚐食物。",
+      "examplesZh": [
+        "我們用舌頭品嚐食物。"
+      ]
     },
     {
       "id": "0285",
@@ -7740,7 +8924,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "curated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "晚餐前請嚐嚐湯。",
+      "examplesZh": [
+        "晚餐前請嚐嚐湯。",
+        ""
+      ]
     },
     {
       "id": "0286",
@@ -7763,7 +8952,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「臉部」單元中使用「牙齒」一詞。",
+      "examplesZh": [
+        "本課程在「臉部」單元中使用「牙齒」一詞。"
+      ]
     },
     {
       "id": "0287",
@@ -7786,7 +8979,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我的帽子遮住了我的耳朵，所以我聽不見。",
+      "examplesZh": [
+        "我的帽子遮住了我的耳朵，所以我聽不見。"
+      ]
     },
     {
       "id": "0288",
@@ -7809,7 +9006,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「The Face」單元中使用「hear」一詞。",
+      "examplesZh": [
+        "本課程在「The Face」單元中使用「hear」一詞。"
+      ]
     },
     {
       "id": "0289",
@@ -7832,7 +9033,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "比爾有一雙很好的眼睛，所以他看得很清楚。",
+      "examplesZh": [
+        "比爾有一雙很好的眼睛，所以他看得很清楚。"
+      ]
     },
     {
       "id": "0290",
@@ -7855,7 +9060,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用「The Face」單元中的「see」一詞。",
+      "examplesZh": [
+        "本課程使用「The Face」單元中的「see」一詞。"
+      ]
     },
     {
       "id": "0291",
@@ -7881,6 +9090,11 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "english_corrected_from_raw_note"
+      ],
+      "exampleZh": "格雷格正在看著那張照片。",
+      "examplesZh": [
+        "格雷格正在看著那張照片。",
+        ""
       ]
     },
     {
@@ -7904,7 +9118,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當非常熱的水接觸到我們的皮膚時會感到疼痛。",
+      "examplesZh": [
+        "當非常熱的水接觸到我們的皮膚時會感到疼痛。"
+      ]
     },
     {
       "id": "0293",
@@ -7927,7 +9145,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「臉部」單元中使用「觸摸」一詞。",
+      "examplesZh": [
+        "本課程在「臉部」單元中使用「觸摸」一詞。"
+      ]
     },
     {
       "id": "0294",
@@ -7950,7 +9172,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "惠特妮有一頭美麗的棕色頭髮。",
+      "examplesZh": [
+        "惠特妮有一頭美麗的棕色頭髮。"
+      ]
     },
     {
       "id": "0295",
@@ -7975,6 +9201,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "english_corrected_from_raw_note"
+      ],
+      "exampleZh": "傑夫吻了琳達的嘴唇。",
+      "examplesZh": [
+        "傑夫吻了琳達的嘴唇。"
       ]
     },
     {
@@ -7998,7 +9228,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "請不要張著嘴吃飯。",
+      "examplesZh": [
+        "請不要張著嘴吃飯。"
+      ]
     },
     {
       "id": "0297",
@@ -8021,7 +9255,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「The Face」單元中使用「eat」一詞。",
+      "examplesZh": [
+        "本課程在「The Face」單元中使用「eat」一詞。"
+      ]
     },
     {
       "id": "0298",
@@ -8044,7 +9282,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當彼得試著和特蕾莎說話時，特蕾莎轉過頭。",
+      "examplesZh": [
+        "當彼得試著和特蕾莎說話時，特蕾莎轉過頭。"
+      ]
     },
     {
       "id": "0299",
@@ -8068,7 +9310,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "他心裡有個想法。",
+      "examplesZh": [
+        "他心裡有個想法。",
+        ""
+      ]
     },
     {
       "id": "0300",
@@ -8091,7 +9338,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「面孔」單元中使用「母語」一詞。",
+      "examplesZh": [
+        "本課程在「面孔」單元中使用「母語」一詞。"
+      ]
     },
     {
       "id": "0301",
@@ -8114,7 +9365,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我的身體很痛。",
+      "examplesZh": [
+        "我的身體很痛。"
+      ]
     },
     {
       "id": "0302",
@@ -8137,7 +9392,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "克里斯在事故中扭傷了脖子。",
+      "examplesZh": [
+        "克里斯在事故中扭傷了脖子。"
+      ]
     },
     {
       "id": "0303",
@@ -8160,7 +9419,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "如果喉嚨痛，可以喝點溫茶。",
+      "examplesZh": [
+        "如果喉嚨痛，可以喝點溫茶。"
+      ]
     },
     {
       "id": "0304",
@@ -8183,7 +9446,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "讓我把孩子抱在懷裡。",
+      "examplesZh": [
+        "讓我把孩子抱在懷裡。"
+      ]
     },
     {
       "id": "0305",
@@ -8209,6 +9476,11 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我們應該經常洗手。",
+      "examplesZh": [
+        "我們應該經常洗手。",
+        ""
       ]
     },
     {
@@ -8232,7 +9504,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「身體」單元中使用「腳踝」一詞。",
+      "examplesZh": [
+        "本課程在「身體」單元中使用「腳踝」一詞。"
+      ]
     },
     {
       "id": "0307",
@@ -8255,7 +9531,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「身體」單元中使用「手腕」一詞。",
+      "examplesZh": [
+        "本課程在「身體」單元中使用「手腕」一詞。"
+      ]
     },
     {
       "id": "0308",
@@ -8278,7 +9558,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "大多數人有五隻手指。",
+      "examplesZh": [
+        "大多數人有五隻手指。"
+      ]
     },
     {
       "id": "0309",
@@ -8301,7 +9585,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "許多動物沒有大拇指，但人類有。",
+      "examplesZh": [
+        "許多動物沒有大拇指，但人類有。"
+      ]
     },
     {
       "id": "0310",
@@ -8324,7 +9612,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "一隻鳥落在他的肩膀上。",
+      "examplesZh": [
+        "一隻鳥落在他的肩膀上。"
+      ]
     },
     {
       "id": "0311",
@@ -8349,6 +9641,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "昨天打網球時我傷了背。",
+      "examplesZh": [
+        "昨天打網球時我傷了背。"
       ]
     },
     {
@@ -8373,7 +9669,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "她的腰細，但臀部寬。",
+      "examplesZh": [
+        "她的腰細，但臀部寬。",
+        ""
+      ]
     },
     {
       "id": "0313",
@@ -8396,7 +9697,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「身體」單元中使用「臀部」一詞。",
+      "examplesZh": [
+        "本課程在「身體」單元中使用「臀部」一詞。"
+      ]
     },
     {
       "id": "0314",
@@ -8419,7 +9724,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "那個足球員摔倒時弄傷了膝蓋。",
+      "examplesZh": [
+        "那個足球員摔倒時弄傷了膝蓋。"
+      ]
     },
     {
       "id": "0315",
@@ -8442,7 +9751,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在「身體」單元中使用了「eg」一詞。",
+      "examplesZh": [
+        "本課在「身體」單元中使用了「eg」一詞。"
+      ]
     },
     {
       "id": "0316",
@@ -8467,6 +9780,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我的腳受傷了。",
+      "examplesZh": [
+        "我的腳受傷了。"
       ]
     },
     {
@@ -8490,7 +9807,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當尼克踩到我的腳趾時，我感到很痛。",
+      "examplesZh": [
+        "當尼克踩到我的腳趾時，我感到很痛。"
+      ]
     },
     {
       "id": "0318",
@@ -8513,7 +9834,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你應該剪指甲。它們太長了。",
+      "examplesZh": [
+        "你應該剪指甲。它們太長了。"
+      ]
     },
     {
       "id": "0319",
@@ -8537,7 +9862,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我的祖父心臟很弱。 H",
+      "examplesZh": [
+        "我的祖父心臟很弱。 H",
+        ""
+      ]
     },
     {
       "id": "0320",
@@ -8560,7 +9890,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我的胃不舒服。",
+      "examplesZh": [
+        "我的胃不舒服。"
+      ]
     },
     {
       "id": "0321",
@@ -8585,6 +9919,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "生病的孩子狀況很糟。",
+      "examplesZh": [
+        "生病的孩子狀況很糟。"
       ]
     },
     {
@@ -8608,7 +9946,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在物理狀態單元中使用了「ill」一詞。",
+      "examplesZh": [
+        "本課在物理狀態單元中使用了「ill」一詞。"
+      ]
     },
     {
       "id": "0323",
@@ -8632,7 +9974,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我覺得不舒服。",
+      "examplesZh": [
+        "我覺得不舒服。",
+        ""
+      ]
     },
     {
       "id": "0324",
@@ -8655,7 +10002,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "吃得好可以讓我們保持健康。",
+      "examplesZh": [
+        "吃得好可以讓我們保持健康。"
+      ]
     },
     {
       "id": "0325",
@@ -8678,7 +10029,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "吸煙和飲酒對我們的健康有害。",
+      "examplesZh": [
+        "吸煙和飲酒對我們的健康有害。"
+      ]
     },
     {
       "id": "0326",
@@ -8701,7 +10056,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "菲爾病了。厭煩了；讓某人生病使意外",
+      "examplesZh": [
+        "菲爾病了。厭煩了；讓某人生病使意外"
+      ]
     },
     {
       "id": "0327",
@@ -8724,7 +10083,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "保羅很累，很快就睡著了。",
+      "examplesZh": [
+        "保羅很累，很快就睡著了。"
+      ]
     },
     {
       "id": "0328",
@@ -8747,7 +10110,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我希望你早日康復。",
+      "examplesZh": [
+        "我希望你早日康復。"
+      ]
     },
     {
       "id": "0329",
@@ -8770,7 +10137,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當你困倦時，你的精力就會很低。",
+      "examplesZh": [
+        "當你困倦時，你的精力就會很低。"
+      ]
     },
     {
       "id": "0330",
@@ -8793,7 +10164,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在物理狀態單元中使用能量一詞。",
+      "examplesZh": [
+        "本課程在物理狀態單元中使用能量一詞。"
+      ]
     },
     {
       "id": "0331",
@@ -8816,7 +10191,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "傑弗裡非常堅強。",
+      "examplesZh": [
+        "傑弗裡非常堅強。"
+      ]
     },
     {
       "id": "0332",
@@ -8839,7 +10218,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "莫莉睡著了，所以請安靜。",
+      "examplesZh": [
+        "莫莉睡著了，所以請安靜。"
+      ]
     },
     {
       "id": "0333",
@@ -8864,6 +10247,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "你覺得冷嗎？",
+      "examplesZh": [
+        "你覺得冷嗎？"
       ]
     },
     {
@@ -8889,6 +10276,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "今天真的很熱。",
+      "examplesZh": [
+        "今天真的很熱。"
       ]
     },
     {
@@ -8912,7 +10303,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你餓了嗎？我們有一些麵包。",
+      "examplesZh": [
+        "你餓了嗎？我們有一些麵包。"
+      ]
     },
     {
       "id": "0336",
@@ -8935,7 +10330,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "飢餓有時會讓人生氣至進食。",
+      "examplesZh": [
+        "飢餓有時會讓人生氣至進食。"
+      ]
     },
     {
       "id": "0337",
@@ -8958,7 +10357,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我感到口渴。你有水嗎？",
+      "examplesZh": [
+        "我感到口渴。你有水嗎？"
+      ]
     },
     {
       "id": "0338",
@@ -8981,7 +10384,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "人類有很多感情，例如愛和憤怒。",
+      "examplesZh": [
+        "人類有很多感情，例如愛和憤怒。"
+      ]
     },
     {
       "id": "0339",
@@ -9006,6 +10413,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嫉妒的人總是想要別人擁有的東西。",
+      "examplesZh": [
+        "嫉妒的人總是想要別人擁有的東西。"
       ]
     },
     {
@@ -9029,7 +10440,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "莎莉感到非常難過。",
+      "examplesZh": [
+        "莎莉感到非常難過。"
+      ]
     },
     {
       "id": "0341",
@@ -9052,7 +10467,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "主要有五種感覺。",
+      "examplesZh": [
+        "主要有五種感覺。"
+      ]
     },
     {
       "id": "0342",
@@ -9075,7 +10494,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們可以聽到鈴聲在寂靜中響起。寂靜的",
+      "examplesZh": [
+        "我們可以聽到鈴聲在寂靜中響起。寂靜的"
+      ]
     },
     {
       "id": "0343",
@@ -9098,7 +10521,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "視覺是讓我們看到事物的感覺。",
+      "examplesZh": [
+        "視覺是讓我們看到事物的感覺。"
+      ]
     },
     {
       "id": "0344",
@@ -9122,7 +10549,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你聽到那個聲音了嗎？",
+      "examplesZh": [
+        "你聽到那個聲音了嗎？",
+        ""
+      ]
     },
     {
       "id": "0345",
@@ -9147,6 +10579,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「感官和情緒」單元中使用「OO」一詞。",
+      "examplesZh": [
+        "本課程在「感官和情緒」單元中使用「OO」一詞。"
       ]
     },
     {
@@ -9170,7 +10606,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們的情緒讓我們有不同的感受。",
+      "examplesZh": [
+        "我們的情緒讓我們有不同的感受。"
+      ]
     },
     {
       "id": "0347",
@@ -9193,7 +10633,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "丹尼斯對他的妹妹感到非常憤怒。",
+      "examplesZh": [
+        "丹尼斯對他的妹妹感到非常憤怒。"
+      ]
     },
     {
       "id": "0348",
@@ -9216,7 +10660,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你不應該羨慕你的朋友所擁有的。羨慕嫉妒的",
+      "examplesZh": [
+        "你不應該羨慕你的朋友所擁有的。羨慕嫉妒的"
+      ]
     },
     {
       "id": "0349",
@@ -9240,7 +10688,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們哭泣時，淚水會從我們的眼睛流出來。",
+      "examplesZh": [
+        "當我們哭泣時，淚水會從我們的眼睛流出來。",
+        ""
+      ]
     },
     {
       "id": "0350",
@@ -9263,7 +10716,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "艾比聽到這個消息淚流滿面，突然大笑起來",
+      "examplesZh": [
+        "艾比聽到這個消息淚流滿面，突然大笑起來"
+      ]
     },
     {
       "id": "0351",
@@ -9287,7 +10744,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "請別哭。",
+      "examplesZh": [
+        "請別哭。",
+        ""
+      ]
     },
     {
       "id": "0352",
@@ -9312,6 +10774,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "你覺得冷嗎？",
+      "examplesZh": [
+        "你覺得冷嗎？"
       ]
     },
     {
@@ -9335,7 +10801,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我感覺頭昏眼花。我需要坐下來。",
+      "examplesZh": [
+        "我感覺頭昏眼花。我需要坐下來。"
+      ]
     },
     {
       "id": "0354",
@@ -9358,7 +10828,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你看起來臉色蒼白。你覺得0K嗎？",
+      "examplesZh": [
+        "你看起來臉色蒼白。你覺得0K嗎？"
+      ]
     },
     {
       "id": "0355",
@@ -9381,7 +10855,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在感冒和流感單元中使用“弱”一詞。",
+      "examplesZh": [
+        "本課程在感冒和流感單元中使用“弱”一詞。"
+      ]
     },
     {
       "id": "0356",
@@ -9404,7 +10882,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "威爾頭疼，他什麼都做不了。",
+      "examplesZh": [
+        "威爾頭疼，他什麼都做不了。"
+      ]
     },
     {
       "id": "0357",
@@ -9427,7 +10909,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "吃太多醣類會導致胃痛。背痛背痛",
+      "examplesZh": [
+        "吃太多醣類會導致胃痛。背痛背痛"
+      ]
     },
     {
       "id": "0358",
@@ -9451,7 +10937,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "咳嗽時應摀住口鼻。",
+      "examplesZh": [
+        "咳嗽時應摀住口鼻。",
+        ""
+      ]
     },
     {
       "id": "0359",
@@ -9474,7 +10965,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這位歌手喉嚨痛，所以不能唱歌。肌肉酸痛被取走酸痛",
+      "examplesZh": [
+        "這位歌手喉嚨痛，所以不能唱歌。肌肉酸痛被取走酸痛"
+      ]
     },
     {
       "id": "0360",
@@ -9498,7 +10993,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "醫生治好了那個人的燒。",
+      "examplesZh": [
+        "醫生治好了那個人的燒。",
+        ""
+      ]
     },
     {
       "id": "0361",
@@ -9521,7 +11021,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在感冒和流感單元中使用“治愈”一詞。",
+      "examplesZh": [
+        "本課程在感冒和流感單元中使用“治愈”一詞。"
+      ]
     },
     {
       "id": "0362",
@@ -9544,7 +11048,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "馬克每天必須服藥三次。",
+      "examplesZh": [
+        "馬克每天必須服藥三次。"
+      ]
     },
     {
       "id": "0363",
@@ -9569,6 +11077,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "戴上口罩，這樣就不會把感冒傳染給別人。",
+      "examplesZh": [
+        "戴上口罩，這樣就不會把感冒傳染給別人。"
       ]
     },
     {
@@ -9593,7 +11105,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "休息一分鐘，然後再次開始慢跑。",
+      "examplesZh": [
+        "休息一分鐘，然後再次開始慢跑。",
+        ""
+      ]
     },
     {
       "id": "0365",
@@ -9616,7 +11133,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我跌倒時腿受了傷。",
+      "examplesZh": [
+        "我跌倒時腿受了傷。"
+      ]
     },
     {
       "id": "0366",
@@ -9639,7 +11160,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "血液在我們的身體中流動。",
+      "examplesZh": [
+        "血液在我們的身體中流動。"
+      ]
     },
     {
       "id": "0367",
@@ -9662,7 +11187,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「其他疾病和傷害」單元中使用「出血」一詞。",
+      "examplesZh": [
+        "本課程在「其他疾病和傷害」單元中使用「出血」一詞。"
+      ]
     },
     {
       "id": "0368",
@@ -9685,7 +11214,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「其他疾病和傷害」單元中使用「傷害」一詞。",
+      "examplesZh": [
+        "本課程在「其他疾病和傷害」單元中使用「傷害」一詞。"
+      ]
     },
     {
       "id": "0369",
@@ -9708,7 +11241,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "咬舌頭很痛苦。",
+      "examplesZh": [
+        "咬舌頭很痛苦。"
+      ]
     },
     {
       "id": "0370",
@@ -9731,7 +11268,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "泰德吃了太多醣果，牙痛了。",
+      "examplesZh": [
+        "泰德吃了太多醣果，牙痛了。"
+      ]
     },
     {
       "id": "0371",
@@ -9754,7 +11295,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "讓我再給你的杯子裡倒點果汁。當牙醫給丹補牙洞時，丹很緊張。",
+      "examplesZh": [
+        "讓我再給你的杯子裡倒點果汁。當牙醫給丹補牙洞時，丹很緊張。"
+      ]
     },
     {
       "id": "0372",
@@ -9777,7 +11322,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "她生病了，但我希望她早日康復。",
+      "examplesZh": [
+        "她生病了，但我希望她早日康復。"
+      ]
     },
     {
       "id": "0373",
@@ -9800,7 +11349,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這些植物看似死了，但它們卻是活的。",
+      "examplesZh": [
+        "這些植物看似死了，但它們卻是活的。"
+      ]
     },
     {
       "id": "0374",
@@ -9823,7 +11376,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「其他疾病和傷害」單元中使用「ucky」一詞。",
+      "examplesZh": [
+        "本課程在「其他疾病和傷害」單元中使用「ucky」一詞。"
+      ]
     },
     {
       "id": "0375",
@@ -9846,7 +11403,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「其他疾病和傷害」單元中使用「生存」一詞。",
+      "examplesZh": [
+        "本課程在「其他疾病和傷害」單元中使用「生存」一詞。"
+      ]
     },
     {
       "id": "0376",
@@ -9870,7 +11431,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "奶奶身體越來越虛弱",
+      "examplesZh": [
+        "奶奶身體越來越虛弱",
+        ""
+      ]
     },
     {
       "id": "0377",
@@ -9893,7 +11459,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "凱文的祖父在戰爭中去世。",
+      "examplesZh": [
+        "凱文的祖父在戰爭中去世。"
+      ]
     },
     {
       "id": "0378",
@@ -9916,7 +11486,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當孩子們聽到祖母過世的消息時，他們簡直不敢相信。",
+      "examplesZh": [
+        "當孩子們聽到祖母過世的消息時，他們簡直不敢相信。"
+      ]
     },
     {
       "id": "0379",
@@ -9940,7 +11514,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "死亡是悲傷的，也是難以理解的。",
+      "examplesZh": [
+        "死亡是悲傷的，也是難以理解的。",
+        ""
+      ]
     },
     {
       "id": "0380",
@@ -9963,7 +11542,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「減肥」單元中使用「Afi」一詞。",
+      "examplesZh": [
+        "本課程在「減肥」單元中使用「Afi」一詞。"
+      ]
     },
     {
       "id": "0381",
@@ -9987,7 +11570,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我的目標是減肥。",
+      "examplesZh": [
+        "我的目標是減肥。",
+        ""
+      ]
     },
     {
       "id": "0382",
@@ -10010,7 +11598,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我的日常飲食是肉、蔬菜和米飯。節食；健康飲食 健康的飲食",
+      "examplesZh": [
+        "我的日常飲食是肉、蔬菜和米飯。節食；健康飲食 健康的飲食"
+      ]
     },
     {
       "id": "0383",
@@ -10033,7 +11625,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「減肥」單元中使用「常規」一詞。",
+      "examplesZh": [
+        "本課程在「減肥」單元中使用「常規」一詞。"
+      ]
     },
     {
       "id": "0384",
@@ -10057,7 +11653,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你平常做什麼樣的運動？",
+      "examplesZh": [
+        "你平常做什麼樣的運動？",
+        ""
+      ]
     },
     {
       "id": "0385",
@@ -10081,7 +11682,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "抽煙、喝酒都不是好習慣。",
+      "examplesZh": [
+        "抽煙、喝酒都不是好習慣。",
+        ""
+      ]
     },
     {
       "id": "0386",
@@ -10104,7 +11710,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "漢克總是很累。他工作的時間比睡覺的時間還要長。一夜好眠；睡懶覺",
+      "examplesZh": [
+        "漢克總是很累。他工作的時間比睡覺的時間還要長。一夜好眠；睡懶覺"
+      ]
     },
     {
       "id": "0387",
@@ -10127,7 +11737,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「減肥」單元中使用「更多」一詞。",
+      "examplesZh": [
+        "本課程在「減肥」單元中使用「更多」一詞。"
+      ]
     },
     {
       "id": "0388",
@@ -10150,7 +11764,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「減肥」單元中使用「ess」一詞。",
+      "examplesZh": [
+        "本課程在「減肥」單元中使用「ess」一詞。"
+      ]
     },
     {
       "id": "0389",
@@ -10173,7 +11791,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "馬特是我們家唯一不喝可樂的人。",
+      "examplesZh": [
+        "馬特是我們家唯一不喝可樂的人。"
+      ]
     },
     {
       "id": "0390",
@@ -10196,7 +11818,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "一家人在吃飯前祈禱。",
+      "examplesZh": [
+        "一家人在吃飯前祈禱。"
+      ]
     },
     {
       "id": "0391",
@@ -10220,7 +11846,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "curated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們很難完成這個謎題。",
+      "examplesZh": [
+        "我們很難完成這個謎題。",
+        ""
+      ]
     },
     {
       "id": "0392",
@@ -10243,7 +11874,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "您可以選擇棒球和籃球。",
+      "examplesZh": [
+        "您可以選擇棒球和籃球。"
+      ]
     },
     {
       "id": "0393",
@@ -10266,7 +11901,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "Jay 必須參加考試時感到壓力很大。壓力",
+      "examplesZh": [
+        "Jay 必須參加考試時感到壓力很大。壓力"
+      ]
     },
     {
       "id": "0394",
@@ -10289,7 +11928,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "運動可以幫助您獲得能量。 \\",
+      "examplesZh": [
+        "運動可以幫助您獲得能量。 \\"
+      ]
     },
     {
       "id": "0395",
@@ -10312,7 +11955,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "他的祖父是一位非常慈祥的老人。",
+      "examplesZh": [
+        "他的祖父是一位非常慈祥的老人。"
+      ]
     },
     {
       "id": "0396",
@@ -10335,7 +11982,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我的祖母和我們住在一起。奶奶",
+      "examplesZh": [
+        "我的祖母和我們住在一起。奶奶"
+      ]
     },
     {
       "id": "0397",
@@ -10358,7 +12009,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "史蒂夫是哥哥。約翰是較年輕的。長輩年長者",
+      "examplesZh": [
+        "史蒂夫是哥哥。約翰是較年輕的。長輩年長者"
+      ]
     },
     {
       "id": "0398",
@@ -10381,7 +12036,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我父親送給我一個籃球作為我的生日禮物。",
+      "examplesZh": [
+        "我父親送給我一個籃球作為我的生日禮物。"
+      ]
     },
     {
       "id": "0399",
@@ -10404,7 +12063,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "母親節我擁抱了媽媽",
+      "examplesZh": [
+        "母親節我擁抱了媽媽"
+      ]
     },
     {
       "id": "0400",
@@ -10427,7 +12090,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你有幾個兄弟？",
+      "examplesZh": [
+        "你有幾個兄弟？"
+      ]
     },
     {
       "id": "0401",
@@ -10450,7 +12117,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我的兩個姊妹擔任秘書。",
+      "examplesZh": [
+        "我的兩個姊妹擔任秘書。"
+      ]
     },
     {
       "id": "0402",
@@ -10473,7 +12144,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "他所有的親戚都來他家慶祝聖誕節。",
+      "examplesZh": [
+        "他所有的親戚都來他家慶祝聖誕節。"
+      ]
     },
     {
       "id": "0403",
@@ -10496,7 +12171,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我阿姨總是嘗試做新菜。",
+      "examplesZh": [
+        "我阿姨總是嘗試做新菜。"
+      ]
     },
     {
       "id": "0404",
@@ -10519,7 +12198,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "那是我們的叔叔嗎？他看起來比上次老了。",
+      "examplesZh": [
+        "那是我們的叔叔嗎？他看起來比上次老了。"
+      ]
     },
     {
       "id": "0405",
@@ -10542,7 +12225,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我表弟下個月要去巴黎旅行。",
+      "examplesZh": [
+        "我表弟下個月要去巴黎旅行。"
+      ]
     },
     {
       "id": "0406",
@@ -10566,7 +12253,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這些是我兄弟的孩子，我的姪子和姪女。",
+      "examplesZh": [
+        "這些是我兄弟的孩子，我的姪子和姪女。",
+        ""
+      ]
     },
     {
       "id": "0407",
@@ -10589,7 +12281,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「家庭成員」單元中使用「侄子」一詞。",
+      "examplesZh": [
+        "本課程在「家庭成員」單元中使用「侄子」一詞。"
+      ]
     },
     {
       "id": "0408",
@@ -10612,7 +12308,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "喬迪正在教她的孫女烘焙。",
+      "examplesZh": [
+        "喬迪正在教她的孫女烘焙。"
+      ]
     },
     {
       "id": "0409",
@@ -10635,7 +12335,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們的孫子有我們兒子的眼睛。",
+      "examplesZh": [
+        "我們的孫子有我們兒子的眼睛。"
+      ]
     },
     {
       "id": "0410",
@@ -10658,7 +12362,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「家人」單元中使用「爺爺」一詞。",
+      "examplesZh": [
+        "本課程在「家人」單元中使用「爺爺」一詞。"
+      ]
     },
     {
       "id": "0411",
@@ -10681,7 +12389,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「家庭成員」單元中使用「奶奶」一詞。",
+      "examplesZh": [
+        "本課程在「家庭成員」單元中使用「奶奶」一詞。"
+      ]
     },
     {
       "id": "0412",
@@ -10704,7 +12416,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我的家人一直支持我。",
+      "examplesZh": [
+        "我的家人一直支持我。"
+      ]
     },
     {
       "id": "0413",
@@ -10727,7 +12443,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我的家庭有七名成員。",
+      "examplesZh": [
+        "我的家庭有七名成員。"
+      ]
     },
     {
       "id": "0414",
@@ -10750,7 +12470,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你理想中的丈夫是什麼樣的？",
+      "examplesZh": [
+        "你理想中的丈夫是什麼樣的？"
+      ]
     },
     {
       "id": "0415",
@@ -10773,7 +12497,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我的妻子是個好廚師。",
+      "examplesZh": [
+        "我的妻子是個好廚師。"
+      ]
     },
     {
       "id": "0416",
@@ -10796,7 +12524,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "莉迪亞不想讓父母知道她有男朋友。",
+      "examplesZh": [
+        "莉迪亞不想讓父母知道她有男朋友。"
+      ]
     },
     {
       "id": "0417",
@@ -10819,7 +12551,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我兒子和他的朋友去看電影。",
+      "examplesZh": [
+        "我兒子和他的朋友去看電影。"
+      ]
     },
     {
       "id": "0418",
@@ -10842,7 +12578,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你的女兒南希在哪裡？",
+      "examplesZh": [
+        "你的女兒南希在哪裡？"
+      ]
     },
     {
       "id": "0419",
@@ -10867,6 +12607,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "安琪拉是一位已婚婦女。",
+      "examplesZh": [
+        "安琪拉是一位已婚婦女。"
       ]
     },
     {
@@ -10890,7 +12634,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "茉莉花下個月將與艾文結婚。",
+      "examplesZh": [
+        "茉莉花下個月將與艾文結婚。"
+      ]
     },
     {
       "id": "0421",
@@ -10913,7 +12661,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「婚姻」單元中使用「ive」一詞。",
+      "examplesZh": [
+        "本課程在「婚姻」單元中使用「ive」一詞。"
+      ]
     },
     {
       "id": "0422",
@@ -10938,6 +12690,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "他們一家人住在一起。",
+      "examplesZh": [
+        "他們一家人住在一起。"
       ]
     },
     {
@@ -10961,7 +12717,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "孩子總有一天會長大的。",
+      "examplesZh": [
+        "孩子總有一天會長大的。"
+      ]
     },
     {
       "id": "0424",
@@ -10984,7 +12744,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這對夫婦正在一家不錯的餐廳慶祝情人節。",
+      "examplesZh": [
+        "這對夫婦正在一家不錯的餐廳慶祝情人節。"
+      ]
     },
     {
       "id": "0425",
@@ -11008,7 +12772,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我的家人是我生命中最重要的事。",
+      "examplesZh": [
+        "我的家人是我生命中最重要的事。",
+        ""
+      ]
     },
     {
       "id": "0426",
@@ -11031,7 +12800,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "保羅沒有伴侶。他是單身。",
+      "examplesZh": [
+        "保羅沒有伴侶。他是單身。"
+      ]
     },
     {
       "id": "0427",
@@ -11054,7 +12827,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「婚姻」單元中使用「單身」一詞。",
+      "examplesZh": [
+        "本課程在「婚姻」單元中使用「單身」一詞。"
+      ]
     },
     {
       "id": "0428",
@@ -11077,7 +12854,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這是一個正式的聚會，所以請穿正式的衣服。 Informal不正式的",
+      "examplesZh": [
+        "這是一個正式的聚會，所以請穿正式的衣服。 Informal不正式的"
+      ]
     },
     {
       "id": "0429",
@@ -11100,7 +12881,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在「父母與孩子」單元中使用 fij 一詞。",
+      "examplesZh": [
+        "本課在「父母與孩子」單元中使用 fij 一詞。"
+      ]
     },
     {
       "id": "0430",
@@ -11123,7 +12908,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嬰兒需要父母的保護。",
+      "examplesZh": [
+        "嬰兒需要父母的保護。"
+      ]
     },
     {
       "id": "0431",
@@ -11146,7 +12935,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "親愛的，當我們不在家時，不要讓陌生人進來。",
+      "examplesZh": [
+        "親愛的，當我們不在家時，不要讓陌生人進來。"
+      ]
     },
     {
       "id": "0432",
@@ -11170,7 +12963,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "不要和陌生人、孩子說話。",
+      "examplesZh": [
+        "不要和陌生人、孩子說話。",
+        ""
+      ]
     },
     {
       "id": "0433",
@@ -11193,7 +12991,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "好的父母會為孩子提供支持。",
+      "examplesZh": [
+        "好的父母會為孩子提供支持。"
+      ]
     },
     {
       "id": "0434",
@@ -11216,7 +13018,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我跌倒 11m 時，我最好的朋友總是支持我。",
+      "examplesZh": [
+        "當我跌倒 11m 時，我最好的朋友總是支持我。"
+      ]
     },
     {
       "id": "0435",
@@ -11239,7 +13045,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「父母與兒童」單元中使用「安全」一詞。",
+      "examplesZh": [
+        "本課程在「父母與兒童」單元中使用「安全」一詞。"
+      ]
     },
     {
       "id": "0436",
@@ -11262,7 +13072,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我生羅布的氣，所以我避開他。",
+      "examplesZh": [
+        "我生羅布的氣，所以我避開他。"
+      ]
     },
     {
       "id": "0437",
@@ -11285,7 +13099,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "小心火災和陌生人等危險。",
+      "examplesZh": [
+        "小心火災和陌生人等危險。"
+      ]
     },
     {
       "id": "0438",
@@ -11308,7 +13126,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "您需要協助嗎？",
+      "examplesZh": [
+        "您需要協助嗎？"
+      ]
     },
     {
       "id": "0439",
@@ -11331,7 +13153,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "保姆正在註視著頑皮的孩子。",
+      "examplesZh": [
+        "保姆正在註視著頑皮的孩子。"
+      ]
     },
     {
       "id": "0440",
@@ -11354,7 +13180,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「父母與孩子」單元中使用了「頑皮」一詞。",
+      "examplesZh": [
+        "本課程在「父母與孩子」單元中使用了「頑皮」一詞。"
+      ]
     },
     {
       "id": "0441",
@@ -11377,7 +13207,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "多麼可愛的小寶寶！",
+      "examplesZh": [
+        "多麼可愛的小寶寶！"
+      ]
     },
     {
       "id": "0442",
@@ -11400,7 +13234,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "童心未泯的男人在水裡玩耍",
+      "examplesZh": [
+        "童心未泯的男人在水裡玩耍"
+      ]
     },
     {
       "id": "0443",
@@ -11423,7 +13261,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「父母與孩子」單元中使用了「ovely」這個字。",
+      "examplesZh": [
+        "本課程在「父母與孩子」單元中使用了「ovely」這個字。"
+      ]
     },
     {
       "id": "0444",
@@ -11447,7 +13289,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "傑米認為馬克不再關心她了。麻煩。",
+      "examplesZh": [
+        "傑米認為馬克不再關心她了。麻煩。",
+        ""
+      ]
     },
     {
       "id": "0445",
@@ -11470,7 +13317,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "麥克又遇到麻煩了。",
+      "examplesZh": [
+        "麥克又遇到麻煩了。"
+      ]
     },
     {
       "id": "0446",
@@ -11493,7 +13344,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嬰兒的安全是許多新手父母關心的問題。",
+      "examplesZh": [
+        "嬰兒的安全是許多新手父母關心的問題。"
+      ]
     },
     {
       "id": "0447",
@@ -11516,7 +13371,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「父母與兒童」單元中使用「醫療保健」一詞。",
+      "examplesZh": [
+        "本課程在「父母與兒童」單元中使用「醫療保健」一詞。"
+      ]
     },
     {
       "id": "0448",
@@ -11539,7 +13398,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "籃球運動員穿的是二十號球衣。",
+      "examplesZh": [
+        "籃球運動員穿的是二十號球衣。"
+      ]
     },
     {
       "id": "0449",
@@ -11562,7 +13425,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "書包裡有三、四本書。",
+      "examplesZh": [
+        "書包裡有三、四本書。"
+      ]
     },
     {
       "id": "0450",
@@ -11585,7 +13452,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "三加四等於七。",
+      "examplesZh": [
+        "三加四等於七。"
+      ]
     },
     {
       "id": "0451",
@@ -11608,7 +13479,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "地址是五號，不是六號。",
+      "examplesZh": [
+        "地址是五號，不是六號。"
+      ]
     },
     {
       "id": "0452",
@@ -11631,7 +13506,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "湯姆有五支鋼筆和六支鉛筆。",
+      "examplesZh": [
+        "湯姆有五支鋼筆和六支鉛筆。"
+      ]
     },
     {
       "id": "0453",
@@ -11656,7 +13535,13 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "有七八株植物嗎？",
+      "examplesZh": [
+        "有七八株植物嗎？",
+        "",
+        ""
+      ]
     },
     {
       "id": "0454",
@@ -11679,7 +13564,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在基數詞 1 單元中使用單字 8。",
+      "examplesZh": [
+        "本課程在基數詞 1 單元中使用單字 8。"
+      ]
     },
     {
       "id": "0455",
@@ -11703,7 +13592,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我點了十個餃子，但我只吃了九個。",
+      "examplesZh": [
+        "我點了十個餃子，但我只吃了九個。",
+        ""
+      ]
     },
     {
       "id": "0456",
@@ -11726,7 +13620,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在基數詞 1 單元中使用單字 10。",
+      "examplesZh": [
+        "本課程在基數詞 1 單元中使用單字 10。"
+      ]
     },
     {
       "id": "0457",
@@ -11749,7 +13647,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我收集了十一支漂亮的蠟燭。",
+      "examplesZh": [
+        "我收集了十一支漂亮的蠟燭。"
+      ]
     },
     {
       "id": "0458",
@@ -11772,7 +13674,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在基數詞 1 單元中使用單字 13。",
+      "examplesZh": [
+        "本課程在基數詞 1 單元中使用單字 13。"
+      ]
     },
     {
       "id": "0459",
@@ -11795,7 +13701,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們需要十四把湯匙。",
+      "examplesZh": [
+        "我們需要十四把湯匙。"
+      ]
     },
     {
       "id": "0460",
@@ -11818,7 +13728,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這條街上有十六家商店。",
+      "examplesZh": [
+        "這條街上有十六家商店。"
+      ]
     },
     {
       "id": "0461",
@@ -11841,7 +13755,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這本書花了鮑伯十七美元。",
+      "examplesZh": [
+        "這本書花了鮑伯十七美元。"
+      ]
     },
     {
       "id": "0462",
@@ -11864,7 +13782,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這裡有十八個盒子。",
+      "examplesZh": [
+        "這裡有十八個盒子。"
+      ]
     },
     {
       "id": "0463",
@@ -11887,7 +13809,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我可以知道你的電話號碼嗎？",
+      "examplesZh": [
+        "我可以知道你的電話號碼嗎？"
+      ]
     },
     {
       "id": "0464",
@@ -11910,7 +13836,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在基數詞 1 單元中使用「零」一詞。",
+      "examplesZh": [
+        "本課程在基數詞 1 單元中使用「零」一詞。"
+      ]
     },
     {
       "id": "0465",
@@ -11933,7 +13863,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "人類有一個鼻子和兩隻眼睛。",
+      "examplesZh": [
+        "人類有一個鼻子和兩隻眼睛。"
+      ]
     },
     {
       "id": "0466",
@@ -11956,7 +13890,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在基數 1 單元中使用單字 tul。",
+      "examplesZh": [
+        "本課程在基數 1 單元中使用單字 tul。"
+      ]
     },
     {
       "id": "0467",
@@ -11980,7 +13918,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "curated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "麗莎十九歲。",
+      "examplesZh": [
+        "麗莎十九歲。",
+        ""
+      ]
     },
     {
       "id": "0468",
@@ -12003,7 +13946,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "昨天我爸爸見到了一位四十年未見的老朋友。",
+      "examplesZh": [
+        "昨天我爸爸見到了一位四十年未見的老朋友。"
+      ]
     },
     {
       "id": "0469",
@@ -12026,7 +13973,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們為聚會訂了五十瓶可樂。",
+      "examplesZh": [
+        "我們為聚會訂了五十瓶可樂。"
+      ]
     },
     {
       "id": "0470",
@@ -12049,7 +14000,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我班有六十個人。哦",
+      "examplesZh": [
+        "我班有六十個人。哦"
+      ]
     },
     {
       "id": "0471",
@@ -12072,7 +14027,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "吉娜花了七十美元給媽媽買了一份禮物。",
+      "examplesZh": [
+        "吉娜花了七十美元給媽媽買了一份禮物。"
+      ]
     },
     {
       "id": "0472",
@@ -12095,7 +14054,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這個月我爺爺就八十歲了。",
+      "examplesZh": [
+        "這個月我爺爺就八十歲了。"
+      ]
     },
     {
       "id": "0473",
@@ -12118,7 +14081,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這所學校只有九、十名學生。",
+      "examplesZh": [
+        "這所學校只有九、十名學生。"
+      ]
     },
     {
       "id": "0474",
@@ -12141,7 +14108,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "珍妮向麗莎借了一百美元。",
+      "examplesZh": [
+        "珍妮向麗莎借了一百美元。"
+      ]
     },
     {
       "id": "0475",
@@ -12164,7 +14135,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "該公司擁有一千多名員工。",
+      "examplesZh": [
+        "該公司擁有一千多名員工。"
+      ]
     },
     {
       "id": "0476",
@@ -12187,7 +14162,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這座城市居住著兩百萬人。",
+      "examplesZh": [
+        "這座城市居住著兩百萬人。"
+      ]
     },
     {
       "id": "0477",
@@ -12210,7 +14189,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "第一班巴士什麼時候到達？誰在比賽中獲得第二名？",
+      "examplesZh": [
+        "第一班巴士什麼時候到達？誰在比賽中獲得第二名？"
+      ]
     },
     {
       "id": "0478",
@@ -12235,6 +14218,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在基數詞 2 和序數詞單元中使用單字「秒」。",
+      "examplesZh": [
+        "本課程在基數詞 2 和序數詞單元中使用單字「秒」。"
       ]
     },
     {
@@ -12258,7 +14245,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "喬伊斯在演講比賽中獲得了三等獎。",
+      "examplesZh": [
+        "喬伊斯在演講比賽中獲得了三等獎。"
+      ]
     },
     {
       "id": "0480",
@@ -12281,7 +14272,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "最後一個離開家的人是誰？",
+      "examplesZh": [
+        "最後一個離開家的人是誰？"
+      ]
     },
     {
       "id": "0481",
@@ -12305,7 +14300,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "總共是20美元。",
+      "examplesZh": [
+        "總共是20美元。",
+        ""
+      ]
     },
     {
       "id": "0482",
@@ -12328,7 +14328,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "一天有24小時。",
+      "examplesZh": [
+        "一天有24小時。"
+      ]
     },
     {
       "id": "0483",
@@ -12352,7 +14356,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "黎明是新一天的開始。",
+      "examplesZh": [
+        "黎明是新一天的開始。",
+        ""
+      ]
     },
     {
       "id": "0484",
@@ -12375,7 +14384,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "黎明是新一天的開始。",
+      "examplesZh": [
+        "黎明是新一天的開始。"
+      ]
     },
     {
       "id": "0485",
@@ -12398,7 +14411,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「一天」單元中使用「早晨」一詞。",
+      "examplesZh": [
+        "本課程在「一天」單元中使用「早晨」一詞。"
+      ]
     },
     {
       "id": "0486",
@@ -12421,7 +14438,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "中午你跟我們一起出去嗎？",
+      "examplesZh": [
+        "中午你跟我們一起出去嗎？"
+      ]
     },
     {
       "id": "0487",
@@ -12445,7 +14466,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "今天下午你要去哪裡？",
+      "examplesZh": [
+        "今天下午你要去哪裡？",
+        ""
+      ]
     },
     {
       "id": "0488",
@@ -12468,7 +14494,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "多麼美好的夜晚啊！晚上在海濱",
+      "examplesZh": [
+        "多麼美好的夜晚啊！晚上在海濱"
+      ]
     },
     {
       "id": "0489",
@@ -12491,7 +14521,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這是一個美麗的夜晚。",
+      "examplesZh": [
+        "這是一個美麗的夜晚。"
+      ]
     },
     {
       "id": "0490",
@@ -12514,7 +14548,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "已經快半夜了。你應該去睡覺了。",
+      "examplesZh": [
+        "已經快半夜了。你應該去睡覺了。"
+      ]
     },
     {
       "id": "0491",
@@ -12537,7 +14575,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "安布爾下午 4 點放學。",
+      "examplesZh": [
+        "安布爾下午 4 點放學。"
+      ]
     },
     {
       "id": "0492",
@@ -12561,7 +14603,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "孩子們每天都在洗澡。",
+      "examplesZh": [
+        "孩子們每天都在洗澡。",
+        ""
+      ]
     },
     {
       "id": "0493",
@@ -12584,7 +14631,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「一天」單元中使用「沐浴」一詞。",
+      "examplesZh": [
+        "本課程在「一天」單元中使用「沐浴」一詞。"
+      ]
     },
     {
       "id": "0494",
@@ -12607,7 +14658,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "早起的鳥兒有蟲吃。我的孩子們今天很早就回家了。",
+      "examplesZh": [
+        "早起的鳥兒有蟲吃。我的孩子們今天很早就回家了。"
+      ]
     },
     {
       "id": "0495",
@@ -12630,7 +14685,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「一天」單元中使用「ate」一詞。",
+      "examplesZh": [
+        "本課程在「一天」單元中使用「ate」一詞。"
+      ]
     },
     {
       "id": "0496",
@@ -12654,7 +14713,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "伊恩醒來後立即洗澡。",
+      "examplesZh": [
+        "伊恩醒來後立即洗澡。",
+        ""
+      ]
     },
     {
       "id": "0497",
@@ -12677,7 +14741,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「一天」單元中使用「喚醒」一詞。",
+      "examplesZh": [
+        "本課程在「一天」單元中使用「喚醒」一詞。"
+      ]
     },
     {
       "id": "0498",
@@ -12700,7 +14768,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們生活在21世紀。",
+      "examplesZh": [
+        "我們生活在21世紀。"
+      ]
     },
     {
       "id": "0499",
@@ -12723,7 +14795,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "昨天是我的生日。",
+      "examplesZh": [
+        "昨天是我的生日。"
+      ]
     },
     {
       "id": "0500",
@@ -12746,7 +14822,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你一週工作幾天？",
+      "examplesZh": [
+        "你一週工作幾天？"
+      ]
     },
     {
       "id": "0501",
@@ -12769,7 +14849,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你周末有什麼計畫嗎？",
+      "examplesZh": [
+        "你周末有什麼計畫嗎？"
+      ]
     },
     {
       "id": "0502",
@@ -12792,7 +14876,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "人們通常在周一不想工作。",
+      "examplesZh": [
+        "人們通常在周一不想工作。"
+      ]
     },
     {
       "id": "0503",
@@ -12815,7 +14903,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "曼迪週二晚上有舞蹈課。",
+      "examplesZh": [
+        "曼迪週二晚上有舞蹈課。"
+      ]
     },
     {
       "id": "0504",
@@ -12838,7 +14930,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「週間和日期」單元中使用「星期三」一詞。",
+      "examplesZh": [
+        "本課程在「週間和日期」單元中使用「星期三」一詞。"
+      ]
     },
     {
       "id": "0505",
@@ -12861,7 +14957,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「週間和日期」單元中使用「星期四」一詞。",
+      "examplesZh": [
+        "本課程在「週間和日期」單元中使用「星期四」一詞。"
+      ]
     },
     {
       "id": "0506",
@@ -12884,7 +14984,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本森和我周五晚上有個約會。",
+      "examplesZh": [
+        "本森和我周五晚上有個約會。"
+      ]
     },
     {
       "id": "0507",
@@ -12907,7 +15011,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "麗莎這週日會來看我們。",
+      "examplesZh": [
+        "麗莎這週日會來看我們。"
+      ]
     },
     {
       "id": "0508",
@@ -12930,7 +15038,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "湯姆學了一年中文。",
+      "examplesZh": [
+        "湯姆學了一年中文。"
+      ]
     },
     {
       "id": "0509",
@@ -12953,7 +15065,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "此日曆上的工作日以黑色列印，假日為假日；農曆、陰曆",
+      "examplesZh": [
+        "此日曆上的工作日以黑色列印，假日為假日；農曆、陰曆"
+      ]
     },
     {
       "id": "0510",
@@ -12976,7 +15092,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「週間和日期」單元中使用「日曆」一詞。",
+      "examplesZh": [
+        "本課程在「週間和日期」單元中使用「日曆」一詞。"
+      ]
     },
     {
       "id": "0511",
@@ -12999,7 +15119,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你今天有什麼計劃？",
+      "examplesZh": [
+        "你今天有什麼計劃？"
+      ]
     },
     {
       "id": "0512",
@@ -13022,7 +15146,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "明天就是15號了。",
+      "examplesZh": [
+        "明天就是15號了。"
+      ]
     },
     {
       "id": "0513",
@@ -13047,6 +15175,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「週間和日期」單元中使用「假期」一詞。",
+      "examplesZh": [
+        "本課程在「週間和日期」單元中使用「假期」一詞。"
       ]
     },
     {
@@ -13070,7 +15202,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「週間和日期」單元中使用「中國日曆」一詞。",
+      "examplesZh": [
+        "本課程在「週間和日期」單元中使用「中國日曆」一詞。"
+      ]
     },
     {
       "id": "0515",
@@ -13094,7 +15230,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "今天是幾號？",
+      "examplesZh": [
+        "今天是幾號？",
+        ""
+      ]
     },
     {
       "id": "0516",
@@ -13117,7 +15258,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們的暑假是七月和八月。",
+      "examplesZh": [
+        "我們的暑假是七月和八月。"
+      ]
     },
     {
       "id": "0517",
@@ -13140,7 +15285,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我的生日是三月，我姊姊的生日是四月。",
+      "examplesZh": [
+        "我的生日是三月，我姊姊的生日是四月。"
+      ]
     },
     {
       "id": "0518",
@@ -13163,7 +15312,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "春季是三月、四月和五月。",
+      "examplesZh": [
+        "春季是三月、四月和五月。"
+      ]
     },
     {
       "id": "0519",
@@ -13189,6 +15342,11 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "你會在五月或六月休假嗎？",
+      "examplesZh": [
+        "你會在五月或六月休假嗎？",
+        ""
       ]
     },
     {
@@ -13212,7 +15370,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「月份和季節」單元中使用「六月」一詞。",
+      "examplesZh": [
+        "本課程在「月份和季節」單元中使用「六月」一詞。"
+      ]
     },
     {
       "id": "0521",
@@ -13235,7 +15397,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們可以在七月和八月去海灘。",
+      "examplesZh": [
+        "我們可以在七月和八月去海灘。"
+      ]
     },
     {
       "id": "0522",
@@ -13258,7 +15424,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "艾米將於九月前往美國。",
+      "examplesZh": [
+        "艾米將於九月前往美國。"
+      ]
     },
     {
       "id": "0523",
@@ -13281,7 +15451,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「月份和季節」單元中使用「II October」一詞。",
+      "examplesZh": [
+        "本課程在「月份和季節」單元中使用「II October」一詞。"
+      ]
     },
     {
       "id": "0524",
@@ -13306,6 +15480,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在“月份和季節”單元中使用“OO”一詞。",
+      "examplesZh": [
+        "本課程在“月份和季節”單元中使用“OO”一詞。"
       ]
     },
     {
@@ -13329,7 +15507,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "馬克和東尼都出生於十一月。",
+      "examplesZh": [
+        "馬克和東尼都出生於十一月。"
+      ]
     },
     {
       "id": "0526",
@@ -13352,7 +15534,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "十二月通常很冷。",
+      "examplesZh": [
+        "十二月通常很冷。"
+      ]
     },
     {
       "id": "0527",
@@ -13375,7 +15561,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "一年有四個季節。",
+      "examplesZh": [
+        "一年有四個季節。"
+      ]
     },
     {
       "id": "0528",
@@ -13401,6 +15591,11 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "春天是我最喜歡的季節。",
+      "examplesZh": [
+        "春天是我最喜歡的季節。",
+        ""
       ]
     },
     {
@@ -13424,7 +15619,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“月份和季節”單元中使用“夏天”一詞。",
+      "examplesZh": [
+        "本課程在“月份和季節”單元中使用“夏天”一詞。"
+      ]
     },
     {
       "id": "0530",
@@ -13447,7 +15646,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "秋天葉子會變紅。",
+      "examplesZh": [
+        "秋天葉子會變紅。"
+      ]
     },
     {
       "id": "0531",
@@ -13471,7 +15674,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "curated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "秋天是我最喜歡的季節。",
+      "examplesZh": [
+        "秋天是我最喜歡的季節。",
+        ""
+      ]
     },
     {
       "id": "0532",
@@ -13494,7 +15702,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "冬天孩子總是堆雪人。冬季外套/鞋 冬衣、鞋子;雪人 (雪人的複數)",
+      "examplesZh": [
+        "冬天孩子總是堆雪人。冬季外套/鞋 冬衣、鞋子;雪人 (雪人的複數)"
+      ]
     },
     {
       "id": "0533",
@@ -13517,7 +15729,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「月份和季節」單元中使用「雪人」一詞。",
+      "examplesZh": [
+        "本課程在「月份和季節」單元中使用「雪人」一詞。"
+      ]
     },
     {
       "id": "0534",
@@ -13540,7 +15756,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "羅伯特下個月要去日本。",
+      "examplesZh": [
+        "羅伯特下個月要去日本。"
+      ]
     },
     {
       "id": "0535",
@@ -13563,7 +15783,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在北方，一月和二月是最冷的月份。",
+      "examplesZh": [
+        "在北方，一月和二月是最冷的月份。"
+      ]
     },
     {
       "id": "0536",
@@ -13586,7 +15810,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「月份和季節」單元中使用「二月」一詞。",
+      "examplesZh": [
+        "本課程在「月份和季節」單元中使用「二月」一詞。"
+      ]
     },
     {
       "id": "0537",
@@ -13609,7 +15837,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "現在幾點了？我已經跟他說過三遍了。",
+      "examplesZh": [
+        "現在幾點了？我已經跟他說過三遍了。"
+      ]
     },
     {
       "id": "0538",
@@ -13632,7 +15864,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我現在可以和你談談嗎？",
+      "examplesZh": [
+        "我現在可以和你談談嗎？"
+      ]
     },
     {
       "id": "0539",
@@ -13655,7 +15891,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "該國現任總統是誰？",
+      "examplesZh": [
+        "該國現任總統是誰？"
+      ]
     },
     {
       "id": "0540",
@@ -13678,7 +15918,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "目前我還沒有答案。",
+      "examplesZh": [
+        "目前我還沒有答案。"
+      ]
     },
     {
       "id": "0541",
@@ -13701,7 +15945,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "請稍等，我馬上回來。",
+      "examplesZh": [
+        "請稍等，我馬上回來。"
+      ]
     },
     {
       "id": "0542",
@@ -13726,6 +15974,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "過去幾年，大衛工作非常努力。",
+      "examplesZh": [
+        "過去幾年，大衛工作非常努力。"
       ]
     },
     {
@@ -13749,7 +16001,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們以前的高中科學老師剛剛去世。",
+      "examplesZh": [
+        "我們以前的高中科學老師剛剛去世。"
+      ]
     },
     {
       "id": "0544",
@@ -13772,7 +16028,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "遠古時期，這裡有一座城。",
+      "examplesZh": [
+        "遠古時期，這裡有一座城。"
+      ]
     },
     {
       "id": "0545",
@@ -13795,7 +16055,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "今晚你能和我一起吃晚餐嗎？",
+      "examplesZh": [
+        "今晚你能和我一起吃晚餐嗎？"
+      ]
     },
     {
       "id": "0546",
@@ -13818,7 +16082,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "貝蒂快來了嗎？",
+      "examplesZh": [
+        "貝蒂快來了嗎？"
+      ]
     },
     {
       "id": "0547",
@@ -13841,7 +16109,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "期間將不會有網路服務。",
+      "examplesZh": [
+        "期間將不會有網路服務。"
+      ]
     },
     {
       "id": "0548",
@@ -13864,7 +16136,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "下一個問題是什麼？",
+      "examplesZh": [
+        "下一個問題是什麼？"
+      ]
     },
     {
       "id": "0549",
@@ -13887,7 +16163,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "唐娜將來想成為一名歌手。",
+      "examplesZh": [
+        "唐娜將來想成為一名歌手。"
+      ]
     },
     {
       "id": "0550",
@@ -13910,7 +16190,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「過去」、「現在」和「未來」單元中使用「iater」一詞。",
+      "examplesZh": [
+        "本課程在「過去」、「現在」和「未來」單元中使用「iater」一詞。"
+      ]
     },
     {
       "id": "0551",
@@ -13933,7 +16217,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "他們最新的視頻遊戲將於本月下旬推出。",
+      "examplesZh": [
+        "他們最新的視頻遊戲將於本月下旬推出。"
+      ]
     },
     {
       "id": "0552",
@@ -13958,6 +16246,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程使用「報時」單元中的「類型」一詞。",
+      "examplesZh": [
+        "本課程使用「報時」單元中的「類型」一詞。"
       ]
     },
     {
@@ -13982,7 +16274,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "時鐘壞了。",
+      "examplesZh": [
+        "時鐘壞了。",
+        ""
+      ]
     },
     {
       "id": "0554",
@@ -14007,6 +16304,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「報時」單元中使用「秒」一詞。",
+      "examplesZh": [
+        "本課程在「報時」單元中使用「秒」一詞。"
       ]
     },
     {
@@ -14030,7 +16331,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "一小時有60分鐘。",
+      "examplesZh": [
+        "一小時有60分鐘。"
+      ]
     },
     {
       "id": "0556",
@@ -14053,7 +16358,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "一天有24小時。",
+      "examplesZh": [
+        "一天有24小時。"
+      ]
     },
     {
       "id": "0557",
@@ -14079,6 +16388,11 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "現在是三點一刻。",
+      "examplesZh": [
+        "現在是三點一刻。",
+        ""
       ]
     },
     {
@@ -14104,6 +16418,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "過去幾年，大衛工作非常努力。",
+      "examplesZh": [
+        "過去幾年，大衛工作非常努力。"
       ]
     },
     {
@@ -14127,7 +16445,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "您可以隨時向我發送即時訊息。",
+      "examplesZh": [
+        "您可以隨時向我發送即時訊息。"
+      ]
     },
     {
       "id": "0560",
@@ -14150,7 +16472,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "教練用秒錶記錄跑步者的時間。",
+      "examplesZh": [
+        "教練用秒錶記錄跑步者的時間。"
+      ]
     },
     {
       "id": "0561",
@@ -14175,6 +16501,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "你喜歡父親送給你的手錶嗎？",
+      "examplesZh": [
+        "你喜歡父親送給你的手錶嗎？"
       ]
     },
     {
@@ -14198,7 +16528,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們剛買了一個新的電爐。",
+      "examplesZh": [
+        "我們剛買了一個新的電爐。"
+      ]
     },
     {
       "id": "0563",
@@ -14221,7 +16555,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你能把鬧鐘定在五點嗎？右",
+      "examplesZh": [
+        "你能把鬧鐘定在五點嗎？右"
+      ]
     },
     {
       "id": "0564",
@@ -14244,7 +16582,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "記得打開鬧鐘。",
+      "examplesZh": [
+        "記得打開鬧鐘。"
+      ]
     },
     {
       "id": "0565",
@@ -14267,7 +16609,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "關掉鬧鐘。非常吵。",
+      "examplesZh": [
+        "關掉鬧鐘。非常吵。"
+      ]
     },
     {
       "id": "0566",
@@ -14290,7 +16636,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「報時」單元中使用「go off」一詞。",
+      "examplesZh": [
+        "本課程在「報時」單元中使用「go off」一詞。"
+      ]
     },
     {
       "id": "0567",
@@ -14313,7 +16663,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "老公我身上沒帶錢。",
+      "examplesZh": [
+        "老公我身上沒帶錢。"
+      ]
     },
     {
       "id": "0568",
@@ -14336,7 +16690,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "您想用現金還是信用卡支付？提領現金提款；存入現金",
+      "examplesZh": [
+        "您想用現金還是信用卡支付？提領現金提款；存入現金"
+      ]
     },
     {
       "id": "0569",
@@ -14361,6 +16719,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "請檢查並修復破損的水管。",
+      "examplesZh": [
+        "請檢查並修復破損的水管。"
       ]
     },
     {
@@ -14384,7 +16746,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我的信用卡被盜了，所以我需要打電話給我的銀行。",
+      "examplesZh": [
+        "我的信用卡被盜了，所以我需要打電話給我的銀行。"
+      ]
     },
     {
       "id": "0571",
@@ -14407,7 +16773,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "傑弗裡花了一百萬美元買了他的新房子。",
+      "examplesZh": [
+        "傑弗裡花了一百萬美元買了他的新房子。"
+      ]
     },
     {
       "id": "0572",
@@ -14432,6 +16802,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我有10磅。歐元 歐元;日圓日圓",
+      "examplesZh": [
+        "我有10磅。歐元 歐元;日圓日圓"
       ]
     },
     {
@@ -14455,7 +16829,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我為這本書付了 1 美元 50 美分。",
+      "examplesZh": [
+        "我為這本書付了 1 美元 50 美分。"
+      ]
     },
     {
       "id": "0574",
@@ -14478,7 +16856,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我沒有一美元鈔票，只有硬幣。",
+      "examplesZh": [
+        "我沒有一美元鈔票，只有硬幣。"
+      ]
     },
     {
       "id": "0575",
@@ -14501,7 +16883,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "硬幣很重，所以我盡量盡快花完。",
+      "examplesZh": [
+        "硬幣很重，所以我盡量盡快花完。"
+      ]
     },
     {
       "id": "0576",
@@ -14526,6 +16912,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "留著零錢吧！ 找不用零了",
+      "examplesZh": [
+        "留著零錢吧！ 找不用零了"
       ]
     },
     {
@@ -14549,7 +16939,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "珍妮向麗莎借了100美元。",
+      "examplesZh": [
+        "珍妮向麗莎借了100美元。"
+      ]
     },
     {
       "id": "0578",
@@ -14574,6 +16968,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「不同類型的貨幣」單元中使用「end」一詞。",
+      "examplesZh": [
+        "本課程在「不同類型的貨幣」單元中使用「end」一詞。"
       ]
     },
     {
@@ -14599,6 +16997,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "這些紙幣（鈔票）看起來並不真實。",
+      "examplesZh": [
+        "這些紙幣（鈔票）看起來並不真實。"
       ]
     },
     {
@@ -14622,7 +17024,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我找到了一個錢包並把它還給了它的主人。",
+      "examplesZh": [
+        "我找到了一個錢包並把它還給了它的主人。"
+      ]
     },
     {
       "id": "0581",
@@ -14645,7 +17051,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「不同類型的貨幣」單元中使用「Chap」一詞。",
+      "examplesZh": [
+        "本課程在「不同類型的貨幣」單元中使用「Chap」一詞。"
+      ]
     },
     {
       "id": "0582",
@@ -14669,7 +17079,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "新客戶需支付 20 美元的費用。",
+      "examplesZh": [
+        "新客戶需支付 20 美元的費用。",
+        ""
+      ]
     },
     {
       "id": "0583",
@@ -14692,7 +17107,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「購買」和「銷售」單元中使用「客戶」一詞。",
+      "examplesZh": [
+        "本課程在「購買」和「銷售」單元中使用「客戶」一詞。"
+      ]
     },
     {
       "id": "0584",
@@ -14715,7 +17134,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當您在美國時，別忘了給服務員小費。",
+      "examplesZh": [
+        "當您在美國時，別忘了給服務員小費。"
+      ]
     },
     {
       "id": "0585",
@@ -14738,7 +17161,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "維琪想買一條新裙子。",
+      "examplesZh": [
+        "維琪想買一條新裙子。"
+      ]
     },
     {
       "id": "0586",
@@ -14763,7 +17190,13 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "如果我取消訂單，是否仍需付費？",
+      "examplesZh": [
+        "如果我取消訂單，是否仍需付費？",
+        "",
+        ""
+      ]
     },
     {
       "id": "0587",
@@ -14786,7 +17219,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「購買」和「銷售」單元中使用「費用」一詞。",
+      "examplesZh": [
+        "本課程在「購買」和「銷售」單元中使用「費用」一詞。"
+      ]
     },
     {
       "id": "0588",
@@ -14809,7 +17246,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這件毛衣花了我1000新台幣。花費一條胳膊和一條腿索價不菲",
+      "examplesZh": [
+        "這件毛衣花了我1000新台幣。花費一條胳膊和一條腿索價不菲"
+      ]
     },
     {
       "id": "0589",
@@ -14834,7 +17275,13 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "curated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我每天晚上花一小時讀書。",
+      "examplesZh": [
+        "我每天晚上花一小時讀書。",
+        "",
+        ""
+      ]
     },
     {
       "id": "0590",
@@ -14857,7 +17304,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你要我現在付錢給你嗎？",
+      "examplesZh": [
+        "你要我現在付錢給你嗎？"
+      ]
     },
     {
       "id": "0591",
@@ -14880,7 +17331,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這枚戒指很漂亮，而且價格也很便宜。",
+      "examplesZh": [
+        "這枚戒指很漂亮，而且價格也很便宜。"
+      ]
     },
     {
       "id": "0592",
@@ -14903,7 +17358,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這塊手錶對我來說太貴了。",
+      "examplesZh": [
+        "這塊手錶對我來說太貴了。"
+      ]
     },
     {
       "id": "0593",
@@ -14926,7 +17385,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我得到了一杯免費咖啡。",
+      "examplesZh": [
+        "我得到了一杯免費咖啡。"
+      ]
     },
     {
       "id": "0594",
@@ -14949,7 +17412,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你不必支付晚餐費用。這是我的請客。",
+      "examplesZh": [
+        "你不必支付晚餐費用。這是我的請客。"
+      ]
     },
     {
       "id": "0595",
@@ -14972,7 +17439,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這本舊書有什麼價值？有價值的",
+      "examplesZh": [
+        "這本舊書有什麼價值？有價值的"
+      ]
     },
     {
       "id": "0596",
@@ -14995,7 +17466,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "那個夜市有很多攤販。",
+      "examplesZh": [
+        "那個夜市有很多攤販。"
+      ]
     },
     {
       "id": "0597",
@@ -15018,7 +17493,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這房子的價格太高了。",
+      "examplesZh": [
+        "這房子的價格太高了。"
+      ]
     },
     {
       "id": "0598",
@@ -15041,7 +17520,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你不應該吞下西瓜籽。西瓜汁 西瓜汁",
+      "examplesZh": [
+        "你不應該吞下西瓜籽。西瓜汁 西瓜汁"
+      ]
     },
     {
       "id": "0599",
@@ -15064,7 +17547,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "隨身攜帶一個蘋果。",
+      "examplesZh": [
+        "隨身攜帶一個蘋果。"
+      ]
     },
     {
       "id": "0600",
@@ -15088,7 +17575,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "curated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "午飯後我吃了一個甜草莓。",
+      "examplesZh": [
+        "午飯後我吃了一個甜草莓。",
+        ""
+      ]
     },
     {
       "id": "0601",
@@ -15111,7 +17603,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我喜歡紅西紅柿。",
+      "examplesZh": [
+        "我喜歡紅西紅柿。"
+      ]
     },
     {
       "id": "0602",
@@ -15134,7 +17630,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "香蕉是尼克最喜歡的水果。",
+      "examplesZh": [
+        "香蕉是尼克最喜歡的水果。"
+      ]
     },
     {
       "id": "0603",
@@ -15157,7 +17657,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "您想要葡萄汁還是番石榴汁？",
+      "examplesZh": [
+        "您想要葡萄汁還是番石榴汁？"
+      ]
     },
     {
       "id": "0604",
@@ -15180,7 +17684,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學到了番石榴這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學到了番石榴這個詞。"
+      ]
     },
     {
       "id": "0605",
@@ -15205,6 +17713,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "爸爸買了一盒橘子。",
+      "examplesZh": [
+        "爸爸買了一盒橘子。"
       ]
     },
     {
@@ -15228,7 +17740,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "木瓜牛奶是我最喜歡的飲料。",
+      "examplesZh": [
+        "木瓜牛奶是我最喜歡的飲料。"
+      ]
     },
     {
       "id": "0607",
@@ -15251,7 +17767,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你想要一些桃子嗎？",
+      "examplesZh": [
+        "你想要一些桃子嗎？"
+      ]
     },
     {
       "id": "0608",
@@ -15274,7 +17794,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "維多利亞不喜歡吃梨子。",
+      "examplesZh": [
+        "維多利亞不喜歡吃梨子。"
+      ]
     },
     {
       "id": "0609",
@@ -15297,7 +17821,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "菠蘿很難拿住。",
+      "examplesZh": [
+        "菠蘿很難拿住。"
+      ]
     },
     {
       "id": "0610",
@@ -15320,7 +17848,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "有人覺得橘子太酸了，但我喜歡。",
+      "examplesZh": [
+        "有人覺得橘子太酸了，但我喜歡。"
+      ]
     },
     {
       "id": "0611",
@@ -15343,7 +17875,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "范妮每天吃很多水果。",
+      "examplesZh": [
+        "范妮每天吃很多水果。"
+      ]
     },
     {
       "id": "0612",
@@ -15366,7 +17902,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學會了“emon”這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學會了“emon”這個詞。"
+      ]
     },
     {
       "id": "0613",
@@ -15389,7 +17929,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "芒果很甜。",
+      "examplesZh": [
+        "芒果很甜。"
+      ]
     },
     {
       "id": "0614",
@@ -15412,7 +17956,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "很多孩子不能吃堅果。氣得發瘋",
+      "examplesZh": [
+        "很多孩子不能吃堅果。氣得發瘋"
+      ]
     },
     {
       "id": "0615",
@@ -15435,7 +17983,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學到了西瓜汁這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學到了西瓜汁這個詞。"
+      ]
     },
     {
       "id": "0616",
@@ -15458,7 +18010,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "吃足夠的蔬菜可以讓我們保持健康。素食；蔬菜湯 蔬菜湯",
+      "examplesZh": [
+        "吃足夠的蔬菜可以讓我們保持健康。素食；蔬菜湯 蔬菜湯"
+      ]
     },
     {
       "id": "0617",
@@ -15481,7 +18037,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這湯裡面有很多不同的豆子。",
+      "examplesZh": [
+        "這湯裡面有很多不同的豆子。"
+      ]
     },
     {
       "id": "0618",
@@ -15504,7 +18064,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "麥克做了美味的捲心菜餃子。",
+      "examplesZh": [
+        "麥克做了美味的捲心菜餃子。"
+      ]
     },
     {
       "id": "0619",
@@ -15527,7 +18091,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我正在我的花園裡種植胡蘿蔔。",
+      "examplesZh": [
+        "我正在我的花園裡種植胡蘿蔔。"
+      ]
     },
     {
       "id": "0620",
@@ -15550,7 +18118,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "東尼正在吃披薩上的玉米。",
+      "examplesZh": [
+        "東尼正在吃披薩上的玉米。"
+      ]
     },
     {
       "id": "0621",
@@ -15573,7 +18145,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這個沙拉裡的生菜非常新鮮。",
+      "examplesZh": [
+        "這個沙拉裡的生菜非常新鮮。"
+      ]
     },
     {
       "id": "0622",
@@ -15596,7 +18172,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "媽媽煮飯的時候，滿屋子都是洋蔥味。",
+      "examplesZh": [
+        "媽媽煮飯的時候，滿屋子都是洋蔥味。"
+      ]
     },
     {
       "id": "0623",
@@ -15619,7 +18199,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你知道炸薯條是用馬鈴薯做的嗎？沙發馬鈴薯 沙發馬鈴薯(愛窩在沙發上看電視的人);山藥地瓜",
+      "examplesZh": [
+        "你知道炸薯條是用馬鈴薯做的嗎？沙發馬鈴薯 沙發馬鈴薯(愛窩在沙發上看電視的人);山藥地瓜"
+      ]
     },
     {
       "id": "0624",
@@ -15642,7 +18226,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "南瓜在萬聖節很受歡迎。南瓜派 南瓜派",
+      "examplesZh": [
+        "南瓜在萬聖節很受歡迎。南瓜派 南瓜派"
+      ]
     },
     {
       "id": "0625",
@@ -15665,7 +18253,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "吃蔬菜對我們來說是必要的。不必要的 不必要的",
+      "examplesZh": [
+        "吃蔬菜對我們來說是必要的。不必要的 不必要的"
+      ]
     },
     {
       "id": "0626",
@@ -15688,7 +18280,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "吃蔬菜對我們的身體是有幫助的。",
+      "examplesZh": [
+        "吃蔬菜對我們的身體是有幫助的。"
+      ]
     },
     {
       "id": "0627",
@@ -15711,7 +18307,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "媽媽每天都會買新鮮的蔬菜。",
+      "examplesZh": [
+        "媽媽每天都會買新鮮的蔬菜。"
+      ]
     },
     {
       "id": "0628",
@@ -15736,6 +18336,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "綠色蔬菜包括生菜、豆類和高麗菜。",
+      "examplesZh": [
+        "綠色蔬菜包括生菜、豆類和高麗菜。"
       ]
     },
     {
@@ -15759,7 +18363,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學到了素食這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學到了素食這個詞。"
+      ]
     },
     {
       "id": "0630",
@@ -15782,7 +18390,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學到了強健骨骼這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學到了強健骨骼這個詞。"
+      ]
     },
     {
       "id": "0631",
@@ -15807,6 +18419,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "你想吃雞肉還是牛肉？",
+      "examplesZh": [
+        "你想吃雞肉還是牛肉？"
       ]
     },
     {
@@ -15830,7 +18446,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我不吃豬肉。",
+      "examplesZh": [
+        "我不吃豬肉。"
+      ]
     },
     {
       "id": "0633",
@@ -15855,6 +18475,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "魚真的很好吃！金魚 金魚;魚/魚 複數形",
+      "examplesZh": [
+        "魚真的很好吃！金魚 金魚;魚/魚 複數形"
       ]
     },
     {
@@ -15878,7 +18502,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你吃了幾隻蝦子？蝦/蝦 複數形",
+      "examplesZh": [
+        "你吃了幾隻蝦子？蝦/蝦 複數形"
+      ]
     },
     {
       "id": "0635",
@@ -15901,7 +18529,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這個蛋糕我需要兩個蛋。",
+      "examplesZh": [
+        "這個蛋糕我需要兩個蛋。"
+      ]
     },
     {
       "id": "0636",
@@ -15924,7 +18556,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這個蛋糕我需要兩個蛋。 0 晚餐想吃牛排嗎？",
+      "examplesZh": [
+        "這個蛋糕我需要兩個蛋。 0 晚餐想吃牛排嗎？"
+      ]
     },
     {
       "id": "0637",
@@ -15949,6 +18585,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "美國人感恩節晚餐吃火雞。",
+      "examplesZh": [
+        "美國人感恩節晚餐吃火雞。"
       ]
     },
     {
@@ -15972,7 +18612,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學到了“II螃蟹”這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學到了“II螃蟹”這個詞。"
+      ]
     },
     {
       "id": "0639",
@@ -15995,7 +18639,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們午餐吃鴨子。",
+      "examplesZh": [
+        "我們午餐吃鴨子。"
+      ]
     },
     {
       "id": "0640",
@@ -16020,6 +18668,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "你吃過鵝嗎？",
+      "examplesZh": [
+        "你吃過鵝嗎？"
       ]
     },
     {
@@ -16043,7 +18695,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這羊肉很軟。",
+      "examplesZh": [
+        "這羊肉很軟。"
+      ]
     },
     {
       "id": "0642",
@@ -16066,7 +18722,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你必須把骨頭上的肉吃掉。那個籃球運動員在籃球比賽中摔斷了骨頭。",
+      "examplesZh": [
+        "你必須把骨頭上的肉吃掉。那個籃球運動員在籃球比賽中摔斷了骨頭。"
+      ]
     },
     {
       "id": "0643",
@@ -16089,7 +18749,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你吃肉嗎？",
+      "examplesZh": [
+        "你吃肉嗎？"
+      ]
     },
     {
       "id": "0644",
@@ -16112,7 +18776,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "保羅喜歡牛肉。",
+      "examplesZh": [
+        "保羅喜歡牛肉。"
+      ]
     },
     {
       "id": "0645",
@@ -16135,7 +18803,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學到了肉和雞蛋這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學到了肉和雞蛋這個詞。"
+      ]
     },
     {
       "id": "0646",
@@ -16158,7 +18830,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學到了「白肉」這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學到了「白肉」這個詞。"
+      ]
     },
     {
       "id": "0647",
@@ -16181,7 +18857,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們通常一日三餐。",
+      "examplesZh": [
+        "我們通常一日三餐。"
+      ]
     },
     {
       "id": "0648",
@@ -16205,7 +18885,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你早餐吃了什麼？",
+      "examplesZh": [
+        "你早餐吃了什麼？",
+        ""
+      ]
     },
     {
       "id": "0649",
@@ -16230,6 +18915,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "當我們談論食物時我學會了“oo”這個字。",
+      "examplesZh": [
+        "當我們談論食物時我學會了“oo”這個字。"
       ]
     },
     {
@@ -16253,7 +18942,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學會了早午餐這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學會了早午餐這個詞。"
+      ]
     },
     {
       "id": "0651",
@@ -16276,7 +18969,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "史蒂芬妮正在幫媽媽準備晚餐。",
+      "examplesZh": [
+        "史蒂芬妮正在幫媽媽準備晚餐。"
+      ]
     },
     {
       "id": "0652",
@@ -16299,7 +18996,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "晚餐我們可以吃義大利麵嗎？",
+      "examplesZh": [
+        "晚餐我們可以吃義大利麵嗎？"
+      ]
     },
     {
       "id": "0653",
@@ -16322,7 +19023,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時我學會了晚餐這個詞。",
+      "examplesZh": [
+        "當我們談論食物時我學會了晚餐這個詞。"
+      ]
     },
     {
       "id": "0654",
@@ -16346,7 +19051,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "那個人用了很多麵粉來烤麵包。",
+      "examplesZh": [
+        "那個人用了很多麵粉來烤麵包。",
+        ""
+      ]
     },
     {
       "id": "0655",
@@ -16369,7 +19079,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學會了「麵包」這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學會了「麵包」這個詞。"
+      ]
     },
     {
       "id": "0656",
@@ -16392,7 +19106,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "請再給我們一些麵包。",
+      "examplesZh": [
+        "請再給我們一些麵包。"
+      ]
     },
     {
       "id": "0657",
@@ -16415,7 +19133,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我想在吐司上塗奶油。烤麵包機烤吐司司機",
+      "examplesZh": [
+        "我想在吐司上塗奶油。烤麵包機烤吐司司機"
+      ]
     },
     {
       "id": "0658",
@@ -16438,7 +19160,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "凱文每天早餐吃麥片。",
+      "examplesZh": [
+        "凱文每天早餐吃麥片。"
+      ]
     },
     {
       "id": "0659",
@@ -16461,7 +19187,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在三明治裡放了火腿。",
+      "examplesZh": [
+        "我在三明治裡放了火腿。"
+      ]
     },
     {
       "id": "0660",
@@ -16484,7 +19214,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你喜歡三明治嗎？",
+      "examplesZh": [
+        "你喜歡三明治嗎？"
+      ]
     },
     {
       "id": "0661",
@@ -16507,7 +19241,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "保羅和我吃了兩個披薩。 a slice of Pizza 一片披薩",
+      "examplesZh": [
+        "保羅和我吃了兩個披薩。 a slice of Pizza 一片披薩"
+      ]
     },
     {
       "id": "0662",
@@ -16530,7 +19268,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "史蒂夫晚餐總是吃米飯。",
+      "examplesZh": [
+        "史蒂夫晚餐總是吃米飯。"
+      ]
     },
     {
       "id": "0663",
@@ -16553,7 +19295,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我不吃肉，所以我會點豆腐餃子。豆腐花粽子 粽子 煎餃 鍋貼、煎餃",
+      "examplesZh": [
+        "我不吃肉，所以我會點豆腐餃子。豆腐花粽子 粽子 煎餃 鍋貼、煎餃"
+      ]
     },
     {
       "id": "0664",
@@ -16576,7 +19322,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學會了餃子這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學會了餃子這個詞。"
+      ]
     },
     {
       "id": "0665",
@@ -16599,7 +19349,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們先來點沙拉吧。",
+      "examplesZh": [
+        "我們先來點沙拉吧。"
+      ]
     },
     {
       "id": "0666",
@@ -16624,6 +19378,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "當我們談論食物時我學會了“oo”這個字。",
+      "examplesZh": [
+        "當我們談論食物時我學會了“oo”這個字。"
       ]
     },
     {
@@ -16647,7 +19405,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你想喝一杯嗎？",
+      "examplesZh": [
+        "你想喝一杯嗎？"
+      ]
     },
     {
       "id": "0668",
@@ -16670,7 +19432,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "請給我一杯水好嗎？",
+      "examplesZh": [
+        "請給我一杯水好嗎？"
+      ]
     },
     {
       "id": "0669",
@@ -16693,7 +19459,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學到了牛奶這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學到了牛奶這個詞。"
+      ]
     },
     {
       "id": "0670",
@@ -16716,7 +19486,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "海倫想要一杯咖啡。",
+      "examplesZh": [
+        "海倫想要一杯咖啡。"
+      ]
     },
     {
       "id": "0671",
@@ -16739,7 +19513,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學會了茶這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學會了茶這個詞。"
+      ]
     },
     {
       "id": "0672",
@@ -16762,7 +19540,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "那些人喝了很多啤酒。",
+      "examplesZh": [
+        "那些人喝了很多啤酒。"
+      ]
     },
     {
       "id": "0673",
@@ -16786,7 +19568,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "冰箱裡有一些冰水。",
+      "examplesZh": [
+        "冰箱裡有一些冰水。",
+        ""
+      ]
     },
     {
       "id": "0674",
@@ -16810,7 +19597,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "您可以選擇蛋糕或派作為甜點。",
+      "examplesZh": [
+        "您可以選擇蛋糕或派作為甜點。",
+        ""
+      ]
     },
     {
       "id": "0675",
@@ -16833,7 +19625,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學會了蛋糕這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學會了蛋糕這個詞。"
+      ]
     },
     {
       "id": "0676",
@@ -16856,7 +19652,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "您想在麵包中加點起司嗎？",
+      "examplesZh": [
+        "您想在麵包中加點起司嗎？"
+      ]
     },
     {
       "id": "0677",
@@ -16879,7 +19679,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "丹尼買了一盒巧克力給我。",
+      "examplesZh": [
+        "丹尼買了一盒巧克力給我。"
+      ]
     },
     {
       "id": "0678",
@@ -16902,7 +19706,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "查看菜單並在您準備好點餐時告訴我。我可以接受您的訂單嗎？",
+      "examplesZh": [
+        "查看菜單並在您準備好點餐時告訴我。我可以接受您的訂單嗎？"
+      ]
     },
     {
       "id": "0679",
@@ -16927,6 +19735,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "當我們談論食物時，我學會了詞序。",
+      "examplesZh": [
+        "當我們談論食物時，我學會了詞序。"
       ]
     },
     {
@@ -16950,7 +19762,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "今晚的主菜是牛排。",
+      "examplesZh": [
+        "今晚的主菜是牛排。"
+      ]
     },
     {
       "id": "0681",
@@ -16973,7 +19789,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我可以再喝點湯嗎？",
+      "examplesZh": [
+        "我可以再喝點湯嗎？"
+      ]
     },
     {
       "id": "0682",
@@ -16996,7 +19816,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學會了漢堡這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學會了漢堡這個詞。"
+      ]
     },
     {
       "id": "0683",
@@ -17019,7 +19843,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學會了薯條這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學會了薯條這個詞。"
+      ]
     },
     {
       "id": "0684",
@@ -17042,7 +19870,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "您的薯條要加番茄醬嗎？",
+      "examplesZh": [
+        "您的薯條要加番茄醬嗎？"
+      ]
     },
     {
       "id": "0685",
@@ -17066,7 +19898,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "比利想要一個熱狗。",
+      "examplesZh": [
+        "比利想要一個熱狗。",
+        ""
+      ]
     },
     {
       "id": "0686",
@@ -17089,7 +19926,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學到了蘇打水這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學到了蘇打水這個詞。"
+      ]
     },
     {
       "id": "0687",
@@ -17112,7 +19953,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "可樂是我哥哥最喜歡的飲料。",
+      "examplesZh": [
+        "可樂是我哥哥最喜歡的飲料。"
+      ]
     },
     {
       "id": "0688",
@@ -17135,7 +19980,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "水是液體。固體的固體",
+      "examplesZh": [
+        "水是液體。固體的固體"
+      ]
     },
     {
       "id": "0689",
@@ -17158,7 +20007,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "您想吃點小吃嗎？ ？甜食 甜食",
+      "examplesZh": [
+        "您想吃點小吃嗎？ ？甜食 甜食"
+      ]
     },
     {
       "id": "0690",
@@ -17182,7 +20035,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "糖果別吃太多！",
+      "examplesZh": [
+        "糖果別吃太多！",
+        ""
+      ]
     },
     {
       "id": "0691",
@@ -17205,7 +20063,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "請自行享用餅乾。",
+      "examplesZh": [
+        "請自行享用餅乾。"
+      ]
     },
     {
       "id": "0692",
@@ -17228,7 +20090,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "那家麵包店出售美味的彩色甜甜圈。",
+      "examplesZh": [
+        "那家麵包店出售美味的彩色甜甜圈。"
+      ]
     },
     {
       "id": "0693",
@@ -17251,7 +20117,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "貝蒂知道如何製作蘋果派。",
+      "examplesZh": [
+        "貝蒂知道如何製作蘋果派。"
+      ]
     },
     {
       "id": "0694",
@@ -17274,7 +20144,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們來點爆米花吧！",
+      "examplesZh": [
+        "我們來點爆米花吧！"
+      ]
     },
     {
       "id": "0695",
@@ -17297,7 +20171,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "請給我一份巧克力冰淇淋。",
+      "examplesZh": [
+        "請給我一份巧克力冰淇淋。"
+      ]
     },
     {
       "id": "0696",
@@ -17322,6 +20200,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "當我們談論食物時我學會了“oo”這個字。",
+      "examplesZh": [
+        "當我們談論食物時我學會了“oo”這個字。"
       ]
     },
     {
@@ -17345,7 +20227,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "吃太多快餐會損害你的健康。",
+      "examplesZh": [
+        "吃太多快餐會損害你的健康。"
+      ]
     },
     {
       "id": "0698",
@@ -17368,7 +20254,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我可以在哪裡買到一些食物？",
+      "examplesZh": [
+        "我可以在哪裡買到一些食物？"
+      ]
     },
     {
       "id": "0699",
@@ -17391,7 +20281,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我喜歡在麵包上加一些奶油。",
+      "examplesZh": [
+        "我喜歡在麵包上加一些奶油。"
+      ]
     },
     {
       "id": "0700",
@@ -17414,7 +20308,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "煮飯的時候需要油。油膩的/油膩的",
+      "examplesZh": [
+        "煮飯的時候需要油。油膩的/油膩的"
+      ]
     },
     {
       "id": "0701",
@@ -17437,7 +20335,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "請在我的咖啡裡加點奶油。",
+      "examplesZh": [
+        "請在我的咖啡裡加點奶油。"
+      ]
     },
     {
       "id": "0702",
@@ -17460,7 +20362,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "您想要在咖啡中添加多少糖？",
+      "examplesZh": [
+        "您想要在咖啡中添加多少糖？"
+      ]
     },
     {
       "id": "0703",
@@ -17483,7 +20389,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在茶中加入蜂蜜會使茶變甜。",
+      "examplesZh": [
+        "在茶中加入蜂蜜會使茶變甜。"
+      ]
     },
     {
       "id": "0704",
@@ -17506,7 +20416,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "湯裡的胡椒粉太多了。對我來說太熱了！ ！辣的/辣的",
+      "examplesZh": [
+        "湯裡的胡椒粉太多了。對我來說太熱了！ ！辣的/辣的"
+      ]
     },
     {
       "id": "0705",
@@ -17529,7 +20443,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "回家路上可以買點鹽嗎？",
+      "examplesZh": [
+        "回家路上可以買點鹽嗎？"
+      ]
     },
     {
       "id": "0706",
@@ -17552,7 +20470,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這豆腐裡有醬油嗎？",
+      "examplesZh": [
+        "這豆腐裡有醬油嗎？"
+      ]
     },
     {
       "id": "0707",
@@ -17575,7 +20497,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "喝醋對胃有好處。",
+      "examplesZh": [
+        "喝醋對胃有好處。"
+      ]
     },
     {
       "id": "0708",
@@ -17598,7 +20524,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "豬肉真的很好吃！平淡無味的",
+      "examplesZh": [
+        "豬肉真的很好吃！平淡無味的"
+      ]
     },
     {
       "id": "0709",
@@ -17621,7 +20551,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學到了橄欖油這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學到了橄欖油這個詞。"
+      ]
     },
     {
       "id": "0710",
@@ -17644,7 +20578,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "那個披薩看起來很好吃！",
+      "examplesZh": [
+        "那個披薩看起來很好吃！"
+      ]
     },
     {
       "id": "0711",
@@ -17667,7 +20605,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "孩子不喜歡酸糖。",
+      "examplesZh": [
+        "孩子不喜歡酸糖。"
+      ]
     },
     {
       "id": "0712",
@@ -17690,7 +20632,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這蛋糕太甜了。",
+      "examplesZh": [
+        "這蛋糕太甜了。"
+      ]
     },
     {
       "id": "0713",
@@ -17713,7 +20659,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "如果咖啡太苦，可以加糖。",
+      "examplesZh": [
+        "如果咖啡太苦，可以加糖。"
+      ]
     },
     {
       "id": "0714",
@@ -17736,7 +20686,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學會了烹飪這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學會了烹飪這個詞。"
+      ]
     },
     {
       "id": "0715",
@@ -17759,7 +20713,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "保母把餅乾燒焦了，所以孩子哭了。烤箱很熱。請不要燒傷自己。",
+      "examplesZh": [
+        "保母把餅乾燒焦了，所以孩子哭了。烤箱很熱。請不要燒傷自己。"
+      ]
     },
     {
       "id": "0716",
@@ -17782,7 +20740,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "奶油太冷，無法塗在麵包上。",
+      "examplesZh": [
+        "奶油太冷，無法塗在麵包上。"
+      ]
     },
     {
       "id": "0717",
@@ -17805,7 +20767,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "媽媽正在鍋裡煎一些肉。",
+      "examplesZh": [
+        "媽媽正在鍋裡煎一些肉。"
+      ]
     },
     {
       "id": "0718",
@@ -17831,6 +20797,11 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "史丹利是個好廚師。",
+      "examplesZh": [
+        "史丹利是個好廚師。",
+        ""
       ]
     },
     {
@@ -17854,7 +20825,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "廚師也學會如何烤麵包。",
+      "examplesZh": [
+        "廚師也學會如何烤麵包。"
+      ]
     },
     {
       "id": "0720",
@@ -17877,7 +20852,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學會了「方式」這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學會了「方式」這個詞。"
+      ]
     },
     {
       "id": "0721",
@@ -17902,6 +20881,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "電影開始前用微波爐加熱爆米花。",
+      "examplesZh": [
+        "電影開始前用微波爐加熱爆米花。"
       ]
     },
     {
@@ -17927,6 +20910,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "curated_example",
       "qaFlags": [
         "suspect_ocr_word"
+      ],
+      "exampleZh": "請檢查 l' 的原始來源。",
+      "examplesZh": [
+        "請檢查 l' 的原始來源。"
       ]
     },
     {
@@ -17951,7 +20938,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "如果你餓了，可以把菜加熱一下。",
+      "examplesZh": [
+        "如果你餓了，可以把菜加熱一下。",
+        ""
+      ]
     },
     {
       "id": "0724",
@@ -17976,6 +20968,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "當我們談論食物時，我學會了「酷」這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學會了「酷」這個詞。"
       ]
     },
     {
@@ -18001,6 +20997,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "蒸蔬菜是一種非常健康的烹調方式。",
+      "examplesZh": [
+        "蒸蔬菜是一種非常健康的烹調方式。"
       ]
     },
     {
@@ -18024,7 +21024,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學會了「cut」這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學會了「cut」這個詞。"
+      ]
     },
     {
       "id": "0727",
@@ -18047,7 +21051,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "首先，我們需要混合麵粉和鹽。",
+      "examplesZh": [
+        "首先，我們需要混合麵粉和鹽。"
+      ]
     },
     {
       "id": "0728",
@@ -18070,7 +21078,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "水煮開後我們就可以泡茶了。沸水沸水",
+      "examplesZh": [
+        "水煮開後我們就可以泡茶了。沸水沸水"
+      ]
     },
     {
       "id": "0729",
@@ -18093,7 +21105,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "他做了正確的選擇。選擇 選擇",
+      "examplesZh": [
+        "他做了正確的選擇。選擇 選擇"
+      ]
     },
     {
       "id": "0730",
@@ -18116,7 +21132,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "請把番茄切片做沙拉。我需要兩片麵包來做三明治。",
+      "examplesZh": [
+        "請把番茄切片做沙拉。我需要兩片麵包來做三明治。"
+      ]
     },
     {
       "id": "0731",
@@ -18139,7 +21159,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學到了炊具這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學到了炊具這個詞。"
+      ]
     },
     {
       "id": "0732",
@@ -18162,7 +21186,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們還需要一碗。一碗飯 一碗飯",
+      "examplesZh": [
+        "我們還需要一碗。一碗飯 一碗飯"
+      ]
     },
     {
       "id": "0733",
@@ -18187,6 +21215,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我收集杯子。兩杯茶 兩杯茶",
+      "examplesZh": [
+        "我收集杯子。兩杯茶 兩杯茶"
       ]
     },
     {
@@ -18212,6 +21244,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "那是一塊漂亮的玻璃。 o 這些盤子由玻璃製成。三杯酒三杯酒",
+      "examplesZh": [
+        "那是一塊漂亮的玻璃。 o 這些盤子由玻璃製成。三杯酒三杯酒"
       ]
     },
     {
@@ -18237,6 +21273,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "當我們談論食物時我學會了“oo”這個字。",
+      "examplesZh": [
+        "當我們談論食物時我學會了“oo”這個字。"
       ]
     },
     {
@@ -18260,7 +21300,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學到了「三杯酒」這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學到了「三杯酒」這個詞。"
+      ]
     },
     {
       "id": "0737",
@@ -18284,7 +21328,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們可以把蔬菜放在盤子裡。",
+      "examplesZh": [
+        "我們可以把蔬菜放在盤子裡。",
+        ""
+      ]
     },
     {
       "id": "0738",
@@ -18307,7 +21356,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "他在自助餐上吃了三盤食物。",
+      "examplesZh": [
+        "他在自助餐上吃了三盤食物。"
+      ]
     },
     {
       "id": "0739",
@@ -18330,7 +21383,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "茶杯和茶碟是由藝術家繪製的。",
+      "examplesZh": [
+        "茶杯和茶碟是由藝術家繪製的。"
+      ]
     },
     {
       "id": "0740",
@@ -18353,7 +21410,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "用那把刀切肉。",
+      "examplesZh": [
+        "用那把刀切肉。"
+      ]
     },
     {
       "id": "0741",
@@ -18376,7 +21437,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們需要多少個叉子？",
+      "examplesZh": [
+        "我們需要多少個叉子？"
+      ]
     },
     {
       "id": "0742",
@@ -18399,7 +21464,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "請給我拿個湯匙好嗎？一匙鹽 一匙鹽",
+      "examplesZh": [
+        "請給我拿個湯匙好嗎？一匙鹽 一匙鹽"
+      ]
     },
     {
       "id": "0743",
@@ -18423,7 +21492,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "傑克會用筷子嗎？",
+      "examplesZh": [
+        "傑克會用筷子嗎？",
+        ""
+      ]
     },
     {
       "id": "0744",
@@ -18446,7 +21520,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我需要一張餐巾來清潔雙手。薄紙面紙",
+      "examplesZh": [
+        "我需要一張餐巾來清潔雙手。薄紙面紙"
+      ]
     },
     {
       "id": "0745",
@@ -18469,7 +21547,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "請問可以給我一根吸管來盛裝冰茶嗎？",
+      "examplesZh": [
+        "請問可以給我一根吸管來盛裝冰茶嗎？"
+      ]
     },
     {
       "id": "0746",
@@ -18492,7 +21574,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我把鍋蓋蓋在鍋子上以保持食物溫暖。這本書的封面看起來很漂亮。溫妮用手摀住了臉。",
+      "examplesZh": [
+        "我把鍋蓋蓋在鍋子上以保持食物溫暖。這本書的封面看起來很漂亮。溫妮用手摀住了臉。"
+      ]
     },
     {
       "id": "0747",
@@ -18515,7 +21601,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當我們談論食物時，我學會了“id”這個詞。",
+      "examplesZh": [
+        "當我們談論食物時，我學會了“id”這個詞。"
+      ]
     },
     {
       "id": "0748",
@@ -18538,7 +21628,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "使用鋒利的刀時要小心。鈍不鋒利的",
+      "examplesZh": [
+        "使用鋒利的刀時要小心。鈍不鋒利的"
+      ]
     },
     {
       "id": "0749",
@@ -18561,7 +21655,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "提姆今天穿了一件粉紅色的襯衫。",
+      "examplesZh": [
+        "提姆今天穿了一件粉紅色的襯衫。"
+      ]
     },
     {
       "id": "0750",
@@ -18584,7 +21682,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "T 卹對於婚禮來說不夠正式。",
+      "examplesZh": [
+        "T 卹對於婚禮來說不夠正式。"
+      ]
     },
     {
       "id": "0751",
@@ -18607,7 +21709,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "海倫穿著毛衣和牛仔褲看起來很棒。",
+      "examplesZh": [
+        "海倫穿著毛衣和牛仔褲看起來很棒。"
+      ]
     },
     {
       "id": "0752",
@@ -18631,7 +21737,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "那個女人的背心看起來很溫馨。",
+      "examplesZh": [
+        "那個女人的背心看起來很溫馨。",
+        ""
+      ]
     },
     {
       "id": "0753",
@@ -18655,7 +21766,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "curated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我周末穿牛仔褲。",
+      "examplesZh": [
+        "我周末穿牛仔褲。",
+        ""
+      ]
     },
     {
       "id": "0754",
@@ -18679,7 +21795,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你想穿短褲還是長褲？一件短褲 一件長褲",
+      "examplesZh": [
+        "你想穿短褲還是長褲？一件短褲 一件長褲",
+        ""
+      ]
     },
     {
       "id": "0755",
@@ -18703,7 +21824,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "curated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "夏天他穿短褲。",
+      "examplesZh": [
+        "夏天他穿短褲。",
+        ""
+      ]
     },
     {
       "id": "0756",
@@ -18727,7 +21853,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "吉娜的褲子和她的襯衫很相配。一條長褲",
+      "examplesZh": [
+        "吉娜的褲子和她的襯衫很相配。一條長褲",
+        ""
+      ]
     },
     {
       "id": "0757",
@@ -18750,7 +21881,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "所有銀行保安都穿著制服。",
+      "examplesZh": [
+        "所有銀行保安都穿著制服。"
+      ]
     },
     {
       "id": "0758",
@@ -18774,7 +21909,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "室內請穿拖鞋。涼鞋一雙涼鞋",
+      "examplesZh": [
+        "室內請穿拖鞋。涼鞋一雙涼鞋",
+        ""
+      ]
     },
     {
       "id": "0759",
@@ -18798,7 +21938,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "吉爾運動時穿運動鞋。",
+      "examplesZh": [
+        "吉爾運動時穿運動鞋。",
+        ""
+      ]
     },
     {
       "id": "0760",
@@ -18822,7 +21967,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "強尼今天穿白襪子。",
+      "examplesZh": [
+        "強尼今天穿白襪子。",
+        ""
+      ]
     },
     {
       "id": "0761",
@@ -18845,7 +21995,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "將票放入口袋，以免遺失。",
+      "examplesZh": [
+        "將票放入口袋，以免遺失。"
+      ]
     },
     {
       "id": "0762",
@@ -18868,7 +22022,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "為什麼這件襯衫有這麼多羈扣？",
+      "examplesZh": [
+        "為什麼這件襯衫有這麼多羈扣？"
+      ]
     },
     {
       "id": "0763",
@@ -18891,7 +22049,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "口袋和紐帶是襯衫的一部分。",
+      "examplesZh": [
+        "口袋和紐帶是襯衫的一部分。"
+      ]
     },
     {
       "id": "0764",
@@ -18914,7 +22076,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「穿戴」單元中使用「游泳帽」一詞。",
+      "examplesZh": [
+        "本課程在「穿戴」單元中使用「游泳帽」一詞。"
+      ]
     },
     {
       "id": "0765",
@@ -18939,6 +22105,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "凱莉的衣服非常漂亮。婚紗禮服",
+      "examplesZh": [
+        "凱莉的衣服非常漂亮。婚紗禮服"
       ]
     },
     {
@@ -18962,7 +22132,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "他穿著西裝看起來很帥。",
+      "examplesZh": [
+        "他穿著西裝看起來很帥。"
+      ]
     },
     {
       "id": "0767",
@@ -18985,7 +22159,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "范妮給我看了她剛買的皮帶。",
+      "examplesZh": [
+        "范妮給我看了她剛買的皮帶。"
+      ]
     },
     {
       "id": "0768",
@@ -19008,7 +22186,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "老闆戴著一條新領帶參加會議。",
+      "examplesZh": [
+        "老闆戴著一條新領帶參加會議。"
+      ]
     },
     {
       "id": "0769",
@@ -19031,7 +22213,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "睡覺時會穿什麼樣的睡衣？睡衣單複數同形",
+      "examplesZh": [
+        "睡覺時會穿什麼樣的睡衣？睡衣單複數同形"
+      ]
     },
     {
       "id": "0770",
@@ -19054,7 +22240,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "進入泳池必須戴上泳帽。丹尼總是戴著棒球帽。",
+      "examplesZh": [
+        "進入泳池必須戴上泳帽。丹尼總是戴著棒球帽。"
+      ]
     },
     {
       "id": "0771",
@@ -19077,7 +22267,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們要去海灘，所以穿上泳衣。",
+      "examplesZh": [
+        "我們要去海灘，所以穿上泳衣。"
+      ]
     },
     {
       "id": "0772",
@@ -19100,7 +22294,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這個小男孩的內褲上有三個洞。",
+      "examplesZh": [
+        "這個小男孩的內褲上有三個洞。"
+      ]
     },
     {
       "id": "0773",
@@ -19123,7 +22321,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "讓我帶一件外套給你保暖。",
+      "examplesZh": [
+        "讓我帶一件外套給你保暖。"
+      ]
     },
     {
       "id": "0774",
@@ -19146,7 +22348,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「穿著」單元中使用「jacket」一詞。",
+      "examplesZh": [
+        "本課程在「穿著」單元中使用「jacket」一詞。"
+      ]
     },
     {
       "id": "0775",
@@ -19169,7 +22375,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "如果下雨，我會穿雨衣。",
+      "examplesZh": [
+        "如果下雨，我會穿雨衣。"
+      ]
     },
     {
       "id": "0776",
@@ -19192,7 +22402,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這位時尚男士穿著一件黑色夾克。",
+      "examplesZh": [
+        "這位時尚男士穿著一件黑色夾克。"
+      ]
     },
     {
       "id": "0777",
@@ -19215,7 +22429,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "那是一件奇裝異服。花了多少錢？",
+      "examplesZh": [
+        "那是一件奇裝異服。花了多少錢？"
+      ]
     },
     {
       "id": "0778",
@@ -19239,7 +22457,12 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "媽媽，我需要新鞋。我的已經過時了。",
+      "examplesZh": [
+        "媽媽，我需要新鞋。我的已經過時了。",
+        ""
+      ]
     },
     {
       "id": "0779",
@@ -19262,7 +22485,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "她每天都穿著襯衫去上班。",
+      "examplesZh": [
+        "她每天都穿著襯衫去上班。"
+      ]
     },
     {
       "id": "0780",
@@ -19285,7 +22512,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "莎莉喜歡穿長裙。",
+      "examplesZh": [
+        "莎莉喜歡穿長裙。"
+      ]
     },
     {
       "id": "0781",
@@ -19308,7 +22539,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「附件」單元中使用「真實」一詞。",
+      "examplesZh": [
+        "本課程在「附件」單元中使用「真實」一詞。"
+      ]
     },
     {
       "id": "0782",
@@ -19331,7 +22566,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課使用附件單元中的詞袋。",
+      "examplesZh": [
+        "本課使用附件單元中的詞袋。"
+      ]
     },
     {
       "id": "0783",
@@ -19354,7 +22593,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「配件」單元中使用「錢包」一詞。",
+      "examplesZh": [
+        "本課程在「配件」單元中使用「錢包」一詞。"
+      ]
     },
     {
       "id": "0784",
@@ -19377,7 +22620,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「配件」單元中使用「錢包」一詞。",
+      "examplesZh": [
+        "本課程在「配件」單元中使用「錢包」一詞。"
+      ]
     },
     {
       "id": "0785",
@@ -19400,7 +22647,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「配件」單元中使用「傘」一詞。",
+      "examplesZh": [
+        "本課程在「配件」單元中使用「傘」一詞。"
+      ]
     },
     {
       "id": "0786",
@@ -19423,7 +22674,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「配件」單元中使用「手帕」一詞。",
+      "examplesZh": [
+        "本課程在「配件」單元中使用「手帕」一詞。"
+      ]
     },
     {
       "id": "0787",
@@ -19446,7 +22701,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「配件」單元中使用「耳環」一詞。",
+      "examplesZh": [
+        "本課程在「配件」單元中使用「耳環」一詞。"
+      ]
     },
     {
       "id": "0788",
@@ -19469,7 +22728,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「配件」單元中使用「項鍊」一詞。",
+      "examplesZh": [
+        "本課程在「配件」單元中使用「項鍊」一詞。"
+      ]
     },
     {
       "id": "0789",
@@ -19492,7 +22755,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在附件單元中使用「環」一詞。",
+      "examplesZh": [
+        "本課程在附件單元中使用「環」一詞。"
+      ]
     },
     {
       "id": "0790",
@@ -19515,7 +22782,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課使用附件單元中的“pin”一詞。",
+      "examplesZh": [
+        "本課使用附件單元中的“pin”一詞。"
+      ]
     },
     {
       "id": "0791",
@@ -19538,7 +22809,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「配件」單元中使用「眼鏡」一詞。",
+      "examplesZh": [
+        "本課程在「配件」單元中使用「眼鏡」一詞。"
+      ]
     },
     {
       "id": "0792",
@@ -19561,7 +22836,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「附件」單元中使用「隱形眼鏡」一詞。",
+      "examplesZh": [
+        "本課程在「附件」單元中使用「隱形眼鏡」一詞。"
+      ]
     },
     {
       "id": "0793",
@@ -19584,7 +22863,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「配件」單元中使用「手套」一詞。",
+      "examplesZh": [
+        "本課程在「配件」單元中使用「手套」一詞。"
+      ]
     },
     {
       "id": "0794",
@@ -19607,7 +22890,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「配件」單元中使用「圍巾」一詞。",
+      "examplesZh": [
+        "本課程在「配件」單元中使用「圍巾」一詞。"
+      ]
     },
     {
       "id": "0795",
@@ -19630,7 +22917,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在附件單元中使用帽子一詞。",
+      "examplesZh": [
+        "本課程在附件單元中使用帽子一詞。"
+      ]
     },
     {
       "id": "0796",
@@ -19653,7 +22944,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「關於衣服和配件」單元中使用「棉花」一詞。",
+      "examplesZh": [
+        "本課程在「關於衣服和配件」單元中使用「棉花」一詞。"
+      ]
     },
     {
       "id": "0797",
@@ -19676,7 +22971,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「關於服裝和配件」單元中使用「金屬」一詞。",
+      "examplesZh": [
+        "本課程在「關於服裝和配件」單元中使用「金屬」一詞。"
+      ]
     },
     {
       "id": "0798",
@@ -19701,6 +23000,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「關於衣服和配件」單元中使用「鐵」一詞。",
+      "examplesZh": [
+        "本課程在「關於衣服和配件」單元中使用「鐵」一詞。"
       ]
     },
     {
@@ -19726,6 +23029,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「關於服裝和配件」單元中使用「黃金」一詞。",
+      "examplesZh": [
+        "本課程在「關於服裝和配件」單元中使用「黃金」一詞。"
       ]
     },
     {
@@ -19749,7 +23056,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「關於服裝和配件」單元中使用「銀」一詞。",
+      "examplesZh": [
+        "本課程在「關於服裝和配件」單元中使用「銀」一詞。"
+      ]
     },
     {
       "id": "0801",
@@ -19772,7 +23083,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「關於服裝和配件」單元中使用「鑽石」一詞。",
+      "examplesZh": [
+        "本課程在「關於服裝和配件」單元中使用「鑽石」一詞。"
+      ]
     },
     {
       "id": "0802",
@@ -19795,7 +23110,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「關於衣服和配件」單元中使用「橡膠」一詞。",
+      "examplesZh": [
+        "本課程在「關於衣服和配件」單元中使用「橡膠」一詞。"
+      ]
     },
     {
       "id": "0803",
@@ -19818,7 +23137,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用“關於服裝和配件”單元中的“item”一詞。",
+      "examplesZh": [
+        "本課程使用“關於服裝和配件”單元中的“item”一詞。"
+      ]
     },
     {
       "id": "0804",
@@ -19841,7 +23164,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「關於衣服和配件」單元中使用「梳子」一詞。",
+      "examplesZh": [
+        "本課程在「關於衣服和配件」單元中使用「梳子」一詞。"
+      ]
     },
     {
       "id": "0805",
@@ -19864,7 +23191,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用“關於衣服和配件”單元中的單字字串。",
+      "examplesZh": [
+        "本課程使用“關於衣服和配件”單元中的單字字串。"
+      ]
     },
     {
       "id": "0806",
@@ -19887,7 +23218,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「關於服裝和配件」單元中使用「COO」一詞。",
+      "examplesZh": [
+        "本課程在「關於服裝和配件」單元中使用「COO」一詞。"
+      ]
     },
     {
       "id": "0807",
@@ -19910,7 +23245,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「關於衣服和配件」單元中使用「磨損」一詞。",
+      "examplesZh": [
+        "本課程在「關於衣服和配件」單元中使用「磨損」一詞。"
+      ]
     },
     {
       "id": "0808",
@@ -19935,6 +23274,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "凱莉的衣服非常漂亮。婚紗禮服",
+      "examplesZh": [
+        "凱莉的衣服非常漂亮。婚紗禮服"
       ]
     },
     {
@@ -19958,7 +23301,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用「關於衣服和配件」單元中的「put on」一詞。",
+      "examplesZh": [
+        "本課程使用「關於衣服和配件」單元中的「put on」一詞。"
+      ]
     },
     {
       "id": "0810",
@@ -19981,7 +23328,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「關於服裝和配件」單元中使用「take off」一詞。",
+      "examplesZh": [
+        "本課程在「關於服裝和配件」單元中使用「take off」一詞。"
+      ]
     },
     {
       "id": "0811",
@@ -20004,7 +23355,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「關於衣服和配件」單元中使用「試穿」一詞。",
+      "examplesZh": [
+        "本課程在「關於衣服和配件」單元中使用「試穿」一詞。"
+      ]
     },
     {
       "id": "0812",
@@ -20027,7 +23382,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用「關於衣服和配件」單元中的單字「match」。",
+      "examplesZh": [
+        "本課程使用「關於衣服和配件」單元中的單字「match」。"
+      ]
     },
     {
       "id": "0813",
@@ -20050,7 +23409,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「關於衣服和配件」單元中使用「合身」一詞。",
+      "examplesZh": [
+        "本課程在「關於衣服和配件」單元中使用「合身」一詞。"
+      ]
     },
     {
       "id": "0814",
@@ -20073,7 +23436,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「顏色」單元中使用「顏色」一詞。",
+      "examplesZh": [
+        "本課程在「顏色」單元中使用「顏色」一詞。"
+      ]
     },
     {
       "id": "0815",
@@ -20096,7 +23463,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在「顏色」單元中使用「豐富多彩」這個詞。",
+      "examplesZh": [
+        "本課在「顏色」單元中使用「豐富多彩」這個詞。"
+      ]
     },
     {
       "id": "0816",
@@ -20119,7 +23490,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「顏色」單元中使用「白色」一詞。",
+      "examplesZh": [
+        "本課程在「顏色」單元中使用「白色」一詞。"
+      ]
     },
     {
       "id": "0817",
@@ -20142,7 +23517,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「顏色」單元中使用「黑色」一詞。",
+      "examplesZh": [
+        "本課程在「顏色」單元中使用「黑色」一詞。"
+      ]
     },
     {
       "id": "0818",
@@ -20165,7 +23544,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「顏色」單元中使用「灰色」一詞。",
+      "examplesZh": [
+        "本課程在「顏色」單元中使用「灰色」一詞。"
+      ]
     },
     {
       "id": "0819",
@@ -20188,7 +23571,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“顏色”單元中使用“棕色”一詞。",
+      "examplesZh": [
+        "本課程在“顏色”單元中使用“棕色”一詞。"
+      ]
     },
     {
       "id": "0820",
@@ -20211,7 +23598,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「顏色」單元中使用「紅色」一詞。",
+      "examplesZh": [
+        "本課程在「顏色」單元中使用「紅色」一詞。"
+      ]
     },
     {
       "id": "0821",
@@ -20234,7 +23625,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「顏色」單元中使用「粉紅色」一詞。",
+      "examplesZh": [
+        "本課程在「顏色」單元中使用「粉紅色」一詞。"
+      ]
     },
     {
       "id": "0822",
@@ -20259,6 +23654,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "爸爸買了一盒橘子。",
+      "examplesZh": [
+        "爸爸買了一盒橘子。"
       ]
     },
     {
@@ -20282,7 +23681,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「顏色」單元中使用「黃色」一詞。",
+      "examplesZh": [
+        "本課程在「顏色」單元中使用「黃色」一詞。"
+      ]
     },
     {
       "id": "0824",
@@ -20307,6 +23710,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「顏色」單元中使用「金色」一詞。",
+      "examplesZh": [
+        "本課程在「顏色」單元中使用「金色」一詞。"
       ]
     },
     {
@@ -20330,7 +23737,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「顏色」單元中使用「金色」一詞。",
+      "examplesZh": [
+        "本課程在「顏色」單元中使用「金色」一詞。"
+      ]
     },
     {
       "id": "0826",
@@ -20353,7 +23764,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「顏色」單元中使用「綠色」一詞。",
+      "examplesZh": [
+        "本課程在「顏色」單元中使用「綠色」一詞。"
+      ]
     },
     {
       "id": "0827",
@@ -20376,7 +23791,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「顏色」單元中使用「藍色」一詞。",
+      "examplesZh": [
+        "本課程在「顏色」單元中使用「藍色」一詞。"
+      ]
     },
     {
       "id": "0828",
@@ -20399,7 +23818,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「顏色」單元中使用「紫色」一詞。",
+      "examplesZh": [
+        "本課程在「顏色」單元中使用「紫色」一詞。"
+      ]
     },
     {
       "id": "0829",
@@ -20424,6 +23847,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「顏色」單元中使用「plain」一詞。",
+      "examplesZh": [
+        "本課程在「顏色」單元中使用「plain」一詞。"
       ]
     },
     {
@@ -20447,7 +23874,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了棒球。",
+      "examplesZh": [
+        "我們在體育課上討論了棒球。"
+      ]
     },
     {
       "id": "0831",
@@ -20472,6 +23903,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我們在體育課上談到了物件導向。",
+      "examplesZh": [
+        "我們在體育課上談到了物件導向。"
       ]
     },
     {
@@ -20497,6 +23932,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我們在體育課上討論了蝙蝠。",
+      "examplesZh": [
+        "我們在體育課上討論了蝙蝠。"
       ]
     },
     {
@@ -20520,7 +23959,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了壘球。",
+      "examplesZh": [
+        "我們在體育課上討論了壘球。"
+      ]
     },
     {
       "id": "0834",
@@ -20543,7 +23986,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了二氧化碳。",
+      "examplesZh": [
+        "我們在體育課上討論了二氧化碳。"
+      ]
     },
     {
       "id": "0835",
@@ -20566,7 +24013,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了籃球。",
+      "examplesZh": [
+        "我們在體育課上討論了籃球。"
+      ]
     },
     {
       "id": "0836",
@@ -20589,7 +24040,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了排球。",
+      "examplesZh": [
+        "我們在體育課上討論了排球。"
+      ]
     },
     {
       "id": "0837",
@@ -20612,7 +24067,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了躲避球。",
+      "examplesZh": [
+        "我們在體育課上討論了躲避球。"
+      ]
     },
     {
       "id": "0838",
@@ -20635,7 +24094,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了足球。",
+      "examplesZh": [
+        "我們在體育課上討論了足球。"
+      ]
     },
     {
       "id": "0839",
@@ -20658,7 +24121,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了足球。",
+      "examplesZh": [
+        "我們在體育課上討論了足球。"
+      ]
     },
     {
       "id": "0840",
@@ -20681,7 +24148,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了高爾夫。",
+      "examplesZh": [
+        "我們在體育課上討論了高爾夫。"
+      ]
     },
     {
       "id": "0841",
@@ -20704,7 +24175,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了乒乓球。",
+      "examplesZh": [
+        "我們在體育課上討論了乒乓球。"
+      ]
     },
     {
       "id": "0842",
@@ -20727,7 +24202,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了網球。",
+      "examplesZh": [
+        "我們在體育課上討論了網球。"
+      ]
     },
     {
       "id": "0843",
@@ -20750,7 +24229,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了保齡球。",
+      "examplesZh": [
+        "我們在體育課上討論了保齡球。"
+      ]
     },
     {
       "id": "0844",
@@ -20773,7 +24256,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了翻滾的問題。",
+      "examplesZh": [
+        "我們在體育課上討論了翻滾的問題。"
+      ]
     },
     {
       "id": "0845",
@@ -20796,7 +24283,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論了樂趣。",
+      "examplesZh": [
+        "我們在體育課上談論了樂趣。"
+      ]
     },
     {
       "id": "0846",
@@ -20819,7 +24310,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們討論了體育課的事件。",
+      "examplesZh": [
+        "我們討論了體育課的事件。"
+      ]
     },
     {
       "id": "0847",
@@ -20842,7 +24337,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了本壘打。",
+      "examplesZh": [
+        "我們在體育課上討論了本壘打。"
+      ]
     },
     {
       "id": "0848",
@@ -20865,7 +24364,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了羽球。",
+      "examplesZh": [
+        "我們在體育課上討論了羽球。"
+      ]
     },
     {
       "id": "0849",
@@ -20888,7 +24391,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了球。",
+      "examplesZh": [
+        "我們在體育課上討論了球。"
+      ]
     },
     {
       "id": "0850",
@@ -20911,7 +24418,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了飛盤。",
+      "examplesZh": [
+        "我們在體育課上討論了飛盤。"
+      ]
     },
     {
       "id": "0851",
@@ -20934,7 +24445,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論過山裡的事情。",
+      "examplesZh": [
+        "我們在體育課上談論過山裡的事情。"
+      ]
     },
     {
       "id": "0852",
@@ -20957,7 +24472,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論過。",
+      "examplesZh": [
+        "我們在體育課上討論過。"
+      ]
     },
     {
       "id": "0853",
@@ -20980,7 +24499,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了比賽。",
+      "examplesZh": [
+        "我們在體育課上討論了比賽。"
+      ]
     },
     {
       "id": "0854",
@@ -21003,7 +24526,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談到了徒步旅行。",
+      "examplesZh": [
+        "我們在體育課上談到了徒步旅行。"
+      ]
     },
     {
       "id": "0855",
@@ -21026,7 +24553,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了攀爬。",
+      "examplesZh": [
+        "我們在體育課上討論了攀爬。"
+      ]
     },
     {
       "id": "0856",
@@ -21049,7 +24580,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談到了露營。",
+      "examplesZh": [
+        "我們在體育課上談到了露營。"
+      ]
     },
     {
       "id": "0857",
@@ -21072,7 +24607,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談到了帳篷。",
+      "examplesZh": [
+        "我們在體育課上談到了帳篷。"
+      ]
     },
     {
       "id": "0858",
@@ -21095,7 +24634,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了野餐。",
+      "examplesZh": [
+        "我們在體育課上討論了野餐。"
+      ]
     },
     {
       "id": "0859",
@@ -21118,7 +24661,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談到了慢跑。",
+      "examplesZh": [
+        "我們在體育課上談到了慢跑。"
+      ]
     },
     {
       "id": "0860",
@@ -21141,7 +24688,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了跑步。",
+      "examplesZh": [
+        "我們在體育課上討論了跑步。"
+      ]
     },
     {
       "id": "0861",
@@ -21164,7 +24715,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了游泳。",
+      "examplesZh": [
+        "我們在體育課上討論了游泳。"
+      ]
     },
     {
       "id": "0862",
@@ -21189,6 +24744,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "魚真的很好吃！金魚 金魚;魚/魚 複數形",
+      "examplesZh": [
+        "魚真的很好吃！金魚 金魚;魚/魚 複數形"
       ]
     },
     {
@@ -21214,6 +24773,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我們在體育課上談論了帆船。",
+      "examplesZh": [
+        "我們在體育課上談論了帆船。"
       ]
     },
     {
@@ -21239,6 +24802,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我們在體育課上討論了衝浪。",
+      "examplesZh": [
+        "我們在體育課上討論了衝浪。"
       ]
     },
     {
@@ -21262,7 +24829,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了輪滑。",
+      "examplesZh": [
+        "我們在體育課上討論了輪滑。"
+      ]
     },
     {
       "id": "0866",
@@ -21285,7 +24856,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了滑冰。",
+      "examplesZh": [
+        "我們在體育課上討論了滑冰。"
+      ]
     },
     {
       "id": "0867",
@@ -21308,7 +24883,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了滑雪。",
+      "examplesZh": [
+        "我們在體育課上討論了滑雪。"
+      ]
     },
     {
       "id": "0868",
@@ -21331,7 +24910,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論了外國語。",
+      "examplesZh": [
+        "我們在體育課上談論了外國語。"
+      ]
     },
     {
       "id": "0869",
@@ -21354,7 +24937,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論了外國人。",
+      "examplesZh": [
+        "我們在體育課上談論了外國人。"
+      ]
     },
     {
       "id": "0870",
@@ -21377,7 +24964,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論了不起。",
+      "examplesZh": [
+        "我們在體育課上談論了不起。"
+      ]
     },
     {
       "id": "0871",
@@ -21400,7 +24991,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了文化。",
+      "examplesZh": [
+        "我們在體育課上討論了文化。"
+      ]
     },
     {
       "id": "0872",
@@ -21423,7 +25018,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了風俗。",
+      "examplesZh": [
+        "我們在體育課上討論了風俗。"
+      ]
     },
     {
       "id": "0873",
@@ -21446,7 +25045,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論了名人。",
+      "examplesZh": [
+        "我們在體育課上談論了名人。"
+      ]
     },
     {
       "id": "0874",
@@ -21469,7 +25072,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談到了塔。",
+      "examplesZh": [
+        "我們在體育課上談到了塔。"
+      ]
     },
     {
       "id": "0875",
@@ -21492,7 +25099,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論了教會。",
+      "examplesZh": [
+        "我們在體育課上談論了教會。"
+      ]
     },
     {
       "id": "0876",
@@ -21515,7 +25126,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論了牧師。",
+      "examplesZh": [
+        "我們在體育課上談論了牧師。"
+      ]
     },
     {
       "id": "0877",
@@ -21538,7 +25153,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論了寺廟。",
+      "examplesZh": [
+        "我們在體育課上談論了寺廟。"
+      ]
     },
     {
       "id": "0878",
@@ -21561,7 +25180,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論了當地。",
+      "examplesZh": [
+        "我們在體育課上談論了當地。"
+      ]
     },
     {
       "id": "0879",
@@ -21586,6 +25209,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我們在體育課上談到了準備。",
+      "examplesZh": [
+        "我們在體育課上談到了準備。"
       ]
     },
     {
@@ -21609,7 +25236,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了計劃。",
+      "examplesZh": [
+        "我們在體育課上討論了計劃。"
+      ]
     },
     {
       "id": "0881",
@@ -21634,6 +25265,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我們在體育課上談到了背包。",
+      "examplesZh": [
+        "我們在體育課上談到了背包。"
       ]
     },
     {
@@ -21657,7 +25292,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論了令人興奮的事情。",
+      "examplesZh": [
+        "我們在體育課上談論了令人興奮的事情。"
+      ]
     },
     {
       "id": "0883",
@@ -21680,7 +25319,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論了有趣的事情。",
+      "examplesZh": [
+        "我們在體育課上談論了有趣的事情。"
+      ]
     },
     {
       "id": "0884",
@@ -21703,7 +25346,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了旅行。",
+      "examplesZh": [
+        "我們在體育課上討論了旅行。"
+      ]
     },
     {
       "id": "0885",
@@ -21726,7 +25373,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論了旅行。",
+      "examplesZh": [
+        "我們在體育課上談論了旅行。"
+      ]
     },
     {
       "id": "0886",
@@ -21749,7 +25400,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們談論了對體育課的興趣。",
+      "examplesZh": [
+        "我們談論了對體育課的興趣。"
+      ]
     },
     {
       "id": "0887",
@@ -21772,7 +25427,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了嗜好。",
+      "examplesZh": [
+        "我們在體育課上討論了嗜好。"
+      ]
     },
     {
       "id": "0888",
@@ -21795,7 +25454,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論了俱樂部。",
+      "examplesZh": [
+        "我們在體育課上談論了俱樂部。"
+      ]
     },
     {
       "id": "0889",
@@ -21818,7 +25481,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了藝術。",
+      "examplesZh": [
+        "我們在體育課上討論了藝術。"
+      ]
     },
     {
       "id": "0890",
@@ -21841,7 +25508,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了相機。",
+      "examplesZh": [
+        "我們在體育課上討論了相機。"
+      ]
     },
     {
       "id": "0891",
@@ -21864,7 +25535,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了歌曲。",
+      "examplesZh": [
+        "我們在體育課上討論了歌曲。"
+      ]
     },
     {
       "id": "0892",
@@ -21887,7 +25562,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們討論過在體育課上加入舞蹈俱樂部。",
+      "examplesZh": [
+        "我們討論過在體育課上加入舞蹈俱樂部。"
+      ]
     },
     {
       "id": "0893",
@@ -21910,7 +25589,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們討論了體育課上唱歌的問題。",
+      "examplesZh": [
+        "我們討論了體育課上唱歌的問題。"
+      ]
     },
     {
       "id": "0894",
@@ -21933,7 +25616,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了郵票。",
+      "examplesZh": [
+        "我們在體育課上討論了郵票。"
+      ]
     },
     {
       "id": "0895",
@@ -21956,7 +25643,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了收集。",
+      "examplesZh": [
+        "我們在體育課上討論了收集。"
+      ]
     },
     {
       "id": "0896",
@@ -21979,7 +25670,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了卡通。",
+      "examplesZh": [
+        "我們在體育課上討論了卡通。"
+      ]
     },
     {
       "id": "0897",
@@ -22002,7 +25697,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了漫畫。",
+      "examplesZh": [
+        "我們在體育課上討論了漫畫。"
+      ]
     },
     {
       "id": "0898",
@@ -22025,7 +25724,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了電影。",
+      "examplesZh": [
+        "我們在體育課上討論了電影。"
+      ]
     },
     {
       "id": "0899",
@@ -22048,7 +25751,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了戲劇。",
+      "examplesZh": [
+        "我們在體育課上討論了戲劇。"
+      ]
     },
     {
       "id": "0900",
@@ -22071,7 +25778,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了照片。",
+      "examplesZh": [
+        "我們在體育課上討論了照片。"
+      ]
     },
     {
       "id": "0901",
@@ -22094,7 +25805,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談雜誌。",
+      "examplesZh": [
+        "我們在體育課上談雜誌。"
+      ]
     },
     {
       "id": "0902",
@@ -22117,7 +25832,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了舞蹈。",
+      "examplesZh": [
+        "我們在體育課上討論了舞蹈。"
+      ]
     },
     {
       "id": "0903",
@@ -22140,7 +25859,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了平局。",
+      "examplesZh": [
+        "我們在體育課上討論了平局。"
+      ]
     },
     {
       "id": "0904",
@@ -22165,6 +25888,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "惠特尼唱歌很好聽。",
+      "examplesZh": [
+        "惠特尼唱歌很好聽。"
       ]
     },
     {
@@ -22188,7 +25915,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了音樂。",
+      "examplesZh": [
+        "我們在體育課上討論了音樂。"
+      ]
     },
     {
       "id": "0906",
@@ -22211,7 +25942,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了爵士樂。",
+      "examplesZh": [
+        "我們在體育課上討論了爵士樂。"
+      ]
     },
     {
       "id": "0907",
@@ -22234,7 +25969,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了流行音樂。",
+      "examplesZh": [
+        "我們在體育課上討論了流行音樂。"
+      ]
     },
     {
       "id": "0908",
@@ -22259,6 +25998,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我們在體育課上談論搖滾。",
+      "examplesZh": [
+        "我們在體育課上談論搖滾。"
       ]
     },
     {
@@ -22282,7 +26025,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論古典。",
+      "examplesZh": [
+        "我們在體育課上談論古典。"
+      ]
     },
     {
       "id": "0910",
@@ -22305,7 +26052,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了小提琴。",
+      "examplesZh": [
+        "我們在體育課上討論了小提琴。"
+      ]
     },
     {
       "id": "0911",
@@ -22328,7 +26079,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了樂團。",
+      "examplesZh": [
+        "我們在體育課上討論了樂團。"
+      ]
     },
     {
       "id": "0912",
@@ -22351,7 +26106,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了專輯。",
+      "examplesZh": [
+        "我們在體育課上討論了專輯。"
+      ]
     },
     {
       "id": "0913",
@@ -22374,7 +26133,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了樂器。",
+      "examplesZh": [
+        "我們在體育課上討論了樂器。"
+      ]
     },
     {
       "id": "0914",
@@ -22397,7 +26160,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了鋼琴。",
+      "examplesZh": [
+        "我們在體育課上討論了鋼琴。"
+      ]
     },
     {
       "id": "0915",
@@ -22420,7 +26187,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了吉他。",
+      "examplesZh": [
+        "我們在體育課上討論了吉他。"
+      ]
     },
     {
       "id": "0916",
@@ -22443,7 +26214,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了鼓。",
+      "examplesZh": [
+        "我們在體育課上討論了鼓。"
+      ]
     },
     {
       "id": "0917",
@@ -22466,7 +26241,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了小號。",
+      "examplesZh": [
+        "我們在體育課上討論了小號。"
+      ]
     },
     {
       "id": "0918",
@@ -22489,7 +26268,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論了長笛。",
+      "examplesZh": [
+        "我們在體育課上談論了長笛。"
+      ]
     },
     {
       "id": "0919",
@@ -22514,6 +26297,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我們在體育課上談論了粉絲。",
+      "examplesZh": [
+        "我們在體育課上談論了粉絲。"
       ]
     },
     {
@@ -22537,7 +26324,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了暫停。",
+      "examplesZh": [
+        "我們在體育課上討論了暫停。"
+      ]
     },
     {
       "id": "0921",
@@ -22560,7 +26351,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論過卡帶。",
+      "examplesZh": [
+        "我們在體育課上討論過卡帶。"
+      ]
     },
     {
       "id": "0922",
@@ -22583,7 +26378,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談到了錄音機。",
+      "examplesZh": [
+        "我們在體育課上談到了錄音機。"
+      ]
     },
     {
       "id": "0923",
@@ -22606,7 +26405,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了西洋棋。",
+      "examplesZh": [
+        "我們在體育課上討論了西洋棋。"
+      ]
     },
     {
       "id": "0924",
@@ -22629,7 +26432,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了卡片。",
+      "examplesZh": [
+        "我們在體育課上討論了卡片。"
+      ]
     },
     {
       "id": "0925",
@@ -22652,7 +26459,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了撲克牌。",
+      "examplesZh": [
+        "我們在體育課上討論了撲克牌。"
+      ]
     },
     {
       "id": "0926",
@@ -22675,7 +26486,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了遊戲。",
+      "examplesZh": [
+        "我們在體育課上討論了遊戲。"
+      ]
     },
     {
       "id": "0927",
@@ -22698,7 +26513,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了機器人。",
+      "examplesZh": [
+        "我們在體育課上討論了機器人。"
+      ]
     },
     {
       "id": "0928",
@@ -22721,7 +26540,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了玩具。",
+      "examplesZh": [
+        "我們在體育課上討論了玩具。"
+      ]
     },
     {
       "id": "0929",
@@ -22744,7 +26567,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了洋娃娃。",
+      "examplesZh": [
+        "我們在體育課上討論了洋娃娃。"
+      ]
     },
     {
       "id": "0930",
@@ -22769,6 +26596,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我們在體育課上討論了解決問題。",
+      "examplesZh": [
+        "我們在體育課上討論了解決問題。"
       ]
     },
     {
@@ -22792,7 +26623,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了拼圖。",
+      "examplesZh": [
+        "我們在體育課上討論了拼圖。"
+      ]
     },
     {
       "id": "0932",
@@ -22815,7 +26650,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了風箏。",
+      "examplesZh": [
+        "我們在體育課上討論了風箏。"
+      ]
     },
     {
       "id": "0933",
@@ -22838,7 +26677,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上講笑話。",
+      "examplesZh": [
+        "我們在體育課上講笑話。"
+      ]
     },
     {
       "id": "0934",
@@ -22861,7 +26704,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了氣球。",
+      "examplesZh": [
+        "我們在體育課上討論了氣球。"
+      ]
     },
     {
       "id": "0935",
@@ -22884,7 +26731,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了團隊。",
+      "examplesZh": [
+        "我們在體育課上討論了團隊。"
+      ]
     },
     {
       "id": "0936",
@@ -22907,7 +26758,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了比賽。",
+      "examplesZh": [
+        "我們在體育課上討論了比賽。"
+      ]
     },
     {
       "id": "0937",
@@ -22930,7 +26785,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論了勝利。",
+      "examplesZh": [
+        "我們在體育課上談論了勝利。"
+      ]
     },
     {
       "id": "0938",
@@ -22953,7 +26812,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了ose。",
+      "examplesZh": [
+        "我們在體育課上討論了ose。"
+      ]
     },
     {
       "id": "0939",
@@ -22976,7 +26839,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們談論了體育課上的獲勝者。",
+      "examplesZh": [
+        "我們談論了體育課上的獲勝者。"
+      ]
     },
     {
       "id": "0940",
@@ -22999,7 +26866,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論失敗者。",
+      "examplesZh": [
+        "我們在體育課上談論失敗者。"
+      ]
     },
     {
       "id": "0941",
@@ -23022,7 +26893,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們討論了在體育課上清理他/她的廢物。",
+      "examplesZh": [
+        "我們討論了在體育課上清理他/她的廢物。"
+      ]
     },
     {
       "id": "0942",
@@ -23045,7 +26920,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談到了加薪。",
+      "examplesZh": [
+        "我們在體育課上談到了加薪。"
+      ]
     },
     {
       "id": "0943",
@@ -23068,7 +26947,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論了承諾。",
+      "examplesZh": [
+        "我們在體育課上談論了承諾。"
+      ]
     },
     {
       "id": "0944",
@@ -23091,7 +26974,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們談了體育課的歸屬。",
+      "examplesZh": [
+        "我們談了體育課的歸屬。"
+      ]
     },
     {
       "id": "0945",
@@ -23114,7 +27001,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談到了飼料。",
+      "examplesZh": [
+        "我們在體育課上談到了飼料。"
+      ]
     },
     {
       "id": "0946",
@@ -23137,7 +27028,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們討論了體育課上的建構。",
+      "examplesZh": [
+        "我們討論了體育課上的建構。"
+      ]
     },
     {
       "id": "0947",
@@ -23160,7 +27055,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論了精彩的事情。",
+      "examplesZh": [
+        "我們在體育課上談論了精彩的事情。"
+      ]
     },
     {
       "id": "0948",
@@ -23183,7 +27082,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論了籠子。",
+      "examplesZh": [
+        "我們在體育課上談論了籠子。"
+      ]
     },
     {
       "id": "0949",
@@ -23206,7 +27109,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上談論了跳躍。",
+      "examplesZh": [
+        "我們在體育課上談論了跳躍。"
+      ]
     },
     {
       "id": "0950",
@@ -23229,7 +27136,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了跳躍。",
+      "examplesZh": [
+        "我們在體育課上討論了跳躍。"
+      ]
     },
     {
       "id": "0951",
@@ -23252,7 +27163,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了物件。",
+      "examplesZh": [
+        "我們在體育課上討論了物件。"
+      ]
     },
     {
       "id": "0952",
@@ -23275,7 +27190,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了浪費問題。",
+      "examplesZh": [
+        "我們在體育課上討論了浪費問題。"
+      ]
     },
     {
       "id": "0953",
@@ -23298,7 +27217,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了骯髒的話題。",
+      "examplesZh": [
+        "我們在體育課上討論了骯髒的話題。"
+      ]
     },
     {
       "id": "0954",
@@ -23321,7 +27244,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了動作。",
+      "examplesZh": [
+        "我們在體育課上討論了動作。"
+      ]
     },
     {
       "id": "0955",
@@ -23346,6 +27273,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我們在體育課上談論了打擊。",
+      "examplesZh": [
+        "我們在體育課上談論了打擊。"
       ]
     },
     {
@@ -23369,7 +27300,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了動作動詞。",
+      "examplesZh": [
+        "我們在體育課上討論了動作動詞。"
+      ]
     },
     {
       "id": "0957",
@@ -23392,7 +27327,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了一個盒子。",
+      "examplesZh": [
+        "我們在體育課上討論了一個盒子。"
+      ]
     },
     {
       "id": "0958",
@@ -23415,7 +27354,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了舉重。",
+      "examplesZh": [
+        "我們在體育課上討論了舉重。"
+      ]
     },
     {
       "id": "0959",
@@ -23438,7 +27381,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了敲門的問題。",
+      "examplesZh": [
+        "我們在體育課上討論了敲門的問題。"
+      ]
     },
     {
       "id": "0960",
@@ -23461,7 +27408,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了罷工。",
+      "examplesZh": [
+        "我們在體育課上討論了罷工。"
+      ]
     },
     {
       "id": "0961",
@@ -23484,7 +27435,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了節拍。",
+      "examplesZh": [
+        "我們在體育課上討論了節拍。"
+      ]
     },
     {
       "id": "0962",
@@ -23507,7 +27462,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了鼓掌。",
+      "examplesZh": [
+        "我們在體育課上討論了鼓掌。"
+      ]
     },
     {
       "id": "0963",
@@ -23530,7 +27489,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了摩擦。",
+      "examplesZh": [
+        "我們在體育課上討論了摩擦。"
+      ]
     },
     {
       "id": "0964",
@@ -23553,7 +27516,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了挖掘。",
+      "examplesZh": [
+        "我們在體育課上討論了挖掘。"
+      ]
     },
     {
       "id": "0965",
@@ -23576,7 +27543,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們討論了體育課的投擲。",
+      "examplesZh": [
+        "我們討論了體育課的投擲。"
+      ]
     },
     {
       "id": "0966",
@@ -23599,7 +27570,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們討論了體育課退學的事。",
+      "examplesZh": [
+        "我們討論了體育課退學的事。"
+      ]
     },
     {
       "id": "0967",
@@ -23622,7 +27597,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了踢腿的問題。",
+      "examplesZh": [
+        "我們在體育課上討論了踢腿的問題。"
+      ]
     },
     {
       "id": "0968",
@@ -23645,7 +27624,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在體育課上討論了步行。",
+      "examplesZh": [
+        "我們在體育課上討論了步行。"
+      ]
     },
     {
       "id": "0969",
@@ -23668,7 +27651,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用「獲取資訊」單元中的「資訊」一詞。",
+      "examplesZh": [
+        "本課程使用「獲取資訊」單元中的「資訊」一詞。"
+      ]
     },
     {
       "id": "0970",
@@ -23691,7 +27678,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「獲取資訊」單元中使用「一則資訊」一詞。",
+      "examplesZh": [
+        "本課程在「獲取資訊」單元中使用「一則資訊」一詞。"
+      ]
     },
     {
       "id": "0971",
@@ -23714,7 +27705,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在獲取資訊單元中使用報紙一詞。",
+      "examplesZh": [
+        "本課程在獲取資訊單元中使用報紙一詞。"
+      ]
     },
     {
       "id": "0972",
@@ -23737,7 +27732,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「獲取資訊」單元中使用「新聞」一詞。",
+      "examplesZh": [
+        "本課程在「獲取資訊」單元中使用「新聞」一詞。"
+      ]
     },
     {
       "id": "0973",
@@ -23760,7 +27759,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用「獲取資訊」單元中的「訊息」一詞。",
+      "examplesZh": [
+        "本課程使用「獲取資訊」單元中的「訊息」一詞。"
+      ]
     },
     {
       "id": "0974",
@@ -23783,7 +27786,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「獲取資訊」單元中使用「想法」一詞。",
+      "examplesZh": [
+        "本課程在「獲取資訊」單元中使用「想法」一詞。"
+      ]
     },
     {
       "id": "0975",
@@ -23806,7 +27813,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「獲取資訊」單元中使用「觀點」一詞。",
+      "examplesZh": [
+        "本課程在「獲取資訊」單元中使用「觀點」一詞。"
+      ]
     },
     {
       "id": "0976",
@@ -23829,7 +27840,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「獲取資訊」單元中使用「電子郵件」一詞。",
+      "examplesZh": [
+        "本課程在「獲取資訊」單元中使用「電子郵件」一詞。"
+      ]
     },
     {
       "id": "0977",
@@ -23852,7 +27867,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用「獲取資訊」單元中的單字檔案。",
+      "examplesZh": [
+        "本課程使用「獲取資訊」單元中的單字檔案。"
+      ]
     },
     {
       "id": "0978",
@@ -23875,7 +27894,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用「獲取資訊」單元中的「呼叫」一詞。",
+      "examplesZh": [
+        "本課程使用「獲取資訊」單元中的「呼叫」一詞。"
+      ]
     },
     {
       "id": "0979",
@@ -23898,7 +27921,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課使用獲取資訊單元中的單字 dial。",
+      "examplesZh": [
+        "本課使用獲取資訊單元中的單字 dial。"
+      ]
     },
     {
       "id": "0980",
@@ -23921,7 +27948,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「獲取資訊」單元中使用「廣播」一詞。",
+      "examplesZh": [
+        "本課程在「獲取資訊」單元中使用「廣播」一詞。"
+      ]
     },
     {
       "id": "0981",
@@ -23944,7 +27975,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用「獲取資訊」單元中的「通道」一詞。",
+      "examplesZh": [
+        "本課程使用「獲取資訊」單元中的「通道」一詞。"
+      ]
     },
     {
       "id": "0982",
@@ -23967,7 +28002,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用「獲取資訊」單元中的「程序」一詞。",
+      "examplesZh": [
+        "本課程使用「獲取資訊」單元中的「程序」一詞。"
+      ]
     },
     {
       "id": "0983",
@@ -23990,7 +28029,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用單元「互聯網」中的「連結」一詞。",
+      "examplesZh": [
+        "本課程使用單元「互聯網」中的「連結」一詞。"
+      ]
     },
     {
       "id": "0984",
@@ -24013,7 +28056,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用單元「互聯網」中的「機器」一詞。",
+      "examplesZh": [
+        "本課程使用單元「互聯網」中的「機器」一詞。"
+      ]
     },
     {
       "id": "0985",
@@ -24036,7 +28083,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在單元「互聯網」中使用「手機」一詞。",
+      "examplesZh": [
+        "本課程在單元「互聯網」中使用「手機」一詞。"
+      ]
     },
     {
       "id": "0986",
@@ -24061,6 +28112,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「互聯網」單元中使用「電腦」一詞。",
+      "examplesZh": [
+        "本課程在「互聯網」單元中使用「電腦」一詞。"
       ]
     },
     {
@@ -24084,7 +28139,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在單元「網際網路」中使用「傳送」一詞。",
+      "examplesZh": [
+        "本課程在單元「網際網路」中使用「傳送」一詞。"
+      ]
     },
     {
       "id": "0988",
@@ -24107,7 +28166,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在單元「網際網路」中使用「接收」一詞。",
+      "examplesZh": [
+        "本課程在單元「網際網路」中使用「接收」一詞。"
+      ]
     },
     {
       "id": "0989",
@@ -24130,7 +28193,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在單元「網際網路」中使用「下載」一詞。",
+      "examplesZh": [
+        "本課程在單元「網際網路」中使用「下載」一詞。"
+      ]
     },
     {
       "id": "0990",
@@ -24153,7 +28220,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「互聯網」單元中使用「make」一詞。",
+      "examplesZh": [
+        "本課程在「互聯網」單元中使用「make」一詞。"
+      ]
     },
     {
       "id": "0991",
@@ -24176,7 +28247,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用單元「互聯網」中的「談話」一詞。",
+      "examplesZh": [
+        "本課程使用單元「互聯網」中的「談話」一詞。"
+      ]
     },
     {
       "id": "0992",
@@ -24199,7 +28274,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在單元「互聯網」中使用「共享」一詞。",
+      "examplesZh": [
+        "本課程在單元「互聯網」中使用「共享」一詞。"
+      ]
     },
     {
       "id": "0993",
@@ -24222,7 +28301,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用單元「互聯網」中的單字「搜尋」。",
+      "examplesZh": [
+        "本課程使用單元「互聯網」中的單字「搜尋」。"
+      ]
     },
     {
       "id": "0994",
@@ -24247,6 +28330,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "你喜歡父親送給你的手錶嗎？",
+      "examplesZh": [
+        "你喜歡父親送給你的手錶嗎？"
       ]
     },
     {
@@ -24270,7 +28357,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在單元「互聯網」中使用「電影」一詞。",
+      "examplesZh": [
+        "本課程在單元「互聯網」中使用「電影」一詞。"
+      ]
     },
     {
       "id": "0996",
@@ -24293,7 +28384,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「互聯網」單元中使用「聆聽」一詞。",
+      "examplesZh": [
+        "本課程在「互聯網」單元中使用「聆聽」一詞。"
+      ]
     },
     {
       "id": "0997",
@@ -24316,7 +28411,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「犯罪」單元中使用「犯罪」一詞。",
+      "examplesZh": [
+        "本課程在「犯罪」單元中使用「犯罪」一詞。"
+      ]
     },
     {
       "id": "0998",
@@ -24339,7 +28438,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「犯罪」單元中使用「break」一詞。",
+      "examplesZh": [
+        "本課程在「犯罪」單元中使用「break」一詞。"
+      ]
     },
     {
       "id": "0999",
@@ -24364,6 +28467,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程使用犯罪單元中的「類型」一詞。",
+      "examplesZh": [
+        "本課程使用犯罪單元中的「類型」一詞。"
       ]
     },
     {
@@ -24387,7 +28494,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「犯罪」單元中使用「搶劫」一詞。",
+      "examplesZh": [
+        "本課程在「犯罪」單元中使用「搶劫」一詞。"
+      ]
     },
     {
       "id": "1001",
@@ -24410,7 +28521,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「犯罪」單元中使用「竊盜」一詞。",
+      "examplesZh": [
+        "本課程在「犯罪」單元中使用「竊盜」一詞。"
+      ]
     },
     {
       "id": "1002",
@@ -24433,7 +28548,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在「犯罪」單元中使用「殺戮」一詞。",
+      "examplesZh": [
+        "本課在「犯罪」單元中使用「殺戮」一詞。"
+      ]
     },
     {
       "id": "1003",
@@ -24456,7 +28575,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「犯罪」單元中使用「影響力」一詞。",
+      "examplesZh": [
+        "本課程在「犯罪」單元中使用「影響力」一詞。"
+      ]
     },
     {
       "id": "1004",
@@ -24479,7 +28602,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「犯罪」單元中使用「情緒」一詞。",
+      "examplesZh": [
+        "本課程在「犯罪」單元中使用「情緒」一詞。"
+      ]
     },
     {
       "id": "1005",
@@ -24502,7 +28629,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在犯罪單元中使用英雄一詞。",
+      "examplesZh": [
+        "本課在犯罪單元中使用英雄一詞。"
+      ]
     },
     {
       "id": "1006",
@@ -24525,7 +28656,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「犯罪」單元中使用「守衛」一詞。",
+      "examplesZh": [
+        "本課程在「犯罪」單元中使用「守衛」一詞。"
+      ]
     },
     {
       "id": "1007",
@@ -24548,7 +28683,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在犯罪單元中使用「蹤跡」一詞。",
+      "examplesZh": [
+        "本課在犯罪單元中使用「蹤跡」一詞。"
+      ]
     },
     {
       "id": "1008",
@@ -24571,7 +28710,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「犯罪」單元中使用「追逐」一詞。",
+      "examplesZh": [
+        "本課程在「犯罪」單元中使用「追逐」一詞。"
+      ]
     },
     {
       "id": "1009",
@@ -24594,7 +28737,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「犯罪」單元中使用「catch」一詞。",
+      "examplesZh": [
+        "本課程在「犯罪」單元中使用「catch」一詞。"
+      ]
     },
     {
       "id": "1010",
@@ -24617,7 +28764,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在犯罪單元中使用「檢測」一詞。",
+      "examplesZh": [
+        "本課程在犯罪單元中使用「檢測」一詞。"
+      ]
     },
     {
       "id": "1011",
@@ -24640,7 +28791,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「犯罪」單元中使用「偷偷摸摸」一詞。",
+      "examplesZh": [
+        "本課程在「犯罪」單元中使用「偷偷摸摸」一詞。"
+      ]
     },
     {
       "id": "1012",
@@ -24663,7 +28818,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在犯罪單元中使用了「可怕」一詞。",
+      "examplesZh": [
+        "本課在犯罪單元中使用了「可怕」一詞。"
+      ]
     },
     {
       "id": "1013",
@@ -24686,7 +28845,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「戰爭」單元中使用「和平」一詞。",
+      "examplesZh": [
+        "本課程在「戰爭」單元中使用「和平」一詞。"
+      ]
     },
     {
       "id": "1014",
@@ -24709,7 +28872,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「戰爭」單元中使用「槍」一詞。",
+      "examplesZh": [
+        "本課程在「戰爭」單元中使用「槍」一詞。"
+      ]
     },
     {
       "id": "1015",
@@ -24732,7 +28899,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「戰爭」單元中使用「射擊」一詞。",
+      "examplesZh": [
+        "本課程在「戰爭」單元中使用「射擊」一詞。"
+      ]
     },
     {
       "id": "1016",
@@ -24755,7 +28926,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「戰爭」單元中使用「炸彈」一詞。",
+      "examplesZh": [
+        "本課程在「戰爭」單元中使用「炸彈」一詞。"
+      ]
     },
     {
       "id": "1017",
@@ -24778,7 +28953,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「戰爭」單元中使用「毒藥」一詞。",
+      "examplesZh": [
+        "本課程在「戰爭」單元中使用「毒藥」一詞。"
+      ]
     },
     {
       "id": "1018",
@@ -24801,7 +28980,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「戰爭」單元中使用「旗幟」一詞。",
+      "examplesZh": [
+        "本課程在「戰爭」單元中使用「旗幟」一詞。"
+      ]
     },
     {
       "id": "1019",
@@ -24824,7 +29007,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「戰爭」單元中使用「領導者」一詞。",
+      "examplesZh": [
+        "本課程在「戰爭」單元中使用「領導者」一詞。"
+      ]
     },
     {
       "id": "1020",
@@ -24847,7 +29034,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在「戰爭」單元中使用「命令」一詞。",
+      "examplesZh": [
+        "本課在「戰爭」單元中使用「命令」一詞。"
+      ]
     },
     {
       "id": "1021",
@@ -24870,7 +29061,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在「戰爭」單元中使用「決策」一詞。",
+      "examplesZh": [
+        "本課在「戰爭」單元中使用「決策」一詞。"
+      ]
     },
     {
       "id": "1022",
@@ -24893,7 +29088,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在「戰爭」單元中使用「服從」一詞。",
+      "examplesZh": [
+        "本課在「戰爭」單元中使用「服從」一詞。"
+      ]
     },
     {
       "id": "1023",
@@ -24916,7 +29115,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「戰爭」單元中使用「原因」一詞。",
+      "examplesZh": [
+        "本課程在「戰爭」單元中使用「原因」一詞。"
+      ]
     },
     {
       "id": "1024",
@@ -24939,7 +29142,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「戰爭」單元中使用「戰鬥」一詞。",
+      "examplesZh": [
+        "本課程在「戰爭」單元中使用「戰鬥」一詞。"
+      ]
     },
     {
       "id": "1025",
@@ -24962,7 +29169,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「戰爭」單元中使用「敵人」一詞。",
+      "examplesZh": [
+        "本課程在「戰爭」單元中使用「敵人」一詞。"
+      ]
     },
     {
       "id": "1026",
@@ -24985,7 +29196,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「戰爭」單元中使用「勝利」一詞。",
+      "examplesZh": [
+        "本課程在「戰爭」單元中使用「勝利」一詞。"
+      ]
     },
     {
       "id": "1027",
@@ -25008,7 +29223,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「社交生活」單元中使用「相遇」一詞。",
+      "examplesZh": [
+        "本課程在「社交生活」單元中使用「相遇」一詞。"
+      ]
     },
     {
       "id": "1028",
@@ -25031,7 +29250,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「社交生活」單元中使用「介紹」一詞。",
+      "examplesZh": [
+        "本課程在「社交生活」單元中使用「介紹」一詞。"
+      ]
     },
     {
       "id": "1029",
@@ -25054,7 +29277,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「社交生活」單元中使用「弓」一詞。",
+      "examplesZh": [
+        "本課程在「社交生活」單元中使用「弓」一詞。"
+      ]
     },
     {
       "id": "1030",
@@ -25077,7 +29304,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「社交生活」單元中使用「手勢」一詞。",
+      "examplesZh": [
+        "本課程在「社交生活」單元中使用「手勢」一詞。"
+      ]
     },
     {
       "id": "1031",
@@ -25100,7 +29331,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「社交生活」單元中使用「shake」一詞。",
+      "examplesZh": [
+        "本課程在「社交生活」單元中使用「shake」一詞。"
+      ]
     },
     {
       "id": "1032",
@@ -25123,7 +29358,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「社交生活」單元中使用「點頭」一詞。",
+      "examplesZh": [
+        "本課程在「社交生活」單元中使用「點頭」一詞。"
+      ]
     },
     {
       "id": "1033",
@@ -25146,7 +29385,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「社交生活」單元中使用「問候」一詞。",
+      "examplesZh": [
+        "本課程在「社交生活」單元中使用「問候」一詞。"
+      ]
     },
     {
       "id": "1034",
@@ -25169,7 +29412,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「社交生活」單元中使用「說」一詞。",
+      "examplesZh": [
+        "本課程在「社交生活」單元中使用「說」一詞。"
+      ]
     },
     {
       "id": "1035",
@@ -25194,6 +29441,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「社交生活」單元中使用「你好」一詞。",
+      "examplesZh": [
+        "本課程在「社交生活」單元中使用「你好」一詞。"
       ]
     },
     {
@@ -25219,6 +29470,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「社交生活」單元中使用「嘿」一詞。",
+      "examplesZh": [
+        "本課程在「社交生活」單元中使用「嘿」一詞。"
       ]
     },
     {
@@ -25244,6 +29499,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「社交生活」單元中使用「hi」一詞。",
+      "examplesZh": [
+        "本課程在「社交生活」單元中使用「hi」一詞。"
       ]
     },
     {
@@ -25267,7 +29526,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「社會生活」單元中使用「Cautbayoal」一詞。",
+      "examplesZh": [
+        "本課程在「社會生活」單元中使用「Cautbayoal」一詞。"
+      ]
     },
     {
       "id": "1039",
@@ -25290,7 +29553,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「社交生活」單元中使用「微笑」一詞。",
+      "examplesZh": [
+        "本課程在「社交生活」單元中使用「微笑」一詞。"
+      ]
     },
     {
       "id": "1040",
@@ -25313,7 +29580,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「社交生活」單元中使用「感謝」一詞。",
+      "examplesZh": [
+        "本課程在「社交生活」單元中使用「感謝」一詞。"
+      ]
     },
     {
       "id": "1041",
@@ -25336,7 +29607,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「社交生活」單元中使用了「抱歉」一詞。",
+      "examplesZh": [
+        "本課程在「社交生活」單元中使用了「抱歉」一詞。"
+      ]
     },
     {
       "id": "1042",
@@ -25359,7 +29634,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「社交生活」單元中使用了「道歉」一詞。",
+      "examplesZh": [
+        "本課程在「社交生活」單元中使用了「道歉」一詞。"
+      ]
     },
     {
       "id": "1043",
@@ -25382,7 +29661,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「喜歡或討厭某人」單元中使用「欽佩」一詞。",
+      "examplesZh": [
+        "本課程在「喜歡或討厭某人」單元中使用「欽佩」一詞。"
+      ]
     },
     {
       "id": "1044",
@@ -25405,7 +29688,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「喜歡或討厭某人」單元中使用「尊重」一詞。",
+      "examplesZh": [
+        "本課程在「喜歡或討厭某人」單元中使用「尊重」一詞。"
+      ]
     },
     {
       "id": "1045",
@@ -25428,7 +29715,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「喜歡或討厭某人」單元中使用「欣賞」一詞。",
+      "examplesZh": [
+        "本課程在「喜歡或討厭某人」單元中使用「欣賞」一詞。"
+      ]
     },
     {
       "id": "1046",
@@ -25451,7 +29742,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「喜歡或討厭某人」單元中使用「享受」一詞。",
+      "examplesZh": [
+        "本課程在「喜歡或討厭某人」單元中使用「享受」一詞。"
+      ]
     },
     {
       "id": "1047",
@@ -25474,7 +29769,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「喜歡或討厭某人」單元中使用「信任」一詞。",
+      "examplesZh": [
+        "本課程在「喜歡或討厭某人」單元中使用「信任」一詞。"
+      ]
     },
     {
       "id": "1048",
@@ -25497,7 +29796,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「喜歡或討厭某人」單元中使用「取決於」一詞。",
+      "examplesZh": [
+        "本課程在「喜歡或討厭某人」單元中使用「取決於」一詞。"
+      ]
     },
     {
       "id": "1049",
@@ -25520,7 +29823,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「喜歡或討厭某人」單元中使用「願望」一詞。",
+      "examplesZh": [
+        "本課程在「喜歡或討厭某人」單元中使用「願望」一詞。"
+      ]
     },
     {
       "id": "1050",
@@ -25545,6 +29852,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「喜歡或討厭某人」單元中使用「請」一詞。",
+      "examplesZh": [
+        "本課程在「喜歡或討厭某人」單元中使用「請」一詞。"
       ]
     },
     {
@@ -25568,7 +29879,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「喜歡或討厭某人」單元中使用「秘密」一詞。",
+      "examplesZh": [
+        "本課程在「喜歡或討厭某人」單元中使用「秘密」一詞。"
+      ]
     },
     {
       "id": "1052",
@@ -25591,7 +29906,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「喜歡或討厭某人」單元中使用「忽略」一詞。",
+      "examplesZh": [
+        "本課程在「喜歡或討厭某人」單元中使用「忽略」一詞。"
+      ]
     },
     {
       "id": "1053",
@@ -25614,7 +29933,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「喜歡或討厭某人」單元中使用「中斷」一詞。",
+      "examplesZh": [
+        "本課程在「喜歡或討厭某人」單元中使用「中斷」一詞。"
+      ]
     },
     {
       "id": "1054",
@@ -25637,7 +29960,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「喜歡或討厭某人」單元中使用「爭論」一詞。",
+      "examplesZh": [
+        "本課程在「喜歡或討厭某人」單元中使用「爭論」一詞。"
+      ]
     },
     {
       "id": "1055",
@@ -25660,7 +29987,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「喜歡或討厭某人」單元中使用「消極」一詞。",
+      "examplesZh": [
+        "本課程在「喜歡或討厭某人」單元中使用「消極」一詞。"
+      ]
     },
     {
       "id": "1056",
@@ -25683,7 +30014,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「喜歡或討厭某人」單元中使用「大喊大叫」一詞。",
+      "examplesZh": [
+        "本課程在「喜歡或討厭某人」單元中使用「大喊大叫」一詞。"
+      ]
     },
     {
       "id": "1057",
@@ -25706,7 +30041,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「喜歡或討厭某人」單元中使用「喊叫」一詞。",
+      "examplesZh": [
+        "本課程在「喜歡或討厭某人」單元中使用「喊叫」一詞。"
+      ]
     },
     {
       "id": "1058",
@@ -25729,7 +30068,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「良好行為與不良行為」單元中使用「方式」一詞。",
+      "examplesZh": [
+        "本課程在「良好行為與不良行為」單元中使用「方式」一詞。"
+      ]
     },
     {
       "id": "1059",
@@ -25752,7 +30095,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「良好行為與不良行為」單元中使用「建議」一詞。",
+      "examplesZh": [
+        "本課程在「良好行為與不良行為」單元中使用「建議」一詞。"
+      ]
     },
     {
       "id": "1060",
@@ -25775,7 +30122,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「良好行為與不良行為」單元中使用「建議」一詞。",
+      "examplesZh": [
+        "本課程在「良好行為與不良行為」單元中使用「建議」一詞。"
+      ]
     },
     {
       "id": "1061",
@@ -25798,7 +30149,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「良好行為與不良行為」單元中使用「offer」一詞。",
+      "examplesZh": [
+        "本課程在「良好行為與不良行為」單元中使用「offer」一詞。"
+      ]
     },
     {
       "id": "1062",
@@ -25821,7 +30176,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「良好行為與不良行為」單元中使用「建議」一詞。",
+      "examplesZh": [
+        "本課程在「良好行為與不良行為」單元中使用「建議」一詞。"
+      ]
     },
     {
       "id": "1063",
@@ -25844,7 +30203,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「良好行為與不良行為」單元中使用「寬恕」一詞。",
+      "examplesZh": [
+        "本課程在「良好行為與不良行為」單元中使用「寬恕」一詞。"
+      ]
     },
     {
       "id": "1064",
@@ -25867,7 +30230,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「良好行為與不良行為」單元中使用「責備」一詞。",
+      "examplesZh": [
+        "本課程在「良好行為與不良行為」單元中使用「責備」一詞。"
+      ]
     },
     {
       "id": "1065",
@@ -25890,7 +30257,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「良好行為與不良行為」單元中使用「懷疑」一詞。",
+      "examplesZh": [
+        "本課程在「良好行為與不良行為」單元中使用「懷疑」一詞。"
+      ]
     },
     {
       "id": "1066",
@@ -25913,7 +30284,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「良好行為與不良行為」單元中使用「控制」一詞。",
+      "examplesZh": [
+        "本課程在「良好行為與不良行為」單元中使用「控制」一詞。"
+      ]
     },
     {
       "id": "1067",
@@ -25936,7 +30311,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「良好行為與不良行為」單元中使用「錯誤」一詞。",
+      "examplesZh": [
+        "本課程在「良好行為與不良行為」單元中使用「錯誤」一詞。"
+      ]
     },
     {
       "id": "1068",
@@ -25959,7 +30338,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「良好行為與不良行為」單元中使用「傻瓜」一詞。",
+      "examplesZh": [
+        "本課程在「良好行為與不良行為」單元中使用「傻瓜」一詞。"
+      ]
     },
     {
       "id": "1069",
@@ -25982,7 +30365,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「良好行為與不良行為」單元中使用「打擾」一詞。",
+      "examplesZh": [
+        "本課程在「良好行為與不良行為」單元中使用「打擾」一詞。"
+      ]
     },
     {
       "id": "1070",
@@ -26005,7 +30392,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「首頁」單元中使用「公寓」一詞。",
+      "examplesZh": [
+        "本課程在「首頁」單元中使用「公寓」一詞。"
+      ]
     },
     {
       "id": "1071",
@@ -26028,7 +30419,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「首頁」單元中使用「建構」一詞。",
+      "examplesZh": [
+        "本課程在「首頁」單元中使用「建構」一詞。"
+      ]
     },
     {
       "id": "1072",
@@ -26051,7 +30446,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「家」單元中使用「房屋」一詞。",
+      "examplesZh": [
+        "本課程在「家」單元中使用「房屋」一詞。"
+      ]
     },
     {
       "id": "1073",
@@ -26074,7 +30473,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「家」單元中使用「家」一詞。",
+      "examplesZh": [
+        "本課程在「家」單元中使用「家」一詞。"
+      ]
     },
     {
       "id": "1074",
@@ -26097,7 +30500,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「主頁」單元中使用「房間」一詞。",
+      "examplesZh": [
+        "本課程在「主頁」單元中使用「房間」一詞。"
+      ]
     },
     {
       "id": "1075",
@@ -26120,7 +30527,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「主頁」單元中使用「陽台」一詞。",
+      "examplesZh": [
+        "本課程在「主頁」單元中使用「陽台」一詞。"
+      ]
     },
     {
       "id": "1076",
@@ -26143,7 +30554,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「主頁」單元中使用「屋頂」一詞。",
+      "examplesZh": [
+        "本課程在「主頁」單元中使用「屋頂」一詞。"
+      ]
     },
     {
       "id": "1077",
@@ -26168,6 +30583,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「首頁」單元中使用「yard」一詞。",
+      "examplesZh": [
+        "本課程在「首頁」單元中使用「yard」一詞。"
       ]
     },
     {
@@ -26191,7 +30610,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「首頁」單元中使用「花園」一詞。",
+      "examplesZh": [
+        "本課程在「首頁」單元中使用「花園」一詞。"
+      ]
     },
     {
       "id": "1079",
@@ -26214,7 +30637,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「首頁」單元中使用「門」一詞。",
+      "examplesZh": [
+        "本課程在「首頁」單元中使用「門」一詞。"
+      ]
     },
     {
       "id": "1080",
@@ -26237,7 +30664,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「首頁」單元中使用「柵欄」一詞。",
+      "examplesZh": [
+        "本課程在「首頁」單元中使用「柵欄」一詞。"
+      ]
     },
     {
       "id": "1081",
@@ -26260,7 +30691,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「Home」單元中使用「inside」一詞。",
+      "examplesZh": [
+        "本課程在「Home」單元中使用「inside」一詞。"
+      ]
     },
     {
       "id": "1082",
@@ -26283,7 +30718,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「家庭」單元中使用「外部」一詞。",
+      "examplesZh": [
+        "本課程在「家庭」單元中使用「外部」一詞。"
+      ]
     },
     {
       "id": "1083",
@@ -26306,7 +30745,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「首頁」單元中使用「門」一詞。",
+      "examplesZh": [
+        "本課程在「首頁」單元中使用「門」一詞。"
+      ]
     },
     {
       "id": "1084",
@@ -26329,7 +30772,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「首頁」單元中使用「鑰匙」一詞。",
+      "examplesZh": [
+        "本課程在「首頁」單元中使用「鑰匙」一詞。"
+      ]
     },
     {
       "id": "1085",
@@ -26352,7 +30799,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「首頁」單元中使用「鎖」一詞。",
+      "examplesZh": [
+        "本課程在「首頁」單元中使用「鎖」一詞。"
+      ]
     },
     {
       "id": "1086",
@@ -26375,7 +30826,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「客廳」單元中使用「家具」一詞。",
+      "examplesZh": [
+        "本課程在「客廳」單元中使用「家具」一詞。"
+      ]
     },
     {
       "id": "1087",
@@ -26398,7 +30853,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「客廳」單元中使用「扶手椅」一詞。",
+      "examplesZh": [
+        "本課程在「客廳」單元中使用「扶手椅」一詞。"
+      ]
     },
     {
       "id": "1088",
@@ -26421,7 +30880,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「客廳」單元中使用「沙發」一詞。",
+      "examplesZh": [
+        "本課程在「客廳」單元中使用「沙發」一詞。"
+      ]
     },
     {
       "id": "1089",
@@ -26444,7 +30907,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「客廳」單元中使用「沙發」一詞。",
+      "examplesZh": [
+        "本課程在「客廳」單元中使用「沙發」一詞。"
+      ]
     },
     {
       "id": "1090",
@@ -26467,7 +30934,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「客廳」單元中使用「燈」一詞。",
+      "examplesZh": [
+        "本課程在「客廳」單元中使用「燈」一詞。"
+      ]
     },
     {
       "id": "1091",
@@ -26490,7 +30961,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“客廳”單元中使用“光”一詞。",
+      "examplesZh": [
+        "本課程在“客廳”單元中使用“光”一詞。"
+      ]
     },
     {
       "id": "1092",
@@ -26513,7 +30988,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「客廳」單元中使用「窗簾」一詞。",
+      "examplesZh": [
+        "本課程在「客廳」單元中使用「窗簾」一詞。"
+      ]
     },
     {
       "id": "1093",
@@ -26536,7 +31015,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“客廳”單元中使用“地毯”一詞。",
+      "examplesZh": [
+        "本課程在“客廳”單元中使用“地毯”一詞。"
+      ]
     },
     {
       "id": "1094",
@@ -26559,7 +31042,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「客廳」單位使用「電視」一詞。",
+      "examplesZh": [
+        "本課程在「客廳」單位使用「電視」一詞。"
+      ]
     },
     {
       "id": "1095",
@@ -26582,7 +31069,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用「客廳」單元中設定的單字「wiz」。",
+      "examplesZh": [
+        "本課程使用「客廳」單元中設定的單字「wiz」。"
+      ]
     },
     {
       "id": "1096",
@@ -26605,7 +31096,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“客廳”單元中使用“揚聲器”一詞。",
+      "examplesZh": [
+        "本課程在“客廳”單元中使用“揚聲器”一詞。"
+      ]
     },
     {
       "id": "1097",
@@ -26628,7 +31123,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“客廳”單元中使用“視頻”一詞。",
+      "examplesZh": [
+        "本課程在“客廳”單元中使用“視頻”一詞。"
+      ]
     },
     {
       "id": "1098",
@@ -26651,7 +31150,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「客廳」單元中使用「權力」一詞。",
+      "examplesZh": [
+        "本課程在「客廳」單元中使用「權力」一詞。"
+      ]
     },
     {
       "id": "1099",
@@ -26674,7 +31177,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「臥室和書房」單元中使用「臥室」一詞。",
+      "examplesZh": [
+        "本課程在「臥室和書房」單元中使用「臥室」一詞。"
+      ]
     },
     {
       "id": "1100",
@@ -26699,6 +31206,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程使用「臥室和書房」單元中的單字表。",
+      "examplesZh": [
+        "本課程使用「臥室和書房」單元中的單字表。"
       ]
     },
     {
@@ -26722,7 +31233,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「臥室和書房」單元中使用「毯子」一詞。",
+      "examplesZh": [
+        "本課程在「臥室和書房」單元中使用「毯子」一詞。"
+      ]
     },
     {
       "id": "1102",
@@ -26745,7 +31260,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“臥室和書房”單元中使用“鏡子”一詞。",
+      "examplesZh": [
+        "本課程在“臥室和書房”單元中使用“鏡子”一詞。"
+      ]
     },
     {
       "id": "1103",
@@ -26768,7 +31287,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「臥室和書房」單元中使用「梳妝台」一詞。",
+      "examplesZh": [
+        "本課程在「臥室和書房」單元中使用「梳妝台」一詞。"
+      ]
     },
     {
       "id": "1104",
@@ -26791,7 +31314,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「臥室和書房」單元中使用「抽屜」一詞。",
+      "examplesZh": [
+        "本課程在「臥室和書房」單元中使用「抽屜」一詞。"
+      ]
     },
     {
       "id": "1105",
@@ -26814,7 +31341,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“臥室和書房”單元中使用“hanger”一詞。",
+      "examplesZh": [
+        "本課程在“臥室和書房”單元中使用“hanger”一詞。"
+      ]
     },
     {
       "id": "1106",
@@ -26839,6 +31370,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「臥室和書房」單元中使用「風扇」一詞。",
+      "examplesZh": [
+        "本課程在「臥室和書房」單元中使用「風扇」一詞。"
       ]
     },
     {
@@ -26862,7 +31397,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“臥室和書房”單元中使用“加熱器”一詞。",
+      "examplesZh": [
+        "本課程在“臥室和書房”單元中使用“加熱器”一詞。"
+      ]
     },
     {
       "id": "1108",
@@ -26885,7 +31424,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「臥室和書房」單元中使用「書架」一詞。",
+      "examplesZh": [
+        "本課程在「臥室和書房」單元中使用「書架」一詞。"
+      ]
     },
     {
       "id": "1109",
@@ -26908,7 +31451,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用「臥室和書房」單元中的「書桌」一詞。",
+      "examplesZh": [
+        "本課程使用「臥室和書房」單元中的「書桌」一詞。"
+      ]
     },
     {
       "id": "1110",
@@ -26933,6 +31480,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「臥室和書房」單元中使用「電腦」一詞。",
+      "examplesZh": [
+        "本課程在「臥室和書房」單元中使用「電腦」一詞。"
       ]
     },
     {
@@ -26956,7 +31507,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用「臥室和書房」單元中的「螢幕」一詞。",
+      "examplesZh": [
+        "本課程使用「臥室和書房」單元中的「螢幕」一詞。"
+      ]
     },
     {
       "id": "1112",
@@ -26979,7 +31534,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用「臥室和書房」單元中的文字印表機。",
+      "examplesZh": [
+        "本課程使用「臥室和書房」單元中的文字印表機。"
+      ]
     },
     {
       "id": "1113",
@@ -27002,7 +31561,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「臥室和書房」單元中使用「隨身聽」一詞。",
+      "examplesZh": [
+        "本課程在「臥室和書房」單元中使用「隨身聽」一詞。"
+      ]
     },
     {
       "id": "1114",
@@ -27025,7 +31588,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“廚房和餐廳”單元中使用“廚房”一詞。",
+      "examplesZh": [
+        "本課程在“廚房和餐廳”單元中使用“廚房”一詞。"
+      ]
     },
     {
       "id": "1115",
@@ -27048,7 +31615,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“廚房和餐廳”單元中使用冰箱/冰箱一詞。",
+      "examplesZh": [
+        "本課程在“廚房和餐廳”單元中使用冰箱/冰箱一詞。"
+      ]
     },
     {
       "id": "1116",
@@ -27071,7 +31642,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“廚房和餐廳”單元中使用“冰箱”一詞。",
+      "examplesZh": [
+        "本課程在“廚房和餐廳”單元中使用“冰箱”一詞。"
+      ]
     },
     {
       "id": "1117",
@@ -27094,7 +31669,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“廚房和餐廳”單元中使用“爐灶”一詞。",
+      "examplesZh": [
+        "本課程在“廚房和餐廳”單元中使用“爐灶”一詞。"
+      ]
     },
     {
       "id": "1118",
@@ -27117,7 +31696,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“廚房和餐廳”單元中使用“烤箱”一詞。",
+      "examplesZh": [
+        "本課程在“廚房和餐廳”單元中使用“烤箱”一詞。"
+      ]
     },
     {
       "id": "1119",
@@ -27142,6 +31725,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "電影開始前用微波爐加熱爆米花。",
+      "examplesZh": [
+        "電影開始前用微波爐加熱爆米花。"
       ]
     },
     {
@@ -27165,7 +31752,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“廚房和餐廳”單元中使用“炒鍋”一詞。",
+      "examplesZh": [
+        "本課程在“廚房和餐廳”單元中使用“炒鍋”一詞。"
+      ]
     },
     {
       "id": "1121",
@@ -27188,7 +31779,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“廚房和餐廳”單元中使用“pot”一詞。",
+      "examplesZh": [
+        "本課程在“廚房和餐廳”單元中使用“pot”一詞。"
+      ]
     },
     {
       "id": "1122",
@@ -27211,7 +31806,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“廚房和餐廳”單元中使用“pan”一詞。",
+      "examplesZh": [
+        "本課程在“廚房和餐廳”單元中使用“pan”一詞。"
+      ]
     },
     {
       "id": "1123",
@@ -27234,7 +31833,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“廚房和餐廳”單元中使用“餐廳”一詞。",
+      "examplesZh": [
+        "本課程在“廚房和餐廳”單元中使用“餐廳”一詞。"
+      ]
     },
     {
       "id": "1124",
@@ -27257,7 +31860,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用“廚房和餐廳”單元中的“表”一詞。",
+      "examplesZh": [
+        "本課程使用“廚房和餐廳”單元中的“表”一詞。"
+      ]
     },
     {
       "id": "1125",
@@ -27280,7 +31887,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“廚房和餐廳”單元中使用“蠟燭”一詞。",
+      "examplesZh": [
+        "本課程在“廚房和餐廳”單元中使用“蠟燭”一詞。"
+      ]
     },
     {
       "id": "1126",
@@ -27303,7 +31914,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“廚房和餐廳”單元中使用“椅子”一詞。",
+      "examplesZh": [
+        "本課程在“廚房和餐廳”單元中使用“椅子”一詞。"
+      ]
     },
     {
       "id": "1127",
@@ -27326,7 +31941,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“廚房和餐廳”單元中使用“茶壺”一詞。",
+      "examplesZh": [
+        "本課程在“廚房和餐廳”單元中使用“茶壺”一詞。"
+      ]
     },
     {
       "id": "1128",
@@ -27349,7 +31968,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“浴室和地下室”單元中使用“upstai”一詞。",
+      "examplesZh": [
+        "本課程在“浴室和地下室”單元中使用“upstai”一詞。"
+      ]
     },
     {
       "id": "1129",
@@ -27372,7 +31995,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“浴室和地下室”單元中使用“浴室”一詞。",
+      "examplesZh": [
+        "本課程在“浴室和地下室”單元中使用“浴室”一詞。"
+      ]
     },
     {
       "id": "1130",
@@ -27395,7 +32022,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“浴室和地下室”單元中使用“水龍頭”一詞。",
+      "examplesZh": [
+        "本課程在“浴室和地下室”單元中使用“水龍頭”一詞。"
+      ]
     },
     {
       "id": "1131",
@@ -27418,7 +32049,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“浴室和地下室”單元中使用“水槽”一詞。",
+      "examplesZh": [
+        "本課程在“浴室和地下室”單元中使用“水槽”一詞。"
+      ]
     },
     {
       "id": "1132",
@@ -27441,7 +32076,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“浴室和地下室”單元中使用“牙刷”一詞。",
+      "examplesZh": [
+        "本課程在“浴室和地下室”單元中使用“牙刷”一詞。"
+      ]
     },
     {
       "id": "1133",
@@ -27464,7 +32103,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“浴室和地下室”單元中使用“肥皂”一詞。",
+      "examplesZh": [
+        "本課程在“浴室和地下室”單元中使用“肥皂”一詞。"
+      ]
     },
     {
       "id": "1134",
@@ -27487,7 +32130,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“浴室和地下室”單元中使用“毛巾”一詞。",
+      "examplesZh": [
+        "本課程在“浴室和地下室”單元中使用“毛巾”一詞。"
+      ]
     },
     {
       "id": "1135",
@@ -27510,7 +32157,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「浴室和地下室」單元中使用「籃子」一詞。",
+      "examplesZh": [
+        "本課程在「浴室和地下室」單元中使用「籃子」一詞。"
+      ]
     },
     {
       "id": "1136",
@@ -27533,7 +32184,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「浴室和地下室」單元中使用「烘乾機」一詞。",
+      "examplesZh": [
+        "本課程在「浴室和地下室」單元中使用「烘乾機」一詞。"
+      ]
     },
     {
       "id": "1137",
@@ -27556,7 +32211,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「浴室和地下室」單元中使用「MN 地下室」一詞。",
+      "examplesZh": [
+        "本課程在「浴室和地下室」單元中使用「MN 地下室」一詞。"
+      ]
     },
     {
       "id": "1138",
@@ -27579,7 +32238,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「浴室和地下室」單元中使用「樓梯」一詞。",
+      "examplesZh": [
+        "本課程在「浴室和地下室」單元中使用「樓梯」一詞。"
+      ]
     },
     {
       "id": "1139",
@@ -27602,7 +32265,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“浴室和地下室”單元中使用“樓上”一詞。",
+      "examplesZh": [
+        "本課程在“浴室和地下室”單元中使用“樓上”一詞。"
+      ]
     },
     {
       "id": "1140",
@@ -27625,7 +32292,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“浴室和地下室”單元中使用“樓下”一詞。",
+      "examplesZh": [
+        "本課程在“浴室和地下室”單元中使用“樓下”一詞。"
+      ]
     },
     {
       "id": "1141",
@@ -27648,7 +32319,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「浴室和地下室」單元中使用「工具」一詞。",
+      "examplesZh": [
+        "本課程在「浴室和地下室」單元中使用「工具」一詞。"
+      ]
     },
     {
       "id": "1142",
@@ -27671,7 +32346,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“浴室和地下室”單元中使用“needle”一詞。",
+      "examplesZh": [
+        "本課程在“浴室和地下室”單元中使用“needle”一詞。"
+      ]
     },
     {
       "id": "1143",
@@ -27694,7 +32373,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“浴室和地下室”單元中使用“繩索”一詞。",
+      "examplesZh": [
+        "本課程在“浴室和地下室”單元中使用“繩索”一詞。"
+      ]
     },
     {
       "id": "1144",
@@ -27717,7 +32400,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「做家事」單元中使用「家務」一詞。",
+      "examplesZh": [
+        "本課程在「做家事」單元中使用「家務」一詞。"
+      ]
     },
     {
       "id": "1145",
@@ -27740,7 +32427,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「做家事」單元中使用「家庭主婦」一詞。",
+      "examplesZh": [
+        "本課程在「做家事」單元中使用「家庭主婦」一詞。"
+      ]
     },
     {
       "id": "1146",
@@ -27763,7 +32454,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「做家事」單元中使用「地板」一詞。",
+      "examplesZh": [
+        "本課程在「做家事」單元中使用「地板」一詞。"
+      ]
     },
     {
       "id": "1147",
@@ -27786,7 +32481,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「做家事」單元中使用「拖把」一詞。",
+      "examplesZh": [
+        "本課程在「做家事」單元中使用「拖把」一詞。"
+      ]
     },
     {
       "id": "1148",
@@ -27809,7 +32508,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用「做家事」單元中的「桶」一詞。",
+      "examplesZh": [
+        "本課程使用「做家事」單元中的「桶」一詞。"
+      ]
     },
     {
       "id": "1149",
@@ -27832,7 +32535,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「做家事」單元中使用「清潔」一詞。",
+      "examplesZh": [
+        "本課程在「做家事」單元中使用「清潔」一詞。"
+      ]
     },
     {
       "id": "1150",
@@ -27855,7 +32562,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「做家事」單元中使用「掃除」一詞。",
+      "examplesZh": [
+        "本課程在「做家事」單元中使用「掃除」一詞。"
+      ]
     },
     {
       "id": "1151",
@@ -27878,7 +32589,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「做家事」單元中使用「洗」一詞。",
+      "examplesZh": [
+        "本課程在「做家事」單元中使用「洗」一詞。"
+      ]
     },
     {
       "id": "1152",
@@ -27901,7 +32616,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「做家事」單元中使用「粉末」一詞。",
+      "examplesZh": [
+        "本課程在「做家事」單元中使用「粉末」一詞。"
+      ]
     },
     {
       "id": "1153",
@@ -27926,6 +32645,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「做家事」單元中使用「鐵」一詞。",
+      "examplesZh": [
+        "本課程在「做家事」單元中使用「鐵」一詞。"
       ]
     },
     {
@@ -27949,7 +32672,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「做家事」單元中使用「il垃圾桶」一詞。",
+      "examplesZh": [
+        "本課程在「做家事」單元中使用「il垃圾桶」一詞。"
+      ]
     },
     {
       "id": "1155",
@@ -27972,7 +32699,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「做家事」單元中使用「keep」一詞。",
+      "examplesZh": [
+        "本課程在「做家事」單元中使用「keep」一詞。"
+      ]
     },
     {
       "id": "1156",
@@ -27995,7 +32726,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「做家事」單元中使用「整潔」一詞。",
+      "examplesZh": [
+        "本課程在「做家事」單元中使用「整潔」一詞。"
+      ]
     },
     {
       "id": "1157",
@@ -28018,7 +32753,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「做家事」單元中使用「take out」一詞。",
+      "examplesZh": [
+        "本課程在「做家事」單元中使用「take out」一詞。"
+      ]
     },
     {
       "id": "1158",
@@ -28041,7 +32780,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「做家事」單元中使用「放好」一詞。",
+      "examplesZh": [
+        "本課程在「做家事」單元中使用「放好」一詞。"
+      ]
     },
     {
       "id": "1159",
@@ -28064,7 +32807,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「家庭問題」單元中使用「天花板」一詞。",
+      "examplesZh": [
+        "本課程在「家庭問題」單元中使用「天花板」一詞。"
+      ]
     },
     {
       "id": "1160",
@@ -28087,7 +32834,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「家庭問題」單元中使用「牆」一詞。",
+      "examplesZh": [
+        "本課程在「家庭問題」單元中使用「牆」一詞。"
+      ]
     },
     {
       "id": "1161",
@@ -28110,7 +32861,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用「家庭問題」單元中的「畫筆」一詞。",
+      "examplesZh": [
+        "本課程使用「家庭問題」單元中的「畫筆」一詞。"
+      ]
     },
     {
       "id": "1162",
@@ -28133,7 +32888,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用「家庭問題」單元中的「視窗」一詞。",
+      "examplesZh": [
+        "本課程使用「家庭問題」單元中的「視窗」一詞。"
+      ]
     },
     {
       "id": "1163",
@@ -28156,7 +32915,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「家庭問題」單元中使用「管」一詞。",
+      "examplesZh": [
+        "本課程在「家庭問題」單元中使用「管」一詞。"
+      ]
     },
     {
       "id": "1164",
@@ -28179,7 +32942,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「家庭問題」單元中使用「管道」一詞。",
+      "examplesZh": [
+        "本課程在「家庭問題」單元中使用「管道」一詞。"
+      ]
     },
     {
       "id": "1165",
@@ -28202,7 +32969,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在“家庭問題”單元中使用“泵”一詞。",
+      "examplesZh": [
+        "本課程在“家庭問題”單元中使用“泵”一詞。"
+      ]
     },
     {
       "id": "1166",
@@ -28227,6 +32998,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「家庭問題」單元中使用「meter」一詞。",
+      "examplesZh": [
+        "本課程在「家庭問題」單元中使用「meter」一詞。"
       ]
     },
     {
@@ -28250,7 +33025,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用“家庭問題”單元中的“修復”一詞。",
+      "examplesZh": [
+        "本課程使用“家庭問題”單元中的“修復”一詞。"
+      ]
     },
     {
       "id": "1168",
@@ -28273,7 +33052,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「家庭問題」單元中使用「修復」一詞。",
+      "examplesZh": [
+        "本課程在「家庭問題」單元中使用「修復」一詞。"
+      ]
     },
     {
       "id": "1169",
@@ -28296,7 +33079,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用「家庭問題」單元中的「陷阱」一詞。",
+      "examplesZh": [
+        "本課程使用「家庭問題」單元中的「陷阱」一詞。"
+      ]
     },
     {
       "id": "1170",
@@ -28319,7 +33106,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課使用「家庭問題」單元中的單字 put。",
+      "examplesZh": [
+        "本課使用「家庭問題」單元中的單字 put。"
+      ]
     },
     {
       "id": "1171",
@@ -28342,7 +33133,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了教育這個詞。",
+      "examplesZh": [
+        "我在學校學到了教育這個詞。"
+      ]
     },
     {
       "id": "1172",
@@ -28365,7 +33160,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了小學這個詞。",
+      "examplesZh": [
+        "我在學校學到了小學這個詞。"
+      ]
     },
     {
       "id": "1173",
@@ -28390,6 +33189,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "將軍是軍隊中少校的上司。",
+      "examplesZh": [
+        "將軍是軍隊中少校的上司。"
       ]
     },
     {
@@ -28413,7 +33216,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「未成年」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「未成年」這個詞。"
+      ]
     },
     {
       "id": "1175",
@@ -28436,7 +33243,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了學期這個詞。",
+      "examplesZh": [
+        "我在學校學到了學期這個詞。"
+      ]
     },
     {
       "id": "1176",
@@ -28459,7 +33270,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了大學這個詞。",
+      "examplesZh": [
+        "我在學校學到了大學這個詞。"
+      ]
     },
     {
       "id": "1177",
@@ -28482,7 +33297,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了大學這個詞。",
+      "examplesZh": [
+        "我在學校學到了大學這個詞。"
+      ]
     },
     {
       "id": "1178",
@@ -28505,7 +33324,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了教授這個詞。",
+      "examplesZh": [
+        "我在學校學到了教授這個詞。"
+      ]
     },
     {
       "id": "1179",
@@ -28528,7 +33351,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了部門這個詞。",
+      "examplesZh": [
+        "我在學校學到了部門這個詞。"
+      ]
     },
     {
       "id": "1180",
@@ -28551,7 +33378,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「學位」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「學位」這個詞。"
+      ]
     },
     {
       "id": "1181",
@@ -28574,7 +33405,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了校園這個詞。",
+      "examplesZh": [
+        "我在學校學到了校園這個詞。"
+      ]
     },
     {
       "id": "1182",
@@ -28597,7 +33432,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「課堂」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「課堂」這個詞。"
+      ]
     },
     {
       "id": "1183",
@@ -28620,7 +33459,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「儲物櫃」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「儲物櫃」這個詞。"
+      ]
     },
     {
       "id": "1184",
@@ -28643,7 +33486,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「健身房」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「健身房」這個詞。"
+      ]
     },
     {
       "id": "1185",
@@ -28666,7 +33513,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過單字庫。",
+      "examplesZh": [
+        "我在學校學過單字庫。"
+      ]
     },
     {
       "id": "1186",
@@ -28689,7 +33540,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了校長這個詞。",
+      "examplesZh": [
+        "我在學校學到了校長這個詞。"
+      ]
     },
     {
       "id": "1187",
@@ -28712,7 +33567,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了老師這個詞。",
+      "examplesZh": [
+        "我在學校學到了老師這個詞。"
+      ]
     },
     {
       "id": "1188",
@@ -28735,7 +33594,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了粉筆這個詞。",
+      "examplesZh": [
+        "我在學校學到了粉筆這個詞。"
+      ]
     },
     {
       "id": "1189",
@@ -28758,7 +33621,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「教」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「教」這個詞。"
+      ]
     },
     {
       "id": "1190",
@@ -28781,7 +33648,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過「教訓」這個詞。",
+      "examplesZh": [
+        "我在學校學過「教訓」這個詞。"
+      ]
     },
     {
       "id": "1191",
@@ -28806,6 +33677,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我在學校學過詞序。",
+      "examplesZh": [
+        "我在學校學過詞序。"
       ]
     },
     {
@@ -28829,7 +33704,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了答案這個詞。",
+      "examplesZh": [
+        "我在學校學到了答案這個詞。"
+      ]
     },
     {
       "id": "1193",
@@ -28852,7 +33731,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過定義這個詞。",
+      "examplesZh": [
+        "我在學校學過定義這個詞。"
+      ]
     },
     {
       "id": "1194",
@@ -28875,7 +33758,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過「榜樣」這個詞。",
+      "examplesZh": [
+        "我在學校學過「榜樣」這個詞。"
+      ]
     },
     {
       "id": "1195",
@@ -28898,7 +33785,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了懲罰這個詞。",
+      "examplesZh": [
+        "我在學校學到了懲罰這個詞。"
+      ]
     },
     {
       "id": "1196",
@@ -28921,7 +33812,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「學生」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「學生」這個詞。"
+      ]
     },
     {
       "id": "1197",
@@ -28944,7 +33839,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「注意力」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「注意力」這個詞。"
+      ]
     },
     {
       "id": "1198",
@@ -28969,6 +33868,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "太吵鬧時凱文無法集中註意力。",
+      "examplesZh": [
+        "太吵鬧時凱文無法集中註意力。"
       ]
     },
     {
@@ -28996,6 +33899,12 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "您是張小姐嗎？請進來。",
+      "examplesZh": [
+        "您是張小姐嗎？請進來。",
+        "",
+        ""
       ]
     },
     {
@@ -29019,7 +33928,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「行為舉止」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「行為舉止」這個詞。"
+      ]
     },
     {
       "id": "1201",
@@ -29042,7 +33955,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了缺席這個詞。",
+      "examplesZh": [
+        "我在學校學到了缺席這個詞。"
+      ]
     },
     {
       "id": "1202",
@@ -29065,7 +33982,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「規則」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「規則」這個詞。"
+      ]
     },
     {
       "id": "1203",
@@ -29088,7 +34009,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了知識這個詞。",
+      "examplesZh": [
+        "我在學校學到了知識這個詞。"
+      ]
     },
     {
       "id": "1204",
@@ -29111,7 +34036,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過主題這個詞。",
+      "examplesZh": [
+        "我在學校學過主題這個詞。"
+      ]
     },
     {
       "id": "1205",
@@ -29134,7 +34063,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過地理這個詞。",
+      "examplesZh": [
+        "我在學校學過地理這個詞。"
+      ]
     },
     {
       "id": "1206",
@@ -29157,7 +34090,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過社會科學這個詞。",
+      "examplesZh": [
+        "我在學校學過社會科學這個詞。"
+      ]
     },
     {
       "id": "1207",
@@ -29180,7 +34117,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過歷史這個詞。",
+      "examplesZh": [
+        "我在學校學過歷史這個詞。"
+      ]
     },
     {
       "id": "1208",
@@ -29203,7 +34144,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「os language」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「os language」這個詞。"
+      ]
     },
     {
       "id": "1209",
@@ -29226,7 +34171,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過漢語這個詞。",
+      "examplesZh": [
+        "我在學校學過漢語這個詞。"
+      ]
     },
     {
       "id": "1210",
@@ -29249,7 +34198,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過「poem rpomn」這個字。",
+      "examplesZh": [
+        "我在學校學過「poem rpomn」這個字。"
+      ]
     },
     {
       "id": "1211",
@@ -29272,7 +34225,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過模式這個詞。",
+      "examplesZh": [
+        "我在學校學過模式這個詞。"
+      ]
     },
     {
       "id": "1212",
@@ -29295,7 +34252,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過英語這個詞。",
+      "examplesZh": [
+        "我在學校學過英語這個詞。"
+      ]
     },
     {
       "id": "1213",
@@ -29318,7 +34279,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了科學這個詞。",
+      "examplesZh": [
+        "我在學校學到了科學這個詞。"
+      ]
     },
     {
       "id": "1214",
@@ -29341,7 +34306,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過 N 化學這個字。",
+      "examplesZh": [
+        "我在學校學過 N 化學這個字。"
+      ]
     },
     {
       "id": "1215",
@@ -29364,7 +34333,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過數學這個詞。",
+      "examplesZh": [
+        "我在學校學過數學這個詞。"
+      ]
     },
     {
       "id": "1216",
@@ -29387,7 +34360,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過「S 生物學」這個詞。",
+      "examplesZh": [
+        "我在學校學過「S 生物學」這個詞。"
+      ]
     },
     {
       "id": "1217",
@@ -29410,7 +34387,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過法律這個詞。",
+      "examplesZh": [
+        "我在學校學過法律這個詞。"
+      ]
     },
     {
       "id": "1218",
@@ -29433,7 +34414,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過「圖片」這個詞。",
+      "examplesZh": [
+        "我在學校學過「圖片」這個詞。"
+      ]
     },
     {
       "id": "1219",
@@ -29456,7 +34441,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過「課程」這個詞。",
+      "examplesZh": [
+        "我在學校學過「課程」這個詞。"
+      ]
     },
     {
       "id": "1220",
@@ -29479,7 +34468,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過單字字典。",
+      "examplesZh": [
+        "我在學校學過單字字典。"
+      ]
     },
     {
       "id": "1221",
@@ -29502,7 +34495,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了故事這個詞。",
+      "examplesZh": [
+        "我在學校學到了故事這個詞。"
+      ]
     },
     {
       "id": "1222",
@@ -29525,7 +34522,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過「方法」這個詞。",
+      "examplesZh": [
+        "我在學校學過「方法」這個詞。"
+      ]
     },
     {
       "id": "1223",
@@ -29548,7 +34549,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過咒語這個詞。",
+      "examplesZh": [
+        "我在學校學過咒語這個詞。"
+      ]
     },
     {
       "id": "1224",
@@ -29571,7 +34576,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過這個詞。",
+      "examplesZh": [
+        "我在學校學過這個詞。"
+      ]
     },
     {
       "id": "1225",
@@ -29594,7 +34603,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過單字詞彙。",
+      "examplesZh": [
+        "我在學校學過單字詞彙。"
+      ]
     },
     {
       "id": "1226",
@@ -29617,7 +34630,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過「對話」這個詞。",
+      "examplesZh": [
+        "我在學校學過「對話」這個詞。"
+      ]
     },
     {
       "id": "1227",
@@ -29640,7 +34657,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過字母這個字。",
+      "examplesZh": [
+        "我在學校學過字母這個字。"
+      ]
     },
     {
       "id": "1228",
@@ -29663,7 +34684,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「說話」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「說話」這個詞。"
+      ]
     },
     {
       "id": "1229",
@@ -29686,7 +34711,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「重複」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「重複」這個詞。"
+      ]
     },
     {
       "id": "1230",
@@ -29709,7 +34738,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「read」這個字。",
+      "examplesZh": [
+        "我在學校學到了「read」這個字。"
+      ]
     },
     {
       "id": "1231",
@@ -29732,7 +34765,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了這個詞的意思。",
+      "examplesZh": [
+        "我在學校學到了這個詞的意思。"
+      ]
     },
     {
       "id": "1232",
@@ -29755,7 +34792,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「卑鄙」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「卑鄙」這個詞。"
+      ]
     },
     {
       "id": "1233",
@@ -29778,7 +34819,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過句子這個字。",
+      "examplesZh": [
+        "我在學校學過句子這個字。"
+      ]
     },
     {
       "id": "1234",
@@ -29801,7 +34846,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了練習這個詞。",
+      "examplesZh": [
+        "我在學校學到了練習這個詞。"
+      ]
     },
     {
       "id": "1235",
@@ -29824,7 +34873,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過「基礎」這個詞。",
+      "examplesZh": [
+        "我在學校學過「基礎」這個詞。"
+      ]
     },
     {
       "id": "1236",
@@ -29847,7 +34900,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過原則這個詞。",
+      "examplesZh": [
+        "我在學校學過原則這個詞。"
+      ]
     },
     {
       "id": "1237",
@@ -29870,7 +34927,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過單字表。",
+      "examplesZh": [
+        "我在學校學過單字表。"
+      ]
     },
     {
       "id": "1238",
@@ -29893,7 +34954,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過符號這個字。",
+      "examplesZh": [
+        "我在學校學過符號這個字。"
+      ]
     },
     {
       "id": "1239",
@@ -29916,7 +34981,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過字數統計。",
+      "examplesZh": [
+        "我在學校學過字數統計。"
+      ]
     },
     {
       "id": "1240",
@@ -29939,7 +35008,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過add這個字。",
+      "examplesZh": [
+        "我在學校學過add這個字。"
+      ]
     },
     {
       "id": "1241",
@@ -29962,7 +35035,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「plus」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「plus」這個詞。"
+      ]
     },
     {
       "id": "1242",
@@ -29985,7 +35062,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「減」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「減」這個詞。"
+      ]
     },
     {
       "id": "1243",
@@ -30008,7 +35089,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了平等這個詞。",
+      "examplesZh": [
+        "我在學校學到了平等這個詞。"
+      ]
     },
     {
       "id": "1244",
@@ -30031,7 +35116,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「鴻溝」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「鴻溝」這個詞。"
+      ]
     },
     {
       "id": "1245",
@@ -30056,6 +35145,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我在學校學到了「解決」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「解決」這個詞。"
       ]
     },
     {
@@ -30079,7 +35172,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過單字問題。",
+      "examplesZh": [
+        "我在學校學過單字問題。"
+      ]
     },
     {
       "id": "1247",
@@ -30102,7 +35199,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「錯誤」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「錯誤」這個詞。"
+      ]
     },
     {
       "id": "1248",
@@ -30125,7 +35226,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「錯誤」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「錯誤」這個詞。"
+      ]
     },
     {
       "id": "1249",
@@ -30148,7 +35253,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「學習」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「學習」這個詞。"
+      ]
     },
     {
       "id": "1250",
@@ -30171,7 +35280,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「考試」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「考試」這個詞。"
+      ]
     },
     {
       "id": "1251",
@@ -30194,7 +35307,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「複習」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「複習」這個詞。"
+      ]
     },
     {
       "id": "1252",
@@ -30217,7 +35334,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過課本這個字。",
+      "examplesZh": [
+        "我在學校學過課本這個字。"
+      ]
     },
     {
       "id": "1253",
@@ -30240,7 +35361,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「作業」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「作業」這個詞。"
+      ]
     },
     {
       "id": "1254",
@@ -30263,7 +35388,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過「空白」這個詞。",
+      "examplesZh": [
+        "我在學校學過「空白」這個詞。"
+      ]
     },
     {
       "id": "1255",
@@ -30288,6 +35417,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "這些紙幣（鈔票）看起來並不真實。",
+      "examplesZh": [
+        "這些紙幣（鈔票）看起來並不真實。"
       ]
     },
     {
@@ -30311,7 +35444,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過「問題」這個詞。",
+      "examplesZh": [
+        "我在學校學過「問題」這個詞。"
+      ]
     },
     {
       "id": "1257",
@@ -30334,7 +35471,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了底線這個詞。",
+      "examplesZh": [
+        "我在學校學到了底線這個詞。"
+      ]
     },
     {
       "id": "1258",
@@ -30357,7 +35498,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了分數這個詞。",
+      "examplesZh": [
+        "我在學校學到了分數這個詞。"
+      ]
     },
     {
       "id": "1259",
@@ -30380,7 +35525,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「年級」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「年級」這個詞。"
+      ]
     },
     {
       "id": "1260",
@@ -30403,7 +35552,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了final這個字。",
+      "examplesZh": [
+        "我在學校學到了final這個字。"
+      ]
     },
     {
       "id": "1261",
@@ -30426,7 +35579,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「結果」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「結果」這個詞。"
+      ]
     },
     {
       "id": "1262",
@@ -30449,7 +35606,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「pass」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「pass」這個詞。"
+      ]
     },
     {
       "id": "1263",
@@ -30472,7 +35633,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了失敗這個詞。",
+      "examplesZh": [
+        "我在學校學到了失敗這個詞。"
+      ]
     },
     {
       "id": "1264",
@@ -30495,7 +35660,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了測驗這個詞。",
+      "examplesZh": [
+        "我在學校學到了測驗這個詞。"
+      ]
     },
     {
       "id": "1265",
@@ -30518,7 +35687,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了作弊這個詞。",
+      "examplesZh": [
+        "我在學校學到了作弊這個詞。"
+      ]
     },
     {
       "id": "1266",
@@ -30541,7 +35714,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了文具這個詞。",
+      "examplesZh": [
+        "我在學校學到了文具這個詞。"
+      ]
     },
     {
       "id": "1267",
@@ -30566,6 +35743,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我在學校學過單字板。",
+      "examplesZh": [
+        "我在學校學過單字板。"
       ]
     },
     {
@@ -30589,7 +35770,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了橡皮擦這個字。",
+      "examplesZh": [
+        "我在學校學到了橡皮擦這個字。"
+      ]
     },
     {
       "id": "1269",
@@ -30612,7 +35797,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「膠水」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「膠水」這個詞。"
+      ]
     },
     {
       "id": "1270",
@@ -30635,7 +35824,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過「貼」這個詞。",
+      "examplesZh": [
+        "我在學校學過「貼」這個詞。"
+      ]
     },
     {
       "id": "1271",
@@ -30658,7 +35851,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過「磁帶」這個詞。",
+      "examplesZh": [
+        "我在學校學過「磁帶」這個詞。"
+      ]
     },
     {
       "id": "1272",
@@ -30681,7 +35878,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過「練習本」這個詞。",
+      "examplesZh": [
+        "我在學校學過「練習本」這個詞。"
+      ]
     },
     {
       "id": "1273",
@@ -30704,7 +35905,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過「筆記本」這個詞。",
+      "examplesZh": [
+        "我在學校學過「筆記本」這個詞。"
+      ]
     },
     {
       "id": "1274",
@@ -30727,7 +35932,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了鉛筆這個詞。",
+      "examplesZh": [
+        "我在學校學到了鉛筆這個詞。"
+      ]
     },
     {
       "id": "1275",
@@ -30750,7 +35959,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「鉛筆盒」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「鉛筆盒」這個詞。"
+      ]
     },
     {
       "id": "1276",
@@ -30773,7 +35986,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了標記這個詞。",
+      "examplesZh": [
+        "我在學校學到了標記這個詞。"
+      ]
     },
     {
       "id": "1277",
@@ -30796,7 +36013,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了蠟筆這個詞。",
+      "examplesZh": [
+        "我在學校學到了蠟筆這個詞。"
+      ]
     },
     {
       "id": "1278",
@@ -30821,6 +36042,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我在學校學過單字紙。",
+      "examplesZh": [
+        "我在學校學過單字紙。"
       ]
     },
     {
@@ -30844,7 +36069,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「明信片」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「明信片」這個詞。"
+      ]
     },
     {
       "id": "1280",
@@ -30867,7 +36096,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了FP背包這個詞。",
+      "examplesZh": [
+        "我在學校學到了FP背包這個詞。"
+      ]
     },
     {
       "id": "1281",
@@ -30890,7 +36123,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了日記這個詞。",
+      "examplesZh": [
+        "我在學校學到了日記這個詞。"
+      ]
     },
     {
       "id": "1282",
@@ -30915,6 +36152,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我在學校學過單字紙。",
+      "examplesZh": [
+        "我在學校學過單字紙。"
       ]
     },
     {
@@ -30938,7 +36179,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過單字書。",
+      "examplesZh": [
+        "我在學校學過單字書。"
+      ]
     },
     {
       "id": "1284",
@@ -30961,7 +36206,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「棒極了」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「棒極了」這個詞。"
+      ]
     },
     {
       "id": "1285",
@@ -30984,7 +36233,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「決定」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「決定」這個詞。"
+      ]
     },
     {
       "id": "1286",
@@ -31007,7 +36260,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過主題這個詞。",
+      "examplesZh": [
+        "我在學校學過主題這個詞。"
+      ]
     },
     {
       "id": "1287",
@@ -31030,7 +36287,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「討論」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「討論」這個詞。"
+      ]
     },
     {
       "id": "1288",
@@ -31053,7 +36314,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「討論」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「討論」這個詞。"
+      ]
     },
     {
       "id": "1289",
@@ -31076,7 +36341,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「同學」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「同學」這個詞。"
+      ]
     },
     {
       "id": "1290",
@@ -31101,6 +36370,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我在學校學到了「衝浪」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「衝浪」這個詞。"
       ]
     },
     {
@@ -31124,7 +36397,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「修改」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「修改」這個詞。"
+      ]
     },
     {
       "id": "1292",
@@ -31147,7 +36424,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過「正確」這個詞。",
+      "examplesZh": [
+        "我在學校學過「正確」這個詞。"
+      ]
     },
     {
       "id": "1293",
@@ -31170,7 +36451,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學錯了這個詞。",
+      "examplesZh": [
+        "我在學校學錯了這個詞。"
+      ]
     },
     {
       "id": "1294",
@@ -31193,7 +36478,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過「完整」這個詞。",
+      "examplesZh": [
+        "我在學校學過「完整」這個詞。"
+      ]
     },
     {
       "id": "1295",
@@ -31219,6 +36508,11 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我們應該經常洗手。",
+      "examplesZh": [
+        "我們應該經常洗手。",
+        ""
       ]
     },
     {
@@ -31244,6 +36538,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我在學校學到了「準備」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「準備」這個詞。"
       ]
     },
     {
@@ -31267,7 +36565,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學過演講這個詞。",
+      "examplesZh": [
+        "我在學校學過演講這個詞。"
+      ]
     },
     {
       "id": "1298",
@@ -31290,7 +36592,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「步驟」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「步驟」這個詞。"
+      ]
     },
     {
       "id": "1299",
@@ -31313,7 +36619,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「優秀」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「優秀」這個詞。"
+      ]
     },
     {
       "id": "1300",
@@ -31336,7 +36646,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「記住」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「記住」這個詞。"
+      ]
     },
     {
       "id": "1301",
@@ -31359,7 +36673,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「改進」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「改進」這個詞。"
+      ]
     },
     {
       "id": "1302",
@@ -31382,7 +36700,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「忘記」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「忘記」這個詞。"
+      ]
     },
     {
       "id": "1303",
@@ -31405,7 +36727,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「角色」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「角色」這個詞。"
+      ]
     },
     {
       "id": "1304",
@@ -31428,7 +36754,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「學習」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「學習」這個詞。"
+      ]
     },
     {
       "id": "1305",
@@ -31451,7 +36781,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了完美這個詞。",
+      "examplesZh": [
+        "我在學校學到了完美這個詞。"
+      ]
     },
     {
       "id": "1306",
@@ -31474,7 +36808,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「想要」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「想要」這個詞。"
+      ]
     },
     {
       "id": "1307",
@@ -31497,7 +36835,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我在學校學到了「獎」這個詞。",
+      "examplesZh": [
+        "我在學校學到了「獎」這個詞。"
+      ]
     },
     {
       "id": "1308",
@@ -31520,7 +36862,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "位置這個字可以幫助我們描述地點。",
+      "examplesZh": [
+        "位置這個字可以幫助我們描述地點。"
+      ]
     },
     {
       "id": "1309",
@@ -31543,7 +36889,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "入口這個字幫助我們描述地方。",
+      "examplesZh": [
+        "入口這個字幫助我們描述地方。"
+      ]
     },
     {
       "id": "1310",
@@ -31566,7 +36916,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "輸入這個字可以幫助我們描述地點。",
+      "examplesZh": [
+        "輸入這個字可以幫助我們描述地點。"
+      ]
     },
     {
       "id": "1311",
@@ -31589,7 +36943,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "中心這個字幫助我們描述地方。",
+      "examplesZh": [
+        "中心這個字幫助我們描述地方。"
+      ]
     },
     {
       "id": "1312",
@@ -31612,7 +36970,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "中心這個字可以幫助我們描述地方。",
+      "examplesZh": [
+        "中心這個字可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1313",
@@ -31635,7 +36997,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「front」這個字可以幫助我們描述地方。",
+      "examplesZh": [
+        "「front」這個字可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1314",
@@ -31660,6 +37026,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "昨天打網球時我傷了背。",
+      "examplesZh": [
+        "昨天打網球時我傷了背。"
       ]
     },
     {
@@ -31683,7 +37053,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "aar 這個字幫助我們描述地方。",
+      "examplesZh": [
+        "aar 這個字幫助我們描述地方。"
+      ]
     },
     {
       "id": "1316",
@@ -31706,7 +37080,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「中間」這個字幫助我們描述地方。",
+      "examplesZh": [
+        "「中間」這個字幫助我們描述地方。"
+      ]
     },
     {
       "id": "1317",
@@ -31729,7 +37107,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "頂部這個字可以幫助我們描述地方。",
+      "examplesZh": [
+        "頂部這個字可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1318",
@@ -31752,7 +37134,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「上」這個字幫助我們描述地方。",
+      "examplesZh": [
+        "「上」這個字幫助我們描述地方。"
+      ]
     },
     {
       "id": "1319",
@@ -31775,7 +37161,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "底部這個字幫助我們描述地方。",
+      "examplesZh": [
+        "底部這個字幫助我們描述地方。"
+      ]
     },
     {
       "id": "1320",
@@ -31798,7 +37188,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "地址這個字可以幫助我們描述地點。",
+      "examplesZh": [
+        "地址這個字可以幫助我們描述地點。"
+      ]
     },
     {
       "id": "1321",
@@ -31821,7 +37215,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "街道這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "街道這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1322",
@@ -31844,7 +37242,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「指示」這個字可以幫助我們描述地點。",
+      "examplesZh": [
+        "「指示」這個字可以幫助我們描述地點。"
+      ]
     },
     {
       "id": "1323",
@@ -31867,7 +37269,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「表演」這個詞可以幫助我們描述地方。",
+      "examplesZh": [
+        "「表演」這個詞可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1324",
@@ -31890,7 +37296,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "方向這個字可以幫助我們描述地點。",
+      "examplesZh": [
+        "方向這個字可以幫助我們描述地點。"
+      ]
     },
     {
       "id": "1325",
@@ -31913,7 +37323,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「直接」這個字可以幫助我們形容地方。",
+      "examplesZh": [
+        "「直接」這個字可以幫助我們形容地方。"
+      ]
     },
     {
       "id": "1326",
@@ -31936,7 +37350,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "運動這個字可以幫助我們形容地方。",
+      "examplesZh": [
+        "運動這個字可以幫助我們形容地方。"
+      ]
     },
     {
       "id": "1327",
@@ -31959,7 +37377,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "西方這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "西方這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1328",
@@ -31982,7 +37404,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "北這個字幫助我們描述地方。",
+      "examplesZh": [
+        "北這個字幫助我們描述地方。"
+      ]
     },
     {
       "id": "1329",
@@ -32005,7 +37431,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "東方這個字幫助我們描述地方。",
+      "examplesZh": [
+        "東方這個字幫助我們描述地方。"
+      ]
     },
     {
       "id": "1330",
@@ -32028,7 +37458,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "南方這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "南方這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1331",
@@ -32051,7 +37485,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "向後這個字可以幫助我們描述地方。",
+      "examplesZh": [
+        "向後這個字可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1332",
@@ -32074,7 +37512,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「前進」這個詞可以幫助我們描述地點。",
+      "examplesZh": [
+        "「前進」這個詞可以幫助我們描述地點。"
+      ]
     },
     {
       "id": "1333",
@@ -32097,7 +37539,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我留下的字可以幫助我們描述地方。",
+      "examplesZh": [
+        "我留下的字可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1334",
@@ -32120,7 +37566,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "地圖這個字可以幫助我們描述地點。",
+      "examplesZh": [
+        "地圖這個字可以幫助我們描述地點。"
+      ]
     },
     {
       "id": "1335",
@@ -32145,6 +37595,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "運動這個字可以幫助我們形容地方。",
+      "examplesZh": [
+        "運動這個字可以幫助我們形容地方。"
       ]
     },
     {
@@ -32168,7 +37622,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "自助餐廳這個詞可以幫助我們描述地方。",
+      "examplesZh": [
+        "自助餐廳這個詞可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1337",
@@ -32191,7 +37649,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "麵包店這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "麵包店這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1338",
@@ -32214,7 +37676,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "餐廳這個詞可以幫助我們描述地方。",
+      "examplesZh": [
+        "餐廳這個詞可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1339",
@@ -32237,7 +37703,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "購物中心這個詞可以幫助我們描述地方。",
+      "examplesZh": [
+        "購物中心這個詞可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1340",
@@ -32260,7 +37730,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "市場這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "市場這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1341",
@@ -32283,7 +37757,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "超市這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "超市這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1342",
@@ -32306,7 +37784,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "商店這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "商店這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1343",
@@ -32329,7 +37811,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "商店這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "商店這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1344",
@@ -32352,7 +37838,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "店主這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "店主這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1345",
@@ -32375,7 +37865,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「撕裂」這個字幫助我們形容地方。",
+      "examplesZh": [
+        "「撕裂」這個字幫助我們形容地方。"
+      ]
     },
     {
       "id": "1346",
@@ -32398,7 +37892,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "藥局這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "藥局這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1347",
@@ -32421,7 +37919,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "劇院這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "劇院這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1348",
@@ -32444,7 +37946,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "座位這個詞可以幫助我們描述地方。",
+      "examplesZh": [
+        "座位這個詞可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1349",
@@ -32467,7 +37973,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "辦公室這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "辦公室這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1350",
@@ -32490,7 +38000,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "郵局這個字幫助我們描述地方。",
+      "examplesZh": [
+        "郵局這個字幫助我們描述地方。"
+      ]
     },
     {
       "id": "1351",
@@ -32515,6 +38029,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "詞庫幫助我們形容地方。",
+      "examplesZh": [
+        "詞庫幫助我們形容地方。"
       ]
     },
     {
@@ -32538,7 +38056,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "酒店這個詞可以幫助我們描述地方。",
+      "examplesZh": [
+        "酒店這個詞可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1353",
@@ -32561,7 +38083,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "醫院這個字可以幫助我們形容地方。",
+      "examplesZh": [
+        "醫院這個字可以幫助我們形容地方。"
+      ]
     },
     {
       "id": "1354",
@@ -32584,7 +38110,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "警察局這個詞可以幫助我們形容地方。",
+      "examplesZh": [
+        "警察局這個詞可以幫助我們形容地方。"
+      ]
     },
     {
       "id": "1355",
@@ -32607,7 +38137,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "消防局這個詞可以幫助我們描述地方。",
+      "examplesZh": [
+        "消防局這個詞可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1356",
@@ -32630,7 +38164,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "法庭這個字可以幫助我們描述地方。",
+      "examplesZh": [
+        "法庭這個字可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1357",
@@ -32653,7 +38191,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "洗手間這個字可以幫助我們描述地方。",
+      "examplesZh": [
+        "洗手間這個字可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1358",
@@ -32676,7 +38218,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "男廁這個詞可以幫助我們描述地方。",
+      "examplesZh": [
+        "男廁這個詞可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1359",
@@ -32699,7 +38245,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「女廁所」這個詞可以幫助我們描述地方。",
+      "examplesZh": [
+        "「女廁所」這個詞可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1360",
@@ -32722,7 +38272,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "地方這個字可以幫助我們形容地方。",
+      "examplesZh": [
+        "地方這個字可以幫助我們形容地方。"
+      ]
     },
     {
       "id": "1361",
@@ -32745,7 +38299,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "城市這個字幫助我們描述地方。",
+      "examplesZh": [
+        "城市這個字幫助我們描述地方。"
+      ]
     },
     {
       "id": "1362",
@@ -32768,7 +38326,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "市中心這個詞可以幫助我們形容地方。",
+      "examplesZh": [
+        "市中心這個詞可以幫助我們形容地方。"
+      ]
     },
     {
       "id": "1363",
@@ -32791,7 +38353,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "城鎮這個字幫助我們描述地方。",
+      "examplesZh": [
+        "城鎮這個字幫助我們描述地方。"
+      ]
     },
     {
       "id": "1364",
@@ -32814,7 +38380,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "博物館這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "博物館這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1365",
@@ -32837,7 +38407,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "書店這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "書店這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1366",
@@ -32860,7 +38434,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "幼兒園這個字可以幫助我們描述地方。",
+      "examplesZh": [
+        "幼兒園這個字可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1367",
@@ -32885,6 +38463,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "公園這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "公園這個詞幫助我們描述地方。"
       ]
     },
     {
@@ -32908,7 +38490,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "蹺蹺板這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "蹺蹺板這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1369",
@@ -32931,7 +38517,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「搖擺」這個詞可以幫助我們形容地方。",
+      "examplesZh": [
+        "「搖擺」這個詞可以幫助我們形容地方。"
+      ]
     },
     {
       "id": "1370",
@@ -32954,7 +38544,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "幻燈片這個詞可以幫助我們描述地方。",
+      "examplesZh": [
+        "幻燈片這個詞可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1371",
@@ -32977,7 +38571,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「提醒」這個詞可以幫助我們描述地方。",
+      "examplesZh": [
+        "「提醒」這個詞可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1372",
@@ -33000,7 +38598,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「給予」這個字可以幫助我們形容地方。",
+      "examplesZh": [
+        "「給予」這個字可以幫助我們形容地方。"
+      ]
     },
     {
       "id": "1373",
@@ -33023,7 +38625,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "等待這個字可以幫助我們描述地點。",
+      "examplesZh": [
+        "等待這個字可以幫助我們描述地點。"
+      ]
     },
     {
       "id": "1374",
@@ -33046,7 +38652,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "笑這個字可以幫助我們形容地方。",
+      "examplesZh": [
+        "笑這個字可以幫助我們形容地方。"
+      ]
     },
     {
       "id": "1375",
@@ -33071,6 +38681,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "大聲這個字可以幫助我們描述地方。",
+      "examplesZh": [
+        "大聲這個字可以幫助我們描述地方。"
       ]
     },
     {
@@ -33094,7 +38708,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "隱藏這個字可以幫助我們描述地方。",
+      "examplesZh": [
+        "隱藏這個字可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1377",
@@ -33117,7 +38735,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "謊言這個字可以幫助我們形容地方。",
+      "examplesZh": [
+        "謊言這個字可以幫助我們形容地方。"
+      ]
     },
     {
       "id": "1378",
@@ -33140,7 +38762,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "村莊這個字幫助我們描述地方。",
+      "examplesZh": [
+        "村莊這個字幫助我們描述地方。"
+      ]
     },
     {
       "id": "1379",
@@ -33167,6 +38793,12 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "林叔叔是玉米農。",
+      "examplesZh": [
+        "林叔叔是玉米農。",
+        "",
+        ""
       ]
     },
     {
@@ -33190,7 +38822,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "農場這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "農場這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1381",
@@ -33213,7 +38849,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "獵人這個字幫助我們形容地方。",
+      "examplesZh": [
+        "獵人這個字幫助我們形容地方。"
+      ]
     },
     {
       "id": "1382",
@@ -33236,7 +38876,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "期待這個詞可以幫助我們描述地點。",
+      "examplesZh": [
+        "期待這個詞可以幫助我們描述地點。"
+      ]
     },
     {
       "id": "1383",
@@ -33259,7 +38903,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "貿易這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "貿易這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1384",
@@ -33282,7 +38930,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "描述這個詞可以幫助我們描述地方。",
+      "examplesZh": [
+        "描述這個詞可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1385",
@@ -33305,7 +38957,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「美妙」這個詞可以幫助我們形容地方。",
+      "examplesZh": [
+        "「美妙」這個詞可以幫助我們形容地方。"
+      ]
     },
     {
       "id": "1386",
@@ -33328,7 +38984,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "場景這個字幫助我們描述地方。",
+      "examplesZh": [
+        "場景這個字幫助我們描述地方。"
+      ]
     },
     {
       "id": "1387",
@@ -33351,7 +39011,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "現代這個詞可以幫助我們描述地方。",
+      "examplesZh": [
+        "現代這個詞可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1388",
@@ -33374,7 +39038,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "輻射這個字可以幫助我們描述地方。",
+      "examplesZh": [
+        "輻射這個字可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1389",
@@ -33397,7 +39065,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "傳統這個字可以幫助我們形容地方。",
+      "examplesZh": [
+        "傳統這個字可以幫助我們形容地方。"
+      ]
     },
     {
       "id": "1390",
@@ -33420,7 +39092,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「無聊」這個詞可以幫助我們形容地方。",
+      "examplesZh": [
+        "「無聊」這個詞可以幫助我們形容地方。"
+      ]
     },
     {
       "id": "1391",
@@ -33443,7 +39119,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「狂野」這個詞可以幫助我們形容地方。",
+      "examplesZh": [
+        "「狂野」這個詞可以幫助我們形容地方。"
+      ]
     },
     {
       "id": "1392",
@@ -33466,7 +39146,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "世界這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "世界這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1393",
@@ -33489,7 +39173,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "國家這個字幫助我們描述地方。",
+      "examplesZh": [
+        "國家這個字幫助我們描述地方。"
+      ]
     },
     {
       "id": "1394",
@@ -33512,7 +39200,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "民族這個字幫助我們描述地方。",
+      "examplesZh": [
+        "民族這個字幫助我們描述地方。"
+      ]
     },
     {
       "id": "1395",
@@ -33535,7 +39227,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「國家」這個詞可以幫助我們描述地方。",
+      "examplesZh": [
+        "「國家」這個詞可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1396",
@@ -33558,7 +39254,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "國際這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "國際這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1397",
@@ -33583,6 +39283,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "生病的孩子狀況很糟。",
+      "examplesZh": [
+        "生病的孩子狀況很糟。"
       ]
     },
     {
@@ -33606,7 +39310,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "政府這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "政府這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1399",
@@ -33629,7 +39337,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "美國這個詞幫助我們形容地方。",
+      "examplesZh": [
+        "美國這個詞幫助我們形容地方。"
+      ]
     },
     {
       "id": "1400",
@@ -33652,7 +39364,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "美國這個詞幫助我們形容地方。",
+      "examplesZh": [
+        "美國這個詞幫助我們形容地方。"
+      ]
     },
     {
       "id": "1401",
@@ -33675,7 +39391,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "美國這個詞幫助我們形容地方。",
+      "examplesZh": [
+        "美國這個詞幫助我們形容地方。"
+      ]
     },
     {
       "id": "1402",
@@ -33698,7 +39418,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "台灣這個字可以幫助我們形容地方。",
+      "examplesZh": [
+        "台灣這個字可以幫助我們形容地方。"
+      ]
     },
     {
       "id": "1403",
@@ -33721,7 +39445,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "ROC 這個字幫助我們描述地方。",
+      "examplesZh": [
+        "ROC 這個字幫助我們描述地方。"
+      ]
     },
     {
       "id": "1404",
@@ -33744,7 +39472,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "強調這個字可以幫助我們描述地方。",
+      "examplesZh": [
+        "強調這個字可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1405",
@@ -33767,7 +39499,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "自由這個字可以幫助我們描述地方。",
+      "examplesZh": [
+        "自由這個字可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1406",
@@ -33790,7 +39526,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "重要這個字可以幫助我們描述地方。",
+      "examplesZh": [
+        "重要這個字可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1407",
@@ -33813,7 +39553,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "重要性這個字可以幫助我們描述地方。",
+      "examplesZh": [
+        "重要性這個字可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1408",
@@ -33836,7 +39580,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「選民」這個詞幫助我們描述地方。",
+      "examplesZh": [
+        "「選民」這個詞幫助我們描述地方。"
+      ]
     },
     {
       "id": "1409",
@@ -33859,7 +39607,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "投票這個詞可以幫助我們描述地方。",
+      "examplesZh": [
+        "投票這個詞可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1410",
@@ -33882,7 +39634,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "辯論這個詞可以幫助我們描述地方。",
+      "examplesZh": [
+        "辯論這個詞可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1411",
@@ -33905,7 +39661,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "最喜歡這個詞可以幫助我們描述地方。",
+      "examplesZh": [
+        "最喜歡這個詞可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1412",
@@ -33928,7 +39688,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "物質這個字幫助我們描述地方。",
+      "examplesZh": [
+        "物質這個字幫助我們描述地方。"
+      ]
     },
     {
       "id": "1413",
@@ -33951,7 +39715,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "Ohope 這個字幫助我們描述地方。",
+      "examplesZh": [
+        "Ohope 這個字幫助我們描述地方。"
+      ]
     },
     {
       "id": "1414",
@@ -33974,7 +39742,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "公平這個詞可以幫助我們描述地方。",
+      "examplesZh": [
+        "公平這個詞可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1415",
@@ -33997,7 +39769,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "機會這個詞可以幫助我們描述地方。",
+      "examplesZh": [
+        "機會這個詞可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1416",
@@ -34020,7 +39796,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "夢想這個詞可以幫助我們描述地方。",
+      "examplesZh": [
+        "夢想這個詞可以幫助我們描述地方。"
+      ]
     },
     {
       "id": "1417",
@@ -34043,7 +39823,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "系統這個字幫助我們描述地方。",
+      "examplesZh": [
+        "系統這個字幫助我們描述地方。"
+      ]
     },
     {
       "id": "1418",
@@ -34066,7 +39850,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「超級」這個字可以幫助我們形容地方。",
+      "examplesZh": [
+        "「超級」這個字可以幫助我們形容地方。"
+      ]
     },
     {
       "id": "1419",
@@ -34089,7 +39877,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，「公共」這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，「公共」這個詞很有用。"
+      ]
     },
     {
       "id": "1420",
@@ -34112,7 +39904,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論運輸時，“船”這個詞很有用。",
+      "examplesZh": [
+        "在談論運輸時，“船”這個詞很有用。"
+      ]
     },
     {
       "id": "1421",
@@ -34135,7 +39931,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，“船”這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，“船”這個詞很有用。"
+      ]
     },
     {
       "id": "1422",
@@ -34160,6 +39960,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "在談論交通時，「航行」這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，「航行」這個詞很有用。"
       ]
     },
     {
@@ -34183,7 +39987,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，航空公司這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，航空公司這個詞很有用。"
+      ]
     },
     {
       "id": "1424",
@@ -34206,7 +40014,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，機場這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，機場這個詞很有用。"
+      ]
     },
     {
       "id": "1425",
@@ -34229,7 +40041,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，“火車”這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，“火車”這個詞很有用。"
+      ]
     },
     {
       "id": "1426",
@@ -34252,7 +40068,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，火車站這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，火車站這個詞很有用。"
+      ]
     },
     {
       "id": "1427",
@@ -34275,7 +40095,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，出租車這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，出租車這個詞很有用。"
+      ]
     },
     {
       "id": "1428",
@@ -34298,7 +40122,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談到交通時，地鐵這個詞很有用。",
+      "examplesZh": [
+        "當談到交通時，地鐵這個詞很有用。"
+      ]
     },
     {
       "id": "1429",
@@ -34321,7 +40149,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，MRT 這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，MRT 這個詞很有用。"
+      ]
     },
     {
       "id": "1430",
@@ -34344,7 +40176,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，交通這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，交通這個詞很有用。"
+      ]
     },
     {
       "id": "1431",
@@ -34367,7 +40203,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，「輪」這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，「輪」這個詞很有用。"
+      ]
     },
     {
       "id": "1432",
@@ -34390,7 +40230,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，「平底車」這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，「平底車」這個詞很有用。"
+      ]
     },
     {
       "id": "1433",
@@ -34413,7 +40257,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，自行車這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，自行車這個詞很有用。"
+      ]
     },
     {
       "id": "1434",
@@ -34436,7 +40284,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，踏板車這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，踏板車這個詞很有用。"
+      ]
     },
     {
       "id": "1435",
@@ -34459,7 +40311,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，摩托車這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，摩托車這個詞很有用。"
+      ]
     },
     {
       "id": "1436",
@@ -34484,6 +40340,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "在談論交通時，「乘車」這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，「乘車」這個詞很有用。"
       ]
     },
     {
@@ -34507,7 +40367,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，直升機這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，直升機這個詞很有用。"
+      ]
     },
     {
       "id": "1438",
@@ -34530,7 +40394,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論運輸時，“引擎”這個詞很有用。",
+      "examplesZh": [
+        "當談論運輸時，“引擎”這個詞很有用。"
+      ]
     },
     {
       "id": "1439",
@@ -34553,7 +40421,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，“速度”這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，“速度”這個詞很有用。"
+      ]
     },
     {
       "id": "1440",
@@ -34576,7 +40448,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，「天然氣」這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，「天然氣」這個詞很有用。"
+      ]
     },
     {
       "id": "1441",
@@ -34599,7 +40475,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，“慢”這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，“慢”這個詞很有用。"
+      ]
     },
     {
       "id": "1442",
@@ -34622,7 +40502,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，“快速”這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，“快速”這個詞很有用。"
+      ]
     },
     {
       "id": "1443",
@@ -34645,7 +40529,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，“快速”這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，“快速”這個詞很有用。"
+      ]
     },
     {
       "id": "1444",
@@ -34668,7 +40556,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，人行道這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，人行道這個詞很有用。"
+      ]
     },
     {
       "id": "1445",
@@ -34693,6 +40585,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "當談論交通時，“公園”這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，“公園”這個詞很有用。"
       ]
     },
     {
@@ -34716,7 +40612,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，停車場這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，停車場這個詞很有用。"
+      ]
     },
     {
       "id": "1447",
@@ -34739,7 +40639,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，「塊」這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，「塊」這個詞很有用。"
+      ]
     },
     {
       "id": "1448",
@@ -34762,7 +40666,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，立交橋這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，立交橋這個詞很有用。"
+      ]
     },
     {
       "id": "1449",
@@ -34785,7 +40693,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，地下通道這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，地下通道這個詞很有用。"
+      ]
     },
     {
       "id": "1450",
@@ -34808,7 +40720,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，橋樑這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，橋樑這個詞很有用。"
+      ]
     },
     {
       "id": "1451",
@@ -34831,7 +40747,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，“十字架”這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，“十字架”這個詞很有用。"
+      ]
     },
     {
       "id": "1452",
@@ -34854,7 +40774,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，隧道這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，隧道這個詞很有用。"
+      ]
     },
     {
       "id": "1453",
@@ -34877,7 +40801,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，“路徑”這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，“路徑”這個詞很有用。"
+      ]
     },
     {
       "id": "1454",
@@ -34900,7 +40828,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，平台這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，平台這個詞很有用。"
+      ]
     },
     {
       "id": "1455",
@@ -34923,7 +40855,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論運輸時，鐵路這個詞很有用。",
+      "examplesZh": [
+        "當談論運輸時，鐵路這個詞很有用。"
+      ]
     },
     {
       "id": "1456",
@@ -34946,7 +40882,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論運輸時，鐵路這個詞很有用。",
+      "examplesZh": [
+        "當談論運輸時，鐵路這個詞很有用。"
+      ]
     },
     {
       "id": "1457",
@@ -34969,7 +40909,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，“iShighway”這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，“iShighway”這個詞很有用。"
+      ]
     },
     {
       "id": "1458",
@@ -34992,7 +40936,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，“標誌”這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，“標誌”這個詞很有用。"
+      ]
     },
     {
       "id": "1459",
@@ -35015,7 +40963,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，“通知”一詞很有用。",
+      "examplesZh": [
+        "在談論交通時，“通知”一詞很有用。"
+      ]
     },
     {
       "id": "1460",
@@ -35038,7 +40990,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，「乘客」這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，「乘客」這個詞很有用。"
+      ]
     },
     {
       "id": "1461",
@@ -35061,7 +41017,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，到達這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，到達這個詞很有用。"
+      ]
     },
     {
       "id": "1462",
@@ -35084,7 +41044,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，「到達」這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，「到達」這個詞很有用。"
+      ]
     },
     {
       "id": "1463",
@@ -35109,6 +41073,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "當談論交通時，單字板很有用。",
+      "examplesZh": [
+        "當談論交通時，單字板很有用。"
       ]
     },
     {
@@ -35134,6 +41102,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "在談論交通時，「乘車」這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，「乘車」這個詞很有用。"
       ]
     },
     {
@@ -35157,7 +41129,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，“票”這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，“票”這個詞很有用。"
+      ]
     },
     {
       "id": "1466",
@@ -35182,6 +41158,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "留著零錢吧！ 找不用零了",
+      "examplesZh": [
+        "留著零錢吧！ 找不用零了"
       ]
     },
     {
@@ -35205,7 +41185,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，「駕駛」這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，「駕駛」這個詞很有用。"
+      ]
     },
     {
       "id": "1468",
@@ -35228,7 +41212,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，租金這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，租金這個詞很有用。"
+      ]
     },
     {
       "id": "1469",
@@ -35251,7 +41239,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，轉彎這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，轉彎這個詞很有用。"
+      ]
     },
     {
       "id": "1470",
@@ -35274,7 +41266,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，「匆忙」這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，「匆忙」這個詞很有用。"
+      ]
     },
     {
       "id": "1471",
@@ -35297,7 +41293,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，「高峰」這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，「高峰」這個詞很有用。"
+      ]
     },
     {
       "id": "1472",
@@ -35320,7 +41320,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，「罰款」這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，「罰款」這個詞很有用。"
+      ]
     },
     {
       "id": "1473",
@@ -35343,7 +41347,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，“事故”這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，“事故”這個詞很有用。"
+      ]
     },
     {
       "id": "1474",
@@ -35366,7 +41374,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，「原因」這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，「原因」這個詞很有用。"
+      ]
     },
     {
       "id": "1475",
@@ -35391,6 +41403,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "當談論交通時，“hit”這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，“hit”這個詞很有用。"
       ]
     },
     {
@@ -35414,7 +41430,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，字數限制很有用。",
+      "examplesZh": [
+        "在談論交通時，字數限制很有用。"
+      ]
     },
     {
       "id": "1477",
@@ -35437,7 +41457,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，「尋找」這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，「尋找」這個詞很有用。"
+      ]
     },
     {
       "id": "1478",
@@ -35460,7 +41484,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，「幫助」這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，「幫助」這個詞很有用。"
+      ]
     },
     {
       "id": "1479",
@@ -35483,7 +41511,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，解釋這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，解釋這個詞很有用。"
+      ]
     },
     {
       "id": "1480",
@@ -35506,7 +41538,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，「發生」這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，「發生」這個詞很有用。"
+      ]
     },
     {
       "id": "1481",
@@ -35529,7 +41565,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，「告訴」這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，「告訴」這個詞很有用。"
+      ]
     },
     {
       "id": "1482",
@@ -35552,7 +41592,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，“整體”這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，“整體”這個詞很有用。"
+      ]
     },
     {
       "id": "1483",
@@ -35575,7 +41619,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，「事實」這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，「事實」這個詞很有用。"
+      ]
     },
     {
       "id": "1484",
@@ -35598,7 +41646,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，“真相”這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，“真相”這個詞很有用。"
+      ]
     },
     {
       "id": "1485",
@@ -35621,7 +41673,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "當談論交通時，“輕鬆”這個詞很有用。",
+      "examplesZh": [
+        "當談論交通時，“輕鬆”這個詞很有用。"
+      ]
     },
     {
       "id": "1486",
@@ -35644,7 +41700,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "在談論交通時，「case」這個詞很有用。",
+      "examplesZh": [
+        "在談論交通時，「case」這個詞很有用。"
+      ]
     },
     {
       "id": "1487",
@@ -35669,6 +41729,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「測量單位」單元中使用「meter」一詞。",
+      "examplesZh": [
+        "本課程在「測量單位」單元中使用「meter」一詞。"
       ]
     },
     {
@@ -35692,7 +41756,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在測量單位中使用距離一詞。",
+      "examplesZh": [
+        "本課程在測量單位中使用距離一詞。"
+      ]
     },
     {
       "id": "1489",
@@ -35717,6 +41785,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我的腳受傷了。",
+      "examplesZh": [
+        "我的腳受傷了。"
       ]
     },
     {
@@ -35742,6 +41814,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課在計量單位中使用了“yard”一詞。",
+      "examplesZh": [
+        "本課在計量單位中使用了“yard”一詞。"
       ]
     },
     {
@@ -35765,7 +41841,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在測量單位中使用“長”一詞。",
+      "examplesZh": [
+        "本課程在測量單位中使用“長”一詞。"
+      ]
     },
     {
       "id": "1492",
@@ -35790,6 +41870,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "雖然他個子矮小，但是他的聲音卻比任何人都響亮。",
+      "examplesZh": [
+        "雖然他個子矮小，但是他的聲音卻比任何人都響亮。"
       ]
     },
     {
@@ -35813,7 +41897,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在測量單位中使用“距離”一詞。",
+      "examplesZh": [
+        "本課程在測量單位中使用“距離”一詞。"
+      ]
     },
     {
       "id": "1494",
@@ -35836,7 +41924,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在測量單位中使用“遠”一詞。",
+      "examplesZh": [
+        "本課程在測量單位中使用“遠”一詞。"
+      ]
     },
     {
       "id": "1495",
@@ -35861,6 +41953,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在測量單位中使用“near”一詞。",
+      "examplesZh": [
+        "本課程在測量單位中使用“near”一詞。"
       ]
     },
     {
@@ -35884,7 +41980,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在測量單位中使用測量一詞。",
+      "examplesZh": [
+        "本課程在測量單位中使用測量一詞。"
+      ]
     },
     {
       "id": "1497",
@@ -35907,7 +42007,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在計量單位中使用“重量”一詞。",
+      "examplesZh": [
+        "本課程在計量單位中使用“重量”一詞。"
+      ]
     },
     {
       "id": "1498",
@@ -35930,7 +42034,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在測量單位中使用單字 gram。",
+      "examplesZh": [
+        "本課程在測量單位中使用單字 gram。"
+      ]
     },
     {
       "id": "1499",
@@ -35953,7 +42061,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在計量單位中使用“公斤”一詞。",
+      "examplesZh": [
+        "本課程在計量單位中使用“公斤”一詞。"
+      ]
     },
     {
       "id": "1500",
@@ -35978,6 +42090,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我有10磅。歐元 歐元;日圓日圓",
+      "examplesZh": [
+        "我有10磅。歐元 歐元;日圓日圓"
       ]
     },
     {
@@ -36001,7 +42117,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在計量單位中使用“公升”一詞。",
+      "examplesZh": [
+        "本課程在計量單位中使用“公升”一詞。"
+      ]
     },
     {
       "id": "1502",
@@ -36024,7 +42144,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「大小」、「寬度」和「高度」單元中使用字號。",
+      "examplesZh": [
+        "本課程在「大小」、「寬度」和「高度」單元中使用字號。"
+      ]
     },
     {
       "id": "1503",
@@ -36047,7 +42171,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「大小」、「寬度」和「高度」單元中使用「大」一詞。",
+      "examplesZh": [
+        "本課程在「大小」、「寬度」和「高度」單元中使用「大」一詞。"
+      ]
     },
     {
       "id": "1504",
@@ -36072,6 +42200,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「尺寸」、「寬度」和「高度」單元中使用「大」一詞。",
+      "examplesZh": [
+        "本課程在「尺寸」、「寬度」和「高度」單元中使用「大」一詞。"
       ]
     },
     {
@@ -36097,6 +42229,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「尺寸」、「寬度」和「高度」單元中使用「little」一詞。",
+      "examplesZh": [
+        "本課程在「尺寸」、「寬度」和「高度」單元中使用「little」一詞。"
       ]
     },
     {
@@ -36120,7 +42256,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「尺寸」、「寬度」和「高度」單元中使用「Bheight」一詞。",
+      "examplesZh": [
+        "本課程在「尺寸」、「寬度」和「高度」單元中使用「Bheight」一詞。"
+      ]
     },
     {
       "id": "1507",
@@ -36143,7 +42283,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「尺寸」、「寬度」和「高度」單元中使用「高」一詞。",
+      "examplesZh": [
+        "本課程在「尺寸」、「寬度」和「高度」單元中使用「高」一詞。"
+      ]
     },
     {
       "id": "1508",
@@ -36166,7 +42310,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「尺寸」、「寬度」和「高度」單元中使用「low」一詞。",
+      "examplesZh": [
+        "本課程在「尺寸」、「寬度」和「高度」單元中使用「low」一詞。"
+      ]
     },
     {
       "id": "1509",
@@ -36189,7 +42337,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「大小」、「寬度」和「高度」單元中使用「寬」一詞。",
+      "examplesZh": [
+        "本課程在「大小」、「寬度」和「高度」單元中使用「寬」一詞。"
+      ]
     },
     {
       "id": "1510",
@@ -36212,7 +42364,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「大小」、「寬度」和「高度」單元中使用「寬」一詞。",
+      "examplesZh": [
+        "本課程在「大小」、「寬度」和「高度」單元中使用「寬」一詞。"
+      ]
     },
     {
       "id": "1511",
@@ -36235,7 +42391,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「尺寸」、「寬度」和「高度」單元中使用「窄」一詞。",
+      "examplesZh": [
+        "本課程在「尺寸」、「寬度」和「高度」單元中使用「窄」一詞。"
+      ]
     },
     {
       "id": "1512",
@@ -36258,7 +42418,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「大小」、「寬度」和「高度」單元中使用單字等級。",
+      "examplesZh": [
+        "本課程在「大小」、「寬度」和「高度」單元中使用單字等級。"
+      ]
     },
     {
       "id": "1513",
@@ -36281,7 +42445,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「尺寸」、「寬度」和「高度」單元中使用「最大值」一詞。",
+      "examplesZh": [
+        "本課程在「尺寸」、「寬度」和「高度」單元中使用「最大值」一詞。"
+      ]
     },
     {
       "id": "1514",
@@ -36304,7 +42472,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在單元「數量」、「深度」和「厚度」中使用「數量」一詞。",
+      "examplesZh": [
+        "本課程在單元「數量」、「深度」和「厚度」中使用「數量」一詞。"
+      ]
     },
     {
       "id": "1515",
@@ -36329,6 +42501,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「數量」、「深度」和「厚度」單元中使用「little」一詞。",
+      "examplesZh": [
+        "本課程在「數量」、「深度」和「厚度」單元中使用「little」一詞。"
       ]
     },
     {
@@ -36352,7 +42528,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「數量」、「深度」和「厚度」單元中使用「小」一詞。",
+      "examplesZh": [
+        "本課程在「數量」、「深度」和「厚度」單元中使用「小」一詞。"
+      ]
     },
     {
       "id": "1517",
@@ -36377,6 +42557,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「數量」、「深度」和「厚度」單元中使用「大」一詞。",
+      "examplesZh": [
+        "本課程在「數量」、「深度」和「厚度」單元中使用「大」一詞。"
       ]
     },
     {
@@ -36400,7 +42584,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「數量」、「深度」和「厚度」單元中使用「介質」一詞。",
+      "examplesZh": [
+        "本課程在「數量」、「深度」和「厚度」單元中使用「介質」一詞。"
+      ]
     },
     {
       "id": "1519",
@@ -36423,7 +42611,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「數量」、「深度」和「厚度」單元中使用「額外」一詞。",
+      "examplesZh": [
+        "本課程在「數量」、「深度」和「厚度」單元中使用「額外」一詞。"
+      ]
     },
     {
       "id": "1520",
@@ -36446,7 +42638,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「數量」、「深度」和「厚度」單元中使用「一半」一詞。",
+      "examplesZh": [
+        "本課程在「數量」、「深度」和「厚度」單元中使用「一半」一詞。"
+      ]
     },
     {
       "id": "1521",
@@ -36472,6 +42668,11 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "現在是三點一刻。",
+      "examplesZh": [
+        "現在是三點一刻。",
+        ""
       ]
     },
     {
@@ -36495,7 +42696,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「數量」、「深度」和「厚度」單元中使用「深度」一詞。",
+      "examplesZh": [
+        "本課程在「數量」、「深度」和「厚度」單元中使用「深度」一詞。"
+      ]
     },
     {
       "id": "1523",
@@ -36518,7 +42723,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「數量」、「深度」和「厚度」單元中使用「厚」一詞。",
+      "examplesZh": [
+        "本課程在「數量」、「深度」和「厚度」單元中使用「厚」一詞。"
+      ]
     },
     {
       "id": "1524",
@@ -36543,6 +42752,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "你太瘦了。多吃點！",
+      "examplesZh": [
+        "你太瘦了。多吃點！"
       ]
     },
     {
@@ -36566,7 +42779,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「形狀和標記」單元中使用「形式」一詞。",
+      "examplesZh": [
+        "本課程在「形狀和標記」單元中使用「形式」一詞。"
+      ]
     },
     {
       "id": "1526",
@@ -36589,7 +42806,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「形狀和標記」單元中使用「形狀」一詞。",
+      "examplesZh": [
+        "本課程在「形狀和標記」單元中使用「形狀」一詞。"
+      ]
     },
     {
       "id": "1527",
@@ -36612,7 +42833,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「形狀和標記」單元中使用「圓」一詞。",
+      "examplesZh": [
+        "本課程在「形狀和標記」單元中使用「圓」一詞。"
+      ]
     },
     {
       "id": "1528",
@@ -36635,7 +42860,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「形狀和標記」單元中使用「圓形」一詞。",
+      "examplesZh": [
+        "本課程在「形狀和標記」單元中使用「圓形」一詞。"
+      ]
     },
     {
       "id": "1529",
@@ -36658,7 +42887,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「形狀和標記」單元中使用「三角形」一詞。",
+      "examplesZh": [
+        "本課程在「形狀和標記」單元中使用「三角形」一詞。"
+      ]
     },
     {
       "id": "1530",
@@ -36681,7 +42914,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「形狀和標記」單元中使用「矩形」一詞。",
+      "examplesZh": [
+        "本課程在「形狀和標記」單元中使用「矩形」一詞。"
+      ]
     },
     {
       "id": "1531",
@@ -36704,7 +42941,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「形狀和標記」單元中使用「正方形」一詞。",
+      "examplesZh": [
+        "本課程在「形狀和標記」單元中使用「正方形」一詞。"
+      ]
     },
     {
       "id": "1532",
@@ -36727,7 +42968,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課使用「形狀和標記」單元中的單字線。",
+      "examplesZh": [
+        "本課使用「形狀和標記」單元中的單字線。"
+      ]
     },
     {
       "id": "1533",
@@ -36750,7 +42995,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「形狀和標記」單元中使用「直線」一詞。",
+      "examplesZh": [
+        "本課程在「形狀和標記」單元中使用「直線」一詞。"
+      ]
     },
     {
       "id": "1534",
@@ -36773,7 +43022,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用“形狀和標記”單元中的“點”一詞。",
+      "examplesZh": [
+        "本課程使用“形狀和標記”單元中的“點”一詞。"
+      ]
     },
     {
       "id": "1535",
@@ -36796,7 +43049,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「形狀和標記」單元中使用「點」一詞。",
+      "examplesZh": [
+        "本課程在「形狀和標記」單元中使用「點」一詞。"
+      ]
     },
     {
       "id": "1536",
@@ -36819,7 +43076,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「形狀和標記」單元中使用「點」一詞。",
+      "examplesZh": [
+        "本課程在「形狀和標記」單元中使用「點」一詞。"
+      ]
     },
     {
       "id": "1537",
@@ -36842,7 +43103,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「形狀和標記」單元中使用「曲線」一詞。",
+      "examplesZh": [
+        "本課程在「形狀和標記」單元中使用「曲線」一詞。"
+      ]
     },
     {
       "id": "1538",
@@ -36867,6 +43132,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「數量」單元中使用「can」一詞。",
+      "examplesZh": [
+        "本課程在「數量」單元中使用「can」一詞。"
       ]
     },
     {
@@ -36890,7 +43159,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「數量」單元中使用「瓶子」一詞。",
+      "examplesZh": [
+        "本課程在「數量」單元中使用「瓶子」一詞。"
+      ]
     },
     {
       "id": "1540",
@@ -36915,6 +43188,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我收集杯子。兩杯茶 兩杯茶",
+      "examplesZh": [
+        "我收集杯子。兩杯茶 兩杯茶"
       ]
     },
     {
@@ -36940,6 +43217,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "那是一塊漂亮的玻璃。 o 這些盤子由玻璃製成。三杯酒三杯酒",
+      "examplesZh": [
+        "那是一塊漂亮的玻璃。 o 這些盤子由玻璃製成。三杯酒三杯酒"
       ]
     },
     {
@@ -36965,6 +43246,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「數量」單元中使用單字包。",
+      "examplesZh": [
+        "本課程在「數量」單元中使用單字包。"
       ]
     },
     {
@@ -36988,7 +43273,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「數量」單元中使用「包」一詞。",
+      "examplesZh": [
+        "本課程在「數量」單元中使用「包」一詞。"
+      ]
     },
     {
       "id": "1544",
@@ -37011,7 +43300,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課使用數量單元中的單字對。",
+      "examplesZh": [
+        "本課使用數量單元中的單字對。"
+      ]
     },
     {
       "id": "1545",
@@ -37034,7 +43327,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「數量」單元中使用「打」一詞。",
+      "examplesZh": [
+        "本課程在「數量」單元中使用「打」一詞。"
+      ]
     },
     {
       "id": "1546",
@@ -37057,7 +43354,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「數量」單元中使用「piece」一詞。",
+      "examplesZh": [
+        "本課程在「數量」單元中使用「piece」一詞。"
+      ]
     },
     {
       "id": "1547",
@@ -37082,6 +43383,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程使用數量單元中的單字表。",
+      "examplesZh": [
+        "本課程使用數量單元中的單字表。"
       ]
     },
     {
@@ -37105,7 +43410,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「數量」單元中使用「麵包」一詞。",
+      "examplesZh": [
+        "本課程在「數量」單元中使用「麵包」一詞。"
+      ]
     },
     {
       "id": "1549",
@@ -37128,7 +43437,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「數量」單元中使用「堆」一詞。",
+      "examplesZh": [
+        "本課程在「數量」單元中使用「堆」一詞。"
+      ]
     },
     {
       "id": "1550",
@@ -37151,7 +43464,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「數量」單元中使用「bundle」一詞。",
+      "examplesZh": [
+        "本課程在「數量」單元中使用「bundle」一詞。"
+      ]
     },
     {
       "id": "1551",
@@ -37174,7 +43491,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「數量」單元中使用「組」一詞。",
+      "examplesZh": [
+        "本課程在「數量」單元中使用「組」一詞。"
+      ]
     },
     {
       "id": "1552",
@@ -37197,7 +43518,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「數量」單元中使用「人群」一詞。",
+      "examplesZh": [
+        "本課程在「數量」單元中使用「人群」一詞。"
+      ]
     },
     {
       "id": "1553",
@@ -37220,7 +43545,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「數量」單元中使用「T 品質」一詞。",
+      "examplesZh": [
+        "本課程在「數量」單元中使用「T 品質」一詞。"
+      ]
     },
     {
       "id": "1554",
@@ -37243,7 +43572,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「中國與西方」單元中使用「節日」一詞。",
+      "examplesZh": [
+        "本課程在「中國與西方」單元中使用「節日」一詞。"
+      ]
     },
     {
       "id": "1555",
@@ -37268,6 +43601,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「中式與西式」單元中使用「假期」一詞。",
+      "examplesZh": [
+        "本課程在「中式與西式」單元中使用「假期」一詞。"
       ]
     },
     {
@@ -37291,7 +43628,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「中式與西式」單元中使用「假期」一詞。",
+      "examplesZh": [
+        "本課程在「中式與西式」單元中使用「假期」一詞。"
+      ]
     },
     {
       "id": "1557",
@@ -37314,7 +43655,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「中式與西式」單元中使用「中國新年」一詞。",
+      "examplesZh": [
+        "本課程在「中式與西式」單元中使用「中國新年」一詞。"
+      ]
     },
     {
       "id": "1558",
@@ -37337,7 +43682,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「中西對比」單元中使用「端午節」一詞。",
+      "examplesZh": [
+        "本課程在「中西對比」單元中使用「端午節」一詞。"
+      ]
     },
     {
       "id": "1559",
@@ -37360,7 +43709,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「中式與西式」單元中使用「除夕夜」一詞。",
+      "examplesZh": [
+        "本課程在「中式與西式」單元中使用「除夕夜」一詞。"
+      ]
     },
     {
       "id": "1560",
@@ -37383,7 +43736,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「中式與西式」單元中使用「元宵節」一詞。",
+      "examplesZh": [
+        "本課程在「中式與西式」單元中使用「元宵節」一詞。"
+      ]
     },
     {
       "id": "1561",
@@ -37406,7 +43763,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「中式與西式」單元中使用「燈籠」一詞。",
+      "examplesZh": [
+        "本課程在「中式與西式」單元中使用「燈籠」一詞。"
+      ]
     },
     {
       "id": "1562",
@@ -37429,7 +43790,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「中西文化」單元中使用「中秋節」一詞。",
+      "examplesZh": [
+        "本課程在「中西文化」單元中使用「中秋節」一詞。"
+      ]
     },
     {
       "id": "1563",
@@ -37452,7 +43817,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「中西對比」單元中使用「重十日」一詞。",
+      "examplesZh": [
+        "本課程在「中西對比」單元中使用「重十日」一詞。"
+      ]
     },
     {
       "id": "1564",
@@ -37475,7 +43844,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「中國與西方」單元中使用了「教師節」一詞。",
+      "examplesZh": [
+        "本課程在「中國與西方」單元中使用了「教師節」一詞。"
+      ]
     },
     {
       "id": "1565",
@@ -37498,7 +43871,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「中式與西式」單元中使用「聖誕節」一詞。",
+      "examplesZh": [
+        "本課程在「中式與西式」單元中使用「聖誕節」一詞。"
+      ]
     },
     {
       "id": "1566",
@@ -37521,7 +43898,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「中式與西式」單元中使用「元旦」一詞。",
+      "examplesZh": [
+        "本課程在「中式與西式」單元中使用「元旦」一詞。"
+      ]
     },
     {
       "id": "1567",
@@ -37544,7 +43925,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「中式與西式」單元中使用「感恩節」一詞。",
+      "examplesZh": [
+        "本課程在「中式與西式」單元中使用「感恩節」一詞。"
+      ]
     },
     {
       "id": "1568",
@@ -37567,7 +43952,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「中國與西方」單元中使用「情人節」一詞。",
+      "examplesZh": [
+        "本課程在「中國與西方」單元中使用「情人節」一詞。"
+      ]
     },
     {
       "id": "1569",
@@ -37590,7 +43979,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「中國與西方」單元中使用「情人節」一詞。",
+      "examplesZh": [
+        "本課程在「中國與西方」單元中使用「情人節」一詞。"
+      ]
     },
     {
       "id": "1570",
@@ -37613,7 +44006,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「中式與西方」單元中使用「復活節」一詞。",
+      "examplesZh": [
+        "本課程在「中式與西方」單元中使用「復活節」一詞。"
+      ]
     },
     {
       "id": "1571",
@@ -37636,7 +44033,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「中式與西式」單元中使用「母親節」一詞。",
+      "examplesZh": [
+        "本課程在「中式與西式」單元中使用「母親節」一詞。"
+      ]
     },
     {
       "id": "1572",
@@ -37659,7 +44060,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「中式與西式」單元中使用了「父親節」一詞。",
+      "examplesZh": [
+        "本課程在「中式與西式」單元中使用了「父親節」一詞。"
+      ]
     },
     {
       "id": "1573",
@@ -37682,7 +44087,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在萬聖節單元中使用「精神」一詞。",
+      "examplesZh": [
+        "本課程在萬聖節單元中使用「精神」一詞。"
+      ]
     },
     {
       "id": "1574",
@@ -37705,7 +44114,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在萬聖節單元中使用靈魂一詞。",
+      "examplesZh": [
+        "本課在萬聖節單元中使用靈魂一詞。"
+      ]
     },
     {
       "id": "1575",
@@ -37728,7 +44141,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「萬聖節」單元中使用「活動」一詞。",
+      "examplesZh": [
+        "本課程在「萬聖節」單元中使用「活動」一詞。"
+      ]
     },
     {
       "id": "1576",
@@ -37751,7 +44168,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在萬聖節單元中使用“設計”一詞。",
+      "examplesZh": [
+        "本課程在萬聖節單元中使用“設計”一詞。"
+      ]
     },
     {
       "id": "1577",
@@ -37774,7 +44195,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在萬聖節單元中使用“hang”一詞。",
+      "examplesZh": [
+        "本課程在萬聖節單元中使用“hang”一詞。"
+      ]
     },
     {
       "id": "1578",
@@ -37797,7 +44222,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在萬聖節單元中使用了“trick”一詞。",
+      "examplesZh": [
+        "本課程在萬聖節單元中使用了“trick”一詞。"
+      ]
     },
     {
       "id": "1579",
@@ -37822,6 +44251,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "戴上口罩，這樣就不會把感冒傳染給別人。",
+      "examplesZh": [
+        "戴上口罩，這樣就不會把感冒傳染給別人。"
       ]
     },
     {
@@ -37845,7 +44278,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在萬聖節單元中使用單字 pick。",
+      "examplesZh": [
+        "本課程在萬聖節單元中使用單字 pick。"
+      ]
     },
     {
       "id": "1581",
@@ -37868,7 +44305,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「萬聖節」單元中使用「恐懼」一詞。",
+      "examplesZh": [
+        "本課程在「萬聖節」單元中使用「恐懼」一詞。"
+      ]
     },
     {
       "id": "1582",
@@ -37891,7 +44332,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在萬聖節單元中使用“驚喜”一詞。",
+      "examplesZh": [
+        "本課程在萬聖節單元中使用“驚喜”一詞。"
+      ]
     },
     {
       "id": "1583",
@@ -37914,7 +44359,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在萬聖節單元中使用“鄰居”一詞。",
+      "examplesZh": [
+        "本課程在萬聖節單元中使用“鄰居”一詞。"
+      ]
     },
     {
       "id": "1584",
@@ -37937,7 +44386,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在萬聖節單元中使用“加入”一詞。",
+      "examplesZh": [
+        "本課程在萬聖節單元中使用“加入”一詞。"
+      ]
     },
     {
       "id": "1585",
@@ -37960,7 +44413,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在舉辦派對單元中使用「安排」一詞。",
+      "examplesZh": [
+        "本課程在舉辦派對單元中使用「安排」一詞。"
+      ]
     },
     {
       "id": "1586",
@@ -37983,7 +44440,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「舉辦派對」單元中使用「特殊」一詞。",
+      "examplesZh": [
+        "本課程在「舉辦派對」單元中使用「特殊」一詞。"
+      ]
     },
     {
       "id": "1587",
@@ -38006,7 +44467,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在舉辦派對單元中使用了「unique」一詞。",
+      "examplesZh": [
+        "本課程在舉辦派對單元中使用了「unique」一詞。"
+      ]
     },
     {
       "id": "1588",
@@ -38031,6 +44496,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「舉辦派對」單元中使用「have」一詞。",
+      "examplesZh": [
+        "本課程在「舉辦派對」單元中使用「have」一詞。"
       ]
     },
     {
@@ -38054,7 +44523,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「舉辦派對」單元中使用「派對」一詞。",
+      "examplesZh": [
+        "本課程在「舉辦派對」單元中使用「派對」一詞。"
+      ]
     },
     {
       "id": "1590",
@@ -38077,7 +44550,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「舉辦派對」單元中使用「生日」一詞。",
+      "examplesZh": [
+        "本課程在「舉辦派對」單元中使用「生日」一詞。"
+      ]
     },
     {
       "id": "1591",
@@ -38100,7 +44577,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "這對夫婦在美麗的婚禮上成為了夫妻。",
+      "examplesZh": [
+        "這對夫婦在美麗的婚禮上成為了夫妻。"
+      ]
     },
     {
       "id": "1592",
@@ -38123,7 +44604,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「舉辦派對」單元中使用「記憶」一詞。",
+      "examplesZh": [
+        "本課程在「舉辦派對」單元中使用「記憶」一詞。"
+      ]
     },
     {
       "id": "1593",
@@ -38146,7 +44631,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「舉辦派對」單元中使用「燒烤」一詞。",
+      "examplesZh": [
+        "本課程在「舉辦派對」單元中使用「燒烤」一詞。"
+      ]
     },
     {
       "id": "1594",
@@ -38169,7 +44658,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「舉辦派對」單元中使用「客人」一詞。",
+      "examplesZh": [
+        "本課程在「舉辦派對」單元中使用「客人」一詞。"
+      ]
     },
     {
       "id": "1595",
@@ -38192,7 +44685,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在舉辦派對單元中使用「邀請」一詞。",
+      "examplesZh": [
+        "本課程在舉辦派對單元中使用「邀請」一詞。"
+      ]
     },
     {
       "id": "1596",
@@ -38215,7 +44712,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「舉辦派對」單元中使用「訪客」一詞。",
+      "examplesZh": [
+        "本課程在「舉辦派對」單元中使用「訪客」一詞。"
+      ]
     },
     {
       "id": "1597",
@@ -38238,7 +44739,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "天氣這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "天氣這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1598",
@@ -38261,7 +44766,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "陽光明媚這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "陽光明媚這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1599",
@@ -38284,7 +44793,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "下雨這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "下雨這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1600",
@@ -38307,7 +44820,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "雨這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "雨這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1601",
@@ -38330,7 +44847,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "淋浴這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "淋浴這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1602",
@@ -38353,7 +44874,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「雪」這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "「雪」這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1603",
@@ -38376,7 +44901,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "雪這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "雪這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1604",
@@ -38399,7 +44928,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "有風這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "有風這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1605",
@@ -38422,7 +44955,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "風這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "風這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1606",
@@ -38445,7 +44982,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「吹」這個字幫助我們談論大自然。",
+      "examplesZh": [
+        "「吹」這個字幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1607",
@@ -38468,7 +45009,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "有霧這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "有霧這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1608",
@@ -38491,7 +45036,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "霧這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "霧這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1609",
@@ -38514,7 +45063,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "天空這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "天空這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1610",
@@ -38537,7 +45090,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "黑暗這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "黑暗這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1611",
@@ -38560,7 +45117,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "明亮這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "明亮這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1612",
@@ -38583,7 +45144,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "溫度這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "溫度這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1613",
@@ -38608,6 +45173,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "今天真的很熱。",
+      "examplesZh": [
+        "今天真的很熱。"
       ]
     },
     {
@@ -38631,7 +45200,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "溫暖這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "溫暖這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1615",
@@ -38656,6 +45229,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "酷這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "酷這個詞幫助我們談論大自然。"
       ]
     },
     {
@@ -38679,7 +45256,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "ee MV 這個字幫助我們談論大自然。",
+      "examplesZh": [
+        "ee MV 這個字幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1617",
@@ -38702,7 +45283,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "潮濕這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "潮濕這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1618",
@@ -38725,7 +45310,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "氣候這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "氣候這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1619",
@@ -38748,7 +45337,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "濕這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "濕這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1620",
@@ -38771,7 +45364,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "颱風這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "颱風這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1621",
@@ -38794,7 +45391,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "彩虹這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "彩虹這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1622",
@@ -38817,7 +45418,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "閃電這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "閃電這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1623",
@@ -38840,7 +45445,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "雷這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "雷這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1624",
@@ -38863,7 +45472,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "宇宙這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "宇宙這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1625",
@@ -38886,7 +45499,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "空間這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "空間這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1626",
@@ -38909,7 +45526,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "地球這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "地球這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1627",
@@ -38932,7 +45553,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "地震這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "地震這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1628",
@@ -38955,7 +45580,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "行星這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "行星這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1629",
@@ -38978,7 +45607,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "上升這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "上升這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1630",
@@ -39001,7 +45634,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "月亮這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "月亮這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1631",
@@ -39024,7 +45661,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "星星這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "星星這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1632",
@@ -39047,7 +45688,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "空氣這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "空氣這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1633",
@@ -39072,6 +45717,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "岩石這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "岩石這個詞幫助我們談論大自然。"
       ]
     },
     {
@@ -39095,7 +45744,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "石頭這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "石頭這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1635",
@@ -39118,7 +45771,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "沙子這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "沙子這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1636",
@@ -39141,7 +45798,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "泥漿這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "泥漿這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1637",
@@ -39164,7 +45825,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "蠕蟲這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "蠕蟲這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1638",
@@ -39187,7 +45852,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "火這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "火這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1639",
@@ -39210,7 +45879,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "自然這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "自然這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1640",
@@ -39233,7 +45906,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "自然這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "自然這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1641",
@@ -39256,7 +45933,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "海洋這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "海洋這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1642",
@@ -39279,7 +45960,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "海這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "海這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1643",
@@ -39302,7 +45987,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "湖這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "湖這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1644",
@@ -39325,7 +46014,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "河流這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "河流這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1645",
@@ -39350,6 +46043,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "詞庫幫助我們談論大自然。",
+      "examplesZh": [
+        "詞庫幫助我們談論大自然。"
       ]
     },
     {
@@ -39373,7 +46070,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "流這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "流這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1647",
@@ -39396,7 +46097,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "池塘這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "池塘這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1648",
@@ -39422,6 +46127,11 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "春天是我最喜歡的季節。",
+      "examplesZh": [
+        "春天是我最喜歡的季節。",
+        ""
       ]
     },
     {
@@ -39445,7 +46155,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "瀑布這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "瀑布這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1650",
@@ -39470,6 +46184,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "蒸蔬菜是一種非常健康的烹調方式。",
+      "examplesZh": [
+        "蒸蔬菜是一種非常健康的烹調方式。"
       ]
     },
     {
@@ -39493,7 +46211,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「允許」這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "「允許」這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1652",
@@ -39516,7 +46238,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "土地這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "土地這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1653",
@@ -39539,7 +46265,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "區域這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "區域這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1654",
@@ -39562,7 +46292,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "海岸這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "海岸這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1655",
@@ -39585,7 +46319,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "海灘這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "海灘這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1656",
@@ -39608,7 +46346,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "海岸這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "海岸這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1657",
@@ -39631,7 +46373,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "島嶼這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "島嶼這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1658",
@@ -39656,6 +46402,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "平淡這個字幫助我們談論大自然。",
+      "examplesZh": [
+        "平淡這個字幫助我們談論大自然。"
       ]
     },
     {
@@ -39679,7 +46429,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "山這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "山這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1660",
@@ -39702,7 +46456,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "山這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "山這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1661",
@@ -39725,7 +46483,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "森林這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "森林這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1662",
@@ -39748,7 +46510,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "木頭這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "木頭這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1663",
@@ -39771,7 +46537,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "森林這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "森林這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1664",
@@ -39794,7 +46564,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "沙漠這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "沙漠這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1665",
@@ -39817,7 +46591,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "「似乎」這個詞可以幫助我們談論大自然。",
+      "examplesZh": [
+        "「似乎」這個詞可以幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1666",
@@ -39840,7 +46618,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "山谷這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "山谷這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1667",
@@ -39863,7 +46645,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "污染這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "污染這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1668",
@@ -39886,7 +46672,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "污染這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "污染這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1669",
@@ -39909,7 +46699,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "噪音這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "噪音這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1670",
@@ -39932,7 +46726,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘈雜這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "嘈雜這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1671",
@@ -39955,7 +46753,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "救護車這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "救護車這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1672",
@@ -39978,7 +46780,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "警報這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "警報這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1673",
@@ -40001,7 +46807,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "垃圾這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "垃圾這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1674",
@@ -40024,7 +46834,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "工廠這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "工廠這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1675",
@@ -40047,7 +46861,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "煙這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "煙這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1676",
@@ -40070,7 +46888,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "讓這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "讓這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1677",
@@ -40095,6 +46917,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "植物這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "植物這個詞幫助我們談論大自然。"
       ]
     },
     {
@@ -40118,7 +46944,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "使用這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "使用這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1679",
@@ -40141,7 +46971,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "回收這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "回收這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1680",
@@ -40164,7 +46998,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "環境這個詞幫助我們談論大自然。",
+      "examplesZh": [
+        "環境這個詞幫助我們談論大自然。"
+      ]
     },
     {
       "id": "1681",
@@ -40187,7 +47025,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了「動物」這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了「動物」這個詞。"
+      ]
     },
     {
       "id": "1682",
@@ -40210,7 +47052,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了舔這個字。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了舔這個字。"
+      ]
     },
     {
       "id": "1683",
@@ -40233,7 +47079,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了小狗這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了小狗這個詞。"
+      ]
     },
     {
       "id": "1684",
@@ -40256,7 +47106,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了老鼠這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了老鼠這個詞。"
+      ]
     },
     {
       "id": "1685",
@@ -40279,7 +47133,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了“老鼠”這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了“老鼠”這個詞。"
+      ]
     },
     {
       "id": "1686",
@@ -40304,6 +47162,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "你想吃雞肉還是牛肉？",
+      "examplesZh": [
+        "你想吃雞肉還是牛肉？"
       ]
     },
     {
@@ -40327,7 +47189,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在動物和植物課上看到了「珍」這個字。",
+      "examplesZh": [
+        "我們在動物和植物課上看到了「珍」這個字。"
+      ]
     },
     {
       "id": "1688",
@@ -40352,6 +47218,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "美國人感恩節晚餐吃火雞。",
+      "examplesZh": [
+        "美國人感恩節晚餐吃火雞。"
       ]
     },
     {
@@ -40377,6 +47247,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "你吃過鵝嗎？",
+      "examplesZh": [
+        "你吃過鵝嗎？"
       ]
     },
     {
@@ -40400,7 +47274,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了“豬”這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了“豬”這個詞。"
+      ]
     },
     {
       "id": "1691",
@@ -40423,7 +47301,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了山羊這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了山羊這個詞。"
+      ]
     },
     {
       "id": "1692",
@@ -40446,7 +47328,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了“馬”這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了“馬”這個詞。"
+      ]
     },
     {
       "id": "1693",
@@ -40469,7 +47355,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了獅子這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了獅子這個詞。"
+      ]
     },
     {
       "id": "1694",
@@ -40492,7 +47382,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在一堂關於動物和植物的課上看到了老虎這個字。",
+      "examplesZh": [
+        "我們在一堂關於動物和植物的課上看到了老虎這個字。"
+      ]
     },
     {
       "id": "1695",
@@ -40515,7 +47409,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在一堂關於動物和植物的課上看到了兔子這個字。",
+      "examplesZh": [
+        "我們在一堂關於動物和植物的課上看到了兔子這個字。"
+      ]
     },
     {
       "id": "1696",
@@ -40538,7 +47436,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了“鹿”這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了“鹿”這個詞。"
+      ]
     },
     {
       "id": "1697",
@@ -40561,7 +47463,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了大象這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了大象這個詞。"
+      ]
     },
     {
       "id": "1698",
@@ -40584,7 +47490,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了“熊”這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了“熊”這個詞。"
+      ]
     },
     {
       "id": "1699",
@@ -40607,7 +47517,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了猴子這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了猴子這個詞。"
+      ]
     },
     {
       "id": "1700",
@@ -40630,7 +47544,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了狼這個字。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了狼這個字。"
+      ]
     },
     {
       "id": "1701",
@@ -40653,7 +47571,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了狐狸這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了狐狸這個詞。"
+      ]
     },
     {
       "id": "1702",
@@ -40676,7 +47598,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到河馬這個字。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到河馬這個字。"
+      ]
     },
     {
       "id": "1703",
@@ -40699,7 +47625,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了“斑馬”這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了“斑馬”這個詞。"
+      ]
     },
     {
       "id": "1704",
@@ -40722,7 +47652,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了袋鼠這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了袋鼠這個詞。"
+      ]
     },
     {
       "id": "1705",
@@ -40745,7 +47679,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在一堂關於動物和植物的課上看到了熊貓這個字。",
+      "examplesZh": [
+        "我們在一堂關於動物和植物的課上看到了熊貓這個字。"
+      ]
     },
     {
       "id": "1706",
@@ -40768,7 +47706,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了無尾熊這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了無尾熊這個詞。"
+      ]
     },
     {
       "id": "1707",
@@ -40793,6 +47735,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我們在關於動物和植物的課程中看到了蝙蝠這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了蝙蝠這個詞。"
       ]
     },
     {
@@ -40816,7 +47762,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了蝸牛這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了蝸牛這個詞。"
+      ]
     },
     {
       "id": "1709",
@@ -40839,7 +47789,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了“鳥”這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了“鳥”這個詞。"
+      ]
     },
     {
       "id": "1710",
@@ -40862,7 +47816,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了「巢」這個字。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了「巢」這個字。"
+      ]
     },
     {
       "id": "1711",
@@ -40885,7 +47843,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在一堂關於動物和植物的課上看到了天鵝這個字。",
+      "examplesZh": [
+        "我們在一堂關於動物和植物的課上看到了天鵝這個字。"
+      ]
     },
     {
       "id": "1712",
@@ -40908,7 +47870,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了鷹這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了鷹這個詞。"
+      ]
     },
     {
       "id": "1713",
@@ -40931,7 +47897,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了「鴿子」這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了「鴿子」這個詞。"
+      ]
     },
     {
       "id": "1714",
@@ -40954,7 +47924,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了鸚鵡這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了鸚鵡這個詞。"
+      ]
     },
     {
       "id": "1715",
@@ -40977,7 +47951,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了燕子這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了燕子這個詞。"
+      ]
     },
     {
       "id": "1716",
@@ -41002,6 +47980,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "魚真的很好吃！金魚 金魚;魚/魚 複數形",
+      "examplesZh": [
+        "魚真的很好吃！金魚 金魚;魚/魚 複數形"
       ]
     },
     {
@@ -41025,7 +48007,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了鯊魚這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了鯊魚這個詞。"
+      ]
     },
     {
       "id": "1718",
@@ -41048,7 +48034,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了鯨魚這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了鯨魚這個詞。"
+      ]
     },
     {
       "id": "1719",
@@ -41071,7 +48061,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在一堂關於動物和植物的課上看到了海豚這個字。",
+      "examplesZh": [
+        "我們在一堂關於動物和植物的課上看到了海豚這個字。"
+      ]
     },
     {
       "id": "1720",
@@ -41094,7 +48088,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "source_771",
       "exampleSource": "source_771",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "吃螃蟹有點困難。",
+      "examplesZh": [
+        "吃螃蟹有點困難。"
+      ]
     },
     {
       "id": "1721",
@@ -41117,7 +48115,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了青蛙這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了青蛙這個詞。"
+      ]
     },
     {
       "id": "1722",
@@ -41140,7 +48142,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了烏龜這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了烏龜這個詞。"
+      ]
     },
     {
       "id": "1723",
@@ -41163,7 +48169,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了「咬」這個字。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了「咬」這個字。"
+      ]
     },
     {
       "id": "1724",
@@ -41186,7 +48196,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了尾巴這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了尾巴這個詞。"
+      ]
     },
     {
       "id": "1725",
@@ -41209,7 +48223,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了“翅膀”這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了“翅膀”這個詞。"
+      ]
     },
     {
       "id": "1726",
@@ -41232,7 +48250,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在一堂關於動物和植物的課上看到了「龍」這個字。",
+      "examplesZh": [
+        "我們在一堂關於動物和植物的課上看到了「龍」這個字。"
+      ]
     },
     {
       "id": "1727",
@@ -41255,7 +48277,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了這個詞的存在。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了這個詞的存在。"
+      ]
     },
     {
       "id": "1728",
@@ -41278,7 +48304,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了蝴蝶這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了蝴蝶這個詞。"
+      ]
     },
     {
       "id": "1729",
@@ -41301,7 +48331,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了蜜蜂這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了蜜蜂這個詞。"
+      ]
     },
     {
       "id": "1730",
@@ -41324,7 +48358,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了螞蟻這個字。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了螞蟻這個字。"
+      ]
     },
     {
       "id": "1731",
@@ -41347,7 +48385,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了蜘蛛這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了蜘蛛這個詞。"
+      ]
     },
     {
       "id": "1732",
@@ -41370,7 +48412,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了蚊子這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了蚊子這個詞。"
+      ]
     },
     {
       "id": "1733",
@@ -41393,7 +48439,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了蟑螂這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了蟑螂這個詞。"
+      ]
     },
     {
       "id": "1734",
@@ -41418,6 +48468,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我們在關於動物和植物的課程中看到了植物這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了植物這個詞。"
       ]
     },
     {
@@ -41441,7 +48495,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了種子這個詞。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了種子這個詞。"
+      ]
     },
     {
       "id": "1736",
@@ -41464,7 +48522,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了草這個字。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了草這個字。"
+      ]
     },
     {
       "id": "1737",
@@ -41487,7 +48549,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了「花」這個字。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了「花」這個字。"
+      ]
     },
     {
       "id": "1738",
@@ -41510,7 +48576,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "我們在關於動物和植物的課程中看到了「root」這個字。",
+      "examplesZh": [
+        "我們在關於動物和植物的課程中看到了「root」這個字。"
+      ]
     },
     {
       "id": "1739",
@@ -41535,6 +48605,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我的分公司僱用了 500 名工人。",
+      "examplesZh": [
+        "我的分公司僱用了 500 名工人。"
       ]
     },
     {
@@ -41558,7 +48632,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反動作 1」單元中使用「離開」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 1」單元中使用「離開」一詞。"
+      ]
     },
     {
       "id": "1741",
@@ -41581,7 +48659,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反動作 1」單元中使用「go」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 1」單元中使用「go」一詞。"
+      ]
     },
     {
       "id": "1742",
@@ -41604,7 +48686,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反動作 1」單元中使用了「oft」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 1」單元中使用了「oft」一詞。"
+      ]
     },
     {
       "id": "1743",
@@ -41627,7 +48713,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反動作 1」單元中使用「come」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 1」單元中使用「come」一詞。"
+      ]
     },
     {
       "id": "1744",
@@ -41650,7 +48740,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反動作 1」單元中使用「跟隨」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 1」單元中使用「跟隨」一詞。"
+      ]
     },
     {
       "id": "1745",
@@ -41673,7 +48767,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反動作 1」單元中使用「移動」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 1」單元中使用「移動」一詞。"
+      ]
     },
     {
       "id": "1746",
@@ -41696,7 +48794,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反動作 1」單元中使用「open foponj」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 1」單元中使用「open foponj」一詞。"
+      ]
     },
     {
       "id": "1747",
@@ -41719,7 +48821,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反動作 1」單元中使用「關閉」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 1」單元中使用「關閉」一詞。"
+      ]
     },
     {
       "id": "1748",
@@ -41742,7 +48848,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反動作 1」單元中使用了進位一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 1」單元中使用了進位一詞。"
+      ]
     },
     {
       "id": "1749",
@@ -41765,7 +48875,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反行動 1」單元中使用「take」一詞。",
+      "examplesZh": [
+        "本課程在「相反行動 1」單元中使用「take」一詞。"
+      ]
     },
     {
       "id": "1750",
@@ -41788,7 +48902,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反動作 1」單元中使用「保持」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 1」單元中使用「保持」一詞。"
+      ]
     },
     {
       "id": "1751",
@@ -41811,7 +48929,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反動作 1」單元中使用「站立」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 1」單元中使用「站立」一詞。"
+      ]
     },
     {
       "id": "1752",
@@ -41834,7 +48956,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反動作 1」單元中使用「拉」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 1」單元中使用「拉」一詞。"
+      ]
     },
     {
       "id": "1753",
@@ -41857,7 +48983,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反動作 1」單元中使用「推」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 1」單元中使用「推」一詞。"
+      ]
     },
     {
       "id": "1754",
@@ -41882,6 +49012,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「相反動作 1」單元中使用「運動」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 1」單元中使用「運動」一詞。"
       ]
     },
     {
@@ -41905,7 +49039,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反動作 2」單元中使用「接受」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 2」單元中使用「接受」一詞。"
+      ]
     },
     {
       "id": "1756",
@@ -41928,7 +49066,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反行動 2」單元中使用「拒絕」一詞。",
+      "examplesZh": [
+        "本課程在「相反行動 2」單元中使用「拒絕」一詞。"
+      ]
     },
     {
       "id": "1757",
@@ -41951,7 +49093,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反行動 2」單元中使用「拒絕」一詞。",
+      "examplesZh": [
+        "本課程在「相反行動 2」單元中使用「拒絕」一詞。"
+      ]
     },
     {
       "id": "1758",
@@ -41974,7 +49120,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反行動 2」單元中使用「同意」一詞。",
+      "examplesZh": [
+        "本課程在「相反行動 2」單元中使用「同意」一詞。"
+      ]
     },
     {
       "id": "1759",
@@ -41997,7 +49147,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用「相反動作 2」單元中的「出現」一詞。",
+      "examplesZh": [
+        "本課程使用「相反動作 2」單元中的「出現」一詞。"
+      ]
     },
     {
       "id": "1760",
@@ -42020,7 +49174,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反動作 2」單元中使用「消失」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 2」單元中使用「消失」一詞。"
+      ]
     },
     {
       "id": "1761",
@@ -42045,6 +49203,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「相反動作 2」單元中使用「do」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 2」單元中使用「do」一詞。"
       ]
     },
     {
@@ -42068,7 +49230,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反行動 2」單元中使用「退出」一詞。",
+      "examplesZh": [
+        "本課程在「相反行動 2」單元中使用「退出」一詞。"
+      ]
     },
     {
       "id": "1763",
@@ -42091,7 +49257,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反動作 2」單元中使用「開始」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 2」單元中使用「開始」一詞。"
+      ]
     },
     {
       "id": "1764",
@@ -42114,7 +49284,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反動作 2」單元中使用「開始」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 2」單元中使用「開始」一詞。"
+      ]
     },
     {
       "id": "1765",
@@ -42139,6 +49313,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「相反動作 2」單元中使用「結束」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 2」單元中使用「結束」一詞。"
       ]
     },
     {
@@ -42162,7 +49340,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反動作 2」單元中使用「完成」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 2」單元中使用「完成」一詞。"
+      ]
     },
     {
       "id": "1767",
@@ -42185,7 +49367,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反動作 2」單元中使用「混淆」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 2」單元中使用「混淆」一詞。"
+      ]
     },
     {
       "id": "1768",
@@ -42210,6 +49396,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "綠色蔬菜包括生菜、豆類和高麗菜。",
+      "examplesZh": [
+        "綠色蔬菜包括生菜、豆類和高麗菜。"
       ]
     },
     {
@@ -42233,7 +49423,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反動作 2」單元中使用了「省略」一詞。",
+      "examplesZh": [
+        "本課程在「相反動作 2」單元中使用了「省略」一詞。"
+      ]
     },
     {
       "id": "1770",
@@ -42256,7 +49450,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「相反行動 2」單元中使用「堅持」一詞。",
+      "examplesZh": [
+        "本課程在「相反行動 2」單元中使用「堅持」一詞。"
+      ]
     },
     {
       "id": "1771",
@@ -42279,7 +49477,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 1 單元中使用「安全」一詞。",
+      "examplesZh": [
+        "本課程在反義詞 1 單元中使用「安全」一詞。"
+      ]
     },
     {
       "id": "1772",
@@ -42302,7 +49504,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 1 單元中使用危險一詞。",
+      "examplesZh": [
+        "本課程在反義詞 1 單元中使用危險一詞。"
+      ]
     },
     {
       "id": "1773",
@@ -42325,7 +49531,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 1 單元中使用「簡單」一詞。",
+      "examplesZh": [
+        "本課程在反義詞 1 單元中使用「簡單」一詞。"
+      ]
     },
     {
       "id": "1774",
@@ -42348,7 +49558,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 1 單元中使用了 easy riz 一詞。",
+      "examplesZh": [
+        "本課程在反義詞 1 單元中使用了 easy riz 一詞。"
+      ]
     },
     {
       "id": "1775",
@@ -42371,7 +49585,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 1 單元中使用了「hard」一詞。",
+      "examplesZh": [
+        "本課程在反義詞 1 單元中使用了「hard」一詞。"
+      ]
     },
     {
       "id": "1776",
@@ -42394,7 +49612,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用反義詞 1 單元中的「可能」一詞。",
+      "examplesZh": [
+        "本課程使用反義詞 1 單元中的「可能」一詞。"
+      ]
     },
     {
       "id": "1777",
@@ -42417,7 +49639,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 1 單元中使用了「不可能」一詞。",
+      "examplesZh": [
+        "本課程在反義詞 1 單元中使用了「不可能」一詞。"
+      ]
     },
     {
       "id": "1778",
@@ -42440,7 +49666,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 1 單元中使用了「珍貴」一詞。",
+      "examplesZh": [
+        "本課程在反義詞 1 單元中使用了「珍貴」一詞。"
+      ]
     },
     {
       "id": "1779",
@@ -42463,7 +49693,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 1 單元中使用罕見一詞。",
+      "examplesZh": [
+        "本課程在反義詞 1 單元中使用罕見一詞。"
+      ]
     },
     {
       "id": "1780",
@@ -42486,7 +49720,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 1 單元中使用普通一詞。",
+      "examplesZh": [
+        "本課程在反義詞 1 單元中使用普通一詞。"
+      ]
     },
     {
       "id": "1781",
@@ -42509,7 +49747,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程使用反義詞 1 單元中的「usual」一詞。",
+      "examplesZh": [
+        "本課程使用反義詞 1 單元中的「usual」一詞。"
+      ]
     },
     {
       "id": "1782",
@@ -42532,7 +49774,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 1 單元中使用「true」一詞。",
+      "examplesZh": [
+        "本課程在反義詞 1 單元中使用「true」一詞。"
+      ]
     },
     {
       "id": "1783",
@@ -42555,7 +49801,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 1 單元中使用「假」一詞。",
+      "examplesZh": [
+        "本課程在反義詞 1 單元中使用「假」一詞。"
+      ]
     },
     {
       "id": "1784",
@@ -42578,7 +49828,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 1 單元中使用了「擁擠」一詞。",
+      "examplesZh": [
+        "本課程在反義詞 1 單元中使用了「擁擠」一詞。"
+      ]
     },
     {
       "id": "1785",
@@ -42601,7 +49855,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 1 單元中使用了「empty」一詞。",
+      "examplesZh": [
+        "本課程在反義詞 1 單元中使用了「empty」一詞。"
+      ]
     },
     {
       "id": "1786",
@@ -42624,7 +49882,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 2 單元中使用了「same」一詞。",
+      "examplesZh": [
+        "本課程在反義詞 2 單元中使用了「same」一詞。"
+      ]
     },
     {
       "id": "1787",
@@ -42647,7 +49909,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 2 單元中使用「alike」一詞。",
+      "examplesZh": [
+        "本課程在反義詞 2 單元中使用「alike」一詞。"
+      ]
     },
     {
       "id": "1788",
@@ -42670,7 +49936,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 2 單元中使用了「相似」一詞。",
+      "examplesZh": [
+        "本課程在反義詞 2 單元中使用了「相似」一詞。"
+      ]
     },
     {
       "id": "1789",
@@ -42693,7 +49963,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 2 單元中使用「差異」一詞。",
+      "examplesZh": [
+        "本課程在反義詞 2 單元中使用「差異」一詞。"
+      ]
     },
     {
       "id": "1790",
@@ -42716,7 +49990,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 2 單元中使用「個人」一詞。",
+      "examplesZh": [
+        "本課程在反義詞 2 單元中使用「個人」一詞。"
+      ]
     },
     {
       "id": "1791",
@@ -42739,7 +50017,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 2 單元中使用「私有」一詞。",
+      "examplesZh": [
+        "本課程在反義詞 2 單元中使用「私有」一詞。"
+      ]
     },
     {
       "id": "1792",
@@ -42762,7 +50044,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 2 單元中使用了「安靜」一詞。",
+      "examplesZh": [
+        "本課程在反義詞 2 單元中使用了「安靜」一詞。"
+      ]
     },
     {
       "id": "1793",
@@ -42785,7 +50071,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在反義詞 2 單元中使用了「沉默」一詞。",
+      "examplesZh": [
+        "本課在反義詞 2 單元中使用了「沉默」一詞。"
+      ]
     },
     {
       "id": "1794",
@@ -42808,7 +50098,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在反義詞 2 單元中使用了「 certain」一詞。",
+      "examplesZh": [
+        "本課在反義詞 2 單元中使用了「 certain」一詞。"
+      ]
     },
     {
       "id": "1795",
@@ -42831,7 +50125,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 2 單元中使用了「sure」一詞。",
+      "examplesZh": [
+        "本課程在反義詞 2 單元中使用了「sure」一詞。"
+      ]
     },
     {
       "id": "1796",
@@ -42854,7 +50152,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 2 單元中使用「忙碌」一詞。",
+      "examplesZh": [
+        "本課程在反義詞 2 單元中使用「忙碌」一詞。"
+      ]
     },
     {
       "id": "1797",
@@ -42877,7 +50179,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在反義詞 2 單元中使用了「窮人」一詞。",
+      "examplesZh": [
+        "本課在反義詞 2 單元中使用了「窮人」一詞。"
+      ]
     },
     {
       "id": "1798",
@@ -42900,7 +50206,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在反義詞 2 單元中使用了「突然」一詞。",
+      "examplesZh": [
+        "本課程在反義詞 2 單元中使用了「突然」一詞。"
+      ]
     },
     {
       "id": "1799",
@@ -42923,7 +50233,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用always。",
+      "examplesZh": [
+        "嘗試在句子中正確使用always。"
+      ]
     },
     {
       "id": "1800",
@@ -42946,7 +50260,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用通常。",
+      "examplesZh": [
+        "嘗試在句子中正確使用通常。"
+      ]
     },
     {
       "id": "1801",
@@ -42969,7 +50287,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用「經常」。",
+      "examplesZh": [
+        "嘗試在句子中正確使用「經常」。"
+      ]
     },
     {
       "id": "1802",
@@ -42992,7 +50314,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用有時。",
+      "examplesZh": [
+        "嘗試在句子中正確使用有時。"
+      ]
     },
     {
       "id": "1803",
@@ -43015,7 +50341,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用很少。",
+      "examplesZh": [
+        "嘗試在句子中正確使用很少。"
+      ]
     },
     {
       "id": "1804",
@@ -43038,7 +50368,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 never。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 never。"
+      ]
     },
     {
       "id": "1805",
@@ -43061,7 +50395,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用ever。",
+      "examplesZh": [
+        "嘗試在句子中正確使用ever。"
+      ]
     },
     {
       "id": "1806",
@@ -43084,7 +50422,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用once。",
+      "examplesZh": [
+        "嘗試在句子中正確使用once。"
+      ]
     },
     {
       "id": "1807",
@@ -43107,7 +50449,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用兩次。",
+      "examplesZh": [
+        "嘗試在句子中正確使用兩次。"
+      ]
     },
     {
       "id": "1808",
@@ -43130,7 +50476,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用“也許”。",
+      "examplesZh": [
+        "嘗試在句子中正確使用“也許”。"
+      ]
     },
     {
       "id": "1809",
@@ -43153,7 +50503,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用“也許”。",
+      "examplesZh": [
+        "嘗試在句子中正確使用“也許”。"
+      ]
     },
     {
       "id": "1810",
@@ -43176,7 +50530,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用「可能」。",
+      "examplesZh": [
+        "嘗試在句子中正確使用「可能」。"
+      ]
     },
     {
       "id": "1811",
@@ -43199,7 +50557,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用可能。",
+      "examplesZh": [
+        "嘗試在句子中正確使用可能。"
+      ]
     },
     {
       "id": "1812",
@@ -43222,7 +50584,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用。",
+      "examplesZh": [
+        "嘗試在句子中正確使用。"
+      ]
     },
     {
       "id": "1813",
@@ -43245,7 +50611,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中使用非常正確。",
+      "examplesZh": [
+        "嘗試在句子中使用非常正確。"
+      ]
     },
     {
       "id": "1814",
@@ -43268,7 +50638,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用。",
+      "examplesZh": [
+        "嘗試在句子中正確使用。"
+      ]
     },
     {
       "id": "1815",
@@ -43291,7 +50665,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用相當。",
+      "examplesZh": [
+        "嘗試在句子中正確使用相當。"
+      ]
     },
     {
       "id": "1816",
@@ -43314,7 +50692,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用很難。",
+      "examplesZh": [
+        "嘗試在句子中正確使用很難。"
+      ]
     },
     {
       "id": "1817",
@@ -43337,7 +50719,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用幾乎。",
+      "examplesZh": [
+        "嘗試在句子中正確使用幾乎。"
+      ]
     },
     {
       "id": "1818",
@@ -43360,7 +50746,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中幾乎正確地使用。",
+      "examplesZh": [
+        "嘗試在句子中幾乎正確地使用。"
+      ]
     },
     {
       "id": "1819",
@@ -43383,7 +50773,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用least。",
+      "examplesZh": [
+        "嘗試在句子中正確使用least。"
+      ]
     },
     {
       "id": "1820",
@@ -43406,7 +50800,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用even。",
+      "examplesZh": [
+        "嘗試在句子中正確使用even。"
+      ]
     },
     {
       "id": "1821",
@@ -43431,6 +50829,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用so。",
+      "examplesZh": [
+        "嘗試在句子中正確使用so。"
       ]
     },
     {
@@ -43454,7 +50856,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 just。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 just。"
+      ]
     },
     {
       "id": "1823",
@@ -43477,7 +50883,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 still。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 still。"
+      ]
     },
     {
       "id": "1824",
@@ -43500,7 +50910,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用special。",
+      "examplesZh": [
+        "嘗試在句子中正確使用special。"
+      ]
     },
     {
       "id": "1825",
@@ -43523,7 +50937,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用then。",
+      "examplesZh": [
+        "嘗試在句子中正確使用then。"
+      ]
     },
     {
       "id": "1826",
@@ -43546,7 +50964,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用already。",
+      "examplesZh": [
+        "嘗試在句子中正確使用already。"
+      ]
     },
     {
       "id": "1827",
@@ -43569,7 +50991,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用also。",
+      "examplesZh": [
+        "嘗試在句子中正確使用also。"
+      ]
     },
     {
       "id": "1828",
@@ -43592,7 +51018,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用“too”。",
+      "examplesZh": [
+        "嘗試在句子中正確使用“too”。"
+      ]
     },
     {
       "id": "1829",
@@ -43615,7 +51045,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "再次嘗試在句子中正確使用。",
+      "examplesZh": [
+        "再次嘗試在句子中正確使用。"
+      ]
     },
     {
       "id": "1830",
@@ -43638,7 +51072,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 except。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 except。"
+      ]
     },
     {
       "id": "1831",
@@ -43661,7 +51099,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 else。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 else。"
+      ]
     },
     {
       "id": "1832",
@@ -43684,7 +51126,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用“therefore”。",
+      "examplesZh": [
+        "嘗試在句子中正確使用“therefore”。"
+      ]
     },
     {
       "id": "1833",
@@ -43707,7 +51153,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用however。",
+      "examplesZh": [
+        "嘗試在句子中正確使用however。"
+      ]
     },
     {
       "id": "1834",
@@ -43730,7 +51180,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中的任何地方正確使用。",
+      "examplesZh": [
+        "嘗試在句子中的任何地方正確使用。"
+      ]
     },
     {
       "id": "1835",
@@ -43753,7 +51207,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用某處。",
+      "examplesZh": [
+        "嘗試在句子中正確使用某處。"
+      ]
     },
     {
       "id": "1836",
@@ -43776,7 +51234,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用到處。",
+      "examplesZh": [
+        "嘗試在句子中正確使用到處。"
+      ]
     },
     {
       "id": "1837",
@@ -43799,7 +51261,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用前置。",
+      "examplesZh": [
+        "嘗試在句子中正確使用前置。"
+      ]
     },
     {
       "id": "1838",
@@ -43822,7 +51288,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用away。",
+      "examplesZh": [
+        "嘗試在句子中正確使用away。"
+      ]
     },
     {
       "id": "1839",
@@ -43845,7 +51315,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 yes。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 yes。"
+      ]
     },
     {
       "id": "1840",
@@ -43868,7 +51342,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 yes。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 yes。"
+      ]
     },
     {
       "id": "1841",
@@ -43891,7 +51369,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 no。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 no。"
+      ]
     },
     {
       "id": "1842",
@@ -43914,7 +51396,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中使用不正確。",
+      "examplesZh": [
+        "嘗試在句子中使用不正確。"
+      ]
     },
     {
       "id": "1843",
@@ -43937,7 +51423,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用兩者。",
+      "examplesZh": [
+        "嘗試在句子中正確使用兩者。"
+      ]
     },
     {
       "id": "1844",
@@ -43960,7 +51450,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用其中一個。",
+      "examplesZh": [
+        "嘗試在句子中正確使用其中一個。"
+      ]
     },
     {
       "id": "1845",
@@ -43983,7 +51477,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用單獨使用。",
+      "examplesZh": [
+        "嘗試在句子中正確使用單獨使用。"
+      ]
     },
     {
       "id": "1846",
@@ -44006,7 +51504,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用total。",
+      "examplesZh": [
+        "嘗試在句子中正確使用total。"
+      ]
     },
     {
       "id": "1847",
@@ -44031,6 +51533,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "他們一家人住在一起。",
+      "examplesZh": [
+        "他們一家人住在一起。"
       ]
     },
     {
@@ -44056,6 +51562,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用大聲。",
+      "examplesZh": [
+        "嘗試在句子中正確使用大聲。"
       ]
     },
     {
@@ -44079,7 +51589,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用actual。",
+      "examplesZh": [
+        "嘗試在句子中正確使用actual。"
+      ]
     },
     {
       "id": "1850",
@@ -44102,7 +51616,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「Be」和「助動詞」單元中使用「be」一詞。",
+      "examplesZh": [
+        "本課程在「Be」和「助動詞」單元中使用「be」一詞。"
+      ]
     },
     {
       "id": "1851",
@@ -44125,7 +51643,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在單元 Be 和助動詞中使用單字 am。",
+      "examplesZh": [
+        "本課程在單元 Be 和助動詞中使用單字 am。"
+      ]
     },
     {
       "id": "1852",
@@ -44148,7 +51670,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在單元 Be 和助動詞中使用單字 is。",
+      "examplesZh": [
+        "本課在單元 Be 和助動詞中使用單字 is。"
+      ]
     },
     {
       "id": "1853",
@@ -44171,7 +51697,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在單元 Be 和助動詞中使用單字 are。",
+      "examplesZh": [
+        "本課在單元 Be 和助動詞中使用單字 are。"
+      ]
     },
     {
       "id": "1854",
@@ -44194,7 +51724,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在 Be 和助動詞單元中使用了單字 was。",
+      "examplesZh": [
+        "本課在 Be 和助動詞單元中使用了單字 was。"
+      ]
     },
     {
       "id": "1855",
@@ -44217,7 +51751,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在單元 Be 和助動詞中使用單字 were。",
+      "examplesZh": [
+        "本課程在單元 Be 和助動詞中使用單字 were。"
+      ]
     },
     {
       "id": "1856",
@@ -44240,7 +51778,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「Be」和「助動詞」單元中使用「been」一詞。",
+      "examplesZh": [
+        "本課程在「Be」和「助動詞」單元中使用「been」一詞。"
+      ]
     },
     {
       "id": "1857",
@@ -44265,6 +51807,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在「Be」和「助動詞」單元中使用「do」一詞。",
+      "examplesZh": [
+        "本課程在「Be」和「助動詞」單元中使用「do」一詞。"
       ]
     },
     {
@@ -44288,7 +51834,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「Be」和「助動詞」單元中使用「do」一詞。",
+      "examplesZh": [
+        "本課程在「Be」和「助動詞」單元中使用「do」一詞。"
+      ]
     },
     {
       "id": "1859",
@@ -44311,7 +51861,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「Be」和「助動詞」單元中使用「did」一詞。",
+      "examplesZh": [
+        "本課程在「Be」和「助動詞」單元中使用「did」一詞。"
+      ]
     },
     {
       "id": "1860",
@@ -44336,6 +51890,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課在單元 Be 和助動詞中使用了單字 have。",
+      "examplesZh": [
+        "本課在單元 Be 和助動詞中使用了單字 have。"
       ]
     },
     {
@@ -44359,7 +51917,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在單元 Be 和助動詞中使用了單字 has。",
+      "examplesZh": [
+        "本課在單元 Be 和助動詞中使用了單字 has。"
+      ]
     },
     {
       "id": "1862",
@@ -44382,7 +51944,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在 Be 和助動詞單元中使用 had 一詞。",
+      "examplesZh": [
+        "本課在 Be 和助動詞單元中使用 had 一詞。"
+      ]
     },
     {
       "id": "1863",
@@ -44407,6 +51973,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在情態動詞單元中使用“can”一詞。",
+      "examplesZh": [
+        "本課程在情態動詞單元中使用“can”一詞。"
       ]
     },
     {
@@ -44430,7 +52000,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「情態動詞」單元中使用「could」一詞。",
+      "examplesZh": [
+        "本課程在「情態動詞」單元中使用「could」一詞。"
+      ]
     },
     {
       "id": "1865",
@@ -44453,7 +52027,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在情態動詞單元中使用“will”一詞。",
+      "examplesZh": [
+        "本課程在情態動詞單元中使用“will”一詞。"
+      ]
     },
     {
       "id": "1866",
@@ -44476,7 +52054,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在情態動詞單元中使用了「shall」一詞。",
+      "examplesZh": [
+        "本課在情態動詞單元中使用了「shall」一詞。"
+      ]
     },
     {
       "id": "1867",
@@ -44499,7 +52081,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在情態動詞單元中使用單字 will。",
+      "examplesZh": [
+        "本課在情態動詞單元中使用單字 will。"
+      ]
     },
     {
       "id": "1868",
@@ -44522,7 +52108,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在情態動詞單元中使用單字「should」。",
+      "examplesZh": [
+        "本課程在情態動詞單元中使用單字「should」。"
+      ]
     },
     {
       "id": "1869",
@@ -44548,6 +52138,11 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "你會在五月或六月休假嗎？",
+      "examplesZh": [
+        "你會在五月或六月休假嗎？",
+        ""
       ]
     },
     {
@@ -44571,7 +52166,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在情態動詞單元中使用「可能」一詞。",
+      "examplesZh": [
+        "本課程在情態動詞單元中使用「可能」一詞。"
+      ]
     },
     {
       "id": "1871",
@@ -44594,7 +52193,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在情態動詞單元中使用“must”一詞。",
+      "examplesZh": [
+        "本課程在情態動詞單元中使用“must”一詞。"
+      ]
     },
     {
       "id": "1872",
@@ -44617,7 +52220,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「情態動詞」單元中使用「have to」一詞。",
+      "examplesZh": [
+        "本課程在「情態動詞」單元中使用「have to」一詞。"
+      ]
     },
     {
       "id": "1873",
@@ -44640,7 +52247,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在 Wh-單字和感嘆詞單元中使用單字 What。",
+      "examplesZh": [
+        "本課程在 Wh-單字和感嘆詞單元中使用單字 What。"
+      ]
     },
     {
       "id": "1874",
@@ -44663,7 +52274,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在 Wh-單字和感嘆詞單元中使用了單字which。",
+      "examplesZh": [
+        "本課在 Wh-單字和感嘆詞單元中使用了單字which。"
+      ]
     },
     {
       "id": "1875",
@@ -44688,6 +52303,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在 Wh 單字和感嘆詞單元中使用單字 when。",
+      "examplesZh": [
+        "本課程在 Wh 單字和感嘆詞單元中使用單字 when。"
       ]
     },
     {
@@ -44711,7 +52330,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在 Wh 單字和感嘆詞單元中使用「why」一詞。",
+      "examplesZh": [
+        "本課程在 Wh 單字和感嘆詞單元中使用「why」一詞。"
+      ]
     },
     {
       "id": "1877",
@@ -44734,7 +52357,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在 Wh-單字和感嘆詞單元中使用單字 where。",
+      "examplesZh": [
+        "本課程在 Wh-單字和感嘆詞單元中使用單字 where。"
+      ]
     },
     {
       "id": "1878",
@@ -44757,7 +52384,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在 Wh 單字和感嘆詞單元中使用 who 一詞。",
+      "examplesZh": [
+        "本課程在 Wh 單字和感嘆詞單元中使用 who 一詞。"
+      ]
     },
     {
       "id": "1879",
@@ -44780,7 +52411,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在 Wh 單字和感嘆詞單元中使用了 who 一詞。",
+      "examplesZh": [
+        "本課在 Wh 單字和感嘆詞單元中使用了 who 一詞。"
+      ]
     },
     {
       "id": "1880",
@@ -44803,7 +52438,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在 Wh-單字和感嘆詞單元中使用單字 how。",
+      "examplesZh": [
+        "本課程在 Wh-單字和感嘆詞單元中使用單字 how。"
+      ]
     },
     {
       "id": "1881",
@@ -44826,7 +52465,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在 Wh 單字和感嘆詞單元中使用「wh」這個字。",
+      "examplesZh": [
+        "本課程在 Wh 單字和感嘆詞單元中使用「wh」這個字。"
+      ]
     },
     {
       "id": "1882",
@@ -44849,7 +52492,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在 Wh 單字和感嘆詞單元中使用 OK 一詞。",
+      "examplesZh": [
+        "本課程在 Wh 單字和感嘆詞單元中使用 OK 一詞。"
+      ]
     },
     {
       "id": "1883",
@@ -44872,7 +52519,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在 Wh-單字和感嘆詞單元中使用 pardon 一詞。",
+      "examplesZh": [
+        "本課程在 Wh-單字和感嘆詞單元中使用 pardon 一詞。"
+      ]
     },
     {
       "id": "1884",
@@ -44897,6 +52548,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在 Wh 單字和感嘆詞單元中使用「please」一詞。",
+      "examplesZh": [
+        "本課程在 Wh 單字和感嘆詞單元中使用「please」一詞。"
       ]
     },
     {
@@ -44922,6 +52577,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在 Wh 單字和感嘆詞單元中使用「hello」一詞。",
+      "examplesZh": [
+        "本課程在 Wh 單字和感嘆詞單元中使用「hello」一詞。"
       ]
     },
     {
@@ -44947,6 +52606,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在 Wh 單字和感嘆詞單元中使用單字 hey。",
+      "examplesZh": [
+        "本課程在 Wh 單字和感嘆詞單元中使用單字 hey。"
       ]
     },
     {
@@ -44972,6 +52635,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在 Wh 單字和感嘆詞單元中使用單字 hi。",
+      "examplesZh": [
+        "本課程在 Wh 單字和感嘆詞單元中使用單字 hi。"
       ]
     },
     {
@@ -44995,7 +52662,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在 Wh-單字和感嘆詞單元中使用單字 Goodbye / bye。",
+      "examplesZh": [
+        "本課程在 Wh-單字和感嘆詞單元中使用單字 Goodbye / bye。"
+      ]
     },
     {
       "id": "1889",
@@ -45018,7 +52689,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在冠詞和限定詞單元中使用單字 a。",
+      "examplesZh": [
+        "本課程在冠詞和限定詞單元中使用單字 a。"
+      ]
     },
     {
       "id": "1890",
@@ -45041,7 +52716,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在冠詞和限定詞單元中使用單字 an。",
+      "examplesZh": [
+        "本課程在冠詞和限定詞單元中使用單字 an。"
+      ]
     },
     {
       "id": "1891",
@@ -45064,7 +52743,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在冠詞和限定詞單元中使用單字 the。",
+      "examplesZh": [
+        "本課程在冠詞和限定詞單元中使用單字 the。"
+      ]
     },
     {
       "id": "1892",
@@ -45087,7 +52770,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課在文章和限定詞單元中使用了 this 一詞。",
+      "examplesZh": [
+        "本課在文章和限定詞單元中使用了 this 一詞。"
+      ]
     },
     {
       "id": "1893",
@@ -45110,7 +52797,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在冠詞和限定詞單元中使用了單字 that。",
+      "examplesZh": [
+        "本課程在冠詞和限定詞單元中使用了單字 that。"
+      ]
     },
     {
       "id": "1894",
@@ -45133,7 +52824,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在「冠詞和限定詞」單元中使用「這些」一詞。",
+      "examplesZh": [
+        "本課程在「冠詞和限定詞」單元中使用「這些」一詞。"
+      ]
     },
     {
       "id": "1895",
@@ -45156,7 +52851,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在單元文章和限定詞中使用單字 those。",
+      "examplesZh": [
+        "本課程在單元文章和限定詞中使用單字 those。"
+      ]
     },
     {
       "id": "1896",
@@ -45179,7 +52878,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在冠詞和限定詞單元中使用了 every 一詞。",
+      "examplesZh": [
+        "本課程在冠詞和限定詞單元中使用了 every 一詞。"
+      ]
     },
     {
       "id": "1897",
@@ -45204,6 +52907,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在冠詞和限定詞單元中使用了「his」一詞。",
+      "examplesZh": [
+        "本課程在冠詞和限定詞單元中使用了「his」一詞。"
       ]
     },
     {
@@ -45229,6 +52936,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "本課程在冠詞和限定詞單元中使用「她」一詞。",
+      "examplesZh": [
+        "本課程在冠詞和限定詞單元中使用「她」一詞。"
       ]
     },
     {
@@ -45252,7 +52963,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在冠詞和限定詞單元中使用「我」這個詞。",
+      "examplesZh": [
+        "本課程在冠詞和限定詞單元中使用「我」這個詞。"
+      ]
     },
     {
       "id": "1900",
@@ -45275,7 +52990,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在文章和限定詞單元中使用「您」一詞。",
+      "examplesZh": [
+        "本課程在文章和限定詞單元中使用「您」一詞。"
+      ]
     },
     {
       "id": "1901",
@@ -45298,7 +53017,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在冠詞和限定詞單元中使用了「我們」這個詞。",
+      "examplesZh": [
+        "本課程在冠詞和限定詞單元中使用了「我們」這個詞。"
+      ]
     },
     {
       "id": "1902",
@@ -45321,7 +53044,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在冠詞和限定詞單元中使用“their”一詞。",
+      "examplesZh": [
+        "本課程在冠詞和限定詞單元中使用“their”一詞。"
+      ]
     },
     {
       "id": "1903",
@@ -45344,7 +53071,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "本課程在冠詞和限定詞單元中使用了「it」這個字。",
+      "examplesZh": [
+        "本課程在冠詞和限定詞單元中使用了「it」這個字。"
+      ]
     },
     {
       "id": "1904",
@@ -45367,7 +53098,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 I。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 I。"
+      ]
     },
     {
       "id": "1905",
@@ -45390,7 +53125,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用“我”。",
+      "examplesZh": [
+        "嘗試在句子中正確使用“我”。"
+      ]
     },
     {
       "id": "1906",
@@ -45413,7 +53152,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用我的。",
+      "examplesZh": [
+        "嘗試在句子中正確使用我的。"
+      ]
     },
     {
       "id": "1907",
@@ -45436,7 +53179,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用自己。",
+      "examplesZh": [
+        "嘗試在句子中正確使用自己。"
+      ]
     },
     {
       "id": "1908",
@@ -45459,7 +53206,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用我們。",
+      "examplesZh": [
+        "嘗試在句子中正確使用我們。"
+      ]
     },
     {
       "id": "1909",
@@ -45482,7 +53233,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用我們。",
+      "examplesZh": [
+        "嘗試在句子中正確使用我們。"
+      ]
     },
     {
       "id": "1910",
@@ -45505,7 +53260,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用我們的。",
+      "examplesZh": [
+        "嘗試在句子中正確使用我們的。"
+      ]
     },
     {
       "id": "1911",
@@ -45528,7 +53287,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用我們自己。",
+      "examplesZh": [
+        "嘗試在句子中正確使用我們自己。"
+      ]
     },
     {
       "id": "1912",
@@ -45551,7 +53314,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用“你”。",
+      "examplesZh": [
+        "嘗試在句子中正確使用“你”。"
+      ]
     },
     {
       "id": "1913",
@@ -45574,7 +53341,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用「你」（受詞）。",
+      "examplesZh": [
+        "嘗試在句子中正確使用「你」（受詞）。"
+      ]
     },
     {
       "id": "1914",
@@ -45597,7 +53368,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用你的。",
+      "examplesZh": [
+        "嘗試在句子中正確使用你的。"
+      ]
     },
     {
       "id": "1915",
@@ -45620,7 +53395,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用自己。",
+      "examplesZh": [
+        "嘗試在句子中正確使用自己。"
+      ]
     },
     {
       "id": "1916",
@@ -45643,7 +53422,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用自己。",
+      "examplesZh": [
+        "嘗試在句子中正確使用自己。"
+      ]
     },
     {
       "id": "1917",
@@ -45666,7 +53449,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用他。",
+      "examplesZh": [
+        "嘗試在句子中正確使用他。"
+      ]
     },
     {
       "id": "1918",
@@ -45689,7 +53476,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用他。",
+      "examplesZh": [
+        "嘗試在句子中正確使用他。"
+      ]
     },
     {
       "id": "1919",
@@ -45714,6 +53505,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用他。",
+      "examplesZh": [
+        "嘗試在句子中正確使用他。"
       ]
     },
     {
@@ -45737,7 +53532,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用他自己。",
+      "examplesZh": [
+        "嘗試在句子中正確使用他自己。"
+      ]
     },
     {
       "id": "1921",
@@ -45760,7 +53559,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用她。",
+      "examplesZh": [
+        "嘗試在句子中正確使用她。"
+      ]
     },
     {
       "id": "1922",
@@ -45785,6 +53588,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用她。",
+      "examplesZh": [
+        "嘗試在句子中正確使用她。"
       ]
     },
     {
@@ -45808,7 +53615,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用她的。",
+      "examplesZh": [
+        "嘗試在句子中正確使用她的。"
+      ]
     },
     {
       "id": "1924",
@@ -45831,7 +53642,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用她自己。",
+      "examplesZh": [
+        "嘗試在句子中正確使用她自己。"
+      ]
     },
     {
       "id": "1925",
@@ -45854,7 +53669,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用它們。",
+      "examplesZh": [
+        "嘗試在句子中正確使用它們。"
+      ]
     },
     {
       "id": "1926",
@@ -45877,7 +53696,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用它們。",
+      "examplesZh": [
+        "嘗試在句子中正確使用它們。"
+      ]
     },
     {
       "id": "1927",
@@ -45900,7 +53723,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用他們的。",
+      "examplesZh": [
+        "嘗試在句子中正確使用他們的。"
+      ]
     },
     {
       "id": "1928",
@@ -45923,7 +53750,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用它們自己。",
+      "examplesZh": [
+        "嘗試在句子中正確使用它們自己。"
+      ]
     },
     {
       "id": "1929",
@@ -45946,7 +53777,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用它。",
+      "examplesZh": [
+        "嘗試在句子中正確使用它。"
+      ]
     },
     {
       "id": "1930",
@@ -45969,7 +53804,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用它（受詞）。",
+      "examplesZh": [
+        "嘗試在句子中正確使用它（受詞）。"
+      ]
     },
     {
       "id": "1931",
@@ -45992,7 +53831,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用自身。",
+      "examplesZh": [
+        "嘗試在句子中正確使用自身。"
+      ]
     },
     {
       "id": "1932",
@@ -46015,7 +53858,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用self。",
+      "examplesZh": [
+        "嘗試在句子中正確使用self。"
+      ]
     },
     {
       "id": "1933",
@@ -46038,7 +53885,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用某人。",
+      "examplesZh": [
+        "嘗試在句子中正確使用某人。"
+      ]
     },
     {
       "id": "1934",
@@ -46061,7 +53912,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用某人。",
+      "examplesZh": [
+        "嘗試在句子中正確使用某人。"
+      ]
     },
     {
       "id": "1935",
@@ -46084,7 +53939,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用某些內容。",
+      "examplesZh": [
+        "嘗試在句子中正確使用某些內容。"
+      ]
     },
     {
       "id": "1936",
@@ -46107,7 +53966,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用每個人。",
+      "examplesZh": [
+        "嘗試在句子中正確使用每個人。"
+      ]
     },
     {
       "id": "1937",
@@ -46130,7 +53993,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用“每個人”。",
+      "examplesZh": [
+        "嘗試在句子中正確使用“每個人”。"
+      ]
     },
     {
       "id": "1938",
@@ -46153,7 +54020,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用所有內容。",
+      "examplesZh": [
+        "嘗試在句子中正確使用所有內容。"
+      ]
     },
     {
       "id": "1939",
@@ -46176,7 +54047,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用任何人。",
+      "examplesZh": [
+        "嘗試在句子中正確使用任何人。"
+      ]
     },
     {
       "id": "1940",
@@ -46199,7 +54074,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用任何人。",
+      "examplesZh": [
+        "嘗試在句子中正確使用任何人。"
+      ]
     },
     {
       "id": "1941",
@@ -46222,7 +54101,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用任何內容。",
+      "examplesZh": [
+        "嘗試在句子中正確使用任何內容。"
+      ]
     },
     {
       "id": "1942",
@@ -46245,7 +54128,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用沒人。",
+      "examplesZh": [
+        "嘗試在句子中正確使用沒人。"
+      ]
     },
     {
       "id": "1943",
@@ -46268,7 +54155,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中不正確使用任何內容。",
+      "examplesZh": [
+        "嘗試在句子中不正確使用任何內容。"
+      ]
     },
     {
       "id": "1944",
@@ -46291,7 +54182,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 none。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 none。"
+      ]
     },
     {
       "id": "1945",
@@ -46314,7 +54209,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用另一個。",
+      "examplesZh": [
+        "嘗試在句子中正確使用另一個。"
+      ]
     },
     {
       "id": "1946",
@@ -46337,7 +54236,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用每一個。",
+      "examplesZh": [
+        "嘗試在句子中正確使用每一個。"
+      ]
     },
     {
       "id": "1947",
@@ -46360,7 +54263,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用兩者。",
+      "examplesZh": [
+        "嘗試在句子中正確使用兩者。"
+      ]
     },
     {
       "id": "1948",
@@ -46383,7 +54290,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 other。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 other。"
+      ]
     },
     {
       "id": "1949",
@@ -46408,6 +54319,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用 all。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 all。"
       ]
     },
     {
@@ -46431,7 +54346,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用一些。",
+      "examplesZh": [
+        "嘗試在句子中正確使用一些。"
+      ]
     },
     {
       "id": "1951",
@@ -46454,7 +54373,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用很多。",
+      "examplesZh": [
+        "嘗試在句子中正確使用很多。"
+      ]
     },
     {
       "id": "1952",
@@ -46477,7 +54400,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用most。",
+      "examplesZh": [
+        "嘗試在句子中正確使用most。"
+      ]
     },
     {
       "id": "1953",
@@ -46500,7 +54427,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用「很多」。",
+      "examplesZh": [
+        "嘗試在句子中正確使用「很多」。"
+      ]
     },
     {
       "id": "1954",
@@ -46523,7 +54454,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用“few”。",
+      "examplesZh": [
+        "嘗試在句子中正確使用“few”。"
+      ]
     },
     {
       "id": "1955",
@@ -46546,7 +54481,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用幾個。",
+      "examplesZh": [
+        "嘗試在句子中正確使用幾個。"
+      ]
     },
     {
       "id": "1956",
@@ -46569,7 +54508,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 much。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 much。"
+      ]
     },
     {
       "id": "1957",
@@ -46594,6 +54537,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用little。",
+      "examplesZh": [
+        "嘗試在句子中正確使用little。"
       ]
     },
     {
@@ -46617,7 +54564,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用一點。",
+      "examplesZh": [
+        "嘗試在句子中正確使用一點。"
+      ]
     },
     {
       "id": "1959",
@@ -46640,7 +54591,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用any。",
+      "examplesZh": [
+        "嘗試在句子中正確使用any。"
+      ]
     },
     {
       "id": "1960",
@@ -46663,7 +54618,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用「很多」。",
+      "examplesZh": [
+        "嘗試在句子中正確使用「很多」。"
+      ]
     },
     {
       "id": "1961",
@@ -46688,6 +54647,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用 all。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 all。"
       ]
     },
     {
@@ -46711,7 +54674,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用足夠的內容。",
+      "examplesZh": [
+        "嘗試在句子中正確使用足夠的內容。"
+      ]
     },
     {
       "id": "1963",
@@ -46736,6 +54703,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用 on。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 on。"
       ]
     },
     {
@@ -46759,7 +54730,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用on。",
+      "examplesZh": [
+        "嘗試在句子中正確使用on。"
+      ]
     },
     {
       "id": "1965",
@@ -46782,7 +54757,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用beside。",
+      "examplesZh": [
+        "嘗試在句子中正確使用beside。"
+      ]
     },
     {
       "id": "1966",
@@ -46805,7 +54784,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用上面的內容。",
+      "examplesZh": [
+        "嘗試在句子中正確使用上面的內容。"
+      ]
     },
     {
       "id": "1967",
@@ -46828,7 +54811,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 over。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 over。"
+      ]
     },
     {
       "id": "1968",
@@ -46851,7 +54838,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 Between。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 Between。"
+      ]
     },
     {
       "id": "1969",
@@ -46876,6 +54867,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用in。",
+      "examplesZh": [
+        "嘗試在句子中正確使用in。"
       ]
     },
     {
@@ -46899,7 +54894,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子的前面正確使用。",
+      "examplesZh": [
+        "嘗試在句子的前面正確使用。"
+      ]
     },
     {
       "id": "1971",
@@ -46922,7 +54921,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 under。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 under。"
+      ]
     },
     {
       "id": "1972",
@@ -46945,7 +54948,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用後面。",
+      "examplesZh": [
+        "嘗試在句子中正確使用後面。"
+      ]
     },
     {
       "id": "1973",
@@ -46970,6 +54977,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用near。",
+      "examplesZh": [
+        "嘗試在句子中正確使用near。"
       ]
     },
     {
@@ -46995,6 +55006,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用by。",
+      "examplesZh": [
+        "嘗試在句子中正確使用by。"
       ]
     },
     {
@@ -47018,7 +55033,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用以下內容。",
+      "examplesZh": [
+        "嘗試在句子中正確使用以下內容。"
+      ]
     },
     {
       "id": "1976",
@@ -47041,7 +55060,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用“among”。",
+      "examplesZh": [
+        "嘗試在句子中正確使用“among”。"
+      ]
     },
     {
       "id": "1977",
@@ -47064,7 +55087,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 Beyond。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 Beyond。"
+      ]
     },
     {
       "id": "1978",
@@ -47089,6 +55116,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用at。",
+      "examplesZh": [
+        "嘗試在句子中正確使用at。"
       ]
     },
     {
@@ -47112,7 +55143,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用反對。",
+      "examplesZh": [
+        "嘗試在句子中正確使用反對。"
+      ]
     },
     {
       "id": "1980",
@@ -47137,6 +55172,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用at。",
+      "examplesZh": [
+        "嘗試在句子中正確使用at。"
       ]
     },
     {
@@ -47162,6 +55201,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用 on。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 on。"
       ]
     },
     {
@@ -47187,6 +55230,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用in。",
+      "examplesZh": [
+        "嘗試在句子中正確使用in。"
       ]
     },
     {
@@ -47212,6 +55259,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用 before。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 before。"
       ]
     },
     {
@@ -47237,6 +55288,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用after。",
+      "examplesZh": [
+        "嘗試在句子中正確使用after。"
       ]
     },
     {
@@ -47262,6 +55317,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用since。",
+      "examplesZh": [
+        "嘗試在句子中正確使用since。"
       ]
     },
     {
@@ -47285,7 +55344,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用during。",
+      "examplesZh": [
+        "嘗試在句子中正確使用during。"
+      ]
     },
     {
       "id": "1987",
@@ -47310,6 +55373,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用for。",
+      "examplesZh": [
+        "嘗試在句子中正確使用for。"
       ]
     },
     {
@@ -47335,6 +55402,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用 through。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 through。"
       ]
     },
     {
@@ -47358,7 +55429,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用til。",
+      "examplesZh": [
+        "嘗試在句子中正確使用til。"
+      ]
     },
     {
       "id": "1990",
@@ -47381,7 +55456,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用直到。",
+      "examplesZh": [
+        "嘗試在句子中正確使用直到。"
+      ]
     },
     {
       "id": "1991",
@@ -47406,6 +55485,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用by。",
+      "examplesZh": [
+        "嘗試在句子中正確使用by。"
       ]
     },
     {
@@ -47429,7 +55512,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 from。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 from。"
+      ]
     },
     {
       "id": "1993",
@@ -47452,7 +55539,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 up。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 up。"
+      ]
     },
     {
       "id": "1994",
@@ -47477,6 +55568,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "蒂姆因為他的球隊輸掉了比賽而情緒低落。",
+      "examplesZh": [
+        "蒂姆因為他的球隊輸掉了比賽而情緒低落。"
       ]
     },
     {
@@ -47500,7 +55595,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 out。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 out。"
+      ]
     },
     {
       "id": "1996",
@@ -47523,7 +55622,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 into。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 into。"
+      ]
     },
     {
       "id": "1997",
@@ -47548,6 +55651,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用 through。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 through。"
       ]
     },
     {
@@ -47571,7 +55678,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 off。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 off。"
+      ]
     },
     {
       "id": "1999",
@@ -47594,7 +55705,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 around。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 around。"
+      ]
     },
     {
       "id": "2000",
@@ -47617,7 +55732,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 across。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 across。"
+      ]
     },
     {
       "id": "2001",
@@ -47640,7 +55759,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用along。",
+      "examplesZh": [
+        "嘗試在句子中正確使用along。"
+      ]
     },
     {
       "id": "2002",
@@ -47663,7 +55786,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用to。",
+      "examplesZh": [
+        "嘗試在句子中正確使用to。"
+      ]
     },
     {
       "id": "2003",
@@ -47686,7 +55813,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用“towards”。",
+      "examplesZh": [
+        "嘗試在句子中正確使用“towards”。"
+      ]
     },
     {
       "id": "2004",
@@ -47709,7 +55840,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用about。",
+      "examplesZh": [
+        "嘗試在句子中正確使用about。"
+      ]
     },
     {
       "id": "2005",
@@ -47734,6 +55869,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用than。",
+      "examplesZh": [
+        "嘗試在句子中正確使用than。"
       ]
     },
     {
@@ -47759,6 +55898,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用by。",
+      "examplesZh": [
+        "嘗試在句子中正確使用by。"
       ]
     },
     {
@@ -47782,7 +55925,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用of。",
+      "examplesZh": [
+        "嘗試在句子中正確使用of。"
+      ]
     },
     {
       "id": "2008",
@@ -47805,7 +55952,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用with。",
+      "examplesZh": [
+        "嘗試在句子中正確使用with。"
+      ]
     },
     {
       "id": "2009",
@@ -47828,7 +55979,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 without 。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 without 。"
+      ]
     },
     {
       "id": "2010",
@@ -47855,6 +56010,12 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "source_771",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "我喜歡紅西紅柿。",
+      "examplesZh": [
+        "我喜歡紅西紅柿。",
+        "",
+        ""
       ]
     },
     {
@@ -47880,6 +56041,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用for。",
+      "examplesZh": [
+        "嘗試在句子中正確使用for。"
       ]
     },
     {
@@ -47903,7 +56068,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 except。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 except。"
+      ]
     },
     {
       "id": "2013",
@@ -47928,6 +56097,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用 before。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 before。"
       ]
     },
     {
@@ -47953,6 +56126,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用after。",
+      "examplesZh": [
+        "嘗試在句子中正確使用after。"
       ]
     },
     {
@@ -47976,7 +56153,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用 while。",
+      "examplesZh": [
+        "嘗試在句子中正確使用 while。"
+      ]
     },
     {
       "id": "2016",
@@ -48001,6 +56182,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用when。",
+      "examplesZh": [
+        "嘗試在句子中正確使用when。"
       ]
     },
     {
@@ -48024,7 +56209,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用as。",
+      "examplesZh": [
+        "嘗試在句子中正確使用as。"
+      ]
     },
     {
       "id": "2018",
@@ -48049,6 +56238,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用since。",
+      "examplesZh": [
+        "嘗試在句子中正確使用since。"
       ]
     },
     {
@@ -48072,7 +56265,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用because。",
+      "examplesZh": [
+        "嘗試在句子中正確使用because。"
+      ]
     },
     {
       "id": "2020",
@@ -48097,6 +56294,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用so。",
+      "examplesZh": [
+        "嘗試在句子中正確使用so。"
       ]
     },
     {
@@ -48120,7 +56321,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你可以在句子中使用這個字那個字。",
+      "examplesZh": [
+        "你可以在句子中使用這個字那個字。"
+      ]
     },
     {
       "id": "2022",
@@ -48143,7 +56348,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用if。",
+      "examplesZh": [
+        "嘗試在句子中正確使用if。"
+      ]
     },
     {
       "id": "2023",
@@ -48168,6 +56377,10 @@ window.ENGLISH_2000_DATA = {
       "exampleSource": "generated_example",
       "qaFlags": [
         "duplicate_word"
+      ],
+      "exampleZh": "嘗試在句子中正確使用than。",
+      "examplesZh": [
+        "嘗試在句子中正確使用than。"
       ]
     },
     {
@@ -48191,7 +56404,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用雖然。",
+      "examplesZh": [
+        "嘗試在句子中正確使用雖然。"
+      ]
     },
     {
       "id": "2025",
@@ -48214,7 +56431,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用and。",
+      "examplesZh": [
+        "嘗試在句子中正確使用and。"
+      ]
     },
     {
       "id": "2026",
@@ -48237,7 +56458,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用but。",
+      "examplesZh": [
+        "嘗試在句子中正確使用but。"
+      ]
     },
     {
       "id": "2027",
@@ -48260,7 +56485,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "嘗試在句子中正確使用or。",
+      "examplesZh": [
+        "嘗試在句子中正確使用or。"
+      ]
     },
     {
       "id": "2028",
@@ -48283,7 +56512,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "您可以在句子中使用這個字或那個字。",
+      "examplesZh": [
+        "您可以在句子中使用這個字或那個字。"
+      ]
     },
     {
       "id": "2029",
@@ -48306,7 +56539,11 @@ window.ENGLISH_2000_DATA = {
       "reviewNote": "",
       "translationSource": "machine_translation",
       "exampleSource": "generated_example",
-      "qaFlags": []
+      "qaFlags": [],
+      "exampleZh": "你不能在句子中使用這個字或那個字。",
+      "examplesZh": [
+        "你不能在句子中使用這個字或那個字。"
+      ]
     }
   ]
 };

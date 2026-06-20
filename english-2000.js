@@ -14,8 +14,10 @@
     ...word,
     word: String(word.word || '').trim(),
     translation: String(word.translation || '').trim(),
+    exampleZh: String(word.exampleZh || '').trim(),
     partOfSpeech: String(word.partOfSpeech || '').trim(),
-    examples: Array.isArray(word.examples) ? word.examples : []
+    examples: Array.isArray(word.examples) ? word.examples : [],
+    examplesZh: Array.isArray(word.examplesZh) ? word.examplesZh : []
   })).filter((word) => word.word);
 
   const $ = (id) => document.getElementById(id);
@@ -28,7 +30,7 @@
       chapter: $('chapter-view'), unit: $('unit-view'), speed: $('speed-view'), judge: $('judge-view'), list: $('list-view')
     },
     card: $('card'), cardScope: $('card-scope'), front: $('front'), back: $('back'), cardWord: $('card-word'), cardMeta: $('card-meta'),
-    cardMeaning: $('card-meaning'), cardExample: $('card-example'), cardNote: $('card-note'), prev: $('prev'), flip: $('flip'),
+    cardMeaning: $('card-meaning'), cardExample: $('card-example'), cardExampleZh: $('card-example-zh'), cardNote: $('card-note'), prev: $('prev'), flip: $('flip'),
     cardSpeak: $('card-speak'), weak: $('weak'), known: $('known'), next: $('next'),
     listenHint: $('listen-hint'), listenChoices: $('listen-choices'), listenFeedback: $('listen-feedback'), listenPlay: $('listen-play'), listenNext: $('listen-next'),
     spellHint: $('spell-hint'), spellDetail: $('spell-detail'), spellInput: $('spell-input'), spellFeedback: $('spell-feedback'), spellSpeak: $('spell-speak'), spellCheck: $('spell-check'), spellNext: $('spell-next'),
@@ -251,7 +253,8 @@
     els.cardMeta.textContent = `${card.partOfSpeech || 'vocabulary'} / #${card.order}`;
     els.cardMeaning.textContent = meaningText(card);
     els.cardExample.textContent = firstExample(card);
-    els.cardNote.textContent = `${card.source || ''} ${card.note || ''}`.trim();
+    els.cardExampleZh.textContent = exampleZhText(card);
+    els.cardNote.textContent = card.reviewNote || '';
     els.front.hidden = state.flipped;
     els.back.hidden = !state.flipped;
     els.flip.textContent = state.flipped ? '看英文' : '翻面';
@@ -615,8 +618,12 @@
     return word.examples?.[0] || `This word belongs to ${word.unitTitle}.`;
   }
 
+  function exampleZhText(word) {
+    return word.exampleZh || word.examplesZh?.[0] || '';
+  }
+
   function searchable(word) {
-    return [word.word, word.translation, word.chapterTitle, word.unitTitle, word.partOfSpeech, word.examples.join(' ')].join(' ').toLowerCase();
+    return [word.word, word.translation, word.exampleZh, word.chapterTitle, word.unitTitle, word.partOfSpeech, word.examples.join(' '), word.examplesZh.join(' ')].join(' ').toLowerCase();
   }
 
   function speak(text) {
@@ -629,7 +636,7 @@
   }
 
   function copyList() {
-    const text = state.deck.map((word) => [word.chapterNo, word.chapterTitle, word.unitNo, word.unitTitle, word.wordNo, word.word, word.translation].join('\t')).join('\n');
+    const text = state.deck.map((word) => [word.chapterNo, word.chapterTitle, word.unitNo, word.unitTitle, word.wordNo, word.word, word.translation, firstExample(word), exampleZhText(word)].join('\t')).join('\n');
     navigator.clipboard?.writeText(text);
     els.copyList.textContent = '已複製';
     setTimeout(() => { els.copyList.textContent = '複製清單'; }, 1000);
