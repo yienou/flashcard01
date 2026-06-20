@@ -127,6 +127,20 @@
     .unit-row { border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 10px; }
     .unit-row strong { display: block; font-size: 0.95rem; line-height: 1.3; }
     .unit-row span { display: block; margin-top: 3px; color: var(--muted); font-size: 0.84rem; line-height: 1.35; }
+    .rpg-card { display: grid; gap: 12px; border: 1px solid #cfe0f6; border-radius: 8px; background: linear-gradient(160deg, #ffffff, #eef6ff); padding: 14px; box-shadow: 0 12px 28px rgba(37, 99, 235, 0.10); }
+    .rpg-head { display: grid; grid-template-columns: 58px 1fr; gap: 12px; align-items: center; }
+    .rpg-avatar { width: 58px; height: 58px; display: grid; place-items: center; border-radius: 8px; background: #fff; border: 1px solid var(--line); font-size: 2rem; }
+    .rpg-title { margin: 0; font-size: 1.05rem; line-height: 1.25; }
+    .rpg-sub { margin: 4px 0 0; color: var(--muted); font-weight: 800; }
+    .xp-bar { height: 9px; border-radius: 999px; background: #dbe7f6; overflow: hidden; }
+    .xp-bar span { display: block; width: 0%; height: 100%; background: linear-gradient(90deg, var(--accent-2), var(--accent)); }
+    .rpg-meta { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .rpg-meta div { border: 1px solid var(--line); border-radius: 8px; background: rgba(255,255,255,0.82); padding: 9px; }
+    .rpg-meta strong { display: block; font-size: 1.05rem; }
+    .rpg-meta span { display: block; color: var(--muted); font-size: 0.82rem; font-weight: 800; margin-top: 2px; }
+    .badge-list { display: flex; flex-wrap: wrap; gap: 6px; }
+    .badge { display: inline-flex; align-items: center; gap: 5px; max-width: 100%; border: 1px solid #d8c58d; border-radius: 999px; background: #fff8db; color: #6d520b; padding: 6px 9px; font-size: 0.82rem; font-weight: 900; }
+    .badge.pending { border-color: var(--line); background: #f8fbff; color: var(--muted); }
     .word-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 10px; max-height: 640px; overflow: auto; padding-right: 4px; }
     .word-row { border: 1px solid var(--line); border-radius: 8px; padding: 12px; background: #fff; }
     .word-row strong { display: block; margin-bottom: 4px; font-size: 1.12rem; overflow-wrap: anywhere; }
@@ -287,6 +301,25 @@
           <div class="stat"><strong id="stat-seen">0</strong><span>已看過</span></div>
           <div class="stat"><strong id="stat-total">2029</strong><span>目前字數</span></div>
         </div>
+        <h3 class="progress-title">角色成長</h3>
+        <section class="rpg-card" aria-label="角色成長">
+          <div class="rpg-head">
+            <div class="rpg-avatar" id="rpg-avatar">🧑‍🎓</div>
+            <div>
+              <h3 class="rpg-title" id="rpg-title">單字見習生</h3>
+              <p class="rpg-sub" id="rpg-level">Lv.1 / 0 XP</p>
+            </div>
+          </div>
+          <div class="xp-bar" aria-hidden="true"><span id="rpg-xp-bar"></span></div>
+          <p class="tip" id="rpg-xp-text">再學幾個字就能升級。</p>
+          <div class="rpg-meta">
+            <div><strong id="rpg-house">書桌角落</strong><span>房子</span></div>
+            <div><strong id="rpg-study-time">0 分鐘</strong><span>學習時間</span></div>
+            <div><strong id="rpg-badge-count">0</strong><span>單元勳章</span></div>
+            <div><strong id="rpg-performance">--</strong><span>表現</span></div>
+          </div>
+          <div class="badge-list" id="rpg-badges"></div>
+        </section>
         <h3 class="progress-title">全書紀錄</h3>
         <div class="stats-grid">
           <div class="stat"><strong id="overall-seen">0</strong><span>全書已看</span></div>

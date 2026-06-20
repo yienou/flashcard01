@@ -109,7 +109,9 @@
     speedTime: $('speed-time'), speedScore: $('speed-score'), speedStreak: $('speed-streak'), speedWord: $('speed-word'), speedChoices: $('speed-choices'), speedFeedback: $('speed-feedback'), speedStart: $('speed-start'),
     judgeWord: $('judge-word'), judgeLabel: $('judge-label'), judgeTrue: $('judge-true'), judgeFalse: $('judge-false'), judgeFeedback: $('judge-feedback'), judgeSpeak: $('judge-speak'), judgeNext: $('judge-next'),
     wordGrid: $('word-grid'), copyList: $('copy-list'), scopeLabel: $('scope-label'), statKnown: $('stat-known'), statWeak: $('stat-weak'), statSeen: $('stat-seen'), statTotal: $('stat-total'),
-    overallSeen: $('overall-seen'), overallKnown: $('overall-known'), overallAccuracy: $('overall-accuracy'), lastStudied: $('last-studied'), unitProgress: $('unit-progress')
+    overallSeen: $('overall-seen'), overallKnown: $('overall-known'), overallAccuracy: $('overall-accuracy'), lastStudied: $('last-studied'), unitProgress: $('unit-progress'),
+    rpgAvatar: $('rpg-avatar'), rpgTitle: $('rpg-title'), rpgLevel: $('rpg-level'), rpgXpBar: $('rpg-xp-bar'), rpgXpText: $('rpg-xp-text'),
+    rpgHouse: $('rpg-house'), rpgStudyTime: $('rpg-study-time'), rpgBadgeCount: $('rpg-badge-count'), rpgPerformance: $('rpg-performance'), rpgBadges: $('rpg-badges')
   };
 
   const state = {
@@ -377,6 +379,7 @@
     if (els.overallKnown) els.overallKnown.textContent = overall.known;
     if (els.overallAccuracy) els.overallAccuracy.textContent = overall.attempts ? `${overall.accuracy}%` : '--';
     if (els.lastStudied) els.lastStudied.textContent = formatTime(progressMeta().lastStudiedAt);
+    renderRpgProgress(overall);
     renderUnitProgress();
     const chapter = state.chapter === 'all' ? '全部章節' : `${state.chapter}. ${chapterMap.get(Number(state.chapter))?.title}`;
     const unit = state.unit === 'all' ? '全部單元' : `${state.unit}. ${unitMap.get(Number(state.unit))?.title}`;
@@ -396,6 +399,128 @@
     }, { seen: 0, known: 0, weak: 0, correct: 0, attempts: 0 });
     summary.accuracy = summary.attempts ? Math.round((summary.correct / summary.attempts) * 100) : 0;
     return summary;
+  }
+
+  function renderRpgProgress(overall) {
+    if (!els.rpgTitle) return;
+    const meta = progressMeta();
+    const badges = completedUnitBadges();
+    const studyMinutes = Math.floor((meta.studySeconds || 0) / 60);
+    const xp = overall.seen * 2 + overall.known * 9 + overall.correct * 4 + studyMinutes * 2 + badges.length * 80;
+    const level = levelFromXp(xp);
+    const currentBase = xpForLevel(level);
+    const nextBase = xpForLevel(level + 1);
+    const levelPct = nextBase > currentBase ? Math.round(((xp - currentBase) / (nextBase - currentBase)) * 100) : 0;
+    const title = roleTitle(level, overall.accuracy, badges.length);
+    const avatar = roleAvatar(level);
+    const house = houseTitle(level, badges.length);
+    els.rpgAvatar.textContent = avatar;
+    els.rpgTitle.textContent = title;
+    els.rpgLevel.textContent = `Lv.${level} / ${xp} XP`;
+    els.rpgXpBar.style.width = `${Math.max(0, Math.min(100, levelPct))}%`;
+    els.rpgXpText.textContent = `距離 Lv.${level + 1} 還差 ${Math.max(0, nextBase - xp)} XP`;
+    els.rpgHouse.textContent = house;
+    els.rpgStudyTime.textContent = formatStudyTime(meta.studySeconds || 0);
+    els.rpgBadgeCount.textContent = badges.length;
+    els.rpgPerformance.textContent = performanceLabel(overall.accuracy, overall.attempts);
+    renderBadges(badges);
+  }
+
+  function completedUnitBadges() {
+    return units.map((unit) => {
+      const list = words.filter((word) => word.unitNo === unit.unitNo);
+      const summary = progressSummary(list);
+      const complete = list.length > 0 && summary.known >= list.length;
+      const seenAll = list.length > 0 && summary.seen >= list.length;
+      return { unit, summary, complete, seenAll };
+    }).filter((badge) => badge.complete)
+      .sort((a, b) => b.unit.unitNo - a.unit.unitNo);
+  }
+
+  function renderBadges(badges) {
+    if (!els.rpgBadges) return;
+    els.rpgBadges.innerHTML = '';
+    if (badges.length) {
+      badges.slice(0, 10).forEach((badge) => {
+        const item = document.createElement('span');
+        item.className = 'badge';
+        item.textContent = `${unitBadgeIcon(badge.unit)} U${badge.unit.unitNo} ${badge.unit.title}`;
+        els.rpgBadges.appendChild(item);
+      });
+      return;
+    }
+    const next = nextBadgeTarget();
+    const item = document.createElement('span');
+    item.className = 'badge pending';
+    item.textContent = next ? `下一枚：U${next.unit.unitNo} ${next.unit.title}，熟悉 ${next.summary.known}/${next.unit.count}` : '完成任一單元即可獲得第一枚勳章';
+    els.rpgBadges.appendChild(item);
+  }
+
+  function nextBadgeTarget() {
+    return units.map((unit) => {
+      const list = words.filter((word) => word.unitNo === unit.unitNo);
+      const summary = progressSummary(list);
+      return { unit, summary, score: summary.known / Math.max(1, unit.count) };
+    }).filter((row) => row.summary.known < row.unit.count)
+      .sort((a, b) => b.score - a.score || b.summary.seen - a.summary.seen)
+      .find((row) => row.summary.seen || row.summary.known);
+  }
+
+  function unitBadgeIcon(unit) {
+    return UNIT_EMOJI[unit.unitNo] || CHAPTER_EMOJI[unit.chapterNo] || '🏅';
+  }
+
+  function xpForLevel(level) {
+    return Math.pow(Math.max(0, level - 1), 2) * 120;
+  }
+
+  function levelFromXp(xp) {
+    let level = 1;
+    while (xp >= xpForLevel(level + 1) && level < 60) level += 1;
+    return level;
+  }
+
+  function roleTitle(level, accuracy, badges) {
+    if (badges >= 30) return '單字殿堂守護者';
+    if (level >= 18) return '英文大師';
+    if (level >= 13) return '語彙導師';
+    if (level >= 9 && accuracy >= 85) return '精準答題者';
+    if (level >= 8) return '單字冒險家';
+    if (level >= 5) return '語彙探索者';
+    if (level >= 3) return '單字見習生';
+    return '新手學徒';
+  }
+
+  function roleAvatar(level) {
+    if (level >= 18) return '🧙‍♂️';
+    if (level >= 13) return '🧑‍🏫';
+    if (level >= 8) return '🧭';
+    if (level >= 5) return '🧑‍💻';
+    return '🧑‍🎓';
+  }
+
+  function houseTitle(level, badges) {
+    if (badges >= 20 || level >= 18) return '星光學院';
+    if (badges >= 10 || level >= 13) return '知識城堡';
+    if (badges >= 5 || level >= 8) return '溫馨小屋';
+    if (level >= 4) return '學習木屋';
+    return '書桌角落';
+  }
+
+  function performanceLabel(accuracy, attempts) {
+    if (!attempts) return '--';
+    if (accuracy >= 90) return '精準';
+    if (accuracy >= 75) return '穩定';
+    if (accuracy >= 60) return '進步中';
+    return '再練習';
+  }
+
+  function formatStudyTime(seconds) {
+    const minutes = Math.floor(seconds / 60);
+    if (minutes < 60) return `${minutes} 分鐘`;
+    const hours = Math.floor(minutes / 60);
+    const rest = minutes % 60;
+    return rest ? `${hours} 小時 ${rest} 分` : `${hours} 小時`;
   }
 
   function renderUnitProgress() {
@@ -901,10 +1026,9 @@
     } else {
       state.quiz.streak = 0;
     }
-    const meta = progressMeta();
+    const meta = noteStudyActivity(now);
     meta.totalAnswers += 1;
     if (correct) meta.correctAnswers += 1;
-    meta.lastStudiedAt = now;
     if (word?.id) {
       const progress = progressOf(word.id);
       progress.seen = true;
@@ -1009,7 +1133,7 @@
     progress.status = status;
     progress.seen = true;
     progress.updatedAt = now;
-    progressMeta().lastStudiedAt = now;
+    noteStudyActivity(now);
     saveProgress();
   }
 
@@ -1018,7 +1142,7 @@
     const progress = progressOf(id);
     progress.seen = true;
     progress.updatedAt = progress.updatedAt || now;
-    progressMeta().lastStudiedAt = now;
+    noteStudyActivity(now);
   }
 
   function progressOf(id) {
@@ -1045,6 +1169,19 @@
     meta.totalAnswers = meta.totalAnswers || 0;
     meta.correctAnswers = meta.correctAnswers || 0;
     meta.lastStudiedAt = meta.lastStudiedAt || 0;
+    meta.studySeconds = meta.studySeconds || 0;
+    meta.lastActivityAt = meta.lastActivityAt || 0;
+    return meta;
+  }
+
+  function noteStudyActivity(now = Date.now()) {
+    const meta = progressMeta();
+    if (meta.lastActivityAt) {
+      const gap = Math.max(0, Math.round((now - meta.lastActivityAt) / 1000));
+      if (gap > 0 && gap <= 300) meta.studySeconds += gap;
+    }
+    meta.lastActivityAt = now;
+    meta.lastStudiedAt = now;
     return meta;
   }
 
