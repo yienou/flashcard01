@@ -65,7 +65,8 @@
     falling: null,
     mole: null,
     speed: null,
-    judge: null
+    judge: null,
+    touch: { startX: 0, startY: 0, swiped: false }
   };
 
   initSelects();
@@ -172,6 +173,8 @@
     });
 
     els.card.addEventListener('click', flipCard);
+    els.card.addEventListener('touchstart', handleCardTouchStart, { passive: true });
+    els.card.addEventListener('touchend', handleCardTouchEnd, { passive: true });
     els.card.addEventListener('keydown', (event) => {
       if (event.key === 'Enter' || event.key === ' ') {
         event.preventDefault();
@@ -259,6 +262,7 @@
   }
 
   function render() {
+    document.body.className = `mode-${state.mode}`;
     document.querySelectorAll('[data-mode]').forEach((button) => button.classList.toggle('active', button.dataset.mode === state.mode));
     document.querySelectorAll('[data-filter]').forEach((button) => button.classList.toggle('active', button.dataset.filter === state.filter));
     Object.entries(els.views).forEach(([mode, view]) => view?.classList.toggle('active', mode === state.mode));
@@ -800,8 +804,30 @@
 
   function flipCard() {
     if (!currentCard()) return;
+    if (state.touch.swiped) {
+      state.touch.swiped = false;
+      return;
+    }
     state.flipped = !state.flipped;
     renderCard();
+  }
+
+  function handleCardTouchStart(event) {
+    const touch = event.changedTouches?.[0];
+    if (!touch) return;
+    state.touch.startX = touch.clientX;
+    state.touch.startY = touch.clientY;
+    state.touch.swiped = false;
+  }
+
+  function handleCardTouchEnd(event) {
+    const touch = event.changedTouches?.[0];
+    if (!touch) return;
+    const dx = touch.clientX - state.touch.startX;
+    const dy = touch.clientY - state.touch.startY;
+    if (Math.abs(dx) < 54 || Math.abs(dx) < Math.abs(dy) * 1.35) return;
+    state.touch.swiped = true;
+    moveCard(dx < 0 ? 1 : -1);
   }
 
   function moveCard(delta) {
