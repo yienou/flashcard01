@@ -23,6 +23,7 @@
 
   const $ = (id) => document.getElementById(id);
   const els = {
+    focusToggle: $('focus-toggle'),
     tabs: $('tabs'), search: $('search'), chapterSelect: $('chapter-select'), unitSelect: $('unit-select'), levelSelect: $('level-select'), chips: $('chips'),
     speakCurrent: $('speak-current'), shuffle: $('shuffle'), reset: $('reset'),
     deckLabel: $('deck-label'), deckPercent: $('deck-percent'), deckMeter: $('deck-meter'),
@@ -52,6 +53,7 @@
     level: 'all',
     filter: 'all',
     query: '',
+    settingsOpen: false,
     deck: [],
     index: 0,
     flipped: false,
@@ -171,6 +173,10 @@
       makeGameForMode();
       render();
     });
+    els.focusToggle?.addEventListener('click', () => {
+      state.settingsOpen = !state.settingsOpen;
+      render();
+    });
 
     els.card.addEventListener('click', flipCard);
     els.card.addEventListener('touchstart', handleCardTouchStart, { passive: true });
@@ -262,7 +268,11 @@
   }
 
   function render() {
-    document.body.className = `mode-${state.mode}`;
+    document.body.className = `mode-${state.mode}${state.settingsOpen ? ' settings-open' : ''}`;
+    if (els.focusToggle) {
+      els.focusToggle.textContent = state.settingsOpen ? '學習' : '設定';
+      els.focusToggle.setAttribute('aria-pressed', String(state.settingsOpen));
+    }
     document.querySelectorAll('[data-mode]').forEach((button) => button.classList.toggle('active', button.dataset.mode === state.mode));
     document.querySelectorAll('[data-filter]').forEach((button) => button.classList.toggle('active', button.dataset.filter === state.filter));
     Object.entries(els.views).forEach(([mode, view]) => view?.classList.toggle('active', mode === state.mode));
@@ -332,8 +342,9 @@
     els.cardExample.textContent = firstExample(card);
     els.cardExampleZh.textContent = exampleZhText(card);
     els.cardNote.textContent = card.reviewNote || '';
-    els.front.hidden = state.flipped;
-    els.back.hidden = !state.flipped;
+    els.front.hidden = false;
+    els.back.hidden = false;
+    els.card.classList.toggle('is-flipped', state.flipped);
     els.flip.textContent = state.flipped ? '看英文' : '翻面';
     saveProgress();
   }
