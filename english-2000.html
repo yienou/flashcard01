@@ -57,7 +57,7 @@
     .btn.warn { background: #fff7e6; border-color: #ffe1a6; color: var(--warn); }
     .panel { background: rgba(255,255,255,0.94); border: 1px solid var(--line); border-radius: 8px; box-shadow: var(--shadow); }
     .controls { display: grid; gap: 12px; padding: 14px; margin-top: 14px; order: 2; }
-    .filters { display: grid; grid-template-columns: minmax(220px, 1fr) minmax(160px, 220px) minmax(180px, 280px); gap: 10px; }
+    .filters { display: grid; grid-template-columns: minmax(220px, 1fr) minmax(150px, 210px) minmax(170px, 260px) minmax(150px, 210px); gap: 10px; }
     input, select { min-height: 42px; border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; background: #fff; color: var(--ink); }
     .layout { display: grid; grid-template-columns: minmax(0, 1fr) 330px; gap: 14px; align-items: start; order: 1; }
     .stage { min-height: 680px; padding: 16px; }
@@ -67,6 +67,10 @@
     .small-row { display: flex; justify-content: space-between; gap: 10px; color: var(--muted); font-weight: 800; }
     .meter { height: 10px; border-radius: 999px; background: #e5eaf2; overflow: hidden; margin: 8px 0 16px; }
     .meter > span { display: block; width: 0%; height: 100%; background: linear-gradient(90deg, var(--accent-2), var(--accent)); }
+    .status-row { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; margin-bottom: 14px; }
+    .status-card { border: 1px solid var(--line); border-radius: 8px; background: #f8fbff; padding: 10px 12px; min-height: 62px; }
+    .status-card span { display: block; color: var(--muted); font-size: 0.82rem; font-weight: 800; margin-bottom: 4px; }
+    .status-card strong { display: block; font-size: clamp(1.08rem, 2vw, 1.45rem); line-height: 1.15; overflow-wrap: anywhere; }
     .card { width: min(820px, 100%); min-height: 470px; margin: 20px auto 16px; display: grid; align-content: center; text-align: center; background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: clamp(22px, 4vw, 42px); box-shadow: 0 16px 38px rgba(22, 32, 51, 0.10); }
     .pill { display: inline-flex; margin: 0 auto 18px; padding: 7px 11px; border-radius: 999px; background: #eef5ff; color: #2364b6; font-weight: 900; font-size: 0.86rem; }
     .word { margin: 0; font-size: clamp(2.7rem, 8vw, 6rem); line-height: 1; letter-spacing: 0; overflow-wrap: anywhere; }
@@ -103,8 +107,8 @@
     .word-row { border: 1px solid var(--line); border-radius: 8px; padding: 12px; background: #fff; }
     .word-row strong { display: block; margin-bottom: 4px; font-size: 1.12rem; overflow-wrap: anywhere; }
     .word-row span { display: block; color: var(--muted); line-height: 1.42; }
-    @media (max-width: 980px) { .topbar, .layout, .filters { grid-template-columns: 1fr; } .actions { justify-content: flex-start; } .sidebar { position: static; } .stage { min-height: auto; } .choices { grid-template-columns: 1fr 1fr; } }
-    @media (max-width: 560px) { .app { width: min(100vw - 18px, 1500px); } .choices, .score-row { grid-template-columns: 1fr; } .btn, .tab, .chip { flex: 1 1 auto; } .card { min-height: 360px; } }
+    @media (max-width: 980px) { .topbar, .layout, .filters { grid-template-columns: 1fr; } .actions { justify-content: flex-start; } .sidebar { position: static; } .stage { min-height: auto; } .choices { grid-template-columns: 1fr 1fr; } .status-row { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+    @media (max-width: 560px) { .app { width: min(100vw - 18px, 1500px); } .choices, .score-row, .status-row { grid-template-columns: 1fr; } .btn, .tab, .chip { flex: 1 1 auto; } .card { min-height: 360px; } }
   </style>
 </head>
 <body>
@@ -127,6 +131,7 @@
     <section class="panel controls">
       <div class="tabs" id="tabs">
         <button class="tab active" data-mode="cards" type="button">單字卡</button>
+        <button class="tab" data-mode="meaning" type="button">英選中</button>
         <button class="tab" data-mode="listen" type="button">聽音選字</button>
         <button class="tab" data-mode="spell" type="button">拼字</button>
         <button class="tab" data-mode="scramble" type="button">字母重組</button>
@@ -140,6 +145,7 @@
         <input id="search" type="search" placeholder="搜尋英文、章節、單元、中文翻譯">
         <select id="chapter-select" aria-label="選擇章節"></select>
         <select id="unit-select" aria-label="選擇單元"></select>
+        <select id="level-select" aria-label="選擇關卡"></select>
       </div>
       <div class="chips" id="chips">
         <button class="chip active" data-filter="all" type="button">全部</button>
@@ -154,6 +160,13 @@
       <section class="panel stage">
         <div class="small-row"><span id="deck-label">第 1 張</span><span id="deck-percent">0%</span></div>
         <div class="meter"><span id="deck-meter"></span></div>
+        <div class="status-row" aria-label="測驗狀態">
+          <div class="status-card"><span>關卡</span><strong id="level-label">全部關卡</strong></div>
+          <div class="status-card"><span>分數</span><strong id="quiz-score">0 / 0</strong></div>
+          <div class="status-card"><span>正答率</span><strong id="quiz-rate">--</strong></div>
+          <div class="status-card"><span>等級</span><strong id="quiz-grade">準備中</strong></div>
+          <div class="status-card"><span>本關熟悉度</span><strong id="level-familiarity">0%</strong></div>
+        </div>
 
         <div class="view active" id="cards-view">
           <article class="card" id="card" role="button" tabindex="0">
@@ -179,6 +192,7 @@
           </div>
         </div>
 
+        <div class="view" id="meaning-view"><div class="game"><div class="prompt"><h2 id="meaning-word">word</h2><p id="meaning-hint">看英文，選出正確中文意思。</p></div><div class="choices" id="meaning-choices"></div><div class="feedback" id="meaning-feedback"></div><div class="btn-row"><button class="btn" id="meaning-speak" type="button">發音</button><button class="btn primary" id="meaning-next" type="button">下一題</button></div></div></div>
         <div class="view" id="listen-view"><div class="game"><div class="prompt"><h2>聽音選字</h2><p id="listen-hint">聽發音，選出正確英文。</p></div><div class="choices" id="listen-choices"></div><div class="feedback" id="listen-feedback"></div><div class="btn-row"><button class="btn" id="listen-play" type="button">播放</button><button class="btn primary" id="listen-next" type="button">下一題</button></div></div></div>
         <div class="view" id="spell-view"><div class="game"><div class="prompt"><h2 id="spell-hint">Hint</h2><p id="spell-detail">輸入英文單字或片語。</p></div><input class="spell-input" id="spell-input" autocomplete="off" autocapitalize="none" spellcheck="false"><div class="feedback" id="spell-feedback"></div><div class="btn-row"><button class="btn" id="spell-speak" type="button">發音提示</button><button class="btn primary" id="spell-check" type="button">檢查</button><button class="btn" id="spell-next" type="button">下一題</button></div></div></div>
         <div class="view" id="scramble-view"><div class="game"><div class="prompt"><h2 id="scramble-hint">Hint</h2><p id="scramble-detail">把字母排成正確英文。</p></div><div class="answer-box" id="scramble-answer"></div><div class="letter-bank" id="scramble-bank"></div><div class="feedback" id="scramble-feedback"></div><div class="btn-row"><button class="btn" id="scramble-undo" type="button">退一格</button><button class="btn primary" id="scramble-check" type="button">檢查</button><button class="btn" id="scramble-next" type="button">下一題</button></div></div></div>

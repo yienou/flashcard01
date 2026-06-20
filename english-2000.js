@@ -6,6 +6,7 @@
   }
 
   const STORE_KEY = 'english-2000-progress-v1';
+  const LEVEL_SIZE = 20;
   const chapters = raw.chapters || [];
   const units = raw.units || [];
   const chapterMap = new Map(chapters.map((chapter) => [chapter.chapterNo, chapter]));
@@ -22,16 +23,18 @@
 
   const $ = (id) => document.getElementById(id);
   const els = {
-    tabs: $('tabs'), search: $('search'), chapterSelect: $('chapter-select'), unitSelect: $('unit-select'), chips: $('chips'),
+    tabs: $('tabs'), search: $('search'), chapterSelect: $('chapter-select'), unitSelect: $('unit-select'), levelSelect: $('level-select'), chips: $('chips'),
     speakCurrent: $('speak-current'), shuffle: $('shuffle'), reset: $('reset'),
     deckLabel: $('deck-label'), deckPercent: $('deck-percent'), deckMeter: $('deck-meter'),
+    levelLabel: $('level-label'), quizScore: $('quiz-score'), quizRate: $('quiz-rate'), quizGrade: $('quiz-grade'), levelFamiliarity: $('level-familiarity'),
     views: {
-      cards: $('cards-view'), listen: $('listen-view'), spell: $('spell-view'), scramble: $('scramble-view'),
+      cards: $('cards-view'), meaning: $('meaning-view'), listen: $('listen-view'), spell: $('spell-view'), scramble: $('scramble-view'),
       chapter: $('chapter-view'), unit: $('unit-view'), speed: $('speed-view'), judge: $('judge-view'), list: $('list-view')
     },
     card: $('card'), cardScope: $('card-scope'), front: $('front'), back: $('back'), cardWord: $('card-word'), cardMeta: $('card-meta'),
     cardMeaning: $('card-meaning'), cardExample: $('card-example'), cardExampleZh: $('card-example-zh'), cardNote: $('card-note'), prev: $('prev'), flip: $('flip'),
     cardSpeak: $('card-speak'), weak: $('weak'), known: $('known'), next: $('next'),
+    meaningWord: $('meaning-word'), meaningHint: $('meaning-hint'), meaningChoices: $('meaning-choices'), meaningFeedback: $('meaning-feedback'), meaningSpeak: $('meaning-speak'), meaningNext: $('meaning-next'),
     listenHint: $('listen-hint'), listenChoices: $('listen-choices'), listenFeedback: $('listen-feedback'), listenPlay: $('listen-play'), listenNext: $('listen-next'),
     spellHint: $('spell-hint'), spellDetail: $('spell-detail'), spellInput: $('spell-input'), spellFeedback: $('spell-feedback'), spellSpeak: $('spell-speak'), spellCheck: $('spell-check'), spellNext: $('spell-next'),
     scrambleHint: $('scramble-hint'), scrambleDetail: $('scramble-detail'), scrambleAnswer: $('scramble-answer'), scrambleBank: $('scramble-bank'), scrambleFeedback: $('scramble-feedback'), scrambleUndo: $('scramble-undo'), scrambleCheck: $('scramble-check'), scrambleNext: $('scramble-next'),
@@ -46,12 +49,16 @@
     mode: 'cards',
     chapter: 'all',
     unit: 'all',
+    level: 'all',
     filter: 'all',
     query: '',
     deck: [],
     index: 0,
     flipped: false,
     progress: loadProgress(),
+    quiz: { correct: 0, attempts: 0, streak: 0 },
+    advanceTimer: null,
+    meaning: null,
     listen: null,
     spell: null,
     scramble: null,
@@ -72,6 +79,7 @@
       els.chapterSelect.appendChild(option(String(chapter.chapterNo), `${chapter.chapterNo}. ${chapter.title} (${chapter.count})`));
     });
     refreshUnitSelect();
+    refreshLevelSelect();
   }
 
   function refreshUnitSelect() {
@@ -86,10 +94,26 @@
     state.unit = els.unitSelect.value;
   }
 
+  function refreshLevelSelect() {
+    const current = state.level || 'all';
+    const base = filteredWordsWithoutLevel();
+    const count = Math.max(1, Math.ceil(base.length / LEVEL_SIZE));
+    els.levelSelect.innerHTML = '';
+    els.levelSelect.appendChild(option('all', `全部關卡 (${base.length} 字)`));
+    for (let level = 1; level <= count; level++) {
+      const start = (level - 1) * LEVEL_SIZE + 1;
+      const end = Math.min(level * LEVEL_SIZE, base.length);
+      els.levelSelect.appendChild(option(String(level), `第 ${level} 關 (${start}-${end})`));
+    }
+    els.levelSelect.value = current === 'all' || Number(current) <= count ? current : 'all';
+    state.level = els.levelSelect.value;
+  }
+
   function bindEvents() {
     els.tabs.addEventListener('click', (event) => {
       const button = event.target.closest('[data-mode]');
       if (!button) return;
+      clearAutoAdvance();
       state.mode = button.dataset.mode;
       makeGameForMode();
       render();
@@ -97,6 +121,9 @@
     els.search.addEventListener('input', () => {
       state.query = els.search.value.trim().toLowerCase();
       state.index = 0;
+      state.level = 'all';
+      resetQuiz();
+      refreshLevelSelect();
       rebuildDeck();
       makeGameForMode();
       render();
@@ -104,7 +131,10 @@
     els.chapterSelect.addEventListener('change', () => {
       state.chapter = els.chapterSelect.value;
       state.index = 0;
+      state.level = 'all';
+      resetQuiz();
       refreshUnitSelect();
+      refreshLevelSelect();
       rebuildDeck();
       makeGameForMode();
       render();
@@ -112,6 +142,9 @@
     els.unitSelect.addEventListener('change', () => {
       state.unit = els.unitSelect.value;
       state.index = 0;
+      state.level = 'all';
+      resetQuiz();
+      refreshLevelSelect();
       rebuildDeck();
       makeGameForMode();
       render();
@@ -121,6 +154,17 @@
       if (!button) return;
       state.filter = button.dataset.filter;
       state.index = 0;
+      state.level = 'all';
+      resetQuiz();
+      refreshLevelSelect();
+      rebuildDeck();
+      makeGameForMode();
+      render();
+    });
+    els.levelSelect.addEventListener('change', () => {
+      state.level = els.levelSelect.value;
+      state.index = 0;
+      resetQuiz();
       rebuildDeck();
       makeGameForMode();
       render();
@@ -153,6 +197,8 @@
       render();
     });
 
+    els.meaningSpeak.addEventListener('click', () => speak(state.meaning?.answer.word));
+    els.meaningNext.addEventListener('click', () => { makeMeaning(); renderMeaning(); });
     els.listenPlay.addEventListener('click', () => speak(state.listen?.answer.word));
     els.listenNext.addEventListener('click', () => { makeListen(); renderListen(); });
     els.spellSpeak.addEventListener('click', () => speak(state.spell?.word));
@@ -186,7 +232,19 @@
   }
 
   function rebuildDeck() {
-    state.deck = words.filter((word) => {
+    const base = filteredWordsWithoutLevel();
+    if (state.level === 'all') {
+      state.deck = base;
+    } else {
+      const start = (Number(state.level) - 1) * LEVEL_SIZE;
+      state.deck = base.slice(start, start + LEVEL_SIZE);
+    }
+    if (state.index >= state.deck.length) state.index = Math.max(0, state.deck.length - 1);
+    state.flipped = false;
+  }
+
+  function filteredWordsWithoutLevel() {
+    return words.filter((word) => {
       if (state.chapter !== 'all' && String(word.chapterNo) !== state.chapter) return false;
       if (state.unit !== 'all' && String(word.unitNo) !== state.unit) return false;
       const progress = progressOf(word.id);
@@ -197,8 +255,6 @@
       if (!state.query) return true;
       return searchable(word).includes(state.query);
     });
-    if (state.index >= state.deck.length) state.index = Math.max(0, state.deck.length - 1);
-    state.flipped = false;
   }
 
   function render() {
@@ -206,8 +262,10 @@
     document.querySelectorAll('[data-filter]').forEach((button) => button.classList.toggle('active', button.dataset.filter === state.filter));
     Object.entries(els.views).forEach(([mode, view]) => view.classList.toggle('active', mode === state.mode));
     renderStats();
+    renderQuizStatus();
     renderMeter();
     if (state.mode === 'cards') renderCard();
+    if (state.mode === 'meaning') renderMeaning();
     if (state.mode === 'listen') renderListen();
     if (state.mode === 'spell') renderSpell();
     if (state.mode === 'scramble') renderScramble();
@@ -237,7 +295,21 @@
     els.statTotal.textContent = state.deck.length;
     const chapter = state.chapter === 'all' ? '全部章節' : `${state.chapter}. ${chapterMap.get(Number(state.chapter))?.title}`;
     const unit = state.unit === 'all' ? '全部單元' : `${state.unit}. ${unitMap.get(Number(state.unit))?.title}`;
-    els.scopeLabel.textContent = `${chapter} / ${unit} / ${state.deck.length} 字`;
+    const level = state.level === 'all' ? '全部關卡' : `第 ${state.level} 關`;
+    els.scopeLabel.textContent = `${chapter} / ${unit} / ${level} / ${state.deck.length} 字`;
+  }
+
+  function renderQuizStatus() {
+    const known = state.deck.filter((word) => progressOf(word.id).status === 'known').length;
+    const familiarity = state.deck.length ? Math.round((known / state.deck.length) * 100) : 0;
+    const attempts = state.quiz.attempts;
+    const correct = state.quiz.correct;
+    const rate = attempts ? Math.round((correct / attempts) * 100) : 0;
+    els.levelLabel.textContent = state.level === 'all' ? '全部關卡' : `第 ${state.level} 關`;
+    els.quizScore.textContent = `${correct} / ${attempts}`;
+    els.quizRate.textContent = attempts ? `${rate}%` : '--';
+    els.quizGrade.textContent = gradeLabel(rate, attempts);
+    els.levelFamiliarity.textContent = `${familiarity}%`;
   }
 
   function renderCard() {
@@ -261,6 +333,23 @@
     saveProgress();
   }
 
+  function renderMeaning() {
+    if (!state.meaning) makeMeaning();
+    const game = state.meaning;
+    if (!game) return;
+    els.meaningWord.textContent = game.answer.word;
+    els.meaningHint.textContent = `${scopeText(game.answer)} / 選出正確中文意思`;
+    els.meaningFeedback.textContent = '四個選項中只有一個最符合。';
+    els.meaningFeedback.className = 'feedback';
+    renderChoices(els.meaningChoices, game.choices, (choice) => meaningText(choice), (choice, button) => {
+      const correct = choice.id === game.answer.id;
+      finishChoice(button, els.meaningChoices, meaningText(game.answer), correct);
+      els.meaningFeedback.textContent = correct ? `答對：${firstExample(game.answer)}` : `正確答案：${meaningText(game.answer)}`;
+      els.meaningFeedback.className = `feedback ${correct ? 'good' : 'bad'}`;
+      finishAnswer(game.answer, correct, () => { makeMeaning(); renderMeaning(); });
+    });
+  }
+
   function renderListen() {
     if (!state.listen) makeListen();
     const game = state.listen;
@@ -270,10 +359,11 @@
       const correct = choice.id === game.answer.id;
       finishChoice(button, els.listenChoices, game.answer.word, correct);
       els.listenFeedback.textContent = correct ? `答對：${meaningText(game.answer)}` : `正確答案是 ${game.answer.word}`;
-      mark(game.answer.id, correct ? 'known' : 'weak');
-      renderStats();
+      els.listenFeedback.className = `feedback ${correct ? 'good' : 'bad'}`;
+      finishAnswer(game.answer, correct, () => { makeListen(); renderListen(); });
     });
     els.listenFeedback.textContent = '';
+    els.listenFeedback.className = 'feedback';
     setTimeout(() => speak(game.answer.word), 180);
   }
 
@@ -286,6 +376,7 @@
     els.spellInput.value = '';
     els.spellFeedback.textContent = '';
     els.spellFeedback.className = 'feedback';
+    els.spellCheck.disabled = false;
     setTimeout(() => els.spellInput.focus(), 0);
   }
 
@@ -297,6 +388,8 @@
     els.scrambleDetail.textContent = scopeText(game.card);
     els.scrambleAnswer.textContent = game.picked.map((item) => item.char).join('') || ' ';
     els.scrambleFeedback.textContent = '';
+    els.scrambleFeedback.className = 'feedback';
+    els.scrambleCheck.disabled = false;
     els.scrambleBank.innerHTML = '';
     game.letters.forEach((item, index) => {
       const button = document.createElement('button');
@@ -319,12 +412,13 @@
     if (!game) return;
     els.chapterWord.textContent = game.answer.word;
     els.chapterFeedback.textContent = '';
+    els.chapterFeedback.className = 'feedback';
     renderChoices(els.chapterChoices, game.choices, (choice) => `${choice.chapterNo}. ${choice.title}`, (choice, button) => {
       const correct = choice.chapterNo === game.answer.chapterNo;
       finishChoice(button, els.chapterChoices, `${game.answer.chapterNo}. ${game.answer.chapterTitle}`, correct);
       els.chapterFeedback.textContent = correct ? '答對了。' : `${game.answer.word} 屬於 ${game.answer.chapterNo}. ${game.answer.chapterTitle}`;
-      mark(game.answer.id, correct ? 'known' : 'weak');
-      renderStats();
+      els.chapterFeedback.className = `feedback ${correct ? 'good' : 'bad'}`;
+      finishAnswer(game.answer, correct, () => { makeChapterGame(); renderChapterGame(); });
     });
   }
 
@@ -334,12 +428,13 @@
     if (!game) return;
     els.unitWord.textContent = game.answer.word;
     els.unitFeedback.textContent = '';
+    els.unitFeedback.className = 'feedback';
     renderChoices(els.unitChoices, game.choices, (choice) => `${choice.unitNo}. ${choice.title}`, (choice, button) => {
       const correct = choice.unitNo === game.answer.unitNo;
       finishChoice(button, els.unitChoices, `${game.answer.unitNo}. ${game.answer.unitTitle}`, correct);
       els.unitFeedback.textContent = correct ? '單元配對成功。' : `${game.answer.word} 屬於 ${game.answer.unitNo}. ${game.answer.unitTitle}`;
-      mark(game.answer.id, correct ? 'known' : 'weak');
-      renderStats();
+      els.unitFeedback.className = `feedback ${correct ? 'good' : 'bad'}`;
+      finishAnswer(game.answer, correct, () => { makeUnitGame(); renderUnitGame(); });
     });
   }
 
@@ -363,6 +458,7 @@
     els.judgeWord.textContent = game.word.word;
     els.judgeLabel.textContent = game.label;
     els.judgeFeedback.textContent = '判斷這組單字與章節/單元是否相符。';
+    els.judgeFeedback.className = 'feedback';
     els.judgeTrue.disabled = false;
     els.judgeFalse.disabled = false;
     els.judgeTrue.className = 'choice';
@@ -386,6 +482,8 @@
   }
 
   function makeGameForMode() {
+    clearAutoAdvance();
+    if (state.mode === 'meaning') makeMeaning();
     if (state.mode === 'listen') makeListen();
     if (state.mode === 'spell') makeSpell();
     if (state.mode === 'scramble') makeScramble();
@@ -393,6 +491,14 @@
     if (state.mode === 'unit') makeUnitGame();
     if (state.mode === 'speed') makeSpeed();
     if (state.mode === 'judge') makeJudge();
+  }
+
+  function makeMeaning() {
+    const answer = randomFrom(activePool().filter((word) => meaningText(word)));
+    if (!answer) return;
+    const others = shuffle(words.filter((word) => word.id !== answer.id && meaningText(word) && meaningText(word) !== meaningText(answer)));
+    const choices = uniqueBy([answer, ...others], 'translation').slice(0, 4);
+    state.meaning = { answer, choices: shuffle(choices) };
   }
 
   function makeListen() {
@@ -449,8 +555,8 @@
     const correct = normalize(els.spellInput.value) === normalize(card.word);
     els.spellFeedback.textContent = correct ? '拼對了。' : `正確拼法：${card.word}`;
     els.spellFeedback.className = `feedback ${correct ? 'good' : 'bad'}`;
-    mark(card.id, correct ? 'known' : 'weak');
-    renderStats();
+    els.spellCheck.disabled = true;
+    finishAnswer(card, correct, () => { makeSpell(); renderSpell(); });
   }
 
   function undoScramble() {
@@ -469,8 +575,8 @@
     const correct = guess === answer;
     els.scrambleFeedback.textContent = correct ? '重組成功。' : `正確答案：${game.card.word}`;
     els.scrambleFeedback.className = `feedback ${correct ? 'good' : 'bad'}`;
-    mark(game.card.id, correct ? 'known' : 'weak');
-    renderStats();
+    els.scrambleCheck.disabled = true;
+    finishAnswer(game.card, correct, () => { makeScramble(); renderScramble(); });
   }
 
   function startSpeed() {
@@ -494,6 +600,7 @@
     const game = state.speed;
     if (!game?.running) return;
     const correct = choice.chapterNo === game.answer.chapterNo;
+    recordAnswer(correct);
     if (correct) {
       game.score += 10 + Math.min(game.streak, 5);
       game.streak += 1;
@@ -508,6 +615,7 @@
     game.choices = speedChoices(game.answer);
     renderSpeed();
     renderStats();
+    renderQuizStatus();
   }
 
   function answerJudge(value) {
@@ -519,8 +627,45 @@
     els.judgeFalse.disabled = true;
     els.judgeTrue.classList.toggle('correct', game.shouldMatch);
     els.judgeFalse.classList.toggle('correct', !game.shouldMatch);
-    mark(game.word.id, correct ? 'known' : 'weak');
+    finishAnswer(game.word, correct, () => { makeJudge(); renderJudge(); });
+  }
+
+  function finishAnswer(word, correct, nextFn) {
+    recordAnswer(correct);
+    mark(word.id, correct ? 'known' : 'weak');
     renderStats();
+    renderQuizStatus();
+    scheduleAutoNext(nextFn);
+  }
+
+  function recordAnswer(correct) {
+    state.quiz.attempts += 1;
+    if (correct) {
+      state.quiz.correct += 1;
+      state.quiz.streak += 1;
+    } else {
+      state.quiz.streak = 0;
+    }
+  }
+
+  function resetQuiz() {
+    clearAutoAdvance();
+    state.quiz = { correct: 0, attempts: 0, streak: 0 };
+  }
+
+  function scheduleAutoNext(nextFn) {
+    clearAutoAdvance();
+    state.advanceTimer = setTimeout(() => {
+      state.advanceTimer = null;
+      nextFn();
+      renderStats();
+      renderQuizStatus();
+    }, 850);
+  }
+
+  function clearAutoAdvance() {
+    if (state.advanceTimer) clearTimeout(state.advanceTimer);
+    state.advanceTimer = null;
   }
 
   function renderChoices(container, choices, label, onClick) {
@@ -587,6 +732,7 @@
   }
 
   function currentQuestionWord() {
+    if (state.mode === 'meaning') return state.meaning?.answer.word;
     if (state.mode === 'listen') return state.listen?.answer.word;
     if (state.mode === 'spell') return state.spell?.word;
     if (state.mode === 'scramble') return state.scramble?.card.word;
@@ -612,6 +758,15 @@
 
   function meaningText(word) {
     return word.translation || `${word.unitTitle} / ${word.chapterTitle}`;
+  }
+
+  function gradeLabel(rate, attempts) {
+    if (!attempts) return '準備中';
+    if (rate >= 95) return 'S 精熟';
+    if (rate >= 85) return 'A 很穩';
+    if (rate >= 70) return 'B 熟悉';
+    if (rate >= 55) return 'C 加強中';
+    return 'D 需複習';
   }
 
   function firstExample(word) {
