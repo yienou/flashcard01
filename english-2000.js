@@ -32,31 +32,51 @@
     service: '🛎️', barber: '💈', 'hair dresser': '💇', cook: '🍳', waiter: '🍽️', waitress: '🍽️', serve: '🍽️', driver: '🚕', mailman: '📮', mail: '✉️', guide: '🧭', lead: '🧭', journalist: '📰', reporter: '🎙️', writer: '✍️', deliver: '📦',
     boss: '💼', owner: '🔑', own: '🔑', businessman: '💼', business: '🏢', branch: '🏬', employ: '🤝', worker: '👷', hire: '🤝', meeting: '🗣️', contract: '📄', clerk: '🧾', job: '💼', work: '💼', experience: '🏆', earn: '💵', income: '💵', salary: '💵', production: '🏭',
     salesman: '🛒', sell: '🛒', thing: '📦', discover: '🔎', valuable: '💎', increase: '📈', sale: '🏷️', decrease: '📉', find: '🔎', produce: '🏭', advertisement: '📣', compare: '⚖️', complain: '☎️', satisfy: '👍', express: '💬',
-    success: '🏆', succeed: '🎯', become: '🌱', effort: '💪', gather: '📚', useful: '🧰', stay: '🪑', positive: '☀️', cheerleader: '📣', continue: '➡️', focus: '🎯', ready: '🟢', handle: '🧩', difficult: '⛰️', develop: '🌱'
+    success: '🏆', succeed: '🎯', become: '🌱', effort: '💪', gather: '📚', useful: '🧰', stay: '🪑', positive: '☀️', cheerleader: '📣', continue: '➡️', focus: '🎯', ready: '🟢', handle: '🧩', difficult: '⛰️', develop: '🌱',
+    january: '🗓️', february: '🗓️', march: '🗓️', april: '🗓️', may: '🗓️', june: '🗓️', july: '🗓️', august: '🗓️', september: '🗓️', october: '🗓️', november: '🗓️', december: '🗓️', spring: '🌸', summer: '☀️', fall: '🍂', autumn: '🍂', winter: '❄️',
+    one: '1️⃣', two: '2️⃣', three: '3️⃣', four: '4️⃣', five: '5️⃣', six: '6️⃣', seven: '7️⃣', eight: '8️⃣', nine: '9️⃣', ten: '🔟', eleven: '🔢', twelve: '🔢', thirteen: '🔢', fourteen: '🔢', fifteen: '🔢', sixteen: '🔢', seventeen: '🔢', eighteen: '🔢', nineteen: '🔢', twenty: '🔢', thirty: '🔢', forty: '🔢', fifty: '🔢', hundred: '💯', thousand: '🔢',
+    face: '🙂', eye: '👁️', ear: '👂', nose: '👃', mouth: '👄', hair: '💇', head: '🙂', body: '🧍', neck: '🧣', throat: '🗣️', arm: '💪', hand: '✋', finger: '☝️', thumb: '👍', leg: '🦵', foot: '🦶', knee: '🦵', ankle: '🦶', wrist: '✋', shoulder: '💪', back: '🧍', waist: '🧍', hip: '🧍', toe: '🦶', nail: '💅', stomach: '🩺', tooth: '🦷', blood: '🩸', heart: '❤️',
+    short: '📏', tall: '📏', fat: '🧍', thin: '🧍', slim: '🧍', beautiful: '🙂', pretty: '🙂', handsome: '🙂', ugly: '🙁',
+    baseball: '⚾', softball: '🥎', basketball: '🏀', volleyball: '🏐', soccer: '⚽', football: '🏈', tennis: '🎾', 'table tennis': '🏓', badminton: '🏸', golf: '⛳', bowling: '🎳', 'home run': '⚾', chess: '♟️', poker: '🃏', robot: '🤖', toy: '🧸', doll: '🧸', kite: '🪁',
+    music: '🎵', jazz: '🎷', 'pop music': '🎵', rock: '🎸', classical: '🎼', violin: '🎻', guitar: '🎸', piano: '🎹', drum: '🥁', trumpet: '🎺', flute: '🪈', band: '🎵', album: '💿', cassette: '💿', recorder: '🎙️', concert: '🎵', song: '🎵',
+    lion: '🦁', tiger: '🐯', rabbit: '🐰', deer: '🦌', elephant: '🐘', bear: '🐻', monkey: '🐒', wolf: '🐺', fox: '🦊', hippo: '🦛', zebra: '🦓', kangaroo: '🦘', panda: '🐼', koala: '🐨', bat: '🦇', snail: '🐌', swan: '🦢', eagle: '🦅', parrot: '🦜', swallow: '🐦', snake: '🐍', cow: '🐄', pig: '🐖', sheep: '🐑', bird: '🐦', chicken: '🍗', duck: '🦆', fish: '🐟', shrimp: '🦐',
+    watermelon: '🍉', strawberry: '🍓', pineapple: '🍍', banana: '🍌', grape: '🍇', lemon: '🍋', peach: '🍑', pear: '🍐', mango: '🥭', carrot: '🥕', onion: '🧅', potato: '🥔', corn: '🌽',
+    hamburger: '🍔', fries: '🍟', ketchup: '🍅', 'hot dog': '🌭', soda: '🥤', cola: '🥤', salad: '🥗', drink: '🥤', water: '💧', milk: '🥛', coffee: '☕', tea: '🍵', bread: '🍞', cake: '🍰', cookie: '🍪', egg: '🥚', beef: '🥩', pork: '🥩',
+    shirt: '👕', 't shirt': '👕', sweater: '🧥', vest: '🦺', jeans: '👖', trousers: '👖', shorts: '🩳', skirt: '👗', coat: '🧥', pajamas: '🛌', belt: '⛓️', tie: '👔', cap: '🧢', bag: '👜', purse: '👛', wallet: '👛', umbrella: '☂️', ring: '💍', necklace: '📿',
+    office: '🏢', 'post office': '🏤', bank: '🏦', hotel: '🏨', hospital: '🏥', library: '📚', museum: '🏛️', airport: '🛫', sidewalk: '🚶', 'parking lot': '🅿️', overpass: '🌉', underpass: '🚇',
+    'police station': '🚓', 'fire station': '🚒', court: '⚖️', restroom: '🚻', "men s room": '🚹', "women s room": '🚺', bookstore: '📚', downtown: '🏙️', town: '🏘️',
+    stationery: '📎', board: '⬜', eraser: '🧽', glue: '🧴', paste: '🧴', tape: '📎', ruler: '📏', scissors: '✂️', notebook: '📓', workbook: '📘', pencil: '✏️', pencilcase: '✏️', marker: '🖊️', crayon: '🖍️', paper: '📄', postcard: '✉️', diary: '📔', envelope: '✉️', stamp: '🏷️'
   };
   const KEYWORD_EMOJI = [
-    [/apple|banana|orange|fruit|grape|lemon|melon|peach|pear|berry|mango/i, '🍎'],
-    [/rice|noodle|bread|pizza|burger|cake|cookie|snack|food|meal|breakfast|lunch|dinner/i, '🍽️'],
-    [/vegetable|carrot|onion|potato|tomato|bean|corn|cabbage/i, '🥕'],
-    [/meat|beef|pork|chicken|egg|fish/i, '🍗'],
-    [/shirt|dress|coat|pants|shoe|hat|sock|wear|clothes|jacket|uniform/i, '👕'],
-    [/red|blue|green|yellow|black|white|color|purple|pink|brown|gray/i, '🎨'],
-    [/ball|baseball|basketball|soccer|tennis|swim|run|sport|game|toy|hobby|music|piano|guitar/i, '🏀'],
-    [/dog|cat|bird|horse|cow|pig|animal|plant|tree|flower|leaf|grass/i, '🐾'],
-    [/rain|sun|cloud|wind|snow|weather|nature|mountain|river|sea|ocean|sky/i, '🌤️'],
-    [/car|bus|train|bike|plane|ship|taxi|truck|traffic|road|station|transport/i, '🚗'],
-    [/school|class|teacher|student|test|book|pen|pencil|paper|language|math|course/i, '📚'],
-    [/home|house|room|bed|kitchen|bathroom|sofa|table|chair|door|window/i, '🏠'],
-    [/internet|computer|phone|message|information|news|media|web|online/i, '💻'],
-    [/crime|war|fight|danger|safe|gun|attack|steal|law/i, '🛡️'],
-    [/money|dollar|coin|price|pay|buy|cost|cash|bank/i, '💵'],
-    [/time|day|week|month|year|hour|minute|morning|night|season|date/i, '🕒'],
-    [/family|father|mother|parent|son|daughter|brother|sister|wife|husband/i, '👨‍👩‍👧'],
-    [/happy|sad|angry|afraid|mood|emotion|smile|cry/i, '🙂'],
-    [/face|eye|ear|nose|mouth|head|body|health|sick|cold|flu|hurt|pain/i, '🩺'],
-    [/place|location|city|country|street|building|park|store|restaurant/i, '📍'],
-    [/number|one|two|three|first|second|third|many|few|meter|weight|size|measure/i, '🔢']
+    [/\b(music|jazz|rock|classical|violin|band|album|song|piano|guitar|drum|trumpet|flute|concert|cassette|recorder)\b/i, '🎵'],
+    [/\b(apple|banana|orange|fruit|grape|lemon|melon|peach|pear|berry|mango|watermelon|strawberry|pineapple)\b/i, '🍎'],
+    [/\b(rice|noodle|bread|pizza|burger|cake|cookie|snack|food|meal|breakfast|lunch|dinner|spaghetti|hamburger|fries|salad|soda|cola)\b/i, '🍽️'],
+    [/\b(vegetable|carrot|onion|potato|tomato|bean|corn|cabbage)\b/i, '🥕'],
+    [/\b(meat|beef|pork|chicken|egg|fish|shrimp)\b/i, '🍗'],
+    [/\b(shirt|dress|coat|pants|shoe|hat|sock|wear|clothes|jacket|uniform|jeans|trousers|skirt|suit|belt|tie|pajamas)\b/i, '👕'],
+    [/\b(red|blue|green|yellow|black|white|color|purple|pink|brown|gray|gold|silver)\b/i, '🎨'],
+    [/\b(ball|baseball|basketball|soccer|football|tennis|badminton|bowling|swim|sport|game|toy|hobby|chess|poker|robot)\b/i, '🏀'],
+    [/\b(dog|cat|bird|horse|cow|pig|animal|plant|tree|flower|leaf|grass|lion|tiger|rabbit|deer|elephant|bear|monkey|snake)\b/i, '🐾'],
+    [/\b(rain|sun|cloud|wind|snow|weather|nature|mountain|river|sea|ocean|sky|spring|summer|winter|autumn)\b/i, '🌤️'],
+    [/\b(car|bus|train|bike|plane|ship|taxi|truck|traffic|road|station|transport|airport|sidewalk|overpass|underpass)\b/i, '🚗'],
+    [/\b(school|class|teacher|student|test|book|pen|pencil|paper|language|math|course|exam|homework|dictionary|notebook)\b/i, '📚'],
+    [/\b(home|house|room|bed|kitchen|bathroom|sofa|table|chair|door|window|apartment|balcony)\b/i, '🏠'],
+    [/\b(internet|computer|phone|message|information|news|media|web|online|email)\b/i, '💻'],
+    [/\b(crime|war|fight|danger|safe|gun|attack|steal|law|police)\b/i, '🛡️'],
+    [/\b(money|dollar|coin|price|pay|buy|cost|cash|bank|salary|income)\b/i, '💵'],
+    [/\b(time|day|week|month|year|hour|minute|morning|night|season|date|clock)\b/i, '🕒'],
+    [/\b(family|father|mother|parent|son|daughter|brother|sister|wife|husband|grandfather|grandmother|uncle|aunt|cousin)\b/i, '👨‍👩‍👧'],
+    [/\b(happy|sad|angry|afraid|mood|emotion|smile|cry|beautiful|pretty|handsome|ugly|smart|wise|clever)\b/i, '🙂'],
+    [/\b(face|eye|ear|nose|mouth|head|body|health|sick|cold|flu|hurt|pain|toothache|wound|blood)\b/i, '🩺'],
+    [/\b(place|location|city|country|street|building|park|store|restaurant|office|hotel|hospital|library|museum)\b/i, '📍'],
+    [/\b(number|one|two|three|first|second|third|many|few|meter|weight|size|measure|twenty|thirty|hundred|thousand)\b/i, '🔢']
   ];
+  const UNIT_EMOJI = {
+    11: '🙂', 16: '🧠', 20: '🧍', 24: '🩹', 25: '🏃', 29: '🔢', 31: '🌅', 33: '🗓️', 35: '🕒',
+    38: '🍎', 40: '🍗', 41: '🍽️', 42: '🍽️', 43: '🍔', 44: '🧂', 46: '🍽️', 47: '👕', 48: '👔', 49: '👜', 50: '💎',
+    52: '🏅', 54: '🧳', 56: '🎵', 57: '🎲', 67: '🏠', 71: '🛁', 77: '🔤', 79: '📝', 80: '📎',
+    86: '🏙️', 93: '🛣️', 100: '📦', 111: '🐾'
+  };
   const CHAPTER_EMOJI = {
     1: '🧑', 2: '💼', 3: '🙂', 4: '🩺', 5: '👨‍👩‍👧', 6: '🔢', 7: '🕒', 8: '💵', 9: '🍽️', 10: '👕',
     11: '🏀', 12: '💻', 13: '🤝', 14: '🏠', 15: '📚', 16: '📍', 17: '🚗', 18: '📏', 19: '🎉', 20: '🌤️',
@@ -992,7 +1012,7 @@
     if (EXACT_EMOJI[key]) return EXACT_EMOJI[key];
     const haystack = `${word.word} ${word.translation} ${word.unitTitle} ${word.chapterTitle} ${word.partOfSpeech}`.toLowerCase();
     const match = KEYWORD_EMOJI.find(([pattern]) => pattern.test(haystack));
-    return match?.[1] || CHAPTER_EMOJI[word.chapterNo] || '📘';
+    return match?.[1] || UNIT_EMOJI[word.unitNo] || CHAPTER_EMOJI[word.chapterNo] || '📘';
   }
 
   function emojiCode(emoji) {
