@@ -69,6 +69,7 @@
   };
 
   initSelects();
+  ensureMeaningView();
   bindEvents();
   rebuildDeck();
   render();
@@ -197,8 +198,8 @@
       render();
     });
 
-    els.meaningSpeak.addEventListener('click', () => speak(state.meaning?.answer.word));
-    els.meaningNext.addEventListener('click', () => { makeMeaning(); renderMeaning(); });
+    els.meaningSpeak?.addEventListener('click', () => speak(state.meaning?.answer.word));
+    els.meaningNext?.addEventListener('click', () => { makeMeaning(); renderMeaning(); });
     els.listenPlay.addEventListener('click', () => speak(state.listen?.answer.word));
     els.listenNext.addEventListener('click', () => { makeListen(); renderListen(); });
     els.spellSpeak.addEventListener('click', () => speak(state.spell?.word));
@@ -260,7 +261,7 @@
   function render() {
     document.querySelectorAll('[data-mode]').forEach((button) => button.classList.toggle('active', button.dataset.mode === state.mode));
     document.querySelectorAll('[data-filter]').forEach((button) => button.classList.toggle('active', button.dataset.filter === state.filter));
-    Object.entries(els.views).forEach(([mode, view]) => view.classList.toggle('active', mode === state.mode));
+    Object.entries(els.views).forEach(([mode, view]) => view?.classList.toggle('active', mode === state.mode));
     renderStats();
     renderQuizStatus();
     renderMeter();
@@ -334,6 +335,7 @@
   }
 
   function renderMeaning() {
+    ensureMeaningView();
     if (!state.meaning) makeMeaning();
     const game = state.meaning;
     if (!game) return;
@@ -348,6 +350,65 @@
       els.meaningFeedback.className = `feedback ${correct ? 'good' : 'bad'}`;
       finishAnswer(game.answer, correct, () => { makeMeaning(); renderMeaning(); });
     });
+  }
+
+  function ensureMeaningView() {
+    if (els.meaningWord && els.meaningChoices && els.meaningFeedback) return;
+    let view = els.views.meaning || document.getElementById('meaning-view');
+    const stage = document.querySelector('.stage');
+    if (!view && stage) {
+      view = document.createElement('div');
+      view.className = 'view';
+      view.id = 'meaning-view';
+      const game = document.createElement('div');
+      game.className = 'game';
+      const prompt = document.createElement('div');
+      prompt.className = 'prompt';
+      const title = document.createElement('h2');
+      title.id = 'meaning-word';
+      title.textContent = 'word';
+      const hint = document.createElement('p');
+      hint.id = 'meaning-hint';
+      hint.textContent = '看英文，選出正確中文意思。';
+      const choices = document.createElement('div');
+      choices.className = 'choices';
+      choices.id = 'meaning-choices';
+      const feedback = document.createElement('div');
+      feedback.className = 'feedback';
+      feedback.id = 'meaning-feedback';
+      const row = document.createElement('div');
+      row.className = 'btn-row';
+      const speakButton = document.createElement('button');
+      speakButton.className = 'btn';
+      speakButton.id = 'meaning-speak';
+      speakButton.type = 'button';
+      speakButton.textContent = '發音';
+      const nextButton = document.createElement('button');
+      nextButton.className = 'btn primary';
+      nextButton.id = 'meaning-next';
+      nextButton.type = 'button';
+      nextButton.textContent = '下一題';
+      prompt.appendChild(title);
+      prompt.appendChild(hint);
+      row.appendChild(speakButton);
+      row.appendChild(nextButton);
+      game.appendChild(prompt);
+      game.appendChild(choices);
+      game.appendChild(feedback);
+      game.appendChild(row);
+      view.appendChild(game);
+      stage.appendChild(view);
+      els.views.meaning = view;
+    }
+    els.meaningWord = document.getElementById('meaning-word');
+    els.meaningHint = document.getElementById('meaning-hint');
+    els.meaningChoices = document.getElementById('meaning-choices');
+    els.meaningFeedback = document.getElementById('meaning-feedback');
+    els.meaningSpeak = document.getElementById('meaning-speak');
+    els.meaningNext = document.getElementById('meaning-next');
+    els.meaningSpeak?.addEventListener('click', () => speak(state.meaning?.answer.word));
+    els.meaningNext?.addEventListener('click', () => { makeMeaning(); renderMeaning(); });
+    Object.entries(els.views).forEach(([mode, item]) => item?.classList.toggle('active', mode === state.mode));
   }
 
   function renderListen() {
@@ -494,7 +555,7 @@
   }
 
   function makeMeaning() {
-    const answer = randomFrom(activePool().filter((word) => meaningText(word)));
+    const answer = randomFrom(questionPool().filter((word) => meaningText(word)));
     if (!answer) return;
     const others = shuffle(words.filter((word) => word.id !== answer.id && meaningText(word) && meaningText(word) !== meaningText(answer)));
     const choices = uniqueBy([answer, ...others], 'translation').slice(0, 4);
@@ -502,18 +563,18 @@
   }
 
   function makeListen() {
-    const answer = randomFrom(activePool());
+    const answer = randomFrom(questionPool());
     if (!answer) return;
     state.listen = { answer, choices: shuffle([answer, ...shuffle(words.filter((word) => word.id !== answer.id)).slice(0, 3)]) };
   }
 
   function makeSpell() {
-    state.spell = randomFrom(activePool());
+    state.spell = randomFrom(questionPool());
   }
 
   function makeScramble() {
-    const pool = activePool().filter((word) => /^[a-z][a-z .'-]{2,}$/i.test(word.word) && word.word.length <= 18);
-    const card = randomFrom(pool.length ? pool : activePool());
+    const pool = questionPool().filter((word) => /^[a-z][a-z .'-]{2,}$/i.test(word.word) && word.word.length <= 18);
+    const card = randomFrom(pool.length ? pool : questionPool());
     if (!card) return;
     let chars = card.word.replace(/\s+/g, '').split('');
     let letters = shuffle(chars.map((char, index) => ({ char, index, used: false })));
@@ -522,26 +583,26 @@
   }
 
   function makeChapterGame() {
-    const answer = randomFrom(activePool());
+    const answer = randomFrom(questionPool());
     if (!answer) return;
     const choices = uniqueBy([chapterMap.get(answer.chapterNo), ...shuffle(chapters.filter((chapter) => chapter.chapterNo !== answer.chapterNo)).slice(0, 3)], 'chapterNo');
     state.chapterGame = { answer, choices: shuffle(choices) };
   }
 
   function makeUnitGame() {
-    const answer = randomFrom(activePool());
+    const answer = randomFrom(questionPool());
     if (!answer) return;
     const choices = uniqueBy([unitMap.get(answer.unitNo), ...shuffle(units.filter((unit) => unit.unitNo !== answer.unitNo)).slice(0, 3)], 'unitNo');
     state.unitGame = { answer, choices: shuffle(choices) };
   }
 
   function makeSpeed() {
-    const answer = randomFrom(activePool());
+    const answer = randomFrom(questionPool());
     state.speed = { answer, choices: speedChoices(answer), score: 0, streak: 0, timeLeft: 30, running: false, timer: null, message: '' };
   }
 
   function makeJudge() {
-    const word = randomFrom(activePool());
+    const word = randomFrom(questionPool());
     if (!word) return;
     const shouldMatch = Math.random() >= 0.5;
     const other = randomFrom(words.filter((item) => item.id !== word.id));
@@ -611,7 +672,7 @@
       game.message = `${game.answer.word} 屬於 ${game.answer.chapterNo}. ${game.answer.chapterTitle}`;
       mark(game.answer.id, 'weak');
     }
-    game.answer = randomFrom(activePool());
+    game.answer = randomFrom(questionPool());
     game.choices = speedChoices(game.answer);
     renderSpeed();
     renderStats();
@@ -745,6 +806,21 @@
 
   function activePool() {
     return state.deck.length ? state.deck : words;
+  }
+
+  function questionPool() {
+    if (state.deck.length) return state.deck;
+    let base = words.filter((word) => {
+      if (state.chapter !== 'all' && String(word.chapterNo) !== state.chapter) return false;
+      if (state.unit !== 'all' && String(word.unitNo) !== state.unit) return false;
+      if (!state.query) return true;
+      return searchable(word).includes(state.query);
+    });
+    if (state.level !== 'all') {
+      const start = (Number(state.level) - 1) * LEVEL_SIZE;
+      base = base.slice(start, start + LEVEL_SIZE);
+    }
+    return base.length ? base : words;
   }
 
   function speedChoices(answer) {
