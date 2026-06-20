@@ -29,7 +29,7 @@
     levelLabel: $('level-label'), quizScore: $('quiz-score'), quizRate: $('quiz-rate'), quizGrade: $('quiz-grade'), levelFamiliarity: $('level-familiarity'),
     views: {
       cards: $('cards-view'), meaning: $('meaning-view'), listen: $('listen-view'), spell: $('spell-view'), scramble: $('scramble-view'),
-      chapter: $('chapter-view'), unit: $('unit-view'), speed: $('speed-view'), judge: $('judge-view'), list: $('list-view')
+      falling: $('falling-view'), mole: $('mole-view'), speed: $('speed-view'), judge: $('judge-view'), list: $('list-view')
     },
     card: $('card'), cardScope: $('card-scope'), front: $('front'), back: $('back'), cardWord: $('card-word'), cardMeta: $('card-meta'),
     cardMeaning: $('card-meaning'), cardExample: $('card-example'), cardExampleZh: $('card-example-zh'), cardNote: $('card-note'), prev: $('prev'), flip: $('flip'),
@@ -38,8 +38,8 @@
     listenHint: $('listen-hint'), listenChoices: $('listen-choices'), listenFeedback: $('listen-feedback'), listenPlay: $('listen-play'), listenNext: $('listen-next'),
     spellHint: $('spell-hint'), spellDetail: $('spell-detail'), spellInput: $('spell-input'), spellFeedback: $('spell-feedback'), spellSpeak: $('spell-speak'), spellCheck: $('spell-check'), spellNext: $('spell-next'),
     scrambleHint: $('scramble-hint'), scrambleDetail: $('scramble-detail'), scrambleAnswer: $('scramble-answer'), scrambleBank: $('scramble-bank'), scrambleFeedback: $('scramble-feedback'), scrambleUndo: $('scramble-undo'), scrambleCheck: $('scramble-check'), scrambleNext: $('scramble-next'),
-    chapterWord: $('chapter-word'), chapterChoices: $('chapter-choices'), chapterFeedback: $('chapter-feedback'), chapterSpeak: $('chapter-speak'), chapterNext: $('chapter-next'),
-    unitWord: $('unit-word'), unitChoices: $('unit-choices'), unitFeedback: $('unit-feedback'), unitSpeak: $('unit-speak'), unitNext: $('unit-next'),
+    fallingWord: $('falling-word'), fallingHint: $('falling-hint'), fallingStage: $('falling-stage'), fallingFeedback: $('falling-feedback'), fallingSpeak: $('falling-speak'), fallingNext: $('falling-next'),
+    molePrompt: $('mole-prompt'), moleHint: $('mole-hint'), moleGrid: $('mole-grid'), moleFeedback: $('mole-feedback'), moleSpeak: $('mole-speak'), moleNext: $('mole-next'),
     speedTime: $('speed-time'), speedScore: $('speed-score'), speedStreak: $('speed-streak'), speedWord: $('speed-word'), speedChoices: $('speed-choices'), speedFeedback: $('speed-feedback'), speedStart: $('speed-start'),
     judgeWord: $('judge-word'), judgeLabel: $('judge-label'), judgeTrue: $('judge-true'), judgeFalse: $('judge-false'), judgeFeedback: $('judge-feedback'), judgeSpeak: $('judge-speak'), judgeNext: $('judge-next'),
     wordGrid: $('word-grid'), copyList: $('copy-list'), scopeLabel: $('scope-label'), statKnown: $('stat-known'), statWeak: $('stat-weak'), statSeen: $('stat-seen'), statTotal: $('stat-total')
@@ -62,8 +62,8 @@
     listen: null,
     spell: null,
     scramble: null,
-    chapterGame: null,
-    unitGame: null,
+    falling: null,
+    mole: null,
     speed: null,
     judge: null
   };
@@ -209,10 +209,10 @@
     els.scrambleUndo.addEventListener('click', undoScramble);
     els.scrambleCheck.addEventListener('click', checkScramble);
     els.scrambleNext.addEventListener('click', () => { makeScramble(); renderScramble(); });
-    els.chapterSpeak.addEventListener('click', () => speak(state.chapterGame?.answer.word));
-    els.chapterNext.addEventListener('click', () => { makeChapterGame(); renderChapterGame(); });
-    els.unitSpeak.addEventListener('click', () => speak(state.unitGame?.answer.word));
-    els.unitNext.addEventListener('click', () => { makeUnitGame(); renderUnitGame(); });
+    els.fallingSpeak.addEventListener('click', () => speak(state.falling?.answer.word));
+    els.fallingNext.addEventListener('click', () => { makeFalling(); renderFalling(); });
+    els.moleSpeak.addEventListener('click', () => speak(state.mole?.answer.word));
+    els.moleNext.addEventListener('click', () => { makeMole(); renderMole(); });
     els.speedStart.addEventListener('click', startSpeed);
     els.judgeTrue.addEventListener('click', () => answerJudge(true));
     els.judgeFalse.addEventListener('click', () => answerJudge(false));
@@ -270,8 +270,8 @@
     if (state.mode === 'listen') renderListen();
     if (state.mode === 'spell') renderSpell();
     if (state.mode === 'scramble') renderScramble();
-    if (state.mode === 'chapter') renderChapterGame();
-    if (state.mode === 'unit') renderUnitGame();
+    if (state.mode === 'falling') renderFalling();
+    if (state.mode === 'mole') renderMole();
     if (state.mode === 'speed') renderSpeed();
     if (state.mode === 'judge') renderJudge();
     if (state.mode === 'list') renderList();
@@ -467,35 +467,54 @@
     });
   }
 
-  function renderChapterGame() {
-    if (!state.chapterGame) makeChapterGame();
-    const game = state.chapterGame;
+  function renderFalling() {
+    if (!state.falling) makeFalling();
+    const game = state.falling;
     if (!game) return;
-    els.chapterWord.textContent = game.answer.word;
-    els.chapterFeedback.textContent = '';
-    els.chapterFeedback.className = 'feedback';
-    renderChoices(els.chapterChoices, game.choices, (choice) => `${choice.chapterNo}. ${choice.title}`, (choice, button) => {
-      const correct = choice.chapterNo === game.answer.chapterNo;
-      finishChoice(button, els.chapterChoices, `${game.answer.chapterNo}. ${game.answer.chapterTitle}`, correct);
-      els.chapterFeedback.textContent = correct ? '答對了。' : `${game.answer.word} 屬於 ${game.answer.chapterNo}. ${game.answer.chapterTitle}`;
-      els.chapterFeedback.className = `feedback ${correct ? 'good' : 'bad'}`;
-      finishAnswer(game.answer, correct, () => { makeChapterGame(); renderChapterGame(); });
+    els.fallingWord.textContent = game.answer.word;
+    els.fallingHint.textContent = '中文翻譯會往下掉，點到正確意思。';
+    els.fallingFeedback.textContent = '';
+    els.fallingFeedback.className = 'feedback';
+    els.fallingStage.innerHTML = '';
+    game.choices.forEach((choice, index) => {
+      const button = document.createElement('button');
+      button.className = 'choice falling-choice';
+      button.type = 'button';
+      button.textContent = meaningText(choice);
+      button.style.left = `${8 + (index % 4) * 22}%`;
+      button.style.animationDelay = `${index * 0.42}s`;
+      button.style.setProperty('--fall-speed', `${6.4 + index * 0.25}s`);
+      button.addEventListener('click', () => answerFalling(choice, button));
+      if (choice.id === game.answer.id) {
+        button.addEventListener('animationend', () => {
+          if (state.falling === game && !game.done) {
+            game.done = true;
+            els.fallingFeedback.textContent = `太慢了：${game.answer.word} = ${meaningText(game.answer)}`;
+            els.fallingFeedback.className = 'feedback bad';
+            finishAnswer(game.answer, false, () => { makeFalling(); renderFalling(); });
+          }
+        }, { once: true });
+      }
+      els.fallingStage.appendChild(button);
     });
   }
 
-  function renderUnitGame() {
-    if (!state.unitGame) makeUnitGame();
-    const game = state.unitGame;
+  function renderMole() {
+    if (!state.mole) makeMole();
+    const game = state.mole;
     if (!game) return;
-    els.unitWord.textContent = game.answer.word;
-    els.unitFeedback.textContent = '';
-    els.unitFeedback.className = 'feedback';
-    renderChoices(els.unitChoices, game.choices, (choice) => `${choice.unitNo}. ${choice.title}`, (choice, button) => {
-      const correct = choice.unitNo === game.answer.unitNo;
-      finishChoice(button, els.unitChoices, `${game.answer.unitNo}. ${game.answer.unitTitle}`, correct);
-      els.unitFeedback.textContent = correct ? '單元配對成功。' : `${game.answer.word} 屬於 ${game.answer.unitNo}. ${game.answer.unitTitle}`;
-      els.unitFeedback.className = `feedback ${correct ? 'good' : 'bad'}`;
-      finishAnswer(game.answer, correct, () => { makeUnitGame(); renderUnitGame(); });
+    els.molePrompt.textContent = meaningText(game.answer);
+    els.moleHint.textContent = '敲出對應的英文單字。';
+    els.moleFeedback.textContent = '';
+    els.moleFeedback.className = 'feedback';
+    els.moleGrid.innerHTML = '';
+    game.choices.forEach((choice, index) => {
+      const button = document.createElement('button');
+      button.className = `mole ${index % 2 === 0 ? 'pop' : ''}`;
+      button.type = 'button';
+      button.textContent = choice.word;
+      button.addEventListener('click', () => answerMole(choice, button));
+      els.moleGrid.appendChild(button);
     });
   }
 
@@ -507,8 +526,8 @@
     els.speedScore.textContent = game.score;
     els.speedStreak.textContent = game.streak;
     els.speedWord.textContent = game.answer?.word || 'Ready';
-    els.speedFeedback.textContent = game.message || (game.running ? '選出正確章節。' : '按開始後倒數 30 秒。');
-    renderChoices(els.speedChoices, game.choices, (choice) => `${choice.chapterNo}. ${choice.title}`, (choice) => answerSpeed(choice));
+    els.speedFeedback.textContent = game.message || (game.running ? '選出正確中文意思。' : '按開始後倒數 30 秒。');
+    renderChoices(els.speedChoices, game.choices, (choice) => meaningText(choice), (choice) => answerSpeed(choice));
     Array.from(els.speedChoices.children).forEach((child) => { child.disabled = !game.running; });
   }
 
@@ -518,7 +537,7 @@
     if (!game) return;
     els.judgeWord.textContent = game.word.word;
     els.judgeLabel.textContent = game.label;
-    els.judgeFeedback.textContent = '判斷這組單字與章節/單元是否相符。';
+    els.judgeFeedback.textContent = '判斷英文與中文意思是否相符。';
     els.judgeFeedback.className = 'feedback';
     els.judgeTrue.disabled = false;
     els.judgeFalse.disabled = false;
@@ -548,8 +567,8 @@
     if (state.mode === 'listen') makeListen();
     if (state.mode === 'spell') makeSpell();
     if (state.mode === 'scramble') makeScramble();
-    if (state.mode === 'chapter') makeChapterGame();
-    if (state.mode === 'unit') makeUnitGame();
+    if (state.mode === 'falling') makeFalling();
+    if (state.mode === 'mole') makeMole();
     if (state.mode === 'speed') makeSpeed();
     if (state.mode === 'judge') makeJudge();
   }
@@ -582,32 +601,31 @@
     state.scramble = { card, letters, picked: [] };
   }
 
-  function makeChapterGame() {
-    const answer = randomFrom(questionPool());
+  function makeFalling() {
+    const answer = randomFrom(questionPool().filter((word) => meaningText(word)));
     if (!answer) return;
-    const choices = uniqueBy([chapterMap.get(answer.chapterNo), ...shuffle(chapters.filter((chapter) => chapter.chapterNo !== answer.chapterNo)).slice(0, 3)], 'chapterNo');
-    state.chapterGame = { answer, choices: shuffle(choices) };
+    state.falling = { answer, choices: meaningChoices(answer, 5), done: false };
   }
 
-  function makeUnitGame() {
-    const answer = randomFrom(questionPool());
+  function makeMole() {
+    const answer = randomFrom(questionPool().filter((word) => meaningText(word)));
     if (!answer) return;
-    const choices = uniqueBy([unitMap.get(answer.unitNo), ...shuffle(units.filter((unit) => unit.unitNo !== answer.unitNo)).slice(0, 3)], 'unitNo');
-    state.unitGame = { answer, choices: shuffle(choices) };
+    const others = shuffle(words.filter((word) => word.id !== answer.id && word.word && meaningText(word) !== meaningText(answer)));
+    state.mole = { answer, choices: shuffle([answer, ...others.slice(0, 5)]), done: false };
   }
 
   function makeSpeed() {
     const answer = randomFrom(questionPool());
-    state.speed = { answer, choices: speedChoices(answer), score: 0, streak: 0, timeLeft: 30, running: false, timer: null, message: '' };
+    state.speed = { answer, choices: meaningChoices(answer, 4), score: 0, streak: 0, timeLeft: 30, running: false, timer: null, message: '' };
   }
 
   function makeJudge() {
     const word = randomFrom(questionPool());
     if (!word) return;
     const shouldMatch = Math.random() >= 0.5;
-    const other = randomFrom(words.filter((item) => item.id !== word.id));
+    const other = randomFrom(words.filter((item) => item.id !== word.id && meaningText(item) !== meaningText(word)));
     const labelWord = shouldMatch ? word : other;
-    state.judge = { word, shouldMatch, label: scopeText(labelWord), correctLabel: scopeText(word) };
+    state.judge = { word, shouldMatch, label: meaningText(labelWord), correctLabel: meaningText(word) };
   }
 
   function checkSpell() {
@@ -640,10 +658,41 @@
     finishAnswer(game.card, correct, () => { makeScramble(); renderScramble(); });
   }
 
+  function answerFalling(choice, button) {
+    const game = state.falling;
+    if (!game || game.done) return;
+    const correct = choice.id === game.answer.id;
+    game.done = true;
+    button.classList.add(correct ? 'correct' : 'wrong');
+    Array.from(els.fallingStage.children).forEach((child) => {
+      child.style.animationPlayState = 'paused';
+      child.disabled = true;
+      if (child.textContent === meaningText(game.answer)) child.classList.add('correct');
+    });
+    els.fallingFeedback.textContent = correct ? '抓到了。' : `正確意思：${meaningText(game.answer)}`;
+    els.fallingFeedback.className = `feedback ${correct ? 'good' : 'bad'}`;
+    finishAnswer(game.answer, correct, () => { makeFalling(); renderFalling(); });
+  }
+
+  function answerMole(choice, button) {
+    const game = state.mole;
+    if (!game || game.done) return;
+    const correct = choice.id === game.answer.id;
+    game.done = true;
+    button.classList.add(correct ? 'correct' : 'wrong');
+    Array.from(els.moleGrid.children).forEach((child) => {
+      child.disabled = true;
+      if (child.textContent === game.answer.word) child.classList.add('correct');
+    });
+    els.moleFeedback.textContent = correct ? '敲對了。' : `正確英文：${game.answer.word}`;
+    els.moleFeedback.className = `feedback ${correct ? 'good' : 'bad'}`;
+    finishAnswer(game.answer, correct, () => { makeMole(); renderMole(); });
+  }
+
   function startSpeed() {
     clearSpeedTimer();
-    const answer = randomFrom(activePool());
-    state.speed = { answer, choices: speedChoices(answer), score: 0, streak: 0, timeLeft: 30, running: true, timer: null, message: '' };
+    const answer = randomFrom(questionPool());
+    state.speed = { answer, choices: meaningChoices(answer, 4), score: 0, streak: 0, timeLeft: 30, running: true, timer: null, message: '' };
     state.speed.timer = setInterval(() => {
       state.speed.timeLeft -= 1;
       if (state.speed.timeLeft <= 0) {
@@ -660,7 +709,7 @@
   function answerSpeed(choice) {
     const game = state.speed;
     if (!game?.running) return;
-    const correct = choice.chapterNo === game.answer.chapterNo;
+    const correct = choice.id === game.answer.id;
     recordAnswer(correct);
     if (correct) {
       game.score += 10 + Math.min(game.streak, 5);
@@ -669,11 +718,11 @@
       mark(game.answer.id, 'known');
     } else {
       game.streak = 0;
-      game.message = `${game.answer.word} 屬於 ${game.answer.chapterNo}. ${game.answer.chapterTitle}`;
+      game.message = `${game.answer.word} = ${meaningText(game.answer)}`;
       mark(game.answer.id, 'weak');
     }
     game.answer = randomFrom(questionPool());
-    game.choices = speedChoices(game.answer);
+    game.choices = meaningChoices(game.answer, 4);
     renderSpeed();
     renderStats();
     renderQuizStatus();
@@ -797,8 +846,8 @@
     if (state.mode === 'listen') return state.listen?.answer.word;
     if (state.mode === 'spell') return state.spell?.word;
     if (state.mode === 'scramble') return state.scramble?.card.word;
-    if (state.mode === 'chapter') return state.chapterGame?.answer.word;
-    if (state.mode === 'unit') return state.unitGame?.answer.word;
+    if (state.mode === 'falling') return state.falling?.answer.word;
+    if (state.mode === 'mole') return state.mole?.answer.word;
     if (state.mode === 'speed') return state.speed?.answer.word;
     if (state.mode === 'judge') return state.judge?.word.word;
     return currentCard()?.word;
@@ -823,9 +872,10 @@
     return base.length ? base : words;
   }
 
-  function speedChoices(answer) {
+  function meaningChoices(answer, count = 4) {
     if (!answer) return [];
-    return shuffle(uniqueBy([chapterMap.get(answer.chapterNo), ...shuffle(chapters.filter((chapter) => chapter.chapterNo !== answer.chapterNo)).slice(0, 3)], 'chapterNo'));
+    const others = shuffle(words.filter((word) => word.id !== answer.id && meaningText(word) && meaningText(word) !== meaningText(answer)));
+    return shuffle(uniqueBy([answer, ...others], 'translation').slice(0, count));
   }
 
   function scopeText(word) {
