@@ -20,6 +20,48 @@
     examples: Array.isArray(word.examples) ? word.examples : [],
     examplesZh: Array.isArray(word.examplesZh) ? word.examplesZh : []
   })).filter((word) => word.word);
+  const TWEMOJI_BASE = 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/';
+  const OPENMOJI_BASE = 'https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/';
+  const EXACT_EMOJI = {
+    baby: '👶', born: '🍼', child: '🧒', kid: '🧒', childhood: '🧸', boy: '👦', girl: '👧', teenager: '🧑', youth: '🌱', adult: '🧑', man: '👨', guy: '👨', woman: '👩', male: '👨', female: '👩',
+    kingdom: '🏰', castle: '🏰', king: '👑', queen: '👑', beauty: '🌹', prince: '🤴', princess: '👸', master: '🎓', angel: '👼', god: '⚡', human: '🧑', person: '🧑', people: '👥', common: '🏘️', servant: '🍽️', farmer: '🌾',
+    title: '🏷️', sir: '🎩', mr: '🎩', miss: '🙋', maam: '🙋', ms: '🙋', mrs: '💍', married: '💍', gentleman: '🎩', lady: '👒', dr: '🩺', dear: '💌', name: '🏷️', 'first name': '🏷️', 'last name family name': '🏷️',
+    artist: '🎨', create: '💡', paint: '🎨', painter: '🎨', actor: '🎭', actress: '🎭', act: '🎭', cowboy: '🤠', player: '⚾', magician: '🎩', magic: '🪄', model: '💃', musician: '🎹', singer: '🎤', sing: '🎤',
+    company: '🏢', manager: '💼', assistant: '📋', secretary: '☎️', army: '🎖️', captain: '⚓', general: '🎖️', major: '🎖️', sailor: '⚓', soldier: '🎖️', tank: '🛡️', president: '🏛️', officer: '🚓', police: '🚓', duty: '✅', thief: '💰',
+    doctor: '🩺', dentist: '🦷', nurse: '🏥', diplomat: '🤝', judge: '⚖️', lawyer: '⚖️', mechanic: '🔧', check: '✅', engineer: '🏗️', operation: '🏥', scientist: '🔬', invent: '💡', coach: '🏅',
+    service: '🛎️', barber: '💈', 'hair dresser': '💇', cook: '🍳', waiter: '🍽️', waitress: '🍽️', serve: '🍽️', driver: '🚕', mailman: '📮', mail: '✉️', guide: '🧭', lead: '🧭', journalist: '📰', reporter: '🎙️', writer: '✍️', deliver: '📦',
+    boss: '💼', owner: '🔑', own: '🔑', businessman: '💼', business: '🏢', branch: '🏬', employ: '🤝', worker: '👷', hire: '🤝', meeting: '🗣️', contract: '📄', clerk: '🧾', job: '💼', work: '💼', experience: '🏆', earn: '💵', income: '💵', salary: '💵', production: '🏭',
+    salesman: '🛒', sell: '🛒', thing: '📦', discover: '🔎', valuable: '💎', increase: '📈', sale: '🏷️', decrease: '📉', find: '🔎', produce: '🏭', advertisement: '📣', compare: '⚖️', complain: '☎️', satisfy: '👍', express: '💬',
+    success: '🏆', succeed: '🎯', become: '🌱', effort: '💪', gather: '📚', useful: '🧰', stay: '🪑', positive: '☀️', cheerleader: '📣', continue: '➡️', focus: '🎯', ready: '🟢', handle: '🧩', difficult: '⛰️', develop: '🌱'
+  };
+  const KEYWORD_EMOJI = [
+    [/apple|banana|orange|fruit|grape|lemon|melon|peach|pear|berry|mango/i, '🍎'],
+    [/rice|noodle|bread|pizza|burger|cake|cookie|snack|food|meal|breakfast|lunch|dinner/i, '🍽️'],
+    [/vegetable|carrot|onion|potato|tomato|bean|corn|cabbage/i, '🥕'],
+    [/meat|beef|pork|chicken|egg|fish/i, '🍗'],
+    [/shirt|dress|coat|pants|shoe|hat|sock|wear|clothes|jacket|uniform/i, '👕'],
+    [/red|blue|green|yellow|black|white|color|purple|pink|brown|gray/i, '🎨'],
+    [/ball|baseball|basketball|soccer|tennis|swim|run|sport|game|toy|hobby|music|piano|guitar/i, '🏀'],
+    [/dog|cat|bird|horse|cow|pig|animal|plant|tree|flower|leaf|grass/i, '🐾'],
+    [/rain|sun|cloud|wind|snow|weather|nature|mountain|river|sea|ocean|sky/i, '🌤️'],
+    [/car|bus|train|bike|plane|ship|taxi|truck|traffic|road|station|transport/i, '🚗'],
+    [/school|class|teacher|student|test|book|pen|pencil|paper|language|math|course/i, '📚'],
+    [/home|house|room|bed|kitchen|bathroom|sofa|table|chair|door|window/i, '🏠'],
+    [/internet|computer|phone|message|information|news|media|web|online/i, '💻'],
+    [/crime|war|fight|danger|safe|gun|attack|steal|law/i, '🛡️'],
+    [/money|dollar|coin|price|pay|buy|cost|cash|bank/i, '💵'],
+    [/time|day|week|month|year|hour|minute|morning|night|season|date/i, '🕒'],
+    [/family|father|mother|parent|son|daughter|brother|sister|wife|husband/i, '👨‍👩‍👧'],
+    [/happy|sad|angry|afraid|mood|emotion|smile|cry/i, '🙂'],
+    [/face|eye|ear|nose|mouth|head|body|health|sick|cold|flu|hurt|pain/i, '🩺'],
+    [/place|location|city|country|street|building|park|store|restaurant/i, '📍'],
+    [/number|one|two|three|first|second|third|many|few|meter|weight|size|measure/i, '🔢']
+  ];
+  const CHAPTER_EMOJI = {
+    1: '🧑', 2: '💼', 3: '🙂', 4: '🩺', 5: '👨‍👩‍👧', 6: '🔢', 7: '🕒', 8: '💵', 9: '🍽️', 10: '👕',
+    11: '🏀', 12: '💻', 13: '🤝', 14: '🏠', 15: '📚', 16: '📍', 17: '🚗', 18: '📏', 19: '🎉', 20: '🌤️',
+    21: '🐾', 22: '↔️', 23: '🔁', 24: '⚡', 25: '✅', 26: '❓', 27: '🔤', 28: '👤', 29: '🧭', 30: '🔗'
+  };
 
   const $ = (id) => document.getElementById(id);
   const els = {
@@ -33,6 +75,8 @@
       falling: $('falling-view'), mole: $('mole-view'), speed: $('speed-view'), judge: $('judge-view'), list: $('list-view')
     },
     card: $('card'), cardScope: $('card-scope'), front: $('front'), back: $('back'), cardWord: $('card-word'), cardMeta: $('card-meta'),
+    cardArt: $('card-art'), cardArtImg: $('card-art-img'), cardArtEmoji: $('card-art-emoji'),
+    cardBackArt: $('card-back-art'), cardBackArtImg: $('card-back-art-img'), cardBackArtEmoji: $('card-back-art-emoji'),
     cardMeaning: $('card-meaning'), cardExample: $('card-example'), cardExampleZh: $('card-example-zh'), cardNote: $('card-note'), prev: $('prev'), flip: $('flip'),
     cardSpeak: $('card-speak'), weak: $('weak'), known: $('known'), next: $('next'),
     meaningWord: $('meaning-word'), meaningHint: $('meaning-hint'), meaningChoices: $('meaning-choices'), meaningFeedback: $('meaning-feedback'), meaningSpeak: $('meaning-speak'), meaningNext: $('meaning-next'),
@@ -335,6 +379,7 @@
       return;
     }
     touch(card.id);
+    renderCardArt(card);
     els.cardScope.textContent = scopeText(card);
     els.cardWord.textContent = card.word;
     els.cardMeta.textContent = `${card.partOfSpeech || 'vocabulary'} / #${card.order}`;
@@ -913,6 +958,52 @@
     if (!answer) return [];
     const others = shuffle(words.filter((word) => word.id !== answer.id && meaningText(word) && meaningText(word) !== meaningText(answer)));
     return shuffle(uniqueBy([answer, ...others], 'translation').slice(0, count));
+  }
+
+  function renderCardArt(card) {
+    const emoji = emojiForWord(card);
+    const code = emojiCode(emoji);
+    const label = `${card.word} picture`;
+    setArtElement(els.cardArt, els.cardArtImg, els.cardArtEmoji, emoji, code, label);
+    setArtElement(els.cardBackArt, els.cardBackArtImg, els.cardBackArtEmoji, emoji, code, label);
+  }
+
+  function setArtElement(wrapper, image, emojiNode, emoji, code, label) {
+    if (!wrapper || !image || !emojiNode) return;
+    wrapper.classList.remove('native');
+    emojiNode.textContent = emoji;
+    image.alt = label;
+    image.dataset.fallback = 'openmoji';
+    image.onerror = () => {
+      if (image.dataset.fallback === 'openmoji') {
+        image.dataset.fallback = 'native';
+        image.src = `${OPENMOJI_BASE}${code.toUpperCase()}.svg`;
+        return;
+      }
+      wrapper.classList.add('native');
+      image.removeAttribute('src');
+      image.onerror = null;
+    };
+    image.src = `${TWEMOJI_BASE}${code}.svg`;
+  }
+
+  function emojiForWord(word) {
+    const key = normalizeWord(word.word);
+    if (EXACT_EMOJI[key]) return EXACT_EMOJI[key];
+    const haystack = `${word.word} ${word.translation} ${word.unitTitle} ${word.chapterTitle} ${word.partOfSpeech}`.toLowerCase();
+    const match = KEYWORD_EMOJI.find(([pattern]) => pattern.test(haystack));
+    return match?.[1] || CHAPTER_EMOJI[word.chapterNo] || '📘';
+  }
+
+  function emojiCode(emoji) {
+    return Array.from(emoji)
+      .map((char) => char.codePointAt(0).toString(16))
+      .filter((code) => code !== 'fe0f')
+      .join('-');
+  }
+
+  function normalizeWord(value) {
+    return String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim().replace(/\s+/g, ' ');
   }
 
   function scopeText(word) {
