@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>霸總短劇英文｜網路爆款經典台詞 × 國中 2000 單字 Chapter 01–05</title>
+  <style>
+    :root {
+      --bg-dark: #0f0c1b;
+      --card-bg: #1a162b;
+      --gold: #f5c542;
+      --rose: #ff4d79;
+      --cyan: #38bdf8;
+      --purple: #a855f7;
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "PingFang TC", "Microsoft JhengHei", sans-serif;
+      background: radial-gradient(circle at top, #261b47 0%, var(--bg-dark) 70%);
+      color: var(--text-main);
+      line-height: 1.8;
+      padding-bottom: 60px;
+    }
+    .hero {
+      text-align: center;
+      padding: 32px 20px 22px;
+      border-bottom: 1px solid rgba(245, 197, 66, 0.25);
+      background: linear-gradient(180deg, rgba(245,197,66,0.12) 0%, transparent 100%);
+    }
+    .badge {
+      display: inline-block;
+      background: linear-gradient(90deg, var(--rose), var(--purple));
+      color: #fff;
+      font-size: 0.85rem;
+      font-weight: 700;
+      padding: 5px 16px;
+      border-radius: 999px;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+    }
+    h1 {
+      margin: 8px 0;
+      font-size: 1.95rem;
+      color: var(--gold);
+      text-shadow: 0 2px 12px rgba(245, 197, 66, 0.35);
+    }
+    .subtitle {
+      color: var(--text-muted);
+      max-width: 800px;
+      margin: 0 auto 18px;
+      font-size: 0.95rem;
+    }
+    .player-box {
+      max-width: 900px;
+      margin: 0 auto;
+      background: rgba(26, 22, 43, 0.95);
+      border: 2px solid var(--gold);
+      border-radius: 16px;
+      padding: 16px 22px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      position: sticky;
+      top: 10px;
+      z-index: 100;
+      backdrop-filter: blur(10px);
+    }
+    .player-title {
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    audio {
+      width: 100%;
+      height: 40px;
+      border-radius: 8px;
+    }
+    .tabs {
+      margin-top: 14px;
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .tab-btn {
+      border: 1px solid rgba(245, 197, 66, 0.4);
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-main);
+      border-radius: 999px;
+      padding: 7px 15px;
+      font-weight: 700;
+      cursor: pointer;
+      font-size: 0.86rem;
+      transition: all 0.15s;
+    }
+    .tab-btn:hover {
+      border-color: var(--gold);
+      transform: translateY(-2px);
+    }
+    .tab-btn.active {
+      background: var(--gold);
+      color: #111;
+      border-color: var(--gold);
+      box-shadow: 0 4px 14px rgba(245, 197, 66, 0.4);
+    }
+    .container {
+      max-width: 900px;
+      margin: 28px auto;
+      padding: 0 18px;
+    }
+    .act-card {
+      display: none;
+      background: var(--card-bg);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 28px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+    }
+    .act-card.active {
+      display: block;
+    }
+    .act-header {
+      border-left: 4px solid var(--gold);
+      padding-left: 12px;
+      margin-bottom: 18px;
+    }
+    .act-header h2 {
+      margin: 0;
+      font-size: 1.35rem;
+      color: var(--gold);
+    }
+    .act-header p {
+      margin: 4px 0 0;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+    .trope-banner {
+      background: rgba(255, 77, 121, 0.12);
+      border: 1px dashed var(--rose);
+      color: #fecdd3;
+      padding: 8px 14px;
+      border-radius: 10px;
+      margin-bottom: 16px;
+      font-size: 0.88rem;
+    }
+    .line {
+      display: flex;
+      gap: 14px;
+      margin-bottom: 16px;
+      padding: 12px 16px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.03);
+      border-left: 3px solid transparent;
+    }
+    .line.ceo { border-left-color: var(--gold); background: rgba(245, 197, 66, 0.06); }
+    .line.xiaomei { border-left-color: var(--rose); background: rgba(255, 77, 121, 0.06); }
+    .line.kevin { border-left-color: var(--cyan); background: rgba(56, 189, 248, 0.06); }
+    .line.narrator { border-left-color: var(--purple); font-style: italic; color: #cbd5e1; }
+    .speaker {
+      min-width: 104px;
+      font-weight: 700;
+      font-size: 0.92rem;
+      padding-top: 2px;
+    }
+    .ceo .speaker { color: var(--gold); }
+    .xiaomei .speaker { color: var(--rose); }
+    .kevin .speaker { color: var(--cyan); }
+    .narrator .speaker { color: var(--purple); }
+    .vocab {
+      position: relative;
+      display: inline-block;
+      background: rgba(245, 197, 66, 0.18);
+      color: #fde047;
+      border: 1px solid rgba(245, 197, 66, 0.45);
+      padding: 0 7px;
+      border-radius: 6px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.15s, background 0.15s;
+      margin: 0 2px;
+    }
+    .vocab:hover {
+      background: var(--gold);
+      color: #000;
+      transform: translateY(-2px);
+    }
+    .vocab[data-tip]:hover::after {
+      content: attr(data-tip);
+      position: absolute;
+      bottom: 125%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #000;
+      color: var(--gold);
+      border: 1px solid var(--gold);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      white-space: nowrap;
+      z-index: 20;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+    }
+    .quote-tag {
+      color: #fb7185;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="badge">🔥 網路爆款霸總短劇名場面 × flashcard01 國中 2000 單字 Ch.01–Ch.05</div>
+    <h1>《少爺三年沒笑過了：霸總短劇英文五部曲》</h1>
+    <p class="subtitle">集結全網最上頭的短劇靈魂四巨頭（少爺、夫人、老管家、御用醫生）與爆款名台詞（「少爺三年沒笑過了」、「天涼了讓王氏破產吧」、「再晚一分鐘傷口就癒合了」、「這張黑卡沒密碼隨便刷」），自然夾雜前五章核心單字！</p>
+    
+    <div class="player-box">
+      <div class="player-title">
+        <span id="nowPlayingLabel">🎧 正在收聽：EP1《少爺三年沒笑過了！真假千金的古堡打臉宴》</span>
+        <span style="font-size:0.82rem; color:#cbd5e1;">💡 點擊黃色單字可發音、滑鼠移上可看字義</span>
+      </div>
+      <audio id="dramaAudio" controls preload="auto">
+        <source src="ceo_ch01.mp3" type="audio/mpeg">
+      </audio>
+      <div class="tabs">
+        <button class="tab-btn active" onclick="selectChapter(1, 'ceo_ch01.mp3', 'EP1《少爺三年沒笑過了！古堡打臉宴》')">👑 Ch.01 People（三年沒笑）</button>
+        <button class="tab-btn" onclick="selectChapter(2, 'ceo_ch02.mp3', 'EP2《隱藏首富扮司機！天涼王破》')">💼 Ch.02 Occupations（天涼王破）</button>
+        <button class="tab-btn" onclick="selectChapter(3, 'ceo_ch03.mp3', 'EP3《少爺潔癖過敏！女人妳在玩火》')">✨ Ch.03 Characteristics（妳在玩火）</button>
+        <button class="tab-btn" onclick="selectChapter(4, 'ceo_ch04.mp3', 'EP4《再晚一分鐘傷口就癒合了！全院陪葬》')">🌡️ Ch.04 Health（全院陪葬）</button>
+        <button class="tab-btn" onclick="selectChapter(5, 'ceo_ch05.mp3', 'EP5《黑卡沒密碼隨便刷！萌娃助攻求婚》')">💍 Ch.05 Family（黑卡隨便刷）</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- CHAPTER 1 -->
+    <section class="act-card active" id="ch-1">
+      <div class="act-header">
+        <h2>Chapter 01: People（人物、王國與稱謂）｜EP1《少爺三年沒笑過了！真假千金的古堡打臉宴》</h2>
+        <p>📌 對應 Unit 01 Life Stages / Unit 02 A Kingdom / Unit 03 Forms of Address</p>
+      </div>
+      <div class="trope-banner">🎬 <b>短劇經典橋段</b>：灰姑娘在宴會被勢利名媛潑紅酒 ➔ 老管家驚呼「少爺三年沒笑過了」 ➔ 「女人，妳成功引起我的注意了！」</div>
+
+      <div class="line narrator"><div class="speaker">🎙️ 旁白</div><div>今晚，百億顧氏集團在歐洲買下的千年 <span class="vocab" data-tip="城堡" onclick="speak('castle')">castle</span> 舉辦頂級晚宴。整座古堡金碧輝煌，貧窮的林小美因為幫朋友代班，穿著洗到發白的制服站在大廳角落，卻被勢利眼名媛當眾潑了一身紅酒！</div></div>
+      <div class="line xiaomei"><div class="speaker">🌸 林小美</div><div>「妳幹嘛故意撞我！就算我只是來打工的 <span class="vocab" data-tip="僕人、下人" onclick="speak('servant')">servant</span>，妳也不能隨便羞辱一個僕人吧！每個人生下來都是平等的 <span class="vocab" data-tip="人類" onclick="speak('human')">human</span>，難道有錢人就比較高貴嗎？」</div></div>
+      <div class="line ceo"><div class="speaker">🕶️ 顧少爺</div><div>「全場給我安靜！是誰敢在我的商業 <span class="vocab" data-tip="王國" onclick="speak('kingdom')">kingdom</span> 鬧事？在這座王國裡，我顧辰就是至高無上的 <span class="vocab" data-tip="國王" onclick="speak('king')">king</span>，所有人都得聽我這個國王的號令！」</div></div>
+      <div class="line kevin"><div class="speaker">🤵 老管家李叔</div><div>「（激動得老淚縱橫）天啊！少爺從小 <span class="vocab" data-tip="嬰兒" onclick="speak('baby')">baby</span> 嬰兒剛 <span class="vocab" data-tip="出生的" onclick="speak('born')">born</span> 出生開始，在孤單的 <span class="vocab" data-tip="童年時期" onclick="speak('childhood')">childhood</span> 童年時期長大，從一個小 <span class="vocab" data-tip="男孩" onclick="speak('boy')">boy</span> 男孩變成 <span class="vocab" data-tip="青少年" onclick="speak('teenager')">teenager</span> 青少年，再到現在成為掌權的 <span class="vocab" data-tip="成年人" onclick="speak('adult')">adult</span> 成年人，<span class="quote-tag">少爺已經整整三年沒笑過了！</span>剛剛看到這位嗆辣的 <span class="vocab" data-tip="女孩" onclick="speak('girl')">girl</span> 女孩，少爺居然笑了！」</div></div>
+      <div class="line ceo"><div class="speaker">🕶️ 顧少爺</div><div>「<span class="quote-tag">女人，敢在宴會上頂撞名媛，妳成功引起我的注意了！</span>從今天起，妳不再是什麼卑微的下人，我要把妳寵成這座古堡唯一的 <span class="vocab" data-tip="公主" onclick="speak('princess')">princess</span> 公主，甚至讓妳當我顧辰的 <span class="vocab" data-tip="皇后、女王" onclick="speak('queen')">queen</span> 皇后！」</div></div>
+      <div class="line xiaomei"><div class="speaker">🌸 林小美</div><div>「這位穿西裝的 <span class="vocab" data-tip="英俊的、帥氣的" onclick="speak('handsome')">handsome</span> 帥氣 <span class="vocab" data-tip="傢伙、男人" onclick="speak('guy')">guy</span>，你這個傢伙該不會腦袋燒壞了吧？我才不想當什麼公主，你別自以為是童話故事裡的白馬王子 <span class="vocab" data-tip="王子" onclick="speak('prince')">prince</span> 喔！」</div></div>
+      <div class="line kevin"><div class="speaker">🤵 老管家李叔</div><div>「（倒抽一口涼氣）<span class="quote-tag">大膽！敢這麼跟我們家 master 主人說話，妳是第一個！</span>全場的 <span class="vocab" data-tip="紳士" onclick="speak('gentleman')">gentleman</span> 紳士跟 <span class="vocab" data-tip="淑女、女士" onclick="speak('lady')">lady</span> 淑女們聽好了，以後看到林小美，稱呼她的 <span class="vocab" data-tip="頭銜、稱謂" onclick="speak('title')">title</span> 頭銜給我放尊重點！不管各位是稱呼我家少爺 <span class="vocab" data-tip="先生（尊稱）" onclick="speak('sir')">sir</span> 還是 <span class="vocab" data-tip="先生" onclick="speak('Mister')">Mr.</span> 顧先生，從今晚起，林小美就是少爺認定唯一的未婚妻！」</div></div>
+      <div class="line ceo"><div class="speaker">🕶️ 顧少爺</div><div>「聽見沒有？我已經請王博士 <span class="vocab" data-tip="博士 / 醫生" onclick="speak('Doctor')">Dr.</span> Wang 幫妳驗過傷了。以後妳的姓氏 <span class="vocab" data-tip="姓氏" onclick="speak('last name')">last name</span> 冠上我的姓，從未婚的 <span class="vocab" data-tip="小姐（未婚）" onclick="speak('Miss')">Miss</span> 林小姐，直接升格成已婚 <span class="vocab" data-tip="已婚的" onclick="speak('married')">married</span> 的 <span class="vocab" data-tip="太太（已婚）" onclick="speak('Misses')">Mrs.</span> 顧太太！<span class="quote-tag">這輩子妳都逃不出我的手掌心了</span>，my <span class="vocab" data-tip="親愛的" onclick="speak('dear')">dear</span> 親愛的！」</div></div>
+    </section>
+
+    <!-- CHAPTER 2 -->
+    <section class="act-card" id="ch-2">
+      <div class="act-header">
+        <h2>Chapter 02: Occupations（職業、職場與成功）｜EP2《隱藏首富扮小司機！天涼了，讓王氏集團破產吧》</h2>
+        <p>📌 對應 Unit 04~07 各行各業 / Unit 08~10 辦公室、銷售與成功之道</p>
+      </div>
+      <div class="trope-banner">🎬 <b>短劇經典橋段</b>：千億總裁扮豬吃老虎假裝窮司機 ➔ 勢利眼經理當眾羞辱 ➔ 全集團高層列隊下跪「參見總裁」 ➔ 「天涼了，讓王氏破產吧！」</div>
+
+      <div class="line narrator"><div class="speaker">🎙️ 旁白</div><div>為了試探林小美是不是拜金女，身為跨國 <span class="vocab" data-tip="公司" onclick="speak('company')">company</span> 總裁的顧辰，故意隱瞞自己百億公司大老闆 <span class="vocab" data-tip="老闆" onclick="speak('boss')">boss</span> 的身分，假裝成一個月薪三萬的窮 <span class="vocab" data-tip="司機" onclick="speak('driver')">driver</span>，每天開著破二手車當小美的司機兼小 <span class="vocab" data-tip="助理" onclick="speak('assistant')">assistant</span> 助理。</div></div>
+      <div class="line xiaomei"><div class="speaker">🌸 林小美</div><div>「顧辰，雖然你只是一個小小的私人司機跟助理，但我今天要去大集團參加 <span class="vocab" data-tip="秘書" onclick="speak('secretary')">secretary</span> 秘書職缺的 <span class="vocab" data-tip="面試" onclick="speak('interview')">interview</span> 面試，等我被錄取成為正式 <span class="vocab" data-tip="員工" onclick="speak('worker')">worker</span> 員工、賺到大錢之後，換我養你！」</div></div>
+      <div class="line ceo"><div class="speaker">🕶️ 顧少爺</div><div>「<span class="quote-tag">這該死的女人，竟然這麼善良特別！</span>好，我陪妳去面試現場！」</div></div>
+      <div class="line kevin"><div class="speaker">💼 勢利眼王經理</div><div>「（摟著大牌女演員 <span class="vocab" data-tip="女演員" onclick="speak('actress')">actress</span> 跟時尚 <span class="vocab" data-tip="模特兒" onclick="speak('model')">model</span> 模特兒狂笑）哈哈哈，林小美，妳也不看看自己什麼窮酸樣，還敢來應徵？我是部門 <span class="vocab" data-tip="經理" onclick="speak('manager')">manager</span> 王經理！我們今天 <span class="vocab" data-tip="雇用" onclick="speak('hire')">hire</span> 雇用的可都是頂級菁英！有知名畫家 <span class="vocab" data-tip="畫家" onclick="speak('painter')">painter</span> 跟 <span class="vocab" data-tip="藝術家" onclick="speak('artist')">artist</span> 藝術家、變魔術的 <span class="vocab" data-tip="魔術師" onclick="speak('magician')">magician</span> 魔術師、當紅 <span class="vocab" data-tip="歌手" onclick="speak('singer')">singer</span> 歌手，妳身邊這個破司機算什麼東西？警衛！叫門口的 <span class="vocab" data-tip="警察" onclick="speak('police')">police</span> 警察跟保全 <span class="vocab" data-tip="警官" onclick="speak('officer')">officer</span> 警官把他們轟出去，順便檢查他們是不是來偷東西的 <span class="vocab" data-tip="小偷" onclick="speak('thief')">thief</span> 小偷！」</div></div>
+      <div class="line ceo"><div class="speaker">🕶️ 顧少爺</div><div>「<span class="quote-tag">慢著！王經理，敢動我的女人，我看你是活膩了！</span>特助 Kevin，三分鐘到了，不用再裝了，亮身分！」</div></div>
+      <div class="line kevin"><div class="speaker">🤵 特助＆眾高層</div><div>「（大門被踹開！集團最頂尖的十位 <span class="vocab" data-tip="律師" onclick="speak('lawyer')">lawyer</span> 律師、退休 <span class="vocab" data-tip="法官" onclick="speak('judge')">judge</span> 法官、首席 <span class="vocab" data-tip="科學家" onclick="speak('scientist')">scientist</span> 科學家跟 <span class="vocab" data-tip="工程師" onclick="speak('engineer')">engineer</span> 工程師，連同米其林主廚 <span class="vocab" data-tip="廚師" onclick="speak('cook')">cook</span> 與五星級 <span class="vocab" data-tip="服務生" onclick="speak('waiter')">waiter</span> 服務生整齊列隊，全場九十度鞠躬高喊）<span class="quote-tag">參見總裁！總裁才是我們集團真正的 owner 所有人！</span>」</div></div>
+      <div class="line xiaomei"><div class="speaker">🌸 林小美</div><div>「什麼？！顧辰，你不是窮司機嗎？怎麼突然變成百億集團的大老闆了？！」</div></div>
+      <div class="line ceo"><div class="speaker">🕶️ 顧少爺</div><div>「傻瓜，我不裝窮，怎麼能 <span class="vocab" data-tip="發現" onclick="speak('discover')">discover</span> 發現妳最真心、最 <span class="vocab" data-tip="珍貴的、有價值的" onclick="speak('valuable')">valuable</span> 珍貴的善良？至於這個狗眼看人低的王經理，整天只會 <span class="vocab" data-tip="抱怨" onclick="speak('complain')">complain</span> 抱怨又欺負新人……<span class="quote-tag">Kevin，天涼了，取消跟王氏家族的百億 contract 合約，結束今天的 meeting 會議，讓他們集團破產吧！</span>小美，只要妳繼續保持 <span class="vocab" data-tip="積極的、正面的" onclick="speak('positive')">positive</span> 積極正面的態度、付出 <span class="vocab" data-tip="努力" onclick="speak('effort')">effort</span> 努力、遇到 <span class="vocab" data-tip="困難的" onclick="speak('difficult')">difficult</span> 困難保持 <span class="vocab" data-tip="專心、專注" onclick="speak('focus')">focus</span> 專心，我的百億商業帝國將來全部歸妳管，祝妳邁向 <span class="vocab" data-tip="成功" onclick="speak('success')">success</span> 成功！」</div></div>
+    </section>
+
+    <!-- CHAPTER 3 -->
+    <section class="act-card" id="ch-3">
+      <div class="act-header">
+        <h2>Chapter 03: Personal Characteristics（外貌、個性與情緒）｜EP3《少爺的潔癖過敏症！女人，妳在玩火》</h2>
+        <p>📌 對應 Unit 11 外貌 / Unit 12~14 個性 / Unit 15~18 心情、能力與想法</p>
+      </div>
+      <div class="trope-banner">🎬 <b>短劇經典橋段</b>：少爺對所有女人嚴重過敏唯獨對女主免疫 ➔ 「不要動！女人，妳在玩火！」 ➔ 「敢罵少爺幼稚又小氣的，妳是第一個！」</div>
+
+      <div class="line narrator"><div class="speaker">🎙️ 旁白</div><div>整個豪門圈都知道，顧辰少爺雖然長得又 <span class="vocab" data-tip="高大的" onclick="speak('tall')">tall</span> 又 <span class="vocab" data-tip="英俊的、帥氣的" onclick="speak('handsome')">handsome</span>，身材既高大帥氣、沒有半點 <span class="vocab" data-tip="胖的、肥肉" onclick="speak('fat')">fat</span> 肥肉，保持得非常精實 <span class="vocab" data-tip="苗條的、精實的" onclick="speak('slim')">slim</span>，但他的 <span class="vocab" data-tip="性格、品格" onclick="speak('character')">character</span> 性格卻極度古怪！</div></div>
+      <div class="line kevin"><div class="speaker">🤵 老管家李叔</div><div>「小美小姐，您千萬要小心 <span class="vocab" data-tip="小心的" onclick="speak('careful')">careful</span> 一點！我們家少爺平常表情非常 <span class="vocab" data-tip="嚴肅的、認真的" onclick="speak('serious')">serious</span> 嚴肅認真，對外人甚至有點 <span class="vocab" data-tip="冷酷的、殘忍的" onclick="speak('cruel')">cruel</span> 冷酷無情。而且少爺有個怪病，只要距離別的女人太近，就會全身起紅疹、情緒失控變得 <span class="vocab" data-tip="瘋狂的" onclick="speak('crazy')">crazy</span> 抓狂！」</div></div>
+      <div class="line xiaomei"><div class="speaker">🌸 林小美</div><div>「真的假的？可是我這個人最 <span class="vocab" data-tip="粗心的" onclick="speak('careless')">careless</span> 粗心大意了……哎呀！（腳下一滑，整個人撲進顧總裁懷裡）」</div></div>
+      <div class="line ceo"><div class="speaker">🕶️ 顧少爺</div><div>「<span class="quote-tag">不要動！女人，妳在玩火！再動一下，我不敢保證會發生什麼！</span>奇怪……我碰到這個女人，竟然沒有過敏？而且我的心情還覺得特別 <span class="vocab" data-tip="平靜的" onclick="speak('peaceful')">peaceful</span> 平靜舒服？」</div></div>
+      <div class="line xiaomei"><div class="speaker">🌸 林小美</div><div>「誰在玩火啦！是你自己走路不看路，態度還這麼 <span class="vocab" data-tip="粗魯的" onclick="speak('rude')">rude</span> 粗魯霸道！虧你長得這麼帥，結果個性這麼 <span class="vocab" data-tip="幼稚的" onclick="speak('childish')">childish</span>，像個幼稚的小學生一樣！每次看到男同事跟我講話，你就變得超 <span class="vocab" data-tip="嫉妒的、吃醋的" onclick="speak('jealous')">jealous</span> 嫉妒吃醋，有夠小氣 <span class="vocab" data-tip="小氣的、吝嗇的" onclick="speak('stingy')">stingy</span> 的！」</div></div>
+      <div class="line kevin"><div class="speaker">🤵 老管家李叔</div><div>「（下巴掉下來）<span class="quote-tag">天啊！全天下敢罵少爺幼稚又小氣的，妳是第一個！</span>少爺一定會非常 <span class="vocab" data-tip="生氣的" onclick="speak('angry')">angry</span> 生氣發飆……等等，少爺居然沒有生氣，反而笑得超 <span class="vocab" data-tip="開心的" onclick="speak('happy')">happy</span> 開心？！」</div></div>
+      <div class="line ceo"><div class="speaker">🕶️ 顧少爺</div><div>「哼，本總裁一向很 <span class="vocab" data-tip="冷靜的" onclick="speak('calm')">calm</span> 冷靜沉著，而且我捐錢做慈善的時候超級 <span class="vocab" data-tip="慷慨的、大方的" onclick="speak('generous')">generous</span> 慷慨大方，哪裡小氣了？我只是欣賞這個女人說話 <span class="vocab" data-tip="誠實的" onclick="speak('honest')">honest</span> 誠實不造作，工作又 <span class="vocab" data-tip="勤奮努力的" onclick="speak('hard-working')">hard-working</span> 勤奮努力，面對惡勢力非常 <span class="vocab" data-tip="勇敢的" onclick="speak('brave')">brave</span> 勇敢，從來不會 <span class="vocab" data-tip="害怕的" onclick="speak('scared')">scared</span> 害怕退縮！」</div></div>
+      <div class="line xiaomei"><div class="speaker">🌸 林小美</div><div>「突然被你這麼誇獎，害我臉紅起來，覺得有點 <span class="vocab" data-tip="害羞的" onclick="speak('shy')">shy</span> 害羞又有點 <span class="vocab" data-tip="緊張的" onclick="speak('nervous')">nervous</span> 緊張耶！其實我剛進豪門當 <span class="vocab" data-tip="初學者、新手" onclick="speak('beginner')">beginner</span> 新手，不是什麼聰明的 <span class="vocab" data-tip="天才" onclick="speak('genius')">genius</span> 天才，很怕自己太 <span class="vocab" data-tip="傻的" onclick="speak('silly')">silly</span> 傻呼呼幫倒忙。」</div></div>
+      <div class="line ceo"><div class="speaker">🕶️ 顧少爺</div><div>「傻女人，在別人面前我可以冷酷，但對妳，我永遠會保持最 <span class="vocab" data-tip="溫柔的" onclick="speak('gentle')">gentle</span> 溫柔、最 <span class="vocab" data-tip="體貼的" onclick="speak('considerate')">considerate</span> 體貼的一面。我很 <span class="vocab" data-tip="相信" onclick="speak('believe')">believe</span> 相信妳的 <span class="vocab" data-tip="天分" onclick="speak('talent')">talent</span> 天分，有我在，絕對不讓妳感到 <span class="vocab" data-tip="難過的" onclick="speak('sad')">sad</span> 難過或 <span class="vocab" data-tip="孤單的" onclick="speak('lonely')">lonely</span> 孤單！」</div></div>
+    </section>
+
+    <!-- CHAPTER 4 -->
+    <section class="act-card" id="ch-4">
+      <div class="act-header">
+        <h2>Chapter 04: The Face, Body, and Health（五官、身體與健康）｜EP4《再晚一分鐘傷口就癒合了！全院陪葬與總裁的萬年胃病》</h2>
+        <p>📌 對應 Unit 19~20 五官與身體 / Unit 21~24 健康與感冒受傷 / Unit 25 飲食與運動</p>
+      </div>
+      <div class="trope-banner">🎬 <b>短劇經典橋段</b>：「治不好她，我要你們整間醫院陪葬！」 ➔ 御用醫生：「再晚一分鐘送來，傷口就要自己癒合了！」 ➔ 霸總淋雨發燒＋萬年胃病發作</div>
+
+      <div class="line narrator"><div class="speaker">🎙️ 旁白</div><div>這天半夜兩點，林小美在切水果時，不小心劃破了手指頭 <span class="vocab" data-tip="手指頭" onclick="speak('finger')">finger</span>，流出了一小滴紅紅的 <span class="vocab" data-tip="血液" onclick="speak('blood')">blood</span> 鮮血。顧總裁看到那一滴血，眼神瞬間變得無比心疼與瘋狂！</div></div>
+      <div class="line ceo"><div class="speaker">🕶️ 顧少爺</div><div>「傳御用醫生！快！我的女人受傷了，她的手指在流血，整張 <span class="vocab" data-tip="臉" onclick="speak('face')">face</span> 臉蛋看起來這麼 <span class="vocab" data-tip="蒼白的" onclick="speak('pale')">pale</span> 蒼白！<span class="quote-tag">要是治不好她手上的 wound 傷口，害她留下疤痕，我要你們整間醫院陪葬！</span>」</div></div>
+      <div class="line kevin"><div class="speaker">🩺 張院長（御用醫生）</div><div>「（提著急救箱連滾帶爬衝進豪宅，拿放大鏡檢查完猛擦汗）顧少息怒！少夫人身體非常 <span class="vocab" data-tip="健康的" onclick="speak('healthy')">healthy</span> 健康，手指頭這個小刮傷……<span class="quote-tag">老實說，您要是再晚一分鐘送過來，傷口就要自己 recover 癒合康復啦！</span>」</div></div>
+      <div class="line xiaomei"><div class="speaker">🌸 林小美</div><div>「噗，總裁你也太誇張了吧！我的手早就已經不 <span class="vocab" data-tip="疼痛、受傷" onclick="speak('hurt')">hurt</span> 不痛了！反而是你，為了幫我買消夜淋了一整晚的雨，我用手 <span class="vocab" data-tip="觸碰、摸" onclick="speak('touch')">touch</span> 摸一下你的額頭……天啊，燙成這樣，你發高燒 <span class="vocab" data-tip="發燒" onclick="speak('fever')">fever</span> 了！而且還一直 <span class="vocab" data-tip="咳嗽" onclick="speak('cough')">cough</span> 咳嗽，喉嚨 <span class="vocab" data-tip="喉嚨" onclick="speak('throat')">throat</span> 一定很痛對不對？」</div></div>
+      <div class="line kevin"><div class="speaker">🩺 張院長（御用醫生）</div><div>「糟了！<span class="quote-tag">顧少這是淋雨受寒引發的重感冒 cold，加上顧少有萬年老毛病</span>，只要工作 <span class="vocab" data-tip="壓力" onclick="speak('pressure')">pressure</span> 壓力太大、飲食 <span class="vocab" data-tip="飲食" onclick="speak('diet')">diet</span> 不正常，就會引發急性 <span class="vocab" data-tip="胃痛" onclick="speak('stomachache')">stomachache</span> 胃痛跟偏頭痛 <span class="vocab" data-tip="頭痛" onclick="speak('headache')">headache</span>！現在顧少全身虛弱 <span class="vocab" data-tip="虛弱的" onclick="speak('weak')">weak</span>，連頭都 <span class="vocab" data-tip="頭暈的" onclick="speak('dizzy')">dizzy</span> 暈眩站不穩了！」</div></div>
+      <div class="line ceo"><div class="speaker">🕶️ 顧少爺</div><div>「都怪這個該死的女人……把我的 <span class="vocab" data-tip="心臟、心" onclick="speak('heart')">heart</span> 心臟都偷走了，害我連生病都只想靠在妳的 <span class="vocab" data-tip="肩膀" onclick="speak('shoulder')">shoulder</span> 肩膀上 <span class="vocab" data-tip="休息" onclick="speak('rest')">rest</span> 休息。Wait……小美，妳手裡端的那碗黑黑的東西是什麼？」</div></div>
+      <div class="line xiaomei"><div class="speaker">🌸 林小美</div><div>「這是張院長剛開的退燒胃藥 <span class="vocab" data-tip="藥" onclick="speak('medicine')">medicine</span> 啊！來，乖乖把嘴巴 <span class="vocab" data-tip="嘴巴" onclick="speak('mouth')">mouth</span> 張開吞下去！」</div></div>
+      <div class="line ceo"><div class="speaker">🕶️ 顧少爺</div><div>「本總裁不要吃！我用 <span class="vocab" data-tip="鼻子" onclick="speak('nose')">nose</span> 鼻子一聞這個 <span class="vocab" data-tip="氣味、聞" onclick="speak('smell')">smell</span> 氣味，就知道這藥苦得要命，我的 <span class="vocab" data-tip="舌頭" onclick="speak('tongue')">tongue</span> 舌頭對苦味過敏！除非……妳戴上 <span class="vocab" data-tip="口罩" onclick="speak('mask')">mask</span> 口罩防止被我傳染之後，答應病好陪我一起做 <span class="vocab" data-tip="運動" onclick="speak('exercise')">exercise</span> 運動，還要親手餵我吃一顆草莓糖，否則誰來勸我都沒用！」</div></div>
+    </section>
+
+    <!-- CHAPTER 5 -->
+    <section class="act-card" id="ch-5">
+      <div class="act-header">
+        <h2>Chapter 05: Family（家庭、婚姻與親職保護）｜EP5《這張黑卡沒有密碼隨便刷！天才萌娃助攻與十億求婚》</h2>
+        <p>📌 對應 Unit 26 家庭成員 / Unit 27 婚姻與伴侶 / Unit 28 父母與保護</p>
+      </div>
+      <div class="trope-banner">🎬 <b>短劇經典橋段</b>：勢利眼親戚看不起女婿 ➔ 豪門雙胞胎萌娃衝出來抱大腿神助攻 ➔ 「這張黑卡沒有密碼，裡面有十個億，花不完今晚不准回家！」</div>
+
+      <div class="line narrator"><div class="speaker">🎙️ 旁白</div><div>今天林小美帶著顧總裁回娘家參加 <span class="vocab" data-tip="家庭、家族" onclick="speak('family')">family</span> 家族聚會。小美家的勢利眼 <span class="vocab" data-tip="親戚" onclick="speak('relative')">relative</span> 親戚們不知道顧辰的真實身分，一看到他們進門就開始冷嘲熱諷。</div></div>
+      <div class="line xiaomei"><div class="speaker">🌸 林小美</div><div>「顧辰別理他們，我先幫你介紹長輩：坐在主位最慈祥的是我爺爺 <span class="vocab" data-tip="爺爺、外公" onclick="speak('grandfather')">grandfather</span> 跟奶奶 <span class="vocab" data-tip="奶奶、外婆" onclick="speak('grandmother')">grandmother</span>；旁邊翹著二郎腿炫富的，是我叔叔 <span class="vocab" data-tip="叔叔、伯伯、舅舅" onclick="speak('uncle')">uncle</span>、嬸嬸 <span class="vocab" data-tip="嬸嬸、阿姨、姑姑" onclick="speak('aunt')">aunt</span>，還有一直追求不到我的表哥 <span class="vocab" data-tip="堂表兄弟姊妹" onclick="speak('cousin')">cousin</span>。」</div></div>
+      <div class="line kevin"><div class="speaker">👶 雙胞胎萌娃</div><div>「（一個五歲小男孩跟雙馬尾小女孩突然衝進客廳，一把抱住小美大腿奶聲奶氣大喊）<span class="quote-tag">漂亮阿姨！我們終於找到妳了！快來當我們的舅媽！</span>」</div></div>
+      <div class="line xiaomei"><div class="speaker">🌸 林小美</div><div>「哇，這兩個小朋友長得好 <span class="vocab" data-tip="可愛的" onclick="speak('cute')">cute</span> 可愛喔！顧辰，他們是誰啊？」</div></div>
+      <div class="line ceo"><div class="speaker">🕶️ 顧少爺</div><div>「咳，這個最 <span class="vocab" data-tip="調皮的、頑皮的" onclick="speak('naughty')">naughty</span> 調皮搗蛋、專門在集團製造 <span class="vocab" data-tip="麻煩" onclick="speak('trouble')">trouble</span> 麻煩的小鬼，是我姊姊的兒子，也就是我的外甥 <span class="vocab" data-tip="姪子、外甥" onclick="speak('nephew')">nephew</span>；旁邊乖巧的小女孩則是我的外甥女 <span class="vocab" data-tip="姪女、外甥女" onclick="speak('niece')">niece</span>。今天家裡的保姆 <span class="vocab" data-tip="保姆" onclick="speak('baby sitter')">baby sitter</span> 請假，這兩個小傢伙就吵著要跟來見未來的舅媽！」</div></div>
+      <div class="line kevin"><div class="speaker">👶 天才萌娃外甥</div><div>「（挺起小胸膛對全場勢利眼親戚大喊）你們不准欺負我未來舅媽！我舅舅為了 <span class="vocab" data-tip="保護" onclick="speak('protect')">protect</span> 保護她的 <span class="vocab" data-tip="安全" onclick="speak('safety')">safety</span> 安全，不讓任何危險的 <span class="vocab" data-tip="陌生人" onclick="speak('stranger')">stranger</span> 陌生人靠近她，也不讓她遇到半點 <span class="vocab" data-tip="危險" onclick="speak('danger')">danger</span> 危險，已經把這整棟豪宅買下來寫在她名下，給你們全家人最頂級的 <span class="vocab" data-tip="支持" onclick="speak('support')">support</span> 支持與照顧 <span class="vocab" data-tip="照顧、關心" onclick="speak('care')">care</span> 啦！」</div></div>
+      <div class="line ceo"><div class="speaker">🕶️ 顧少爺</div><div>「沒錯！各位長輩，還有小美的爸媽 <span class="vocab" data-tip="父或母、家長" onclick="speak('parent')">parent</span>，今天我是以最正式 <span class="vocab" data-tip="正式的" onclick="speak('formal')">formal</span> 的身分來提親的。<span class="quote-tag">這張無限黑卡沒有密碼，裡面有十個億，拿去隨便刷，花不完今晚不准回家！</span>」</div></div>
+      <div class="line xiaomei"><div class="speaker">🌸 林小美</div><div>「天啊，十個億的黑卡說刷就刷？！顧辰，那我結束 <span class="vocab" data-tip="單身的" onclick="speak('single')">single</span> 單身生活之後，該不會每天都要幫你算錢吧？」</div></div>
+      <div class="line ceo"><div class="speaker">🕶️ 顧少爺</div><div>「<span class="quote-tag">全天下所有的好東西都該屬於我，包括妳在內！</span>小美，成為我一輩子的人生 <span class="vocab" data-tip="伴侶、夥伴" onclick="speak('partner')">partner</span> 伴侶，跟本總裁變成全世界最讓人羨慕的 <span class="vocab" data-tip="夫妻、情侶" onclick="speak('couple')">couple</span> 夫妻吧！現在就跟我去登記 <span class="vocab" data-tip="結婚" onclick="speak('marry')">marry</span> 結婚，讓我當妳唯一的 <span class="vocab" data-tip="丈夫" onclick="speak('husband')">husband</span> 丈夫，我們一起 <span class="vocab" data-tip="一起" onclick="speak('together')">together</span> 共度未來的幸福 <span class="vocab" data-tip="人生、生活" onclick="speak('life')">life</span> 人生，不准拒絕我！」</div></div>
+    </section>
+  </main>
+
+  <script>
+    function selectChapter(ch, mp3File, labelText) {
+      document.querySelectorAll('.act-card').forEach(el => el.classList.remove('active'));
+      document.getElementById('ch-' + ch).classList.add('active');
+      document.querySelectorAll('.tab-btn').forEach((btn, idx) => {
+        btn.classList.toggle('active', idx + 1 === ch);
+      });
+      document.getElementById('nowPlayingLabel').textContent = '🎧 正在收聽：' + labelText;
+      const audio = document.getElementById('dramaAudio');
+      audio.src = mp3File;
+      audio.play().catch(() => {});
+    }
+
+    function speak(text) {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        const u = new SpeechSynthesisUtterance(text);
+        u.lang = 'en-US';
+        u.rate = 0.9;
+        window.speechSynthesis.speak(u);
+      }
+    }
+  </script>
+</body>
+</html>

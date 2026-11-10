@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>《少爺別鬧了！15分鐘段考滿分特訓》台北市國一英文（115翰林版七上 U3–U4）第二次段考全攻略</title>
+  <style>
+    :root {
+      --bg-dark: #0f101a;
+      --card-bg: #191b2a;
+      --card-border: #2e324e;
+      --gold: #f5c451;
+      --gold-soft: rgba(245, 196, 81, 0.14);
+      --pink: #ff6b9d;
+      --cyan: #5ce1e6;
+      --green: #4ade80;
+      --text-main: #f3f4f8;
+      --text-muted: #a6accd;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Microsoft JhengHei", "PingFang TC", "Noto Sans TC", sans-serif;
+      background: radial-gradient(circle at top, #221c3a 0%, var(--bg-dark) 65%);
+      color: var(--text-main);
+      line-height: 1.75;
+      padding-bottom: 80px;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px 28px;
+      border-bottom: 1px solid var(--card-border);
+      background: linear-gradient(180deg, rgba(245, 196, 81, 0.1) 0%, rgba(15, 16, 26, 0) 100%);
+    }
+    .badge {
+      display: inline-block;
+      background: linear-gradient(90deg, #f5c451, #ff85a2);
+      color: #12131a;
+      font-weight: 800;
+      font-size: 0.88rem;
+      padding: 5px 16px;
+      border-radius: 999px;
+      margin-bottom: 12px;
+      letter-spacing: 1px;
+    }
+    h1 {
+      margin: 6px 0 12px;
+      font-size: 2rem;
+      background: linear-gradient(90deg, #fff, #f5c451, #ff9ebb);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .subtitle {
+      max-width: 860px;
+      margin: 0 auto;
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+    .container {
+      max-width: 1060px;
+      margin: 26px auto;
+      padding: 0 18px;
+    }
+    /* Sticky Master Audio Player */
+    .master-player {
+      position: sticky;
+      top: 12px;
+      z-index: 99;
+      background: rgba(25, 27, 42, 0.96);
+      backdrop-filter: blur(12px);
+      border: 2px solid var(--gold);
+      border-radius: 16px;
+      padding: 16px 22px;
+      margin-bottom: 26px;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.55);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+    }
+    .player-info {
+      flex: 1 1 320px;
+    }
+    .player-title {
+      font-weight: 800;
+      color: var(--gold);
+      font-size: 1.08rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .player-desc {
+      font-size: 0.86rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+    .player-controls {
+      flex: 1 1 380px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    audio {
+      width: 100%;
+      height: 42px;
+      border-radius: 999px;
+    }
+    .speed-btn {
+      background: #272b42;
+      color: var(--gold);
+      border: 1px solid var(--gold);
+      padding: 7px 12px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 0.85rem;
+      white-space: nowrap;
+    }
+    .speed-btn:hover {
+      background: var(--gold);
+      color: #111;
+    }
+    /* Navigation Tabs */
+    .nav-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 24px;
+      justify-content: center;
+    }
+    .tab-btn {
+      background: var(--card-bg);
+      color: var(--text-muted);
+      border: 1px solid var(--card-border);
+      padding: 10px 16px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 0.93rem;
+      transition: all 0.2s;
+    }
+    .tab-btn:hover {
+      color: #fff;
+      border-color: var(--gold);
+    }
+    .tab-btn.active {
+      background: linear-gradient(135deg, #f5c451, #ff7aa2);
+      color: #12131a;
+      border-color: transparent;
+      box-shadow: 0 4px 15px rgba(245, 196, 81, 0.35);
+    }
+    /* Exam Blueprint Summary */
+    .blueprint-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+    .blueprint-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-left: 5px solid var(--gold);
+      border-radius: 14px;
+      padding: 16px 20px;
+    }
+    .blueprint-card.u4 {
+      border-left-color: var(--cyan);
+    }
+    .blueprint-card h3 {
+      margin: 0 0 8px;
+      font-size: 1.12rem;
+      color: var(--gold);
+    }
+    .blueprint-card.u4 h3 {
+      color: var(--cyan);
+    }
+    .blueprint-card ul {
+      margin: 0;
+      padding-left: 20px;
+      font-size: 0.93rem;
+      color: #d5d9ef;
+    }
+    .blueprint-card li {
+      margin-bottom: 5px;
+    }
+    /* Act Section */
+    .act-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 18px;
+      padding: 26px;
+      margin-bottom: 28px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    }
+    .act-header {
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 14px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+    .act-title {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--gold);
+      margin: 0;
+    }
+    .act-tag {
+      background: rgba(92, 225, 230, 0.14);
+      border: 1px solid var(--cyan);
+      color: var(--cyan);
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+    .scene-box {
+      background: rgba(255, 255, 255, 0.04);
+      border-left: 4px solid #a78bfa;
+      padding: 12px 16px;
+      border-radius: 8px;
+      color: #d6d9ec;
+      font-size: 0.95rem;
+      margin-bottom: 18px;
+    }
+    .line {
+      display: flex;
+      gap: 14px;
+      margin-bottom: 16px;
+      align-items: flex-start;
+    }
+    .avatar {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.35rem;
+      flex-shrink: 0;
+      font-weight: bold;
+    }
+    .avatar.ceo { background: linear-gradient(135deg, #2b3252, #4e5b94); border: 2px solid var(--gold); }
+    .avatar.xm { background: linear-gradient(135deg, #5e2a4d, #b84a8c); border: 2px solid var(--pink); }
+    .avatar.butler { background: linear-gradient(135deg, #1f4247, #2f767e); border: 2px solid var(--cyan); }
+    .bubble {
+      background: #222538;
+      border: 1px solid #323652;
+      border-radius: 14px;
+      padding: 13px 18px;
+      flex: 1;
+    }
+    .speaker {
+      font-size: 0.84rem;
+      font-weight: 800;
+      margin-bottom: 4px;
+      display: block;
+    }
+    .speaker.ceo { color: var(--gold); }
+    .speaker.xm { color: var(--pink); }
+    .speaker.butler { color: var(--cyan); }
+    .en {
+      background: var(--gold-soft);
+      color: var(--gold);
+      border: 1px solid rgba(245, 196, 81, 0.4);
+      padding: 1px 7px;
+      border-radius: 6px;
+      font-weight: 800;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+    .wrong {
+      background: rgba(248, 113, 113, 0.16);
+      color: #fca5a5;
+      border: 1px dashed #f87171;
+      padding: 1px 7px;
+      border-radius: 6px;
+      text-decoration: line-through;
+      font-weight: 700;
+    }
+    /* Exam Tip Table inside Act */
+    .exam-tip {
+      margin-top: 20px;
+      background: rgba(74, 222, 128, 0.08);
+      border: 1px solid rgba(74, 222, 128, 0.4);
+      border-radius: 12px;
+      padding: 15px 18px;
+    }
+    .exam-tip h4 {
+      margin: 0 0 8px;
+      color: var(--green);
+      font-size: 1rem;
+    }
+    table.grammar-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      font-size: 0.91rem;
+    }
+    table.grammar-table th, table.grammar-table td {
+      border: 1px solid #363b59;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    table.grammar-table th {
+      background: #272b44;
+      color: var(--gold);
+    }
+    /* Vocab Filter & Cards */
+    .vocab-filter-bar {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+    .vocab-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 14px;
+    }
+    .vocab-item {
+      background: #212437;
+      border: 1px solid #343957;
+      border-radius: 12px;
+      padding: 14px 16px;
+    }
+    .vocab-item .v-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 6px;
+    }
+    .vocab-item .v-word {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--gold);
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+    .vocab-item .v-pos {
+      font-size: 0.8rem;
+      color: var(--cyan);
+      background: rgba(92, 225, 230, 0.12);
+      padding: 2px 8px;
+      border-radius: 99px;
+    }
+    .vocab-item .v-zh {
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+    .vocab-item .v-note {
+      font-size: 0.87rem;
+      color: #c4c9e6;
+    }
+    /* Interactive Quiz */
+    .quiz-box {
+      background: #202336;
+      border: 1px solid #373c5c;
+      border-radius: 14px;
+      padding: 16px 20px;
+      margin-bottom: 16px;
+    }
+    .quiz-q {
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+    .quiz-opts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 8px;
+    }
+    .quiz-opt {
+      background: #2b2f47;
+      border: 1px solid #41476b;
+      color: var(--text-main);
+      padding: 9px 13px;
+      border-radius: 9px;
+      cursor: pointer;
+      text-align: left;
+      font-size: 0.92rem;
+      transition: 0.15s;
+    }
+    .quiz-opt:hover {
+      border-color: var(--gold);
+    }
+    .quiz-opt.correct {
+      background: rgba(74, 222, 128, 0.22);
+      border-color: var(--green);
+      color: #bbf7d0;
+      font-weight: 800;
+    }
+    .quiz-opt.wrong-ans {
+      background: rgba(248, 113, 113, 0.22);
+      border-color: #f87171;
+      color: #fecaca;
+    }
+    .quiz-exp {
+      display: none;
+      margin-top: 10px;
+      font-size: 0.9rem;
+      color: var(--gold);
+      background: rgba(245, 196, 81, 0.1);
+      padding: 9px 13px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="badge">🔥 100% 對應 eng_course 115學年度翰林版七上官方教材（Unit 3 & Unit 4）</div>
+  <h1>《少爺別鬧了！15分鐘段考滿分特訓》</h1>
+  <p class="subtitle">
+    專為女兒量身打造！完整收錄 <b>eng_course 官方單字 PPT（U3 共 34 字 + U4 共 35 字 = 69 個必考單字與一字多義）</b>、<b>文法加油站</b> 與 <b>文法宅急通綜合演練</b>。將所有段考陷阱化為爆笑霸總吐槽，邊聽邊笑不知不覺考 100 分！
+  </p>
+</header>
+
+<div class="container">
+
+  <!-- Sticky 15-Minute Master Audio Player -->
+  <div class="master-player">
+    <div class="player-info">
+      <div class="player-title">🎧 15分鐘完整六幕廣播劇（115翰林版二段滿分特訓）</div>
+      <div class="player-desc">分飾三角：🕶️ 霸總顧辰 × 🌸 林小美 × 🤵 老管家李叔（66 段無縫精準合成）</div>
+    </div>
+    <div class="player-controls">
+      <audio id="mainAudio" controls preload="auto" src="taipei_g7_midterm2_drama.mp3"></audio>
+      <button class="speed-btn" onclick="cycleSpeed()" id="speedBtn">1.0x 語速</button>
+      <a id="dlMp3Btn" download="台北市國一翰林版二段總複習_霸總的十五分鐘滿分特訓.mp3" href="taipei_g7_midterm2_drama.mp3" class="speed-btn" style="text-decoration:none; background:#f5c451; color:#111;">⬇️ 下載 MP3</a>
+    </div>
+  </div>
+
+  <!-- Exam Scope Blueprint -->
+  <div class="blueprint-grid">
+    <div class="blueprint-card">
+      <h3>📘 Unit 3：Open the Magic Door（34單字＋4大文法）</h3>
+      <ul>
+        <li><b>祈使句與逗號大陷阱</b>：原形動詞開頭（<span class="en">Be quiet.</span> / <span class="en">Be careful.</span>）；加人名與 <span class="en">please</span> 的三種位置（<span class="en">please</span> 與人名不可不加逗號連寫！）。</li>
+        <li><b>否定句的 <span class="en">or</span> 陷阱</b>：否定祈使句連接兩個動作要用 <span class="en">or</span>（<span class="en">Don't eat or drink here</span>），不可用 <span class="en">and</span>！</li>
+        <li><b>可分片語動詞（112會考）</b>：<span class="en">turn off / turn on / wake up</span> 遇到代名詞 <span class="en">it / him / her / them</span> 必須放中間（<span class="en">turn it off</span> / <span class="en">wake him up</span>）！</li>
+        <li><b><span class="en">Let's</span> 提議、助動詞 <span class="en">can</span> 與受格</b>：<span class="en">Let's not + 原形V</span>；動詞與介系詞後一律用<b>受格</b>；<span class="en">see / look at / watch</span> 比較。</li>
+        <li><b>必考一字多義</b>：<span class="en">can</span>（能夠／罐子）、<span class="en">place</span>（地方／住家／放置）、<span class="en">sign</span>（標誌／好兆頭／簽名）、<span class="en">please</span>（請／取悅）、<span class="en">turn</span>（輪到的機會／轉向）。</li>
+      </ul>
+    </div>
+    <div class="blueprint-card u4">
+      <h3>🎸 Unit 4：What Time Is the Concert?（35單字＋4大文法）</h3>
+      <ul>
+        <li><b>星期問答與不加 <span class="en">on</span> 陷阱</b>：<span class="en">What day is today? → It's Monday.</span>（不加 <span class="en">on</span>）；問活動 <span class="en">It's on Saturday.</span>；但星期前有 <b><span class="en">this / next / every</span> 絕對不加 <span class="en">on</span></b>！</li>
+        <li><b>時間問答與 <span class="en">a.m. / p.m.</span> 禁忌</b>：<span class="en">a.m. / p.m.</span> <b>不可與 <span class="en">o'clock</span> 或 <span class="en">in the morning/afternoon/at night</span> 同時使用</b>！正午12點是 <span class="en">12 p.m.</span>，半夜12點是 <span class="en">12 a.m.</span>。</li>
+        <li><b>時間介系詞 <span class="en">at / on / in</span></b>：特定某一天的早午晚一律改用 <b><span class="en">on</span></b>（<span class="en">on Sunday morning</span> / <span class="en">on Friday night</span>）！</li>
+        <li><b>現在進行式與單數大魔王</b>：<span class="en">be + V-ing</span>；<b><span class="en">Everyone is...</span></b> 與 <b><span class="en">Who is V-ing...?</span></b> 永遠視為單數配 <span class="en">is</span>！</li>
+        <li><b>必考一字多義與搭配</b>：<span class="en">study</span>（研讀／書房／研究）、<span class="en">band</span>（樂團／錶帶）、<span class="en">fan</span>（粉絲／電扇）、<span class="en">free</span>（有空的／免費的／自由的）、<span class="en">be popular with</span>、<span class="en">report on</span>、<span class="en">take a picture of vs. with</span>。</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Navigation Filter -->
+  <div class="nav-tabs">
+    <button class="tab-btn active" onclick="filterSection('all', this)">🎬 全部六幕劇本＋段考重點</button>
+    <button class="tab-btn" onclick="filterSection('act1', this)">第一幕：祈使句＆or＆turn it off</button>
+    <button class="tab-btn" onclick="filterSection('act2', this)">第二幕：魔法門 Let's＆can 一字多義</button>
+    <button class="tab-btn" onclick="filterSection('act3', this)">第三幕：受格＆see/look at/watch</button>
+    <button class="tab-btn" onclick="filterSection('act4', this)">第四幕：星期時間＆a.m./p.m. 禁忌</button>
+    <button class="tab-btn" onclick="filterSection('act5', this)">第五幕：at/on/in＆study/fan 多義</button>
+    <button class="tab-btn" onclick="filterSection('act6', this)">第六幕：進行式＆Everyone/Who 單數</button>
+    <button class="tab-btn" onclick="filterSection('vocab', this)">📖 U3+U4 官方69單字寶典</button>
+    <button class="tab-btn" onclick="filterSection('quiz', this)">⚡ 段考模擬12題秒殺測驗</button>
+  </div>
+
+  <!-- ==================== 第一幕 ==================== -->
+  <div class="act-card" data-sec="act1">
+    <div class="act-header">
+      <h2 class="act-title">第一幕：總裁的鐵血家規！祈使句、逗號陷阱與可分片語動詞</h2>
+      <span class="act-tag">Unit 3 重點：祈使句 / 否定 or / turn it off / give me a hand</span>
+    </div>
+    <div class="scene-box">
+      🎬 <b>場景</b>：下禮拜就是台北市國一第二次段考！為了讓未婚妻林小美考出 100 分，霸道總裁顧辰直接把豪宅頂樓改造成特訓教室！
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰（霸道總裁）</span>
+        「女人，妳成功引起我的注意了！但身為我顧辰未來的少夫人，英文段考要是沒考滿分，傳出去我還要不要面子？從現在開始，這間特訓 <span class="en">class</span> 班級就是妳的戰場！在課堂上 <span class="en">in class</span> 妳只能專心聽講，要等到 <span class="en">after class</span> 下課後才能休息！桌上有我親自擬定的十條鐵血 <span class="en">rule</span>，每一條規定妳都必須乖乖 <span class="en">follow</span> 遵守，誰要是敢 <span class="en">break the rules</span> 違反規定，就別怪本總裁無情！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美（人間清醒女主角）</span>
+        「顧辰你很誇張耶！不過就是考個翰林版第三課跟第四課，你幹嘛把家裡搞得像軍事基地一樣啦？而且你看你門上貼的那張告示牌 <span class="en">sign</span>，上面的英文根本就寫錯了！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰（霸道總裁）</span>
+        「胡說！本總裁留學歸國，怎麼可能寫錯？我為了命令李叔把門打開，在牌子上寫著：<span class="wrong">Li opens the door.</span>，還有叫妳保持安靜，我寫了一個大大的 <span class="wrong">Quiet!</span> 這哪裡錯了？」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar butler">🤵</div>
+      <div class="bubble">
+        <span class="speaker butler">老管家李叔（段考解題王）</span>
+        「（推眼鏡乾咳）報告少爺，少夫人說得對！段考第一大陷阱就是那個『<b>逗號</b>』！如果您寫 <span class="en">Li opens the door.</span>，中間沒有逗號，那叫做直述句，意思是『李叔平常會打開門』；但如果您是當面下命令：『李叔，去把門打開！』人名後面一定要點一個逗號，而且當面命令別人是祈使句，省略了主詞 you，動詞必須打回原形，要寫成 <b><span class="en">Li, open the door.</span></b> 才對啊！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「還有你寫的那個 <span class="en">quiet</span>，它只是形容詞『安靜的』，不能單獨當祈使句啦！祈使句一定要用原形動詞開頭，所以前面要補上原形的 Be 動詞，說成 <b><span class="en">Be quiet.</span></b> 請保持安靜！同理，叫別人小心一點，因為 <span class="en">careful</span> 也是形容詞『小心的』，前面一樣要加 Be，像是叫你小心那隻大狗，就要說 <b><span class="en">Be careful with that big dog.</span></b>，這樣才 <span class="en">safe</span> 安全、段考才不會被扣分啦！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰</span>
+        「咳咳，本總裁當然知道！我只是故意少寫一個 Be，考考妳有沒有細心！那如果本總裁想展現紳士風度，在命令句裡面加上 <span class="en">please</span>『請』跟妳的名字 Xiaomei，寫成 <span class="wrong">Please, Xiaomei sit down.</span>，總行了吧？」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「還是錯！我們課本的文法加油站特別警告過：<span class="en">please</span> 跟人名一起出現的時候，只有三種正確寫法：<br>
+        ① <b><span class="en">Xiaomei, please sit down.</span></b><br>
+        ② <b><span class="en">Please sit down, Xiaomei.</span></b><br>
+        ③ <b><span class="en">Xiaomei, sit down, please.</span></b><br>
+        千萬不能把 <span class="en">please</span> 跟人名直接黏在一起或亂點逗號！對了，<span class="en">please</span> 除了當『請』，當動詞還有『<b>取悅、討好</b>』的意思喔，難怪人家常說 <span class="en">You can't please everybody.</span>，你不可能討好每個人！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰</span>
+        「哼，本總裁不需要討好別人，我只要討好妳就夠了！現在換本總裁用『否定祈使句』下達禁令！聽好了，否定祈使句就是在原形動詞前面加上 <b><span class="en">Don't</span></b>！第一，上課時 <span class="en">Don't talk to me</span>，不准跟我聊天，想找我 <span class="en">have a talk</span> 談談要等下課；第二，遇到不會的題目 <span class="en">Don't fight</span>，不准跟老管家吵架打架；第三，特訓室裡絕對不准吃東西跟喝飲料，<span class="wrong">Don't eat and drink here!</span> 第四，手機立刻給我關掉，<span class="wrong">Turn off it!</span>」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar butler">🤵</div>
+      <div class="bubble">
+        <span class="speaker butler">老管家李叔</span>
+        「（雙膝一軟撲過來）少爺使不得啊！您剛剛最後兩句話，一口氣踩中了兩個台北市段考最愛考的致命陷阱啊！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「哈哈哈，顧辰你快拿筆記本出來抄啦！<br>
+        🔥 <b>陷阱一（否定句的 <span class="en">or</span>）</b>：在『否定句』裡面，要表達『不准吃東西、也不准喝飲料』，連接兩個被否定的動作，絕對不能用 and，一定要改用 <b><span class="en">or</span></b>！所以要說 <b><span class="en">Don't eat or drink here.</span></b>，還有不准在牆上寫字或畫畫，也是說 <b><span class="en">Don't write or draw on the wall.</span></b>！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar butler">🤵</div>
+      <div class="bubble">
+        <span class="speaker butler">老管家李叔</span>
+        「🔥 <b>陷阱二（112會考必考：可分片語動詞）</b>：像是關掉電器 <span class="en">turn off</span>、打開電器 <span class="en">turn on</span>，還有叫醒某人 <span class="en">wake up</span>，如果受詞是一般名詞（例如 <span class="en">your phone</span>），放中間或放後面都可以；但如果受詞是<b>代名詞 <span class="en">it / him / her / them</span></b>，代名詞就『<b>只能夾在正中間</b>』！所以把手機關掉一定要說 <b><span class="en">turn it off</span></b>，叫醒他一定要說 <b><span class="en">wake him up</span></b>，寫成 <span class="wrong">turn off it</span> 段考直接飛掉兩分啊！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰</span>
+        「好啊，連李叔都敢聯合起來吐槽我了！那這箱段考考卷太重了，李叔，快過來 <span class="en">give me a hand</span>！女人，妳知道 <span class="en">give me a hand</span> 是什麼意思嗎？」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「少看不起人了，<span class="en">hand</span> 是手，飯前要先 <span class="en">wash your hands</span> 洗手；而 <b><span class="en">give me a hand</span></b> 可不是把你的手切下來給我，是指『<b>幫我一個忙</b>』啦！搬完考卷之後，<b><span class="en">It's your turn.</span></b> 輪到你去幫我泡杯熱可可了，快去！」
+      </div>
+    </div>
+
+    <div class="exam-tip">
+      <h4>🎯 第一幕段考滿分秘笈（115翰林版 U3 文法宅急通精華）</h4>
+      <table class="grammar-table">
+        <tr>
+          <th>考點類型</th>
+          <th>正確句型（段考標準答案）</th>
+          <th>必死錯誤陷阱（千萬別選！）</th>
+        </tr>
+        <tr>
+          <td><b>人名逗號辨識</b></td>
+          <td><b>Li, open</b> the door.（祈使句：當面命令李叔開門）</td>
+          <td><b>Li opens</b> the door.（直述句：李叔平常會開門）</td>
+        </tr>
+        <tr>
+          <td><b>人名 + please 位置</b></td>
+          <td>① <b>John, please</b> sit down.<br>② <b>Please</b> sit down<b>, John.</b><br>③ <b>John,</b> sit down<b>, please.</b></td>
+          <td><span class="wrong">Please, John sit down.</span><br><span class="wrong">Sit down, please John.</span> / <span class="wrong">Sit down, John please.</span></td>
+        </tr>
+        <tr>
+          <td><b>否定祈使句連接詞</b></td>
+          <td><b>Don't eat or drink</b> on the bus.（否定句用 <b>or</b> 表「既不…也不…」）</td>
+          <td><span class="wrong">Don't eat and drink</span> on the bus.</td>
+        </tr>
+        <tr>
+          <td><b>可分片語動詞 + 代名詞</b></td>
+          <td><b>Turn it off.</b> / <b>Wake him up.</b>（代名詞必放中間！）</td>
+          <td><span class="wrong">Turn off it.</span> / <span class="wrong">Wake up him.</span></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- ==================== 第二幕 ==================== -->
+  <div class="act-card" data-sec="act2">
+    <div class="act-header">
+      <h2 class="act-title">第二幕：打開科博館的魔法門！Let's 提議與助動詞 can 的一字多義</h2>
+      <span class="act-tag">Unit 3 重點：Let's (not) / 助動詞 can vs. 罐子 can / place 一字三義</span>
+    </div>
+    <div class="scene-box">
+      🎬 <b>場景</b>：特訓到了晚上十點，顧少爺神祕兮兮地轉開書架後的暗門，帶小美前往豪宅裡的私人科學博物館！
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰</span>
+        「女人，看妳讀得這麼認真，本總裁決定在 <span class="en">my place</span> 我家裡面，帶妳去一個神祕的好地方！妳看走廊盡頭那扇閃著紫光的 <span class="en">magic</span> 魔法門，門後面就是本總裁私人包下的 <span class="en">science museum</span> 科學博物館！<span class="en">Let's open the door</span>，咱們一起打開門進去探險吧！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「<span class="en">Oh my!</span> 天哪，你居然把整座科博館搬進你家？<span class="en">Why not?</span> 為什麼不呢！這主意聽起來超棒 <span class="en">Sounds great</span>，我已經等不及了 <span class="en">I can't wait!</span>」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar butler">🤵</div>
+      <div class="bubble">
+        <span class="speaker butler">老管家李叔</span>
+        「少爺、少夫人，<span class="en">Wait a second</span>，請等一下啊！用 <b><span class="en">Let's + 原形動詞</span></b> 是提議『咱們一起做某事』，剛剛少夫人回答的 <span class="en">Why not?</span>、<span class="en">Sounds great.</span>、還有 <span class="en">Sure.</span> 都是『同意提議』的滿分回答；但如果我要勸你們『咱們千萬別進去』，否定句要把 <b><span class="en">not</span></b> 直接放在 <span class="en">Let's</span> 後面，說成 <b><span class="en">Let's not go in!</span></b> 因為裡面正在測試魔術機關，連椅子都不准亂坐，<b><span class="en">Let's not sit on the chair.</span></b>，我們還是下次再去 <span class="en">Next time</span> 吧！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰</span>
+        「李叔你太膽小了！本總裁可是練過魔術的人，<span class="en">I can do magic</span>，我會變魔術，而且我還會保護小美！女人，<span class="en">Can you see that box?</span> 妳看得見前面桌上的那個箱子嗎？」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「<span class="en">Are you sure?</span> 你確定你會變魔術？<span class="en">That's for sure</span> 才怪咧！我看你只是想偷吃桌上那個鐵罐子裡面的餅乾吧！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar butler">🤵</div>
+      <div class="bubble">
+        <span class="speaker butler">老管家李叔</span>
+        「少夫人太敏銳了！這裡正好考到第三課超重要的<b>一字多義</b>：<br>
+        ① <b><span class="en">can</span> 當助動詞</b>時，後面一定要接『原形動詞』，表達能力『會、能夠』或請求許可『可以』（例如：<span class="en">Can I have a cookie?</span>）。<br>
+        ② 但當 <b><span class="en">can</span> 變成可數名詞</b>時，意思竟然是『<b>罐子、鐵罐</b>』！像是課本例句把餅乾放進罐子裡：<b><span class="en">I put some cookies in the can.</span></b>！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「不只 <span class="en">can</span> 有一字多義，剛剛顧辰講的 <b><span class="en">place</span></b> 也有三個意思喔！當名詞除了指『<b>地方</b>』（<span class="en">This place is quiet.</span>），口語說 <b><span class="en">at my place</span></b> 就是指『<b>在我家</b>』；而且 <span class="en">place</span> 還可以當<b>動詞</b>，意思是『<b>放置、擺放</b>』，例如把椅子擺在桌子旁邊：<b><span class="en">Can you place the chair next to the table?</span></b>」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰</span>
+        「不愧是本總裁的女人，連一字多義都難不倒妳！我們要 <span class="en">make good use of</span> 好好利用這間博物館的設備，拿桌上的鉛筆 <span class="en">write with a pencil</span> 寫下通關密碼。糟了，博物館的定時警報響了，<span class="en">Hurry up!</span> 動作快點，我們現在處於匆忙之中 <b><span class="en">in a hurry</span></b>，沒時間了 <span class="en">We don't have time</span>，快跟著我 <span class="en">Follow me</span> 跑出去！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「哈哈哈，雖然最後被警報追著跑，但我們在博物館裡面還是玩得很開心 <b><span class="en">have a good time</span></b>！原來 <span class="en">time</span> 當『時間』的時候不可數，但說 <span class="en">have a good time</span> 玩得開心、或是計算『幾次』的時候，就是可數名詞耶！」
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== 第三幕 ==================== -->
+  <div class="act-card" data-sec="act3">
+    <div class="act-header">
+      <h2 class="act-title">第三幕：公園吃醋大作戰！人稱代名詞受格與 see / look at / watch 大對決</h2>
+      <span class="act-tag">Unit 3 & 4 重點：代名詞受格 / see vs. look at vs. watch / band & great 多義</span>
+    </div>
+    <div class="scene-box">
+      🎬 <b>場景</b>：隔天下午，小美到豪宅外的大公園散步（<span class="en">take a walk</span>）。草地上許多人圍著一個帥氣的傢伙（<span class="en">guy</span>），顧少爺從陽台用望遠鏡看到，醋罈子瞬間打翻！
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰</span>
+        「大膽！站在大石頭旁邊的那個 <span class="en">man</span> 男人是誰？女人，我看到妳一直盯著他看，<span class="wrong">You look at he!</span> 而且妳居然還想過去跟他一起唱歌，<span class="wrong">sing with he?!</span> 天涼了，馬上讓那個小子的家族企業破產！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「等一下啦大醋桶！在讓別人破產之前，你的英文文法已經先破產了！什麼叫做 <span class="wrong">look at he</span> 跟 <span class="wrong">sing with he</span>？我們老師說過，<b>一般動詞</b>跟<b>介系詞</b>後面，絕對不能放主格，一定要放『<b>受格</b>』啦！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar butler">🤵</div>
+      <div class="bubble">
+        <span class="speaker butler">老管家李叔</span>
+        「報告少爺！當代名詞放在『一般動詞』或是『介系詞』（像是 <span class="en">at, with, for, to, in front of</span>）後面當作對象時，必須全部換成『<b>受格</b>』！所以看著他，<span class="en">at</span> 後面要放受格 <span class="en">him</span>，說成 <b><span class="en">look at him</span></b>；跟他一起唱歌，<span class="en">with</span> 後面也要放受格 <span class="en">him</span>，說成 <b><span class="en">sing with him</span></b>！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「我幫大家把七個受格一次背齊：<br>
+        <b>我 <span class="en">I → me</span>、你 <span class="en">you → you</span>、他 <span class="en">he → him</span>、她 <span class="en">she → her</span>、它 <span class="en">it → it</span>、我們 <span class="en">we → us</span>、他們 <span class="en">they → them</span></b>！<br>
+        而且顧辰，你知道剛剛講到的『看』，英文有 <b><span class="en">see</span>、<span class="en">look at</span> 跟 <span class="en">watch</span></b> 三種，段考超愛考它們的差別嗎？」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰</span>
+        「這本總裁當然知道！<br>
+        ① 如果只是張開眼睛、自然而然『<b>看見（結果）</b>』，像是 <span class="en">I see Mary there.</span>，要用 <b><span class="en">see</span></b>；<br>
+        ② 如果是把視線轉過去『<b>注視、盯著看（動作）</b>』，就要用 <b><span class="en">look at</span></b>，或是用第四課的片語 <b><span class="en">take a look at</span></b> 看一看！<br>
+        ③ 如果是花一段時間，觀看『<b>會移動、會變化的畫面或比賽</b>』，像是看電視 <span class="en">watch TV</span>、看球賽、或看音樂影片，就要用 <b><span class="en">watch</span></b>！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「算你厲害！那你用望遠鏡看清楚了嗎？草地上那些男人 <span class="en">men</span> 根本不是我的相親對象，他們是現在最紅的搖滾樂團 <span class="en">rock band</span>，正在公園裡拍攝最新的 <span class="en">music video</span> 音樂影片！旁邊還有一隻超 <span class="en">cute</span> 可愛的小狗坐在巨大的石頭 <b><span class="en">great rock</span></b> 上面入鏡，大夥兒 <span class="en">guys</span> 都在看他們拍片呢！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰</span>
+        「原來是拍 <span class="en">music video</span> 音樂影片啊！本總裁提醒妳：台灣人常把音樂影片簡稱叫 MV，但歐美外國人是不講 MV 的，一定要講完整的 <b><span class="en">music video</span></b>！而且 <b><span class="en">band</span></b> 這個字除了當『樂團』，還可以當手錶的『<b>錶帶</b>』喔，像本總裁這支名錶，就在找一條新的錶帶 <b><span class="en">a band for my watch</span></b>！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「哇，原來 <span class="en">band</span> 還可以當錶帶，<span class="en">great</span> 除了當『很棒的』還可以當『<b>巨大的</b>』！那我考你一題第三課的 <span class="en">or</span> 選擇疑問句：<span class="en">Are you a singer or a CEO?</span> 你是歌手還是總裁？你可以回答 Yes, I am 嗎？」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰</span>
+        「當然不行！問句裡面只要有連接詞 <b><span class="en">or</span></b> 讓你二選一，回答的時候『<b>絕對不能用 Yes 或 No</b>』，必須直接把答案選出來說：<span class="en">I am a CEO!</span>」
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== 第四幕 ==================== -->
+  <div class="act-card" data-sec="act4">
+    <div class="act-header">
+      <h2 class="act-title">第四幕：包下整場演唱會！What day、What time 與 a.m. / p.m. 的致命陷阱</h2>
+      <span class="act-tag">Unit 4 重點：星期拼字 / this Saturday 不加 on / a.m. & p.m. 兩大禁忌</span>
+    </div>
+    <div class="scene-box">
+      🎬 <b>場景</b>：聽到小美喜歡那個搖滾樂團，寵妻無極限的顧少爺，立刻掏出手機包下整場演唱會！
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰</span>
+        「喂，秘書嗎？把那個樂團這禮拜的整場 <span class="en">concert</span> 演唱會給我包下來！女人，告訴我，<span class="en">Are you free this week?</span> 妳這禮拜哪一天有空，我們一起 <span class="en">together</span> 去看演唱會！而且本總裁包場，門票全部免費，<span class="en">all the tickets are free</span>，妳看 <b><span class="en">free</span></b> 既能當『<b>有空的</b>』、又能當『<b>免費的</b>』跟『<b>自由的</b>』，多划算！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「真的嗎？可是這禮拜平日 <span class="en">on weekdays</span> 我都要準備段考，行程超滿的耶！等一下，<span class="en">What day is today?</span> 今天是星期幾啊？」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar butler">🤵</div>
+      <div class="bubble">
+        <span class="speaker butler">老管家李叔</span>
+        「少夫人，這題是第四課必考題！問『今天星期幾』要用 <b><span class="en">What day is today?</span></b> 或是 <b><span class="en">What day is it?</span></b> 回答的時候直接說 <b><span class="en">Today is Monday.</span></b> 或是 <b><span class="en">It is Monday.</span></b>！千萬要記住：單純回答『今天是星期幾』的時候，星期幾的前面『<b>絕對不能加介系詞 on</b>』喔！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰</span>
+        「本總裁再教妳一週七天的霸總記憶法：<br>
+        • 星期二 <b><span class="en">Tuesday</span></b>：開頭 T-u-e 發音像數字二 two，比出兩根手指就是星期二！<br>
+        • 星期三 <b><span class="en">Wednesday</span></b>（最常考拼字！）：拼法是 <b>W-e-d-n-e-s-d-a-y</b>，中間藏了一個<b>不發音的字母 d</b>！想像本總裁跟妳在『星期三去結婚 wed』，中間那個 d 害羞躲起來不發音！<br>
+        • 星期四 <b><span class="en">Thursday</span></b>：開頭 Thur 發音像口渴 thirsty，連上四天課累到『口渴死 day』就是星期四！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「哇，星期三結婚 wed 中間的 d 不發音、星期四口渴 Thursday，這樣記一秒就背起來了！既然我平日週一到週五都沒空，那到了 <span class="en">weekend</span> 週末（<span class="en">Saturday</span> 星期六跟 <span class="en">Sunday</span> 星期日），我就 <span class="en">free</span> 有空啦！那請問大總裁，<span class="en">What day is the concert?</span> 演唱會是在星期幾啊？」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰</span>
+        「問『某個活動在星期幾』，回答的時候星期前面就要加介系詞 <b><span class="en">on</span></b> 了！所以演唱會是在星期六，<b><span class="en">It's on Saturday.</span></b>！不過李叔，如果我把星期六前面加上一個『這個 this』，說演唱會是在『這個星期六』，是不是要說 <span class="wrong">It's on this Saturday</span> 啊？」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar butler">🤵</div>
+      <div class="bubble">
+        <span class="speaker butler">老管家李叔</span>
+        「少爺千萬不可啊！這是第四課文法宅急通特別標註的星號陷阱：只要星期名稱的前面，出現了 <b><span class="en">this</span>（這個）、<span class="en">next</span>（下一個）、或是 <span class="en">every</span>（每一個）</b>這些字來修飾，前面就『<b>絕對不能再加介系詞 on</b>』！所以『這個星期六』直接說 <b><span class="en">this Saturday</span></b>，『下星期一』直接說 <b><span class="en">next Monday</span></b>，多寫一個 on 當場扣兩分！另外，如果要表達『每逢星期六』，還可以把星期六加上 s，說成 <b><span class="en">on Saturdays</span></b>（等於 <span class="en">every Saturday</span>）喔！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰</span>
+        「哼，那接下來看時間：問現在幾點是 <span class="en">What time is it?</span>（或 <span class="en">What is the time?</span>），回答直接講時間，像是三點零五分 <b><span class="en">It's three oh five.</span></b>，個位數的零唸成 <b><span class="en">oh</span></b>，前面不用加介系詞；但如果是問『演唱會在幾點 <span class="en">What time is the concert?</span>』，回答某個活動在幾點，前面一定要加上介系詞 <b><span class="en">at</span></b>！我看一下門票喔，演唱會是在下午兩點整，<span class="wrong">It's at two o'clock p.m. in the afternoon!</span>」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「噗哧！顧辰你又在亂講英文了！我們課本第四課特別強調：<b><span class="en">a.m.</span>（中午前）跟 <span class="en">p.m.</span>（中午十二點後），『絕對不能跟 <span class="en">o'clock</span> 同時使用』，也『絕對不能跟 <span class="en">in the morning / in the afternoon / at night</span> 重複連用』</b>！你剛剛那句 <span class="wrong">two o'clock p.m. in the afternoon</span> 把所有禁忌全部犯光光了啦！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar butler">🤵</div>
+      <div class="bubble">
+        <span class="speaker butler">老管家李叔</span>
+        「少夫人太強了！這題就是文法宅急通綜合演練第 2 題與第 4 題的原題！要嘛就說 <b><span class="en">at two p.m.</span></b>，要嘛就說 <b><span class="en">at two o'clock in the afternoon</span></b>，兩邊絕對不能混搭！而且還要記住：<b>正午十二點是 <span class="en">12 p.m.</span>，半夜十二點則是 <span class="en">12 a.m.</span></b> 喔！」
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== 第五幕 ==================== -->
+  <div class="act-card" data-sec="act5">
+    <div class="act-header">
+      <h2 class="act-title">第五幕：十億黑卡賭局！時間介系詞 at / on / in 與 study、movie、fan 一字多義</h2>
+      <span class="act-tag">Unit 4 重點：on Sunday morning / study 三義 / see vs. watch a movie / fan 雙義</span>
+    </div>
+    <div class="scene-box">
+      🎬 <b>場景</b>：被糾正了時間說法後，顧少爺不服氣地從西裝口袋掏出一張閃閃發光的十億無限黑卡，拍在書房桌上！
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰</span>
+        「女人，既然妳這麼懂時間，這張黑卡沒有密碼，裡面有十個億！只要妳能闖過『<b>時間介系詞 <span class="en">at / on / in</span> 終極三關</b>』，外加第四課的『<b>一字多義大考驗</b>』，這張黑卡就歸妳隨便刷！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「一言為定！本小姐這幾天夜以繼日 <span class="en">day and night</span> 都在讀書，我直接背黃金口訣給你聽：<br>
+        ① <b><span class="en">at</span>（最小點）</b>：確切的『幾點幾分』（<span class="en">at 7:30 p.m.</span>），還有正午 <b><span class="en">at noon</span></b>、夜晚 <b><span class="en">at night</span></b>、午夜 <b><span class="en">at midnight</span></b>！<br>
+        ② <b><span class="en">in</span>（長時段）</b>：單純講早上 <b><span class="en">in the morning</span></b>、下午 <b><span class="en">in the afternoon</span></b>、傍晚 <b><span class="en">in the evening</span></b>！<br>
+        ③ <b><span class="en">on</span>（特定那一天）</b>：只要出現『星期幾』或『特定某一天』（<span class="en">on Friday, on my birthday, on the weekend</span>），<b>就算後面加上了早午晚，變成『星期日的早上 <span class="en">Sunday morning</span>』或『星期五的晚上 <span class="en">Friday night</span>』，因為已經指定了哪一天，就必須全部改用 <span class="en">on</span></b>！所以是 <b><span class="en">on Sunday morning</span></b>、<b><span class="en">on Friday night</span></b>，絕對不能選 in！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰</span>
+        「居然一字不漏全對！那第二關考妳第四課的『一字多義』：妳現在正在我的書房裡讀英文，<b><span class="en">You are studying English in my study</span></b>，還在做一份恐龍的研究，<b><span class="en">doing a study on dinosaurs</span></b>。請問這三個 <span class="en">study</span> 分別是什麼意思？」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「哈哈，你想用同一個字考倒我？<br>
+        ① 第一個 <span class="en">studying English</span> 的 <span class="en">study</span> 是動詞『<b>研讀、學習</b>』；<br>
+        ② 第二個 <span class="en">in my study</span>，前面有所有格 my，當名詞是指豪宅裡的『<b>書房</b>』；<br>
+        ③ 第三個 <span class="en">doing a study on dinosaurs</span>，前面有冠詞 a，當可數名詞是指『<b>專題研究</b>』！一個 <span class="en">study</span> 同時學會『研讀、書房、研究』，我早就背起來了！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰</span>
+        「好，那再考妳：週末看完演唱會，我們去電影院看場電影，跟在家裡用平板看 Netflix 電影，動詞有什麼不一樣？還有，這裡太熱了，<span class="en">Turn off the fan.</span>，為什麼電扇跟粉絲都叫做 <span class="en">fan</span>？」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「這也是我們單字 PPT 上的重點！去電影院看電影，常搭配動詞 <span class="en">see</span>，說 <b><span class="en">see a movie</span></b>，或是直接說去電影院 <b><span class="en">go to the movies</span></b>；如果是在家盯著電視或電腦螢幕看電影，就搭配 <span class="en">watch</span>，說 <b><span class="en">watch a movie</span></b>！至於 <b><span class="en">fan</span></b> 這個字，當名詞本來是『<b>扇子、電扇</b>』，因為粉絲看到偶像都會熱情地像電扇一樣尖叫揮手，所以 <span class="en">fan</span> 就變成『<b>…迷、粉絲</b>』啦！顧大總裁，十億黑卡請交出來！」
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== 第六幕 ==================== -->
+  <div class="act-card" data-sec="act6">
+    <div class="act-header">
+      <h2 class="act-title">第六幕：粉絲見面會後台直擊！現在進行式 V-ing 與 everyone、who 的單數大陷阱</h2>
+      <span class="act-tag">Unit 4 重點：現在進行式 / be popular with / Everyone is / Who is V-ing / take a picture of vs. with</span>
+    </div>
+    <div class="scene-box">
+      🎬 <b>場景</b>：星期六到了！顧少爺帶小美直通樂團的 <span class="en">meet-and-greet</span> 粉絲見面會後台，並準備結束後辦一場慶功 <span class="en">party</span> 派對！
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「哇，顧辰你看 <span class="en">Look!</span> 還有你仔細聽 <span class="en">Listen!</span> 這個樂團如今 <span class="en">these days</span> 超受年輕人歡迎，<b><span class="en">The band is very popular with young people!</span></b> 你看那邊有電視台的記者 <span class="en">reporter</span>，正在現場播報這場見面會，<b><span class="en">She is reporting on the meet-and-greet!</span></b> 剛好我下禮拜的英文報告 <span class="en">English report</span> 就可以寫這個耶！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar butler">🤵</div>
+      <div class="bubble">
+        <span class="speaker butler">老管家李叔</span>
+        「各位同學注意！只要看到句首有『<b><span class="en">Look!</span> 看！</b>』、『<b><span class="en">Listen!</span> 聽！</b>』或是句尾有『<b><span class="en">now / right now</span> 現在</b>』，就代表動作正在進行中，必須使用第四課最核心的『<b>現在進行式：主詞 ＋ be 動詞（am / is / are）＋ V-ing</b>』！而且剛剛少夫人還講出了會考考過四次的超強片語：受到某人歡迎，介系詞一定要配 <b><span class="en">with</span></b>（<b><span class="en">be popular with</span></b>）；播報某個新聞議題，介系詞則是配 <b><span class="en">on</span></b>（<b><span class="en">report on</span></b>）！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰</span>
+        「哼，那個主唱哪有本總裁帥？不過現場氣氛真的很嗨，連整棟房子都在搖晃，<span class="en">The house is shaking!</span> 小美妳看，主唱現在正在跟粉絲們握手，<b><span class="en">He is shaking hands with his fans!</span></b> 大家在見面會上都好開心，<span class="wrong">Everyone are happy</span>，而且每個人都正在邊聊天邊大笑，<span class="wrong">Everyone are talking and laughing!</span>」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「等一下！顧辰你剛剛那兩句話，前一句對、後一句又踩中段考大魔王陷阱了！先誇獎你前一句：跟別人『握手』因為是兩隻手握在一起，所以 <b><span class="en">shake hands</span> 的 <span class="en">hands</span> 一定要加 s 變複數</b>；而且用連接詞 <span class="en">and</span> 連接兩個現在分詞 <b><span class="en">talking and laughing</span></b>，後面的 laughing 不用再重複寫 be 動詞。但是！你後面說 <span class="wrong">Everyone are happy</span> 錯得離譜！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar butler">🤵</div>
+      <div class="bubble">
+        <span class="speaker butler">老管家李叔</span>
+        「少夫人抓得好啊！第四課壓軸必考題：<b><span class="en">everyone</span>（每個人，等於 <span class="en">everybody</span>），雖然中文聽起來是很多人，但在英文文法裡，它永遠視為『第三人稱單數』！當主詞時，後面的動詞『一律只能用單數動詞 <span class="en">is</span>』</b>！所以每個人都很開心，一定要說 <b><span class="en">Everyone is happy.</span></b>；或是用 <span class="en">every</span> 加單數名詞 <b><span class="en">Every student is studying.</span></b>，寫 are 絕對零分！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰</span>
+        「原來 <span class="en">everyone</span> 永遠配單數 <span class="en">is</span> 啊！那本總裁再考妳最後兩題現在進行式的陷阱題：<br>
+        ① 第一題：那個小男孩正在寫作業、而不是在玩電動，英文怎麼說？<br>
+        ② 第二題：如果我想問『現在是誰正坐在妳旁邊？』，已知坐妳旁邊的是妳爸媽兩個人喔，問句要用 <span class="en">Who is sitting next to you?</span> 還是 <span class="wrong">Who are sitting next to you?</span>」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar xm">🌸</div>
+      <div class="bubble">
+        <span class="speaker xm">林小美</span>
+        「這兩題都是我們文法宅急通綜合演練的原題！<br>
+        ① 第一題表達『<b>正在做 A，而不是在做 B</b>』，句型是 <b><span class="en">be + V-ing, not V-ing</span></b>，只要在第二個 V-ing 前面加上 <span class="en">not</span> 就好：<b><span class="en">He is doing his homework, not playing a video game!</span></b>（記得：<span class="en">running, sitting, swimming, cutting</span> 要重複字尾加 ing；<span class="en">writing, dancing, making, taking, using, shaking</span> 要去 e 加 ing！）<br>
+        ② 第二題：『誰正坐在妳旁邊？』答案雖然是我爸媽兩個人，但在疑問句裡，<b>當疑問詞 <span class="en">Who</span> 直接當主詞時，一律視為『第三人稱單數』，永遠只能問 <span class="en">Who is sitting next to you?</span></b> 絕對不能用 Who are！」
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="avatar ceo">🕶️</div>
+      <div class="bubble">
+        <span class="speaker ceo">顧辰</span>
+        「太神了！連 <span class="en">Who is sitting</span> 的單數陷阱都瞞不過妳！走，既然都來到後台了，本總裁幫妳拍張照 <span class="en">take a picture</span>！注意喔，『<b>拍某個東西的照片</b>』是用介系詞 <b><span class="en">of</span></b>（例如拍那棵樹 <b><span class="en">take a picture of the tree</span></b>）；但如果是『<b>跟某人一起合照</b>』，就要用介系詞 <b><span class="en">with</span></b>（<b><span class="en">take a picture with the singer</span></b>）！拍完照之後，還可以請偶像在照片上幫妳簽名：<b><span class="en">Can you sign this picture for me?</span></b> 妳看，<span class="en">sign</span> 在第三課當名詞是『標誌、告示』，到了第四課當動詞就變成『簽名』了！」
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== 官方 69 單字寶典 (Unit 3 + Unit 4) ==================== -->
+  <div class="act-card" data-sec="vocab">
+    <div class="act-header">
+      <h2 class="act-title">📖 115學年度翰林版七上 Unit 3 & Unit 4 官方 69 單字＆一字多義完整寶典</h2>
+      <span class="act-tag">100% 萃取自 eng_course 單字 PPT 與文法宅急通</span>
+    </div>
+    <div class="vocab-filter-bar">
+      <button class="speed-btn" onclick="filterVocab('all')">顯示全部 (69)</button>
+      <button class="speed-btn" onclick="filterVocab('u3')">只看 Unit 3 (34)</button>
+      <button class="speed-btn" onclick="filterVocab('u4')">只看 Unit 4 (35)</button>
+      <button class="speed-btn" onclick="filterVocab('poly')">🔥 只看「一字多義＆必考片語」</button>
+    </div>
+    <div class="vocab-grid" id="vocabGrid"></div>
+  </div>
+
+  <!-- ==================== 段考模擬 12 題秒殺測驗 ==================== -->
+  <div class="act-card" data-sec="quiz">
+    <div class="act-header">
+      <h2 class="act-title">⚡ 台北市國一英文第二次段考：12 大必考陷阱秒殺測驗</h2>
+      <span class="act-tag">精選自 eng_course 文法宅急通「綜合演練」與歷屆會考題</span>
+    </div>
+    <div id="quizContainer"></div>
+  </div>
+
+</div>
+
+<script>
+  // Speed cycle for audio player
+  const speeds = [1.0, 1.15, 1.25, 0.9];
+  let sIdx = 0;
+  function cycleSpeed() {
+    sIdx = (sIdx + 1) % speeds.length;
+    const audio = document.getElementById('mainAudio');
+    audio.playbackRate = speeds[sIdx];
+    document.getElementById('speedBtn').innerText = speeds[sIdx].toFixed(2).replace('.00', '.0') + 'x 語速';
+  }
+
+  // Filter sections
+  function filterSection(sec, btn) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.act-card').forEach(card => {
+      if (sec === 'all' || card.dataset.sec === sec) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  // Official 69 Words from 115 Hanlin U3 & U4 PPTs
+  const VOCAB_DATA = [
+    // Unit 3 (34 words)
+    { u: 'u3', poly: true, w: '1. guy', pos: 'n. [U3]', zh: '人；傢伙（複數 guys 大夥兒）', note: 'Who’s the guy over there? / Let’s get on, guys.（不分性別指大家）' },
+    { u: 'u3', poly: true, w: '2. magic', pos: 'n./adj. [U3]', zh: '魔法（不可數）；神奇的', note: 'Can you do magic?（變魔術）/ a magic door（魔法門）' },
+    { u: 'u3', poly: false, w: '3. with', pos: 'prep. [U3]', zh: '用（工具）；和…一起', note: 'write with a pencil（用鉛筆寫）/ sing with us（和我們唱歌）' },
+    { u: 'u3', poly: true, w: '4. can', pos: 'aux./n. [U3]', zh: '助動詞：可以、會；名詞：罐子', note: '🔥一字多義：I can swim. vs. I put some cookies in the can.（餅乾罐）' },
+    { u: 'u3', poly: false, w: '5. many', pos: 'adj./pron. [U3]', zh: '許多的（後接複數可數名詞）', note: 'Many people are here. / I have many.' },
+    { u: 'u3', poly: true, w: '6. place', pos: 'n./v. [U3]', zh: '名詞：地方、住家；動詞：放置', note: '🔥一字三義：This place is quiet. / at my place（在我家）/ place the chair next to the table（擺放）' },
+    { u: 'u3', poly: true, w: '7. use', pos: 'v./n. [U3]', zh: '使用；利用', note: 'You can’t use your phone. / 片語：make good use of（好好利用）' },
+    { u: 'u3', poly: true, w: '8. sure', pos: 'adj./adv. [U3]', zh: '確定的；當然', note: 'Are you sure? / That’s for sure.（無庸置疑）' },
+    { u: 'u3', poly: true, w: '9. let’s', pos: 'phr. [U3]', zh: '讓我們一起…（= let us）', note: '🔥後接原形動詞：Let’s go home. / 否定：Let’s not sit on it.' },
+    { u: 'u3', poly: true, w: '10. careful', pos: 'adj. [U3]', zh: '小心的', note: '🔥常考片語：Be careful with that big dog. / be careful about（112會考）' },
+    { u: 'u3', poly: false, w: '11. museum', pos: 'n. [U3]', zh: '博物館', note: 'science museum（科學博物館）' },
+    { u: 'u3', poly: true, w: '12. hurry', pos: 'v./n. [U3]', zh: '快點（Hurry up!）；匆忙', note: '🔥必考片語：I’m in a hurry.（我在趕時間／匆忙地）' },
+    { u: 'u3', poly: true, w: '13. please', pos: 'int./v. [U3]', zh: '感嘆詞：請；動詞：取悅、使滿意', note: '🔥一字多義：Please be quiet. vs. You can’t please everybody.（討好每個人）' },
+    { u: 'u3', poly: true, w: '14. wait', pos: 'v. [U3]', zh: '等待', note: '🔥不及物動詞需加 for：Please wait for me. / wait a second（等一下）/ wait and see（拭目以待）' },
+    { u: 'u3', poly: false, w: '15. man', pos: 'n. [U3]', zh: '男人（不規則複數 men）', note: 'The tall man is my son. / three men' },
+    { u: 'u3', poly: false, w: '16. now', pos: 'adv. [U3]', zh: '現在', note: 'Let’s do it right now.（立刻、馬上）' },
+    { u: 'u3', poly: true, w: '17. or', pos: 'conj. [U3]', zh: '或者；否定句中表「也不」', note: '🔥否定句必用 or：Don’t eat or drink here. / 選擇問句不可用 Yes/No 回答！' },
+    { u: 'u3', poly: true, w: '18. time', pos: 'n. [U3]', zh: '時間（不可數）；次、經歷（可數）', note: '🔥We don’t have time. vs. have a good time（玩得開心）' },
+    { u: 'u3', poly: true, w: '19. wake up', pos: 'phr. [U3]', zh: '醒來；叫醒…', note: '🔥可分片語動詞：代名詞放中間 wake him up / wake them up！' },
+    { u: 'u3', poly: true, w: '20. class', pos: 'n. [U3]', zh: '課；班級；全班同學', note: 'in class（上課中）/ Class 713（713班，C大寫）' },
+    { u: 'u3', poly: false, w: '21. Oh my!', pos: 'int. [U3]', zh: '天哪！（= Oh myosh!）', note: 'Oh my! It’s a big dog!' },
+    { u: 'u3', poly: true, w: '22. see', pos: 'v. [U3]', zh: '看見（結果）', note: '🔥比較：see（看見結果）vs. look at（注視動作）vs. watch（觀看電視/比賽）' },
+    { u: 'u3', poly: false, w: '23. quiet', pos: 'adj. [U3]', zh: '安靜的', note: '祈使句需加 Be：Please be quiet.' },
+    { u: 'u3', poly: true, w: '24. turn off', pos: 'phr. [U3]', zh: '關掉（反義：turn on 打開）', note: '🔥112會考：代名詞必放中間 turn it off（不可說 turn off it）！' },
+    { u: 'u3', poly: true, w: '25. sign', pos: 'n./v. [U3/U4]', zh: '名詞：標誌、徵兆；動詞：簽名', note: '🔥一字三義：read the sign（看告示）/ a good sign（好兆頭）/ sign your name（簽名）' },
+    { u: 'u3', poly: true, w: '26. talk', pos: 'v./n. [U3]', zh: '說話；交談', note: 'talk to/with classmates（和同學說話）/ have a talk（談一談）' },
+    { u: 'u3', poly: true, w: '27. fight', pos: 'v./n. [U3]', zh: '吵架；打架；對抗', note: 'Don’t fight with your sister. / start a fight' },
+    { u: 'u3', poly: true, w: '28. turn', pos: 'n./v. [U3]', zh: '名詞：輪到的機會；動詞：轉向', note: '🔥課本必背：You can talk now. It’s your turn.（輪到你了！）' },
+    { u: 'u3', poly: true, w: '29. follow', pos: 'v. [U3]', zh: '遵守；跟隨', note: 'follow the school rules（遵守校規）/ Follow me, please.（跟著我）' },
+    { u: 'u3', poly: true, w: '30. rule', pos: 'n. [U3]', zh: '規則', note: 'follow the rules（遵守規則）vs. break the rules（違反規定）' },
+    { u: 'u3', poly: false, w: '31. safe', pos: 'adj. [U3]', zh: '安全的', note: 'This place is safe.' },
+    { u: 'u3', poly: false, w: '32. wash', pos: 'v. [U3]', zh: '清洗（第三人稱單數 washes）', note: 'wash your hands / wash the apple' },
+    { u: 'u3', poly: true, w: '33. hand', pos: 'n. [U3]', zh: '手', note: '🔥必考片語：Can you give me a hand?（你可以幫我一個忙嗎？）' },
+    { u: 'u3', poly: false, w: '34. after class', pos: 'phr. [U3]', zh: '下課後（反義：before class）', note: 'You can eat after class. / after school（放學後）' },
+
+    // Unit 4 (35 words)
+    { u: 'u4', poly: true, w: '35. music video', pos: 'n. [U4]', zh: '音樂影片（歐美不簡稱 MV）', note: 'watch music videos on YouTube / 補充：video game（電玩遊戲）' },
+    { u: 'u4', poly: true, w: '36. band', pos: 'n. [U4]', zh: '樂團；錶帶、箍帶', note: '🔥一字多義：a rock band（搖滾樂團）vs. a band for my watch（手錶錶帶）' },
+    { u: 'u4', poly: true, w: '37. take a look', pos: 'phr. [U4]', zh: '看一看（= have a look）', note: 'Take a look at this book.（後面看某物要加介系詞 at！）' },
+    { u: 'u4', poly: false, w: '38. all', pos: 'adj./pron./adv. [U4]', zh: '所有的；全部的；全身地', note: 'all the cookies / All of us are students. / My cat is all black.' },
+    { u: 'u4', poly: false, w: '39. cute', pos: 'adj. [U4]', zh: '可愛的', note: 'My baby brother is very cute.' },
+    { u: 'u4', poly: true, w: '40. great', pos: 'adj. [U4]', zh: '棒的；巨大的', note: '🔥一字多義：a great writer（很棒的作家）vs. sit on the great rock（巨大的石頭）' },
+    { u: 'u4', poly: true, w: '41. free', pos: 'adj. [U4]', zh: '有空的；自由的；免費的', note: '🔥一字三義：Are you free today?（有空）/ free birds（自由）/ The books are all free.（免費）' },
+    { u: 'u4', poly: false, w: '42. weekend', pos: 'n. [U4]', zh: '週末', note: 'on the weekend = on weekends（在週末）' },
+    { u: 'u4', poly: false, w: '43. Saturday', pos: 'n. [U4]', zh: '星期六（縮寫 Sat.）', note: 'My basketball class is on Saturday.' },
+    { u: 'u4', poly: false, w: '44. together', pos: 'adv. [U4]', zh: '一起；共同', note: 'Let’s go together.' },
+    { u: 'u4', poly: true, w: '45. ready', pos: 'adj. [U4]', zh: '準備好的', note: '🔥搭配介系詞 for：We are ready for the party. / get ready（110會考）' },
+    { u: 'u4', poly: true, w: '46. p.m.', pos: 'adv. [U4]', zh: '下午；晚上（正午12點後）', note: '🔥必考禁忌：不可與 o’clock 連用，也不可與 in the afternoon / at night 重複！正午12點是 12 p.m.' },
+    { u: 'u4', poly: false, w: '47. o’clock', pos: 'adv. [U4]', zh: '…點鐘（整點使用）', note: 'at five o’clock（不可接 a.m./p.m.）' },
+    { u: 'u4', poly: true, w: '48. day', pos: 'n. [U4]', zh: '日；天；白天', note: '🔥片語：these days（如今、現在）/ day and night（夜以繼日）' },
+    { u: 'u4', poly: false, w: '49. today', pos: 'adv./n. [U4]', zh: '今天；現今', note: 'What day is today? / Today is Saturday. / 補充：tonight（今晚）' },
+    { u: 'u4', poly: false, w: '50. Friday', pos: 'n. [U4]', zh: '星期五（縮寫 Fri.）', note: 'on Friday night（在週五晚上，用 on！）' },
+    { u: 'u4', poly: false, w: '51. Sunday', pos: 'n. [U4]', zh: '星期日（縮寫 Sun.，一週第一天）', note: 'Mother’s Day is on Sunday.' },
+    { u: 'u4', poly: false, w: '52. Monday', pos: 'n. [U4]', zh: '星期一（縮寫 Mon.）', note: 'Let’s go to the zoo this Monday.（前有 this 不加 on！）' },
+    { u: 'u4', poly: false, w: '53. Tuesday', pos: 'n. [U4]', zh: '星期二（縮寫 Tue./Tues.）', note: '聯想：Tue 發音像 two（二）→ 星期二' },
+    { u: 'u4', poly: true, w: '54. Wednesday', pos: 'n. [U4]', zh: '星期三（縮寫 Wed.）', note: '🔥拼字必考：W-e-d-n-e-s-d-a-y（中間的 -d- 不發音！）' },
+    { u: 'u4', poly: false, w: '55. Thursday', pos: 'n. [U4]', zh: '星期四（縮寫 Thur./Thurs.）', note: '聯想：Thur 發音像口渴 thirsty → 連上四天課口渴的星期四' },
+    { u: 'u4', poly: true, w: '56. week', pos: 'n. [U4]', zh: '週；星期', note: '補充：weekday（平日）→ on weekdays（在平日）' },
+    { u: 'u4', poly: true, w: '57. a.m.', pos: 'adv. [U4]', zh: '上午；凌晨（正午12點前）', note: '🔥半夜12點是 12 a.m.！不可與 o’clock 或 in the morning 連用。' },
+    { u: 'u4', poly: true, w: '58. study', pos: 'v./n. [U4]', zh: '動詞：研讀；名詞：書房、研究', note: '🔥一字三義：studying English（研讀）/ next to the study（書房）/ do a study on dinosaurs（研究）' },
+    { u: 'u4', poly: false, w: '59. English', pos: 'n./adj. [U4]', zh: '英文（的）；英國人的（字首永遠大寫）', note: 'an English song / Mr. Smith is English.' },
+    { u: 'u4', poly: false, w: '60. take a walk', pos: 'phr. [U4]', zh: '散步（= go for a walk）', note: 'take a short walk in the evening' },
+    { u: 'u4', poly: true, w: '61. movie', pos: 'n. [U4]', zh: '電影', note: '🔥搭配：see a movie / go to the movies（去電影院看）vs. watch a movie on TV/Netflix' },
+    { u: 'u4', poly: true, w: '62. take a picture', pos: 'phr. [U4]', zh: '拍照（= take a photo）', note: '🔥介系詞必考：take a picture of the tree（拍某物）vs. take a picture with the singer（與某人合照）' },
+    { u: 'u4', poly: false, w: '63. party', pos: 'n. [U4]', zh: '派對（複數 parties）', note: 'have a birthday party（舉辦生日派對）' },
+    { u: 'u4', poly: true, w: '64. report', pos: 'v./n. [U4]', zh: '動詞：報導；名詞：報導、報告', note: '🔥搭配 on：reporting on the meet-and-greet（播報見面會）/ write an English report（寫英文報告）' },
+    { u: 'u4', poly: true, w: '65. popular', pos: 'adj. [U4]', zh: '受歡迎的（會考四度命題！）', note: '🔥必考搭配 with：The band is popular with young people.（受年輕人歡迎）' },
+    { u: 'u4', poly: true, w: '66. fan', pos: 'n. [U4]', zh: '…迷、粉絲；電扇、扇子', note: '🔥一字雙義：baseball fans（棒球迷）vs. Turn off the fan, please.（關掉電扇）' },
+    { u: 'u4', poly: true, w: '67. shake hands', pos: 'phr. [U4]', zh: '握手（hands 必用複數！）', note: '🔥shaking hands with his teacher / The house is shaking!（房子在搖晃）' },
+    { u: 'u4', poly: true, w: '68. everyone', pos: 'pron. [U4]', zh: '每個人（= everybody）', note: '🔥當主詞時永遠接「單數動詞」：Everyone is happy at the party!' },
+    { u: 'u4', poly: true, w: '69. sign', pos: 'v./n. [U4/U3]', zh: '動詞：簽名；名詞：標誌、告示', note: '🔥Can you sign this picture for me?（幫我在照片上簽名）' }
+  ];
+
+  function renderVocab(filter) {
+    const grid = document.getElementById('vocabGrid');
+    grid.innerHTML = '';
+    VOCAB_DATA.filter(item => {
+      if (filter === 'all') return true;
+      if (filter === 'poly') return item.poly;
+      return item.u === filter;
+    }).forEach(item => {
+      const div = document.createElement('div');
+      div.className = 'vocab-item';
+      div.innerHTML = `
+        <div class="v-head">
+          <span class="v-word">${item.w}</span>
+          <span class="v-pos">${item.pos}</span>
+        </div>
+        <div class="v-zh">${item.zh}</div>
+        <div class="v-note">${item.note}</div>
+      `;
+      grid.appendChild(div);
+    });
+  }
+  function filterVocab(f) { renderVocab(f); }
+  renderVocab('all');
+
+  // 12 Official-Style Exam Questions from eng_course
+  const QUIZ_DATA = [
+    {
+      q: '1. 【祈使句與稱謂語位置（U3 文法PPT 第10題）】請選出文法與標點完全「正確」的句子：',
+      opts: ['(A) Please, students, be quiet.', '(B) Be quiet, please, students.', '(C) Students, please be quiet.', '(D) Students be quiet, please.'],
+      ans: 2,
+      exp: '解析：(C) 正確！稱謂語與 please 同時出現只有三種寫法：① Students, please be quiet. ② Please be quiet, students. ③ Students, be quiet, please.'
+    },
+    {
+      q: '2. 【否定祈使句連接詞（U3 文法PPT 第7題）】A: Look at the sign. ______ not eat or talk here.',
+      opts: ['(A) No', '(B) Let’s', '(C) Be', '(D) Don’t'],
+      ans: 1,
+      exp: '解析：(B) 正確！看到後面是「not + 原形動詞 eat or talk」，只有 Let’s 的否定是「Let’s not + 原形V」（Don’t 後面不能再加 not）。且注意否定句連接兩個動作用 or！'
+    },
+    {
+      q: '3. 【可分片語動詞（112年會考題 U3）】It is dangerous to use a cellphone on a plane. Please remember to ______ right now.',
+      opts: ['(A) turn off it', '(B) turn it off', '(C) turn on it', '(D) turning it off'],
+      ans: 1,
+      exp: '解析：(B) 正確！turn off（關掉）與 wake up（叫醒）是可分片語動詞，當受詞是代名詞 it / him / her / them 時，代名詞「一定只能放中間」→ turn it off！'
+    },
+    {
+      q: '4. 【人稱代名詞受格（U3 綜合演練第21題）】My wife and I can’t see the jump rope. Can you help ______?',
+      opts: ['(A) her', '(B) me', '(C) our', '(D) us'],
+      ans: 3,
+      exp: '解析：(D) 正確！主詞是「My wife and I（我們 we）」，放在及物動詞 help 後面當受詞，必須用 we 的受格 us！'
+    },
+    {
+      q: '5. 【星期前的 this 陷阱（U4 文法PPT 第3題）】The rock band’s concert is ______ Thursday.',
+      opts: ['(A) on this', '(B) this on', '(C) at this', '(D) this'],
+      ans: 3,
+      exp: '解析：(D) 正確！星期名稱前若有 this、next、every 修飾，前面「絕對不加介系詞 on」！'
+    },
+    {
+      q: '6. 【時間說法與 a.m./p.m. 禁忌（U4 綜合演練第4題）】The baseball game is ______.',
+      opts: ['(A) in the morning ten o’clock', '(B) at two o’clock p.m.', '(C) at two p.m. in the afternoon', '(D) at eleven on Thursday night'],
+      ans: 3,
+      exp: '解析：(D) 正確！(B) 錯在 o’clock 與 p.m. 不可同時使用；(C) 錯在 p.m. 與 in the afternoon 重複；(D) 小時間 at eleven 在前、大時間 on Thursday night 在後，完全正確！'
+    },
+    {
+      q: '7. 【時間介系詞 at/on/in 大魔王（U4 綜合演練第8題）】Amy’s birthday party is ______ Sunday evening.',
+      opts: ['(A) in', '(B) at', '(C) on', '(D) for'],
+      ans: 2,
+      exp: '解析：(C) 正確！雖然單獨講傍晚是 in the evening，但只要加上特定哪一天（Sunday evening 週日傍晚），介系詞就必須改用 on！'
+    },
+    {
+      q: '8. 【現在進行式對等連接（U4 綜合演練第13題）】Ted is doing his homework, ______?',
+      opts: ['(A) and playing', '(B) not playing', '(C) or playing', '(D) isn’t playing'],
+      ans: 1,
+      exp: '解析：(B) 正確！表達「正在做 A，而不是在做 B」句型為「be + V-ing, not V-ing」（Ted is doing his homework, not playing）。'
+    },
+    {
+      q: '9. 【Who 當主詞的單數陷阱（U4 綜合演練第22題）】A: Who ______ sitting next to Jenny?  B: Her parents.',
+      opts: ['(A) is', '(B) are', '(C) am', '(D) be'],
+      ans: 0,
+      exp: '解析：(A) 正確！即使回答是複數的 Her parents，問句中疑問詞 Who 直接當主詞時，一律視為「第三人稱單數」，搭配 is（且 sit 短母音加子音要重複 t → sitting）！'
+    },
+    {
+      q: '10. 【Everyone 單數陷阱（U4 單字PPT 第34題）】Look! Everyone ______ happy at the party, and they are shaking hands.',
+      opts: ['(A) am', '(B) are', '(C) is', '(D) be'],
+      ans: 2,
+      exp: '解析：(C) 正確！everyone（每個人 = everybody）當主詞時永遠視為單數，後面必須接單數動詞 is！'
+    },
+    {
+      q: '11. 【會考四連霸單字搭配（U4 單字PPT 第31題）】The band is very ______ with young people; they have many fans.',
+      opts: ['(A) careful', '(B) popular', '(C) ready', '(D) lucky'],
+      ans: 1,
+      exp: '解析：(B) 正確！be popular with... 表示「受到…歡迎」，基測與會考已考過四次！'
+    },
+    {
+      q: '12. 【拍照介系詞 of vs. with（U4 單字PPT 第28題）】The fan is taking a picture ______ her favorite singer, and her brother is taking a picture ______ the cute dog.',
+      opts: ['(A) with ; of', '(B) of ; with', '(C) at ; for', '(D) for ; at'],
+      ans: 0,
+      exp: '解析：(A) 正確！「和某人一起合照」用 take a picture with + 人；「拍攝某人或某物的照片（自己沒入鏡）」用 take a picture of + 物/人！'
+    }
+  ];
+
+  const qContainer = document.getElementById('quizContainer');
+  QUIZ_DATA.forEach((item, qIdx) => {
+    const box = document.createElement('div');
+    box.className = 'quiz-box';
+    let optsHtml = '';
+    item.opts.forEach((opt, oIdx) => {
+      optsHtml += `<button class="quiz-opt" onclick="checkAns(${qIdx}, ${oIdx}, this)">${opt}</button>`;
+    });
+    box.innerHTML = `
+      <div class="quiz-q">${item.q}</div>
+      <div class="quiz-opts" id="qopts-${qIdx}">${optsHtml}</div>
+      <div class="quiz-exp" id="qexp-${qIdx}">💡 ${item.exp}</div>
+    `;
+    qContainer.appendChild(box);
+  });
+
+  function checkAns(qIdx, oIdx, btn) {
+    const item = QUIZ_DATA[qIdx];
+    const parent = document.getElementById(`qopts-${qIdx}`);
+    const btns = parent.querySelectorAll('.quiz-opt');
+    btns.forEach((b, i) => {
+      if (i === item.ans) b.classList.add('correct');
+      else if (i === oIdx) b.classList.add('wrong-ans');
+    });
+    document.getElementById(`qexp-${qIdx}`).style.display = 'block';
+  }
+</script>
+
+</body>
+</html>
