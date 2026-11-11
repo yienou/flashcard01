@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>《霸總會長與 K-Pop 博物館驚魂夜》國一二段 20 頁講義全攻略短劇</title>
+<style>
+  :root {
+    --bg: #0b1120;
+    --card: #1e293b;
+    --gold: #f59e0b;
+    --pink: #ec4899;
+    --cyan: #06b6d4;
+    --emerald: #10b981;
+    --text: #f8fafc;
+    --muted: #94a3b8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: 'Segoe UI', 'Microsoft JhengHei', sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.8;
+  }
+  header {
+    background: linear-gradient(135deg, #1e1b4b 0%, #0f172a 55%, #3b0764 100%);
+    padding: 30px 20px; text-align: center; border-bottom: 2px solid rgba(245,158,11,0.4);
+  }
+  header h1 { margin: 0 0 8px; font-size: 1.85rem; color: #fde047; }
+  header p { margin: 4px 0; color: #cbd5e1; font-size: 0.98rem; }
+  .nav-links {
+    display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-top: 14px;
+  }
+  .nav-links a {
+    text-decoration: none; color: #fff; background: rgba(255,255,255,0.1);
+    padding: 7px 14px; border-radius: 999px; font-size: 0.88rem; border: 1px solid rgba(255,255,255,0.2);
+  }
+  .nav-links a:hover { background: var(--pink); }
+  .container { max-width: 1040px; margin: 0 auto; padding: 20px; }
+  .player-card {
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    border: 1px solid rgba(245,158,11,0.4); border-radius: 16px;
+    padding: 18px 22px; margin-bottom: 24px; box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  }
+  .player-card h3 { margin: 0 0 6px; color: #fde047; font-size: 1.15rem; }
+  .player-card p { margin: 0 0 12px; color: var(--muted); font-size: 0.9rem; }
+  audio { width: 100%; height: 42px; }
+  .speed-row { margin-top: 10px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 0.88rem; }
+  .spd-btn {
+    background: rgba(255,255,255,0.1); color: #fff; border: 1px solid rgba(255,255,255,0.2);
+    padding: 4px 10px; border-radius: 6px; cursor: pointer; font-weight: 700;
+  }
+  .spd-btn:hover { background: var(--gold); color: #000; }
+  .tabs { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+  .t-btn {
+    padding: 10px 20px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.15);
+    background: var(--card); color: var(--text); cursor: pointer; font-weight: 800; font-size: 0.95rem;
+  }
+  .t-btn.active { background: linear-gradient(135deg, #f59e0b, #ec4899); color: #fff; border-color: transparent; }
+  .t-panel { display: none; }
+  .t-panel.active { display: block; }
+  .act-block {
+    background: rgba(30,41,59,0.75); border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px; padding: 20px; margin-bottom: 24px;
+  }
+  .act-title {
+    margin: 0 0 16px; color: #fde047; font-size: 1.28rem;
+    border-bottom: 1px solid rgba(253,224,71,0.3); padding-bottom: 8px;
+  }
+  .d-card {
+    background: rgba(15,23,42,0.85); border-radius: 12px; padding: 14px 16px;
+    margin-bottom: 14px; border-left: 4px solid var(--cyan);
+  }
+  .d-card.yuki { border-left-color: #f43f5e; }
+  .d-card.zac { border-left-color: #38bdf8; }
+  .d-card.mimi { border-left-color: #a855f7; }
+  .d-meta { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; flex-wrap: wrap; gap: 8px; }
+  .d-speaker { font-weight: 800; font-size: 0.96rem; color: #fb7185; }
+  .d-card.zac .d-speaker { color: #38bdf8; }
+  .d-card.mimi .d-speaker { color: #c084fc; }
+  .d-page { font-size: 0.8rem; background: rgba(255,255,255,0.08); padding: 2px 8px; border-radius: 6px; color: #cbd5e1; }
+  .d-text { margin: 0; font-size: 1.03rem; }
+  .eng-hl {
+    color: #fde047; font-weight: 800; background: rgba(250,204,21,0.14);
+    padding: 1px 6px; border-radius: 5px; border-bottom: 2px solid #eab308;
+  }
+  .code-pill {
+    background: rgba(56,189,248,0.15); color: #7dd3fc; padding: 1px 6px; border-radius: 4px; font-family: monospace;
+  }
+  .d-tags { margin-top: 10px; font-size: 0.85rem; color: #cbd5e1; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .pt-badge {
+    background: rgba(16,185,129,0.15); color: #6ee7b7; border: 1px solid rgba(16,185,129,0.35);
+    padding: 2px 9px; border-radius: 999px; font-size: 0.8rem; font-weight: 600;
+  }
+  .quiz-card {
+    background: var(--card); border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 14px; padding: 18px 20px; margin-bottom: 16px;
+  }
+  .quiz-q { font-weight: 800; font-size: 1.05rem; margin-bottom: 12px; color: #fde047; }
+  .opt-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
+  .opt-btn {
+    text-align: left; padding: 10px 14px; border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.18); background: rgba(15,23,42,0.8);
+    color: #fff; cursor: pointer; font-size: 0.95rem; font-weight: 600;
+  }
+  .opt-btn.correct { background: rgba(16,185,129,0.25); border-color: #10b981; color: #6ee7b7; }
+  .opt-btn.wrong { background: rgba(244,63,94,0.25); border-color: #f43f5e; color: #fda4af; }
+  .quiz-exp { margin-top: 10px; padding: 10px 12px; border-radius: 8px; background: rgba(255,255,255,0.06); font-size: 0.9rem; display: none; color: #e2e8f0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🎭 《霸總會長與 K-Pop 博物館驚魂夜》</h1>
+  <p>100% 對應女兒國一二段複習講義實拍 20 頁（P.112～P.158：Unit 3、Unit 4、Review Test 2 ＆ 全民英檢初級單字）</p>
+  <div class="nav-links">
+    <a href="english-2000.html">⬅ 返回 2000 單字首頁</a>
+    <a href="taipei_g7_midterm2_drama.html">🔥 國一二段 15 分鐘總複習短劇</a>
+    <a href="jiuzhoumu_drama.html">⚡ 《九周目》英文重開短劇</a>
+    <a href="ceo_drama_player.html">🎬 霸總 Ch.01-05 廣播劇</a>
+  </div>
+</header>
+
+<div class="container">
+  <div class="player-card">
+    <h3>🎧 講義 20 頁全攻略・多角色有聲廣播劇 MP3（Yuki × Zac × 記者 Mimi／Ruby）</h3>
+    <p>將講義 P.112～P.158 的所有佳句、精熟考題陷阱、Tate Britannia 博物館、Dobby 劇院、學生餐廳、Ann 生日推理題與英檢單字全部融入劇情！</p>
+    <audio id="main-audio" controls preload="metadata">
+      <source src="handout_drama.mp3" type="audio/mpeg">
+      <source src="國一二段講義精華短劇_偶像見面會與博物館驚魂夜.mp3" type="audio/mpeg">
+    </audio>
+    <div class="speed-row">
+      <span>播放語速：</span>
+      <button class="spd-btn" onclick="setSpd(0.85)">0.85x 慢速跟讀</button>
+      <button class="spd-btn" onclick="setSpd(1.0)">1.0x 正常</button>
+      <button class="spd-btn" onclick="setSpd(1.15)">1.15x 輕快</button>
+      <button class="spd-btn" onclick="setSpd(1.25)">1.25x 衝刺複習</button>
+    </div>
+  </div>
+
+  <div class="tabs">
+    <button class="t-btn active" onclick="showTab('drama', this)">🎬 六幕完整講義攻略劇本（含對應頁碼＆考點）</button>
+    <button class="t-btn" onclick="showTab('quiz', this)">📝 講義原題＆魔王陷阱 15 題互動測驗</button>
+  </div>
+
+  <div id="panel-drama" class="t-panel active">
+    <div class="act-block"><h2 class="act-title">🎬 第一幕：Class 802 與魔幻實驗室（講義 P.112–117）</h2>
+        <div class="d-card mimi">
+          <div class="d-meta">
+            <span class="d-speaker">【系統・Mimi】</span>
+            <span class="d-page">📖 講義 P.112, P.117</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">叮咚！歡迎進入《國一二段講義滿分密室》！現在是早上七點五十五分，<span class="eng-hl">Time for class, guys</span>！上課時間到了，大夥們快進 <span class="eng-hl">Class 802</span>！記住第一條校規：<span class="eng-hl">Come to class on time</span>，上課必須準時，千萬別遲到！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">Time for class = It&#x27;s time for class (上課時間到了)</span><span class="pt-badge">guys (大家/大夥)</span><span class="pt-badge">on time (準時)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card zac">
+          <div class="d-meta">
+            <span class="d-speaker">【Zac 查克】</span>
+            <span class="d-page">📖 講義 P.112, P.114</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">（推開神祕木門）Yuki 妳看！<span class="eng-hl">With this door, we can go to many places</span>！有了這扇任意門，我們就可以去好多地方，就連搭公車 <span class="eng-hl">with this bus</span> 也超級方便！喂，前面那位同學，<span class="eng-hl">Can we use it</span>？我們可以用這扇門嗎？</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">With + 工具, 主詞 + can... (用…工具可以…)</span><span class="pt-badge">use (使用)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card yuki">
+          <div class="d-meta">
+            <span class="d-speaker">【Yuki 由紀】</span>
+            <span class="d-page">📖 講義 P.112</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text"><span class="eng-hl">I&#x27;m not sure</span>，我還不太確定耶。<span class="eng-hl">Be careful, Yuki</span>——不對，是我要叫你小心才對！<span class="eng-hl">Zac, don&#x27;t do that, please</span>！查克，拜託你別亂碰那個開關！<span class="eng-hl">Look behind you, Zac</span>！快看你後面，有東西衝出來了！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">I&#x27;m not sure (我不確定)</span><span class="pt-badge">Zac, don&#x27;t do that, please. (祈使句加稱呼語與 please 的逗號位置)</span><span class="pt-badge">behind (在…後面)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card zac">
+          <div class="d-meta">
+            <span class="d-speaker">【Zac 查克】</span>
+            <span class="d-page">📖 講義 P.112, P.114</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text"><span class="eng-hl">Oh my!</span> 我的天哪！那顆大石頭旁邊 <span class="eng-hl">next to the rock</span> 是什麼東西？！<span class="eng-hl">Please... no mummies or dinosaurs this time</span>！拜託，這一次千萬別再出現木乃伊或者恐龍了！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">Oh my! (天哪！表驚訝)</span><span class="pt-badge">next to (在…旁邊)</span><span class="pt-badge">否定句用 or 連接 (no mummies or dinosaurs)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card yuki">
+          <div class="d-meta">
+            <span class="d-speaker">【Yuki 由紀】</span>
+            <span class="d-page">📖 講義 P.112, P.113, P.116</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">冷靜點！這裡是科學實驗室，<code class="code-pill">The lab is a place for experiments</code>。你看牆上的標誌：<span class="eng-hl">Please follow these lab rules and be safe</span>，遵守實驗室規定才能確保安全！第一條：<span class="eng-hl">Do not eat or drink here</span>，在這裡不准吃或喝東西；第二條：<span class="eng-hl">Do not play with the knives</span>，別拿刀子亂玩，那樣很不 <span class="eng-hl">safe</span>；第三條：<span class="eng-hl">Be careful with the four angles of this table</span>，要特別小心這張桌子的四個稜角，撞到會瘀青的！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">follow the rules (遵守規則)</span><span class="pt-badge">be careful with + 物品 (小心對待/處理某物)</span><span class="pt-badge">knives (knife 刀子的複數)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card mimi">
+          <div class="d-meta">
+            <span class="d-speaker">【系統・Mimi】</span>
+            <span class="d-page">📖 講義 P.112, P.114, P.117</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">沒錯！而且在 <span class="eng-hl">Class 802</span> 上課時，<span class="eng-hl">Be quiet during class time</span>，上課期間要保持安靜，<span class="eng-hl">Turn off your phone in class</span>，把手機關掉！千萬 <span class="eng-hl">do not talk with your friends or play games with your phone in class</span>，更不可以 <span class="eng-hl">talk during tests</span> 在考試期間交談！還有，<span class="eng-hl">Wash your hands after class</span>，下課後記得洗手！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">during class time / during tests (在上課/考試期間)</span><span class="pt-badge">turn off (關掉電器)</span><span class="pt-badge">wash your hands after class (下課後洗手)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card zac">
+          <div class="d-meta">
+            <span class="d-speaker">【Zac 查克】</span>
+            <span class="d-page">📖 講義 P.116, P.117</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">那我考考妳講義 P.116 的精熟陷阱題：如果房間一片漆黑，<code class="code-pill">I can&#x27;t see the birds in the tree because it&#x27;s dark</code>，看不見樹上的鳥們要用代名詞受格 <span class="eng-hl">them</span>，那看不見門的時候要開燈還是關燈？當然是 <span class="eng-hl">Let&#x27;s turn on the light</span> 把燈打開！還有，如果妹妹們正在睡覺，<code class="code-pill">Your sisters are in their sleep now</code>，千萬 <span class="eng-hl">Don&#x27;t wake them up</span>，別把她們叫醒，代名詞 <span class="eng-hl">them</span> 一定要夾在 <span class="eng-hl">wake</span> 和 <span class="eng-hl">up</span> 中間！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">turn on the light (開燈) vs. turn off (關掉)</span><span class="pt-badge">Don&#x27;t wake them up (代名詞受格放中間)</span><span class="pt-badge">behind them / talk with them (介系詞後接代名詞受格)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card yuki">
+          <div class="d-meta">
+            <span class="d-speaker">【Yuki 由紀】</span>
+            <span class="d-page">📖 講義 P.116, P.149, P.151</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">算你聰明！鈴聲響了，<span class="eng-hl">Time is up</span>！時間到了，<span class="eng-hl">do not write on your test papers</span>，不准再寫試卷了！記得老師交代的：<span class="eng-hl">Do not sign your name with a pencil. Use a blue pen</span>，別用鉛筆簽名，要用藍筆在考卷底部 <span class="eng-hl">at the bottom</span> 簽上名字！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">Time is up (時間到了)</span><span class="pt-badge">sign your name with a pencil (用鉛筆簽名；with + 工具)</span></div>
+          </div>
+        </div>
+        </div><div class="act-block"><h2 class="act-title">🎬 第二幕：Tate Britannia 博物館老照片展 ＆ 學生餐廳排隊風暴（講義 P.115、P.156）</h2>
+        <div class="d-card yuki">
+          <div class="d-meta">
+            <span class="d-speaker">【Yuki 由紀】</span>
+            <span class="d-page">📖 講義 P.115 閱讀測驗</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">通過第一關！我們傳送到 <span class="eng-hl">Tate Britannia</span> 博物館了！你看海報，今天下午一點到五點（<code class="code-pill">13:00–17:00</code>）正在展出 <span class="eng-hl">Elton Yang&#x27;s Old Pictures</span> 楊艾爾頓的老照片展！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">Tate Britannia = a museum (博物館)</span><span class="pt-badge">13:00–17:00 = 1 p.m. to 5 p.m.</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card zac">
+          <div class="d-meta">
+            <span class="d-speaker">【Zac 查克】</span>
+            <span class="d-page">📖 講義 P.115 閱讀測驗</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">太酷了！我要趕快拿相機拍下這些老照片！等等，海報上面有四條規定，我們得仔細看清楚：<br>第一：<span class="eng-hl">Please watch out for your belongings</span>，請注意自己的隨身物品；<br>第二：<span class="eng-hl">You CAN take pictures, but please turn off the flash</span>——原來在這裡可以拍老照片（<code class="code-pill">take pictures of Elton&#x27;s pictures</code>），但是必須把閃光燈關掉！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">watch out for your belongings (注意隨身物品)</span><span class="pt-badge">turn off the flash (關掉閃光燈)</span><span class="pt-badge">take pictures of... (拍攝…的照片)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card yuki">
+          <div class="d-meta">
+            <span class="d-speaker">【Yuki 由紀】</span>
+            <span class="d-page">📖 講義 P.115 閱讀測驗第 1~3 題</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">還有第三條：<span class="eng-hl">Do not touch the pictures</span>，千萬別動手觸摸照片；第四條：<span class="eng-hl">Do not eat or drink here</span>。最後一句填空題超常考：<span class="eng-hl">Please follow the above rules</span>，請遵守「上述的」規定！因為那四條規定寫在正上方，所以空格一定要選 <span class="eng-hl">above</span>！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">touch (觸摸)</span><span class="pt-badge">the above rules (上述的規定)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card mimi">
+          <div class="d-meta">
+            <span class="d-speaker">【系統・Mimi】</span>
+            <span class="d-page">📖 講義 P.156 克漏字 A</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">逛完博物館肚子餓了吧？歡迎來到 <span class="eng-hl">student cafeteria</span> 學生餐廳！<span class="eng-hl">Below are the rules</span>，以下是餐廳規定：在 <code class="code-pill">Dos</code>（該做的事）裡面，第一是 <span class="eng-hl">Stand in line</span> 乖乖排隊，第二是 <span class="eng-hl">Wait for your turn</span> 等待輪到你點餐！而在 <code class="code-pill">Don&#x27;ts</code>（不該做的事）裡面：<span class="eng-hl">Do not run in the cafeteria</span>，在助動詞 <code class="code-pill">Do not</code> 後面一定要接原形動詞 <span class="eng-hl">run</span>，而且 <span class="eng-hl">Do not stand too near the kitchen</span>，別站得離廚房太近！最後：<span class="eng-hl">Follow the above rules. Have a great day</span>！祝大家有美好的一天！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">student cafeteria (學生餐廳)</span><span class="pt-badge">stand in line (排隊)</span><span class="pt-badge">wait for your turn (等待輪到你)</span><span class="pt-badge">below (在…以下) vs. above (在…以上)</span></div>
+          </div>
+        </div>
+        </div><div class="act-block"><h2 class="act-title">🎬 第三幕：韓團 OBA 演唱會與時間／星期終極密碼（講義 P.119–138）</h2>
+        <div class="d-card yuki">
+          <div class="d-meta">
+            <span class="d-speaker">【Yuki 由紀】</span>
+            <span class="d-page">📖 講義 P.138 課文對話 1</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">排隊領完午餐，我看見 Zac 盯著手機螢幕傻笑：<span class="eng-hl">What are you watching, Zac</span>？你在看什麼啊？該不會又在看電影 <span class="eng-hl">watching a movie</span> 吧？</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">What are you watching? (你正在看什麼？現在進行式)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card zac">
+          <div class="d-meta">
+            <span class="d-speaker">【Zac 查克】</span>
+            <span class="d-page">📖 講義 P.119, P.138</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">才不是電影呢！我在看 <span class="eng-hl">OBA&#x27;s music video</span>！妳問我 <span class="eng-hl">Who is OBA</span>？<span class="eng-hl">It&#x27;s a K-pop boy band. Here. Take a look at their video</span>！他們是超紅的韓國流行男團，來，妳快看一看他們的音樂影片！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">music video (音樂影片，歐美不簡稱 MV)</span><span class="pt-badge">K-pop boy band (韓國流行音樂男團)</span><span class="pt-badge">Take a look at... (看一看…)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card yuki">
+          <div class="d-meta">
+            <span class="d-speaker">【Yuki 由紀】</span>
+            <span class="d-page">📖 講義 P.119, P.138</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text"><span class="eng-hl">Wow! All five boys are very cute, and their music is great</span>！哇，五個男生全都好可愛，而且他們的音樂超棒！注意喔，三者以上的「全部」要用 <span class="eng-hl">all</span>（<code class="code-pill">all five boys</code>）！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">all five boys (五個男生全部)</span><span class="pt-badge">cute (可愛的)</span><span class="pt-badge">great (很棒的)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card zac">
+          <div class="d-meta">
+            <span class="d-speaker">【Zac 查克】</span>
+            <span class="d-page">📖 講義 P.138, P.144</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text"><span class="eng-hl">Are you free this weekend, Yuki</span>？妳這週末有空嗎？<span class="eng-hl">Their concert is this Saturday. Let&#x27;s go together</span>！他們的演唱會就在這個星期六，我們一起去吧！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">free (有空的；一字多義：自由的、免費的)</span><span class="pt-badge">this weekend (這週末)</span><span class="pt-badge">this Saturday (這週六，前面有 this 不加 on)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card yuki">
+          <div class="d-meta">
+            <span class="d-speaker">【Yuki 由紀】</span>
+            <span class="d-page">📖 講義 P.128, P.129, P.151</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text"><span class="eng-hl">Sure. I can&#x27;t wait</span>！當然好啊，我等不及了！不過講義 P.128 到 P.130 有三個超狠的時間與星期陷阱，我們必須先解開才能拿到門票：<br>第一，當別人問 <span class="eng-hl">What day is it today</span>（今天星期幾？），回答 <span class="eng-hl">It is Wednesday today</span> 時，星期前面<span class="eng-hl">絕對不加介系詞 on</span>，而且在句子裡<span class="eng-hl">絕對不可以寫縮寫</span>（寫 <code class="code-pill">It&#x27;s Fri.</code> 會直接扣分，一定要寫完整 <code class="code-pill">It&#x27;s Friday.</code>）！<br>第二，當問某個活動在星期幾，例如 <span class="eng-hl">What day is the welcome party</span> 或 <span class="eng-hl">What day is the meet-and-greet</span>，回答 <span class="eng-hl">It&#x27;s on Saturday</span> 或 <span class="eng-hl">It&#x27;s on Friday afternoon</span>，只要是特定某一天、或是某天的早上下午晚上，介系詞通通用 <span class="eng-hl">on</span>！還有「在週末」也是 <span class="eng-hl">on weekends</span>！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">It is Friday today. (不可加 on，句子裡不可縮寫為 Fri.)</span><span class="pt-badge">on Saturday / on Friday afternoon / on weekends (一律用 on)</span><span class="pt-badge">I can&#x27;t wait! (我等不及了！)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card mimi">
+          <div class="d-meta">
+            <span class="d-speaker">【系統・Mimi】</span>
+            <span class="d-page">📖 講義 P.130</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">第三個大陷阱在講義 P.130！請問：<span class="eng-hl">What time is it now</span>？如果現在是「六點零五分」，分鐘是十以內的個位數，英文怎麼唸？要在數字前加上 <span class="eng-hl">oh</span>，唸作 <span class="eng-hl">It&#x27;s six oh five</span>！那「中午十二點」和「凌晨十二點」怎麼分？記住：<span class="eng-hl">中午十二點是 <code class="code-pill">12 p.m.</code>，也就是 <code class="code-pill">12 noon</code></span>（<code class="code-pill">It&#x27;s 12 noon. It&#x27;s time for lunch.</code> 該吃午餐了）；而<span class="eng-hl">半夜凌晨十二點則是 <code class="code-pill">12 a.m.</code>，也就是 <code class="code-pill">12 midnight</code></span>！千萬別在半夜十二點跑去吃營養午餐啊！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">six oh five (6:05，個位數分鐘加 oh)</span><span class="pt-badge">12 p.m. = 12 noon (正午十二點)</span><span class="pt-badge">12 a.m. = 12 midnight (午夜十二點)</span><span class="pt-badge">a.m./p.m. 不可與 o&#x27;clock 連用</span></div>
+          </div>
+        </div>
+        </div><div class="act-block"><h2 class="act-title">🎬 第四幕：BTS 見面會實況報導 ＆ 深夜 11 點 Dobby 劇院排隊奇遇（講義 P.143、P.151–152）</h2>
+        <div class="d-card mimi">
+          <div class="d-meta">
+            <span class="d-speaker">【系統・Mimi】</span>
+            <span class="d-page">📖 講義 P.143 閱讀篇 A Meet-and-Greet</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">（拿起麥克風切換主播腔）<span class="eng-hl">It&#x27;s Friday. Welcome to Music Party with Mimi. This is Mimi Wang, and I&#x27;m reporting from the meet-and-greet of the popular band BTS. Let&#x27;s go take a look</span>！歡迎收看《米米的音樂派對》，我是王米米，正在超人氣天團防彈少年團的見面會現場為您實況報導！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">report from... (從…現場實況報導)</span><span class="pt-badge">meet-and-greet (粉絲見面會)</span><span class="pt-badge">popular band (受歡迎的樂團)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card yuki">
+          <div class="d-meta">
+            <span class="d-speaker">【Yuki 由紀】</span>
+            <span class="d-page">📖 講義 P.143, P.151 精熟試題第 2, 5 題</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">你看舞台上！<span class="eng-hl">Now the BTS boys and their fans are on the stage. The BTS boys are taking pictures and shaking hands with their fans. They&#x27;re signing pictures for their fans, too. Everyone is having a good time</span>！團員們正在舞台上跟粉絲拍照、握手（<code class="code-pill">shaking hands with their fans</code>），還幫粉絲在照片上簽名（<code class="code-pill">signing pictures</code>）！注意文法大考點：<span class="eng-hl">Everyone</span>（每個人）和 <span class="eng-hl">Someone</span>（某人）雖然意思聽起來很多人，但文法上永遠視為<span class="eng-hl">第三人稱單數</span>，後面一定要配單數動詞 <span class="eng-hl">is</span>！像是 <code class="code-pill">Everyone is having a good time</code>、<code class="code-pill">Everyone is eating in the dining room</code>、還有 <code class="code-pill">Listen! Someone is singing in the bathroom</code>！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">on the stage (在舞台上)</span><span class="pt-badge">shake hands with... (與…握手)</span><span class="pt-badge">sign pictures for... (為…在照片上簽名)</span><span class="pt-badge">Everyone / Someone + is + V-ing (單數動詞陷阱！)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card mimi">
+          <div class="d-meta">
+            <span class="d-speaker">【系統・Mimi】</span>
+            <span class="d-page">📖 講義 P.143, P.152 題組 A</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text"><span class="eng-hl">That&#x27;s it for today&#x27;s report. You&#x27;re watching Music Party with Mimi. Good night</span>！以上就是今天的報導！接下來鏡頭轉到深夜十一點（<code class="code-pill">11 p.m.</code>）的 <span class="eng-hl">Dobby Theater</span> 多比劇院門口，記者 Clark 正在採訪歌手 <span class="eng-hl">Colin X</span> 的頭號粉絲 <span class="eng-hl">Oliver</span>！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">That&#x27;s it for today&#x27;s report. (以上就是今天的報導)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card zac">
+          <div class="d-meta">
+            <span class="d-speaker">【Zac 查克】</span>
+            <span class="d-page">📖 講義 P.151, P.152 題組 A</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">（扮演狂熱粉絲 Oliver）大家好，我是 Oliver，<span class="eng-hl">a big fan of the popular singer Colin X</span>！記者問我現在半夜十一點了，<span class="eng-hl">What are you doing here</span>？我在這裡幹嘛？<span class="eng-hl">I am waiting for Colin X&#x27;s concert. All the fans are waiting for that</span>！所有粉絲都在等他的演唱會！記者又問：<span class="eng-hl">What time is the concert</span>？我回答：<span class="eng-hl">It&#x27;s at seven thirty tomorrow night</span>！演唱會是明天晚上七點半！雖然 <span class="eng-hl">That&#x27;s a long wait</span> 要等超久，<span class="eng-hl">but it&#x27;s worth it</span>，但一切都超值得！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">a big fan of... (…的頭號粉絲) vs. be popular with... (受…歡迎)</span><span class="pt-badge">wait for (等待，疑問句 Who are you waiting for? 不可漏掉 for)</span><span class="pt-badge">That&#x27;s a long wait. (那要等很久；wait 當名詞)</span><span class="pt-badge">It&#x27;s worth it. (這很值得)</span></div>
+          </div>
+        </div>
+        </div><div class="act-block"><h2 class="act-title">🎬 第五幕：Ruby 的養狗危機與一歲妹妹 Ann 的生日星期推理懸案（講義 P.157）</h2>
+        <div class="d-card mimi">
+          <div class="d-meta">
+            <span class="d-speaker">【系統・Mimi】</span>
+            <span class="d-page">📖 講義 P.157 克漏字 B</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">（切換撒嬌小妹 Ruby 聲線）<span class="eng-hl">Dad, please! Can we keep Dori? She&#x27;s a nice dog</span>！爸，拜託啦，我們可以飼養小狗 Dori 嗎？<span class="eng-hl">I can take her for a walk after school every day. I can wash her every week. And on Sundays, we can go to the park</span>！我每天放學後都可以帶她去散步、每週幫她洗澡，而且每個禮拜天我們還可以去公園玩球！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">keep + 寵物 (飼養…)</span><span class="pt-badge">take...for a walk (帶…去散步)</span><span class="pt-badge">on Sundays (每逢週日)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card zac">
+          <div class="d-meta">
+            <span class="d-speaker">【Zac 查克】</span>
+            <span class="d-page">📖 講義 P.157 克漏字 B</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">（扮演嚴父 Mr. Harrods）<span class="eng-hl">No! Our house is not big enough for her. And you can&#x27;t take good care of her</span>！不行，我們家不夠大，而且妳根本沒辦法好好照顧她！不信的話，<span class="eng-hl">Go to your room and take a look at your mouse. Is she having a good life with you, Ruby</span>？先回妳房間看看妳養的老鼠吧（<code class="code-pill">take a look at your mouse</code>，介系詞用 <span class="eng-hl">at</span>！），那隻小老鼠跟妳在一起過得好嗎？！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">take good care of... (好好照顧…)</span><span class="pt-badge">take a look at... (看一看…，後面有受詞必加 at)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card yuki">
+          <div class="d-meta">
+            <span class="d-speaker">【Yuki 由紀】</span>
+            <span class="d-page">📖 講義 P.157 閱讀測驗第 1 題</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">哈哈哈，連寵物鼠都沒顧好還想養狗！不過講義 P.157 下面還有一題全台北市國一最愛考的「<span class="eng-hl">Ann 一歲生日派對時間推理題</span>」：<br>文章說：<code class="code-pill">Ann is one year old. The birthday party for Ann is today, but her birthday is this Sunday — two days from now.</code><br>各位同學請聽題！Ann 的生日派對是在「今天（<code class="code-pill">today</code>）」舉辦，但她的真正生日是在「兩天後的這個星期日（<code class="code-pill">this Sunday — two days from now</code>）」！既然兩天後是星期日（<code class="code-pill">Sunday</code>），那請問 <span class="eng-hl">What day is today</span>？今天星期幾？</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">two days from now (距離現在兩天後)</span><span class="pt-badge">時間推理：兩天後是 Sunday → 今天 Today 是 Friday！</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card zac">
+          <div class="d-meta">
+            <span class="d-speaker">【Zac 查克】</span>
+            <span class="d-page">📖 講義 P.157 閱讀測驗第 1~2 題</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">我算出來了！星期日往回推兩天，今天當然是 <span class="eng-hl">Friday</span>（星期五）！千萬不能看到文章裡有 <code class="code-pill">Sunday</code> 就傻傻選星期日！而且還要看清楚每個人正在做什麼：<span class="eng-hl">Grandpa and grandma are taking pictures of her</span>（阿公阿嬤在幫她拍照），<span class="eng-hl">Ann&#x27;s brother is making a card for her</span>（哥哥在做卡片給她），<span class="eng-hl">Ann&#x27;s mom is reading a picture book with Ann</span>（媽媽在跟她一起看繪本），而 <span class="eng-hl">Ann&#x27;s dad is making a cake in the kitchen</span>（爸爸在廚房做蛋糕）！所以問媽媽在做什麼，答案要選 <span class="eng-hl">She&#x27;s reading</span>！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">make a card / make a cake (去掉不發音 e 加 -ing → making)</span><span class="pt-badge">read a picture book (看圖畫書/繪本)</span></div>
+          </div>
+        </div>
+        </div><div class="act-block"><h2 class="act-title">🎬 第六幕：全民英檢初級單字大決戰：K-Pop 舞步與滿分通關！（講義 P.158）</h2>
+        <div class="d-card mimi">
+          <div class="d-meta">
+            <span class="d-speaker">【系統・Mimi】</span>
+            <span class="d-page">📖 講義 P.158 全民英檢初級單字</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">恭喜進入最後一關：講義 P.158 <span class="eng-hl">全民英檢初級單字大決戰</span>！為什麼不懂韓語的外國人（<code class="code-pill">non-Korean speakers</code>）也能唱 K-Pop 歌曲呢？因為歌曲裡最洗腦的亮點 <span class="eng-hl">hook</span> 大部分（<span class="eng-hl">mostly</span>）是英文，而且旋律超好記（<span class="eng-hl">memorable</span>）、影片超迷人（<span class="eng-hl">attractive</span>），在全世界（<span class="eng-hl">worldwide</span>）都大受歡迎！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">hook (歌曲的亮點)</span><span class="pt-badge">mostly (大部分)</span><span class="pt-badge">memorable (難忘的/好記的)</span><span class="pt-badge">attractive (具吸引力的/迷人的)</span><span class="pt-badge">worldwide (在全世界)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card yuki">
+          <div class="d-meta">
+            <span class="d-speaker">【Yuki 由紀】</span>
+            <span class="d-page">📖 講義 P.158 全民英檢初級單字</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">沒錯！而且頁面左邊和右邊那八個英檢必考片語跟單字，我們一次串起來記：<br>1. <span class="eng-hl">in fact</span>（事實上）：<code class="code-pill">Zac and I are not just classmates. In fact, he is also my neighbor!</code> 查克跟我不只是同學，事實上，他也是（<span class="eng-hl">also</span>）我的鄰居！<br>2. <span class="eng-hl">speak</span>（說某種語言）與 <span class="eng-hl">learn</span>（學習）：<code class="code-pill">He can speak three languages, and he is learning Korean now.</code> 他會說三種語言，而且現在正在學韓語！<br>3. <span class="eng-hl">move</span>（動作／移動）：<code class="code-pill">Look! The dance moves for the song are cool!</code> 你看！那首歌的舞步（<span class="eng-hl">dance moves</span>）超酷！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">in fact (事實上)</span><span class="pt-badge">also (也，放 be 動詞後、一般動詞前)</span><span class="pt-badge">speak + 語言 (說某語言)</span><span class="pt-badge">learn (學習)</span><span class="pt-badge">dance moves (舞步)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card zac">
+          <div class="d-meta">
+            <span class="d-speaker">【Zac 查克】</span>
+            <span class="d-page">📖 講義 P.158 全民英檢初級單字</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">還有右邊這四個王牌考點：<br>4. <span class="eng-hl">on one&#x27;s own</span>（靠自己）：<code class="code-pill">The exercise is easy. I can do it on my own!</code> 這份練習題很簡單（<span class="eng-hl">easy</span>），我可以靠自己完成！<br>5. <span class="eng-hl">thanks to</span>（幸虧；由於）：<code class="code-pill">Thanks to Yuki, I can finish my report on time!</code> 多虧了由紀，我才能準時完成我的報告！<br>6. <span class="eng-hl">the reason for...</span>（…的原因／理由）與 <span class="eng-hl">success</span>（成功）：再也沒有人會問我 <code class="code-pill">What is the reason for your bad grade this time?</code>（你這次考差的原因是什麼？），因為我們一定能讓這次段考大獲全勝，<span class="eng-hl">make a success of the English test</span>！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">on one&#x27;s own (靠…自己)</span><span class="pt-badge">thanks to... (幸虧/由於…)</span><span class="pt-badge">the reason for... (…的原因/理由，介系詞用 for)</span><span class="pt-badge">success (成功)</span></div>
+          </div>
+        </div>
+        
+        <div class="d-card mimi">
+          <div class="d-meta">
+            <span class="d-speaker">【系統・Mimi】</span>
+            <span class="d-page">📖 全冊講義總結</span>
+          </div>
+          <div class="d-body">
+            <p class="d-text">太精采了！二十頁段考講義的所有單字、句型、閱讀測驗與全民英檢補充字彙已經 100% 破解完畢！祝妳第二次段考英文輕鬆拿下一百分，<span class="eng-hl">Have a great day</span>！</p>
+            <div class="d-tags">🎯 講義考點：<span class="pt-badge">Have a great day! (祝你有美好的一天！)</span></div>
+          </div>
+        </div>
+        </div>
+  </div>
+
+  <div id="panel-quiz" class="t-panel">
+    <div id="quiz-box"></div>
+  </div>
+</div>
+
+<script>
+function setSpd(r) {
+  document.getElementById('main-audio').playbackRate = r;
+}
+function showTab(name, btn) {
+  document.querySelectorAll('.t-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.t-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('panel-' + name).classList.add('active');
+  btn.classList.add('active');
+}
+
+const QUIZ = [{"q": "1. 【講義 P.115 博物館閱讀題】In Tate Britannia, please follow the ________ rules: (1) Watch out for your belongings. (2) Turn off the flash. (3) Do not touch the pictures. (4) Do not eat or drink.", "options": ["(A) front", "(B) up", "(C) above", "(D) after"], "ans": 2, "exp": "解析：因為四條規定列在該句的「正上方」，表示「上述的規定」英文固定用 the above rules（講義 P.115 閱讀第 1 題）。"}, {"q": "2. 【講義 P.115 博物館閱讀題】What CAN people do in Tate Britannia (Elton Yang's Old Pictures)?", "options": ["(A) Have apples or bananas.", "(B) Use the flash and take pictures.", "(C) Touch Elton Yang's old pictures.", "(D) Take pictures of Elton's pictures."], "ans": 3, "exp": "解析：海報第 2 條寫「You CAN take pictures, but please turn off the flash.」，所以可以拍攝老照片（但不開閃光燈），故選 (D)。"}, {"q": "3. 【講義 P.116 精熟試題第 4 題】Be careful ________ the four angles (稜角) of this table.", "options": ["(A) for", "(B) with", "(C) at", "(D) from"], "ans": 1, "exp": "解析：「小心對待／處理某物品」固定搭配介系詞 with（Be careful with...）。"}, {"q": "4. 【講義 P.116 精熟試題第 7 題】Your sisters are in their sleep now. Don't wake ________ up.", "options": ["(A) she", "(B) her", "(C) they", "(D) them"], "ans": 3, "exp": "解析：Your sisters 為複數，且 wake up 為可分片語動詞，代名詞必須用「受格 them」並放在中間（wake them up）。"}, {"q": "5. 【講義 P.116 精熟試題第 10 題】I can't see the door. It's dark. Let's ________ the light (燈).", "options": ["(A) turn in", "(B) turn to", "(C) turn off", "(D) turn on"], "ans": 3, "exp": "解析：因為太暗看不見門，所以要把燈「打開（turn on）」，別誤選成關掉（turn off）！"}, {"q": "6. 【講義 P.114 文法選擇第 11 題】Brian, do not talk with your friends ________ play games with your phone in class.", "options": ["(A) or", "(B) on", "(C) but", "(D) in"], "ans": 0, "exp": "解析：在否定句（do not...）中連接兩個對等動作「不要講話『或』玩手機」，連接詞必須用 or！"}, {"q": "7. 【講義 P.128 & P.129 星期介系詞陷阱】A: What day is the TV show?Is it ________ Friday afternoon? B: No, it's ________ Saturday evening.", "options": ["(A) on; at", "(B) at; in", "(C) on; on", "(D) in; on"], "ans": 2, "exp": "解析：只要指定「某一天」或「某一天的早上／下午／晚上（Friday afternoon, Saturday evening）」，介系詞一律用 on！"}, {"q": "8. 【講義 P.130 正午與午夜必考題】It's 12 ________ (12 p.m.). It's time for lunch (午餐). Let's go to the student cafeteria!", "options": ["(A) midnight", "(B) noon", "(C) a.m.", "(D) o'clock p.m."], "ans": 1, "exp": "解析：中午十二點（吃午餐時間）是 12 p.m. = 12 noon；半夜十二點才是 12 a.m. = 12 midnight。且 p.m. 不可加 o'clock。"}, {"q": "9. 【講義 P.149 文法選擇第 5 題】A: What are you ________? B: That picture. Isn't it beautiful?", "options": ["(A) look", "(B) look at", "(C) looking", "(D) looking at"], "ans": 3, "exp": "解析：問句有 be 動詞 are，需接現在分詞 V-ing；且答句有受詞「That picture（那幅畫）」，必須加上介系詞 at 才能接受詞，故選 looking at！"}, {"q": "10. 【講義 P.151 精熟試題第 5 題】Everyone ________ eating in the dining room, and someone ________ singing in the bathroom.", "options": ["(A) are; is", "(B) is; is", "(C) are; are", "(D) can; is"], "ans": 1, "exp": "解析：Everyone（每個人）與 Someone（某人）在英文文法中永遠視為「單數主詞」，後面搭配的 be 動詞必用 is！"}, {"q": "11. 【講義 P.151 精熟試題第 10 題】A: Who are you waiting ________? B: My parents.", "options": ["(A) X (不填)", "(B) to", "(C) for", "(D) at"], "ans": 2, "exp": "解析：wait 是不及物動詞，「等待某人」一定要搭配介系詞 for（wait for...），即使疑問詞 Who 移到句首，句尾的 for 仍不可省略！"}, {"q": "12. 【講義 P.156 學生餐廳克漏字】Welcome to the student cafeteria. Stand in line and ________ your turn. Do not ________ in the cafeteria.", "options": ["(A) Wait for; run", "(B) Talk to; running", "(C) Walk to; to run", "(D) Study for; can run"], "ans": 0, "exp": "解析：「等待輪到你」是 Wait for your turn；否定祈使句 Do not 後面必須接原形動詞 run。"}, {"q": "13. 【講義 P.157 克漏字 B】Go to your room and take a look ________ your mouse. Is she having a good life with you, Ruby?", "options": ["(A) to", "(B) at", "(C) with", "(D) for"], "ans": 1, "exp": "解析：片語 take a look 後面若要接看望的對象（your mouse），必須加上介系詞 at（take a look at...）。"}, {"q": "14. 【講義 P.157 閱讀測驗・魔王推理題】The birthday party for Ann is today, but her birthday is this Sunday — two days from now (兩天後). Question: What day is today?", "options": ["(A) Saturday.", "(B) Friday.", "(C) Thursday.", "(D) Sunday."], "ans": 1, "exp": "解析：文章說「派對在今天（today），但真正的生日是在兩天後的週日（this Sunday — two days from now）」，從週日往回推兩天，今天是星期五（Friday）！"}, {"q": "15. 【講義 P.158 全民英檢初級單字】________ to you, I can finish my report on time. And what is the reason ________ your bad grade?", "options": ["(A) Thanks; for", "(B) Thank; of", "(C) In fact; with", "(D) Mostly; at"], "ans": 0, "exp": "解析：Thanks to... 表「幸虧；由於…」；the reason for... 表「…的原因／理由」，固定搭配介系詞 for。"}];
+const qBox = document.getElementById('quiz-box');
+QUIZ.forEach((item, idx) => {
+  const card = document.createElement('div');
+  card.className = 'quiz-card';
+  const optsHtml = item.options.map((opt, oIdx) =>
+    `<button class="opt-btn" onclick="checkAns(${idx}, ${oIdx}, this)">${opt}</button>`
+  ).join('');
+  card.innerHTML = `
+    <div class="quiz-q">${item.q}</div>
+    <div class="opt-grid" id="opts-${idx}">${optsHtml}</div>
+    <div class="quiz-exp" id="exp-${idx}">✅ ${item.exp}</div>
+  `;
+  qBox.appendChild(card);
+});
+
+function checkAns(qIdx, oIdx, btn) {
+  const item = QUIZ[qIdx];
+  const parent = document.getElementById('opts-' + qIdx);
+  const btns = parent.querySelectorAll('.opt-btn');
+  btns.forEach((b, i) => {
+    b.disabled = true;
+    if (i === item.ans) b.classList.add('correct');
+    else if (i === oIdx) b.classList.add('wrong');
+  });
+  document.getElementById('exp-' + qIdx).style.display = 'block';
+}
+</script>
+</body>
+</html>
