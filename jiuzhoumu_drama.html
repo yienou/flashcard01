@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>《九周目：英文滿分無限重開版》語音劇本＆國中英文嵌入特訓</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --accent: #f43f5e;
+    --gold: #fbbf24;
+    --cyan: #38bdf8;
+    --emerald: #34d399;
+    --text: #f1f5f9;
+    --muted: #94a3b8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: 'Segoe UI', 'Microsoft JhengHei', sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.8;
+  }
+  header {
+    background: linear-gradient(135deg, #1e1b4b 0%, #31102f 50%, #0f172a 100%);
+    padding: 28px 20px; text-align: center; border-bottom: 2px solid rgba(244,63,94,0.4);
+  }
+  header h1 { margin: 0 0 8px; font-size: 1.85rem; color: #fff; }
+  header p { margin: 4px 0; color: #cbd5e1; font-size: 0.98rem; }
+  .nav-bar {
+    display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-top: 14px;
+  }
+  .nav-bar a {
+    text-decoration: none; color: #fff; background: rgba(255,255,255,0.1);
+    padding: 7px 14px; border-radius: 999px; font-size: 0.88rem; border: 1px solid rgba(255,255,255,0.2);
+  }
+  .nav-bar a:hover { background: var(--accent); }
+  .container { max-width: 1040px; margin: 0 auto; padding: 20px; }
+  .audio-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: 16px; margin-bottom: 24px;
+  }
+  .audio-box {
+    background: var(--card); border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 14px; padding: 16px 18px; box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  }
+  .audio-box h3 { margin: 0 0 6px; font-size: 1.05rem; color: var(--gold); }
+  .audio-box p { margin: 0 0 10px; font-size: 0.85rem; color: var(--muted); }
+  audio { width: 100%; height: 40px; }
+  .tabs {
+    display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;
+  }
+  .tab-btn {
+    padding: 10px 18px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.15);
+    background: var(--card); color: var(--text); cursor: pointer; font-weight: 700; font-size: 0.94rem;
+  }
+  .tab-btn.active {
+    background: var(--accent); color: #fff; border-color: var(--accent);
+  }
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
+  .loop-block {
+    background: rgba(30,41,59,0.7); border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px; padding: 18px 20px; margin-bottom: 22px;
+  }
+  .loop-title {
+    margin: 0 0 14px; font-size: 1.25rem; color: var(--gold);
+    border-bottom: 1px solid rgba(251,191,36,0.3); padding-bottom: 8px;
+  }
+  .line-card {
+    display: flex; gap: 14px; padding: 12px 14px; border-radius: 12px;
+    margin-bottom: 12px; background: rgba(15,23,42,0.75);
+    border-left: 4px solid var(--cyan);
+  }
+  .line-card.song { border-left-color: #f43f5e; }
+  .line-card.wen { border-left-color: #38bdf8; }
+  .line-card.sys { border-left-color: #a855f7; }
+  .speaker-badge {
+    min-width: 82px; font-weight: 800; font-size: 0.92rem; color: #fff;
+    padding-top: 2px;
+  }
+  .line-card.song .speaker-badge { color: #fb7185; }
+  .line-card.wen .speaker-badge { color: #38bdf8; }
+  .line-card.sys .speaker-badge { color: #c084fc; }
+  .line-body { flex: 1; }
+  .line-text { margin: 0; font-size: 1.02rem; }
+  .eng-word {
+    color: #fde047; font-weight: 800; background: rgba(250,204,21,0.14);
+    padding: 1px 6px; border-radius: 5px; border-bottom: 2px solid #eab308;
+  }
+  .inline-code {
+    background: rgba(56,189,248,0.15); color: #7dd3fc; padding: 1px 6px; border-radius: 4px;
+  }
+  .tag-row {
+    margin-top: 8px; font-size: 0.85rem; color: #cbd5e1;
+    display: flex; flex-wrap: wrap; gap: 6px; align-items: center;
+  }
+  .v-tag {
+    background: rgba(52,211,153,0.15); color: #6ee7b7; border: 1px solid rgba(52,211,153,0.35);
+    padding: 2px 8px; border-radius: 999px; font-size: 0.8rem; font-weight: 600;
+  }
+  .orig-box {
+    background: var(--card); border-radius: 16px; padding: 24px;
+    border: 1px solid rgba(255,255,255,0.1);
+  }
+  .orig-sec { color: var(--gold); margin-top: 24px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 6px; }
+  .sec-badge {
+    background: var(--accent); color: #fff; padding: 2px 8px; border-radius: 6px;
+    font-weight: 700; font-size: 0.85rem; margin-right: 6px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>🔥 《九周目：英文滿分無限重開版》</h1>
+  <p>YouTube 爆款短劇《九周目》（QiwwoaWru8o）完整語音劇本 × 國中一年級翰林版英文單字與段考考點自然嵌入</p>
+  <div class="nav-bar">
+    <a href="english-2000.html">⬅ 返回 2000 單字首頁</a>
+    <a href="taipei_g7_midterm2_drama.html">🎭 國一二段 15 分鐘霸總特訓</a>
+    <a href="ceo_drama_player.html">🎧 霸總 Ch.01-05 廣播劇</a>
+    <a href="https://www.youtube.com/watch?v=QiwwoaWru8o" target="_blank">▶ YouTube 原劇影片</a>
+  </div>
+</header>
+
+<div class="container">
+  <div class="audio-grid">
+    <div class="audio-box">
+      <h3>🎧 1. 《九周目》國中英文嵌入版・多角色廣播劇 MP3</h3>
+      <p>由宋蘊秋、聞堰、攻略系統／楊蓁三聲道演繹，自然鑲嵌 70+ 國一核心單字與二段文法考點！</p>
+      <audio controls preload="metadata"><source src="jiuzhoumu_en_drama.mp3" type="audio/mpeg"><source src="九周目_國中英文嵌入廣播劇.mp3" type="audio/mpeg"></audio>
+    </div>
+    <div class="audio-box">
+      <h3>🎧 2. YouTube 原劇下載語音 MP3（全長 30:28）</h3>
+      <p>原汁原味備份音檔（QiwwoaWru8o），可對照下方全 22 節逐字稿收聽。</p>
+      <audio controls preload="metadata"><source src="jiuzhoumu_orig.mp3" type="audio/mpeg"><source src="九周目_YouTube原劇語音_QiwwoaWru8o.mp3" type="audio/mpeg"></audio>
+    </div>
+  </div>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('full22', this)">📖 全 22 節完整原劇英文嵌入版（100+ 單字自然融入）</button>
+    <button class="tab-btn" onclick="switchTab('embedded', this)">🎬 多角色廣播劇精華對白版（含考點解析）</button>
+    <button class="tab-btn" onclick="switchTab('original', this)">📜 YouTube 原劇純中文完整逐字稿（全 22 節）</button>
+  </div>
+
+  <div id="tab-full22" class="tab-panel active">
+    <div class="orig-box">
+      <h2>🔥 《九周目》全 22 節完整原劇英文嵌入版（自然語境鑲嵌全本）</h2>
+<p class="orig-meta">- **原劇來源**：[https://www.youtube.com/watch?v=QiwwoaWru8o](https://www.youtube.com/watch?v=QiwwoaWru8o)（全長 30 分 28 秒，共 9 周目、22 節完整故事）</p>
+<p class="orig-meta">- **雙音檔支援**：</p>
+<p>  1. 🎧 <span class="eng-word">國中英文嵌入版多角色廣播劇</span>：<code class="inline-code">九周目_國中英文嵌入廣播劇.mp3</code></p>
+<p>  2. 🎧 <span class="eng-word">YouTube 原劇備份語音</span>：<code class="inline-code">九周目_YouTube原劇語音_QiwwoaWru8o.mp3</code></p>
+<p class="orig-meta">- **英文嵌入原則**：不採用生硬的「整句英文＋死板中文直譯」，而是將**國中一年級翰林版核心單字、片語（U1～U6）與基礎單字**自然替換或融入原劇每一節的敘事與角色對話中，並透過下一個分句或角色反應自然呼應中文意思。</p>
+<hr/>
+<h3 class="orig-sec">【楔子＆第 01 節】一周目終局：天台上的表白與物理重開 `[00:00 - 01:41]`</h3>
+<p>系統逼我 <span class="eng-word">follow</span> 它的 <span class="eng-word">rules</span> 去攻略男主：「妳乖乖遵守規定，只有成為他的 <span class="eng-word">girlfriend</span>，妳 <span class="eng-word">can</span> 完成任務回到原本的世界。」</p>
+<p>我把聞堰約到搖搖欲墜的天台 <span class="eng-word">place</span>，在這個風大又危險的地方看著他：「我 <span class="eng-word">can</span> 當你女朋友嗎？」</p>
+<p>聞堰鄙夷地笑：「<span class="eng-word">Take a look</span> at 妳自己！妳也不拿鏡子瞧一瞧，像妳這種前不凸後不翹的舔狗，我怎麼可能讓妳跟我走 <span class="eng-word">together</span>？」</p>
+<p>既然不肯跟我在一起，我伸出 <span class="eng-word">hand</span> 輕輕一推，這一手直接讓聞堰跌落天台。</p>
+<p>「愛你老聞，下輩子 <span class="eng-word">see you</span>。」</p>
+<p>我扭頭對系統道：「我解決了男主，這一世的 <span class="eng-word">story</span> 已經結束了。<span class="eng-word">Be ready</span>，快準備好開啟下一周目吧！多刷幾 <span class="eng-word">times</span>，多試幾次他總會答應我的表白。」</p>
+<p><span class="sec-badge">第 01 節 [00:25]</span></p>
+<p>四周尖叫聲此起彼伏。我站在天台上，探出身子往下 <span class="eng-word">look at</span> 一樓的水泥地。</p>
+<p>聞堰躺在那裡雙目圓睜，死死盯著上空，臉上還殘留著極致的驚懼，彷彿墜落的那一刻都不敢相信，我會把他推下天台。</p>
+<p>系統崩潰大喊：「<span class="eng-word">Oh my!</span> 天哪！妳怎麼敢 <span class="eng-word">break the rules</span>？沒經過我同意就違反規定殺了男主！」</p>
+<p>我的表情十分 <span class="eng-word">quiet</span>，語氣平靜又安靜：「你當初 <span class="eng-word">wake me up</span>，把我從睡夢中叫醒帶到這個世界時，也沒有經過我的同意。」</p>
+<p>我在現實世界待得好好的，一覺 <span class="eng-word">wake up</span> 醒來就穿越到這本書中。系統手舞足蹈地告訴我是 <span class="eng-word">lucky</span> 的女孩，說我運氣真好能得到它的綁定，換來一次穿越體驗人生的機會。</p>
+<p>它說：「妳瞧，隔壁那個女生穿越到年代文，成為糙漢 <span class="eng-word">with</span> 七個孩子的後媽，跟那一家子日子過得紅紅火火。」</p>
+<p>我冷笑：「人販子拐賣女生進深山，給老鰥夫當媳婦養野種？」</p>
+<p>它叫嚷：「再 <span class="eng-word">take a look</span> 瞧瞧這個，穿到古代流放路上開荒養罪臣，終於幫助男主殺回京城。」</p>
+<p>我吐槽：「人販子拐賣女生丟到老林，榨乾價值給有前科的 <span class="eng-word">man</span> 當 <span class="eng-word">free</span> 不支薪的免費老媽子？」</p>
+<p>它破口大罵：「穿越的事兒，怎麼能叫拐賣呢？」</p>
+<p>系統逼我攻略男主，當一隻盡職盡責的舔狗，不配合就會有懲罰。我兢兢業業當工具人整整五年，只為換來回 <span class="eng-word">home</span> 家的機會；可好感度始終 <span class="eng-word">only</span> 停在五十，僅僅五十分讓回家的日子遙遙無期。</p>
+<p>我累了。既然聞堰不願意愛我，那我就重開到他願意愛為止。</p>
+<p>他的兄弟們——那群 <span class="eng-word">guys</span> 已經紛紛跑上天台，那幫傢伙驚恐中帶著憤怒：「妳居然殺了聞哥！我一定要讓妳給聞哥償命！」</p>
+<p>命大概是償不了了。他們在向我跑來時，小世界開始坍塌，眼前 <span class="eng-word">all</span> 一切事物全都碎裂成無數帶著稜角的鏡面。</p>
+<p>碎片重組，<span class="eng-word">second</span> 第二周目開啟。有道尖銳的女聲在我耳邊不滿：「聞哥讓妳喝妳就喝，矯情個什麼勁兒？」</p>
+<hr/>
+<h3 class="orig-sec">【第 02～03 節】二周目：暴雨酒吧真心話大冒險 `[01:42 - 04:07]`</h3>
+<p><span class="sec-badge">第 02 節 [01:42]</span></p>
+<p>我猛地一抬頭，碎裂的世界拼合。映入眼簾的是一個裝修富麗堂皇的酒吧包間，一群男男女女正圍成一圈 <span class="eng-word">around</span> the table，圍著桌子玩真心話與大冒險 <span class="eng-word">game</span>。</p>
+<p><span class="eng-word">Second</span> 周目啟動，但系統明顯能量不足，所以 <span class="eng-word">time</span> 時間只撥回到了 three <span class="eng-word">months</span> 前——三個月前的 <span class="eng-word">Friday night</span>。</p>
+<p>這個星期五晚上，聞堰 <span class="eng-word">with</span> 他的兄弟們正在酒吧喝酒開 <span class="eng-word">party</span>。外面瓢潑大雨，聞堰在這場派對上與他的白月光打賭，賭我能不能隨叫隨到。</p>
+<p>我本不想來，可系統說：「不去怎麼 <span class="eng-word">can</span> 攻略男主呢？」我被電流電得渾身寒毛直豎，淋得渾身濕透出現在酒吧，成為包間裡人人嘲笑的舔狗。</p>
+<p>白月光撇著嘴，不願意喝這三杯烈酒，聞堰就命令我替他的白月光喝下去。</p>
+<p>許是我保持 <span class="eng-word">quiet</span> 一語不發的時間太久，楊蓁倚靠在聞堰身邊，嬌笑道：「聞哥，看來你的小舔狗 <span class="eng-word">can&#x27;t</span> 替我喝這杯酒，連這點小事都做不到呢？」</p>
+<p>按照第一世的劇本，聞堰本該冷著神色逼我喝下去，而 <span class="eng-word">wait for</span> 等著我的下場，是胃痛到去醫院打點滴。</p>
+<p>可這一次，聞堰猛地慘叫一聲起身，額頭冷汗涔涔，眼底的驚懼殘留，像是 <span class="eng-word">think of</span> 突然想起什麼令他恐懼的畫面。</p>
+<p>楊蓁不明所以，聲音依然嬌柔：「聞哥你怎麼了？」</p>
+<p>聞堰大口大口地呼吸著新鮮空氣，被推下二十幾樓活活摔死的痛感還殘存在記憶裡，腦骨撞擊地面的聲音猶在耳畔。他倏忽抬頭 <span class="eng-word">look at</span> 我，盯著我的眸底恐懼中帶著極致的憤怒。</p>
+<p>我頓時明瞭：系統能量不足，我 <span class="eng-word">can</span> 保留上一周目的記憶，那麼身為男主的聞堰自然也能！</p>
+<p>我衝他露出一個猙獰的笑，用最直白、最不繞彎子的話問道：「聞堰，我 <span class="eng-word">can</span> 當你女朋友嗎？」</p>
+<p><span class="sec-badge">第 03 節 [02:54]</span></p>
+<p>像是惡鬼從地府來索命，聞堰臉上的恐懼更甚。</p>
+<p>楊蓁像是聽到什麼笑話，噗嗤一笑：「怎麼著？當了幾年的舔狗，還真 <span class="eng-word">think</span> 以為自己能上位了？聞哥不過是拿妳當我的替身 <span class="eng-word">only</span>，妳就只是個替代品而已！」</p>
+<p>其他 <span class="eng-word">guys</span> 也紛紛附和，那群損友哄堂大笑：「舔狗 <span class="eng-word">today</span> 今兒個把自己當人看了！」「也不拿鏡子 <span class="eng-word">take a look</span> 照照自己的模樣，妳也配得上聞哥？」「這樣的身材家世，能當聞哥舔狗已經是妳八輩子修來的 <span class="eng-word">lucky</span> 好運氣了！」</p>
+<p>聞堰也逐漸從驚懼中緩過神來，對我破口大罵：「宋蘊秋，我沒有答應妳的表白，妳居然敢把我從天台上推下去！<span class="eng-word">Don&#x27;t talk to me</span>！別跟我講話，妳也不看看自己算個什麼東西？我怎麼會眼瞎喜歡上妳這種 <span class="eng-word">woman</span>——」</p>
+<p>我歪歪頭：「那就是不同意囉？看來 <span class="eng-word">it&#x27;s my turn</span>，這下輪到我出手了。」</p>
+<p>他剩餘的話全部噎了回去，血紅的眼珠裡全是不可置信。目光下移，一截斷裂的酒瓶狠狠插入他脖頸處的動脈，靠在他身旁的楊蓁被濺了一臉溫熱。</p>
+<p>寂靜一 <span class="eng-word">second</span>，才過了一秒鐘，慘叫聲便在小小的包間裡左衝右突，繼而變成此起彼伏的尖叫：</p>
+<p>「殺人了！<span class="eng-word">Hurry up</span>！快點打 120 啊！宋蘊秋妳別過來，我跟聞堰不熟的！」「解決完他就 <span class="eng-word">can&#x27;t</span> 再動我了喔……」「是楊蓁提議打電話讓妳過來的，說要 <span class="eng-word">watch</span> 看舔狗笑話……跟我沒有關係啊！」</p>
+<p>聞堰瞪大了眼，他不敢相信，剛剛重生一分鐘的他，再次敗在我 <span class="eng-word">hand</span> 手裡。</p>
+<p>系統已經瀕臨崩潰：「妳怎麼又解決了男主？<span class="eng-word">Please don&#x27;t fight with him</span>！拜託別再跟他動手了！」</p>
+<p>我糾正：「他不是男主，他只是與人販子勾搭的買家而已，偽裝成男主攫取我的氣運。我是在 <span class="eng-word">fight for</span> 我自己的人生與自由而戰！所以，愛你老聞，我們下下輩子 <span class="eng-word">see you</span>。」</p>
+<hr/>
+<h3 class="orig-sec">【第 04～05 節】三周目：夏夜別墅與竄改的密碼鎖 `[04:08 - 07:44]`</h3>
+<p><span class="sec-badge">第 04 節 [04:08]</span></p>
+<p>世界分崩離析，聞堰的臉在我面前分裂成無數細小的碎片，再次整合。<span class="eng-word">Third</span> 第三周目啟動。</p>
+<p>天上的雨綿綿不絕，我渾身濕透。入夏進入 <span class="eng-word">June</span> 六月後，江城的梅雨開始頻繁起來。我的 <span class="eng-word">hand</span> 手中正拿著一盒用品，手機裡還有聞堰發給我的短信：</p>
+<p>【宋蘊秋，<span class="eng-word">hurry</span> 快去幫我買盒超薄送到別墅 <span class="eng-word">place</span> 我家來。別自作多情，這是我 <span class="eng-word">with</span> 蓁蓁兩個人要用的，妳這樣的人只配跑腿。】</p>
+<p>時間線後退到 six <span class="eng-word">months</span> 六個月前。系統已經從最初的耀武揚威變成苦苦哀求：「<span class="eng-word">Please</span>，拜託妳 <span class="eng-word">can&#x27;t</span> 再動男主了。」</p>
+<p>我點頭：「他只要答應成為我男朋友，我 <span class="eng-word">sure</span> 當然不會再動他。」系統再無任何動靜。</p>
+<p>此刻 <span class="eng-word">right now</span>，我立刻走到聞堰的別墅門外 <span class="eng-word">in front of</span> the door，站在門口前摁上了門鈴。如果沒記錯的話，在 <span class="eng-word">first</span> 第一周目裡，兩人乾柴烈火，在客廳 <span class="eng-word">living room</span> 就已經擁抱成一團。之前我送東西來時，楊蓁鄙夷地笑我：「賤不賤呢，眼巴巴地上趕著倒貼，也不看看自己是什麼貨色。」聞堰對我這隻舔狗滿意得很，拿了東西就將我關在門外。</p>
+<p>這一次 <span class="eng-word">this time</span>，門鈴剛剛被摁響，楊蓁輕蔑的聲音傳來：「聞哥，你那隻舔狗還真眼巴巴地送來了。」她似乎起身準備 <span class="eng-word">open</span> 開門。</p>
+<p>我聽到聞堰陡然驚懼的叫喊，那是從喉嚨裡發出的「嗬嗬」聲，並大口大口喘著粗氣。驚懼與死亡還縈繞在心頭，令他手脚發軟，渾身止不住地哆嗦。他已經死了 two <span class="eng-word">times</span> 兩次了：第一次被推下天台，<span class="eng-word">second</span> 第二次被酒瓶碎片解決。</p>
+<p>眼看楊蓁已經起身去開門，聞堰沙啞著嗓子吼：「<span class="eng-word">Don&#x27;t open it</span>！千萬不要開門！」</p>
+<p>晚了。因為我知道大門密碼：<code class="inline-code">011207</code>——白月光楊蓁 <span class="eng-word">in December</span> 十二月七日的 <span class="eng-word">birthday</span>。聞堰很早就將她生日這組密碼告訴了我，為了讓我給他買飯買藥送資料，當一隻隨叫隨到的工具人。哪怕我高燒到 39 度，他也要折騰我跑一趟；我拒絕，系統就會狠狠懲罰；我答應，高燒讓我住了 three <span class="eng-word">days</span> 整整三天的醫院，病好後繼續被聞堰折磨。怎麼做都是錯的。</p>
+<p>門已經打開，我立於黑暗中，身後是江城入夏的第一場雨，閃電劃過，照亮我陰森的臉。我舉起手裡的盒子，笑吟吟地問道：「聞堰，我 <span class="eng-word">can</span> 當你女朋友嗎？」</p>
+<p><span class="sec-badge">第 05 節 [05:53]</span></p>
+<p>楊蓁 <span class="eng-word">first</span> 第一個反應過來，衝我翻了個白眼，整個人鑽進聞堰僵硬的懷抱：「妳以為聞哥喊妳來是為了表白的嗎？笑死了，遇到個有錢公子哥就像塊狗皮膏藥，死纏爛打不放。」</p>
+<p>聞堰渾身抖得越來越厲害，離得 <span class="eng-word">near</span> 這麼近，我甚至能聽到他上下牙輕微的磕碰聲。他一把推開楊蓁，不顧對方跌倒在地的痛呼，顫抖著手指指向我：「宋蘊秋，妳簡直就是個瘋子！不就是沒答應妳的表白嗎？妳居然殺了我 two <span class="eng-word">times</span> 兩次！<span class="eng-word">Today</span> 今天，我絕不會讓妳得逞！」</p>
+<p>聞堰壯著胆子，色厲內荏地喊出這些話，轉身就想越過我往大門處逃。</p>
+<p>晚了。我在進門時，順手鎖了門，還把密碼給改了。得益於我是隻呼來喝去的舔狗，對別墅大門的密碼鎖比自家出租屋的門還要熟悉。</p>
+<p>聞堰絕望地擺弄幾下門鎖，毫無動靜。他的後背洇出一層冷汗，汗毛根根豎立。一 <span class="eng-word">turn</span> 轉過身回頭，我舉著尖刀站在距離他三米遠的 <span class="eng-word">place</span>。這是把水果刀，刀刃削鐵如泥，我曾拿著這把刀為聞堰削過 <span class="eng-word">apples</span>，削蘋果時手指上還留下一道至今未曾消退的疤痕。</p>
+<p>死亡的恐懼再次籠罩聞堰，他牙齒打顫：「蘊秋，<span class="eng-word">wait a minute</span>，先等一下，妳別衝動，<span class="eng-word">let&#x27;s have a talk</span>，咱們有話好好談一談！」</p>
+<p>「好好 <span class="eng-word">talk</span>？」我咧嘴露出森白牙齒，「聞堰，你不是早就知道我是攻略女了嗎？你不就是喜歡 <span class="eng-word">watch</span> 看我被迫當舔狗的模樣嗎？」</p>
+<p>聞堰很早就知道我是個攻略女，甚至在 <span class="eng-word">before</span> 我之前，他遇到了 <span class="eng-word">many</span> 好多攻略女，看著一個又一個的女孩在系統的脅迫下，被逼對他露出笑臉、卑微討好。</p>
+<p>我去酒吧那晚，<span class="eng-word">before</span> 推門而入之前，我親耳聽到聞堰 <span class="eng-word">with</span> 兄弟們調笑：「宋蘊秋一個攻略女，會不會被抹殺全看我的心情，下再大的雨，我一通電話她也得過來。等玩膩了這隻舔狗，找個理由一腳踢開她，她的系統很快會再綁定 <span class="eng-word">next</span> 下一個女主過來的。誰讓我是這個世界的男主呢？」</p>
+<p>他的兄弟們以為他喝多了說胡話，<span class="eng-word">only</span> 只有我知道，他說的是事實。在我 <span class="eng-word">before</span> 之前，已經有三個攻略女因為沒有達成目標被抹殺掉了。</p>
+<p>所以，我 <span class="eng-word">now</span> 現在徹底想通了。既然他不同意做我男朋友，那我就重開到他同意為止！</p>
+<p>我高舉起刀，聞堰驚恐大叫：「宋蘊秋，<span class="eng-word">stop</span>！妳住手——」</p>
+<p>刀光閃過，楊蓁被嚇得尖叫聲幾欲震破耳膜。聞堰還想再說些什麼，可是劇痛讓他一個字都說不出。面前的世界再次分崩離析，<span class="eng-word">fourth</span> 第四周目降臨。</p>
+<hr/>
+<h3 class="orig-sec">【第 06～11 節】四周目：豪華郵輪假意妥協與斷電封艙 `[07:45 - 15:45]`</h3>
+<p><span class="sec-badge">第 06 節 [07:45]</span></p>
+<p>海水的鹹腥夾雜著潮濕湧入我的鼻孔。我再一睜眼，正站在一艘郵輪的甲板上。</p>
+<p>一旁，聞堰的兄弟們正圍著 <span class="eng-word">around</span> 楊蓁，在她四周恭維：「不容易啊，蓁蓁終於回國了，妳知不知道，聞哥 <span class="eng-word">think of</span> 妳、想妳都要想瘋了！」「為了緩解思念，聞哥養了個替身在身邊，可替身永遠是替身，怎麼 <span class="eng-word">can</span> 跟正主比呢？」「妳一回國，某些人的幻想可就要戳破了。」</p>
+<p>我這才想起，這是一年前的 <span class="eng-word">weekend</span>，楊蓁週末剛回國的 <span class="eng-word">second</span> 第二天，聞堰特意包了郵輪出海開 <span class="eng-word">party</span> 為她接風洗塵。臨出發 <span class="eng-word">before</span> 之前，還特意給我打電話，讓我一定別遲到。</p>
+<p>我自然知道他們的目的，這趟出海，我存在的意義就是被他們捉弄取樂。通過貶低我，聞堰可以證明他心裡 <span class="eng-word">only</span> 只有白月光一人，而楊蓁也樂見其成。她出國前還是千金大小姐，短短幾年家族企業破敗，留在這個圈子 <span class="eng-word">only</span> 唯一的機會，那就是 <span class="eng-word">with</span> 聞堰聯姻，成為聞太太。</p>
+<p>這場郵輪之旅豪華奢靡，但又與我無關。因為第一世我被他們捉弄，丟到甲板 <span class="eng-word">under</span> 下面的黑漆漆貨艙裡關了 three <span class="eng-word">days</span> 整整三天，使我徹底患上了幽閉恐懼症。</p>
+<p>我回神，<span class="eng-word">look at</span> 聞堰。他迎上我的視線，猛地雙腿一軟跌坐在地，手下意識地捂住腹部並不存在的傷口——與 <span class="eng-word">third</span> 三周目裡倒下時的姿勢一模一樣，渾身被冷汗浸透。</p>
+<p>兄弟們笑著打圓場：「聞哥這是怎麼了？<span class="eng-word">see</span> 見到了蓁姐，開心得都站不穩了？」</p>
+<p>越過人群，我們四目相對，聞堰的臉上徹底染上驚懼。有人喊我：「舔狗呢？沒 <span class="eng-word">see</span> 看見妳主子摔倒了，還不 <span class="eng-word">hurry up</span> 趕緊過去 <span class="eng-word">give him a hand</span> 扶他一把？」</p>
+<p>我沒有動，而是不錯眼珠地盯著他，問出那句如 <span class="eng-word">magic</span> 魔法咒語般的話：「聞堰，我 <span class="eng-word">can</span> 當你女朋友嗎？」</p>
+<p><span class="sec-badge">第 07 節 [09:00]</span></p>
+<p>眾人一片哄笑，裹挾著海風吹到我的臉上：「妳還真認不清自己是個什麼東西！」「蓁姐都回國了，妳以為還有妳什麼事？」「就是，聞哥可是 <span class="eng-word">day and night</span> 日日夜夜一直 <span class="eng-word">wait for</span> 等著蓁姐回國，妳不過是個打發 <span class="eng-word">time</span> 時間的玩意兒罷了。」</p>
+<p>楊蓁也是一臉不屑，等著 <span class="eng-word">watch</span> 看我出糗被打臉。唯有跌坐在地的聞堰驚魂未定，他使勁喘著粗氣，努力平復心底的恐懼，然後微微掃了眼 <span class="eng-word">around</span> 四周：碩大的郵輪、平坦的甲板、一望無際的海洋，周圍並沒有什麼趁手尖銳的利器，而他們 <span class="eng-word">many</span> 人多，我 <span class="eng-word">only</span> 只有一個人。</p>
+<p>一群人等著聞堰嘲笑我這隻舔狗，準備 <span class="eng-word">together</span> 一起跟風羞辱。只見聞堰從地上緩緩 <span class="eng-word">stand up</span> 站起身，不動聲色地後退兩步，驚懼的眸底劃過一絲晦暗與憤懣，而後，竟然說出與前三周目完全不同的話：</p>
+<p>「<span class="eng-word">Sure</span>……好，我……我答應妳。」</p>
+<p><span class="sec-badge">第 08 節 [09:40]</span></p>
+<p>事情似乎有了轉機，前三周目他不同意的事，這一次 <span class="eng-word">this time</span> 輕而易舉地答應了。</p>
+<p>我對系統道：「<span class="eng-word">Take a look</span>，你瞧瞧，比起我當舔狗攻略男主來換取成為他女朋友的結局，倒不如換成物理攻打男主來得更快！」系統徹底 <span class="eng-word">quiet</span> 閉嘴安靜。</p>
+<p>我露出久違的微笑：「<span class="eng-word">Great</span>！太棒了男朋友，餘生 <span class="eng-word">please</span> 請多多指教。」</p>
+<p>聞堰乾咽了口唾沫。一旁的楊蓁急了，她抓住聞堰的胳膊不可置信道：「聞哥哥，你怎麼會喜歡她呢？你 <span class="eng-word">sure</span> 肯定是在跟她開玩笑的對吧？你明明說過 <span class="eng-word">only</span> 只喜歡我一個人的！」</p>
+<p>一旁兄弟們也紛紛不解：「就是啊，聞哥你 <span class="eng-word">when</span> 什麼時候喜歡這隻舔狗了？」「哎呀，聞哥肯定是在說笑話，<span class="eng-word">before</span> 之前不是說好了要把她關到甲板 <span class="eng-word">under</span> 下面取樂嗎？」</p>
+<p>大家你一言我一語，沒有人注意到聞堰逐漸冷靜下來的眼眸。他 <span class="eng-word">look at</span> 我，眸底擠出幾分虛假的深情，海風吹動他垂落眉骨的瀏海，遮住了大半陰鷙。他甩開楊蓁的 <span class="eng-word">hand</span>，衝我深情道：「我喜歡的人 <span class="eng-word">only</span> 只有蘊秋，才不會喜歡別人呢。既然我答應了蘊秋的表白，那從 <span class="eng-word">today</span> 今天開始，她就是我 <span class="eng-word">girlfriend</span> 了。女朋友，我有件 <span class="eng-word">gift</span> 禮物要送給妳，<span class="eng-word">follow me</span> 跟我進船艙吧。」</p>
+<p>他在說這句話時，有一閃而過的狠厲，被我敏銳地捕捉到了。</p>
+<p><span class="sec-badge">第 09 節 [10:35]</span></p>
+<p>聞堰過來牽我的 <span class="eng-word">hand</span>，他的掌心全是濡濕的汗水，手指在微微發抖，這樣一個簡單的牽手動作，似是 <span class="eng-word">use</span> 用盡了全身的力氣控制。</p>
+<p>剛走進船艙，他便迫不及待地鬆開了我的手。身後 <span class="eng-word">behind</span> 跟著的，是一群一頭霧水的兄弟們，以及眼眶紅紅的楊蓁。</p>
+<p>聞堰說，要送我一件禮物，當成我們 <span class="eng-word">first day</span> 第一天成為男女朋友的紀念。我含笑 <span class="eng-word">watch</span> 看著他在船艙散落的行李 <span class="eng-word">bags</span> 袋子中翻找。</p>
+<p>片刻後，聞堰驟然舉起一把尖刀，面目猙獰囂張地叫嚷：「臭女人，妳殺了我 three <span class="eng-word">times</span> 三次，這一次 <span class="eng-word">this time</span>，我一定不會讓妳得逞了！」</p>
+<p>他的兄弟們嚇傻了，大家只是開著遊艇出海開 <span class="eng-word">party</span>，喝香檳吃美食，順便拿我找樂子，誰也沒打算鬧出人命。眾人驚呼著後退，就連楊蓁都忘記啜泣，發出我聽了三周目從未變過的尖叫，向後逃離時被 <span class="eng-word">chair</span> 椅子絆倒，摔到地上瑟瑟發抖。</p>
+<p>一片兵荒馬亂中，唯有我站在原處，露出失望的苦笑：「原來你答應我當你女朋友的話，是假的啊。」</p>
+<p>聞堰臉上表情愈發猙獰，額頭甚至有青筋暴出，握刀的手骨節咔咔作響：「也不照照鏡子 <span class="eng-word">take a look</span> 看看自己是什麼貨色，憑妳的家世也配當我女朋友？就妳這樣的女人，能讓我玩幾 <span class="eng-word">days</span> 都是妳的造化！」</p>
+<p>聞堰已經不耐煩，舉著尖刀衝我刺來。我快速閃身 <span class="eng-word">run</span> 跑出船艙外，然後反手將門死死鎖上——這是我在 <span class="eng-word">follow</span> 跟著聞堰進船艙時早已 <span class="eng-word">think of</span> 想好的退路。</p>
+<p>裡面的人被困，聞堰怒氣更甚，瘋了似的捶打艙門：「宋蘊秋，<span class="eng-word">hurry up</span> 快給老子 <span class="eng-word">open the door</span>！這一世，我一定不會饒了妳！」</p>
+<p>真是失望，本以為這周目 <span class="eng-word">can</span> 完成任務的。我去了駕駛艙，裡面空無一人，遊艇正停在 <span class="eng-word">quiet</span> 寂靜的海面，茫茫大海，一片孤舟。我的嘴角掛上一絲玩味的笑：這一周目的男主居然敢反抗，那我不妨多幾分耐心 <span class="eng-word">with</span> 他玩玩。我抬手 <span class="eng-word">turn off</span> 整艘遊艇的總電閘，把電源與設備通通關掉！頃刻間，本就晚霞落幕的天地，只剩一片寂靜的黑，與天邊一絲即將消失的微弱光線。</p>
+<p><span class="sec-badge">第 10 節 [12:08]</span></p>
+<p>系統捂著腦袋發出哀鳴：「妳到底要幹什麼？難道是 <span class="eng-word">wait for</span> 等天完全黑透再去船艙下手嗎？妳要知道男女力量的懸殊，更何況聞堰 <span class="eng-word">now</span> 現在手中有尖刀，妳不是他的對手！」</p>
+<p>我看向天邊最後一絲光線消失，天地變成混沌的黑，水天一色，分不清海平面 <span class="eng-word">where</span> 在哪裡：「<span class="eng-word">Tonight</span> 今晚我沒有去船艙的打算。聞堰之所以敢先答應再動手，不就是仗著自己體力上的優勢以及 <span class="eng-word">many</span> 人多勢眾嗎？他 <span class="eng-word">can</span> 想到的事，我難道想不到嗎？」</p>
+<p>系統語氣逐漸染上驚懼：「那妳到底想怎麼樣？<span class="eng-word">Listen to</span> 聽我的話好好討好男主，等他發現妳的好，自然就願意 <span class="eng-word">with</span> 妳在一起了。妳要是再這樣下去，別怪我懲罰妳了！」</p>
+<p>我充耳不聞，駕駛著船繼續向深海航行，<span class="eng-word">turn off</span> 關閉了 <span class="eng-word">all</span> 所有的通訊與衛星設備。</p>
+<p>系統忍不住給我懲罰：「檢測到宿主對男主有攻擊傾向，即將實施電刑！」熟悉的電流竄上我的脊椎，我弓起身子蜷縮在 <span class="eng-word">small</span> 小小的駕駛艙。這次的電擊持續 <span class="eng-word">time</span> 時間十分短，我抹了把額頭的汗水，輕蔑道：「你應該沒有多少能量了吧？」</p>
+<p>系統一頓。男主只要死亡，它就會被強制重啟小世界，three <span class="eng-word">times</span> 三次下來能量早已耗費大半，哪裡還顧得上給我電刑。我緩了緩身體的麻木，勉強 <span class="eng-word">stand up</span> 起身。</p>
+<p>系統聲音已經帶了哭腔：「那妳到底想幹什麼？帶著這一船人去深海，<span class="eng-word">wait for</span> 等著浪把船打翻，然後全員覆滅嗎？妳要知道，這艘遊艇帶著的柴油 <span class="eng-word">only</span> 只能再跑兩百多海里，那裡的浪並不大，且未來十幾 <span class="eng-word">days</span> 都是晴朗好天氣，壓根沒有掀翻船的大浪！」</p>
+<p>我目視前方：「我沒有想讓浪掀翻這艘遊艇。他們被關在船艙 <span class="eng-word">in</span> the cabin，<span class="eng-word">before</span> 之前為了防風暴，玻璃是加固過的，普通重物根本砸不穿，且船艙壓根沒有什麼趁手的破船利器，艙門更是砸上去毫無痕跡。而船艙裡 <span class="eng-word">only</span> 只有幾瓶香檳與零散幾碟 <span class="eng-word">small cakes</span> 小蛋糕，僅夠一個人一 <span class="eng-word">day</span> 的食物——像極了我第一世被關在甲板 <span class="eng-word">under</span> 下面的那三日，<span class="eng-word">don&#x27;t eat or drink</span> 不吃也不喝（否定句用 <code class="inline-code">or</code> 連接！），硬生生挺了 three <span class="eng-word">days</span>，被拖出來時陽光刺得睜不開眼，人幾乎脫水昏迷。」</p>
+<p><span class="sec-badge">第 11 節 [13:42]</span></p>
+<p>艙門被關閉的 <span class="eng-word">first day</span> 第一天，我還能聽到聞堰歇斯底里砸門窗的聲音，以及其他人的抱怨：「聞哥，你答應她不就完了？非要出爾反爾，害得我們也跟著受罪！」「就是啊，明明是你自己惹出來的事！」「我說什麼來著，明明是蓁姐的接風 <span class="eng-word">party</span>，你們非要喊宋蘊秋這隻舔狗 <span class="eng-word">together</span> 一起來！」「她該不會要關我們一 <span class="eng-word">day</span> 一 <span class="eng-word">night</span> 吧？不要啊，這裡除了香檳，沒有其他水 <span class="eng-word">can</span> 喝了！」楊蓁哭得淒淒慘慘戚戚。</p>
+<p>艙門關閉的 <span class="eng-word">third day</span> 第三天，船艙裡的人焦躁了很多。我 <span class="eng-word">see</span> 看到有人抓著聞堰的衣襟，一拳狠狠地砸到他的臉上：「宋蘊秋，我替妳教訓過聞堰了，<span class="eng-word">please</span> 妳快放我們出去吧！」他們砸窗戶與艙門的力氣都小了很多，聞堰在裡面成為眾矢之的，被人輪番 <span class="eng-word">fight</span> 揍了好幾頓，鼻青臉腫，幾乎辨不出原本 <span class="eng-word">handsome</span> 帥氣的模樣。</p>
+<p>第五日，船艙外的食物被我吃得乾乾淨淨，再拖下去我也要 <span class="eng-word">hungry</span> 肚子餓了，遠處已經有搜救的遊艇往這邊開來。<span class="eng-word">It&#x27;s time</span> 是時候結束了，船艙裡早已沒了動靜。</p>
+<p>我 <span class="eng-word">open</span> 打開艙門，聞堰與幾個兄弟已幾近脫水昏迷，<span class="eng-word">only</span> 只有楊蓁還有一分力氣，嘴唇乾裂，常年節食減肥的她，尚能支撐著身子爬到我腳邊，抽噎著：「宋蘊秋，聞堰是妳的了，我再也不跟妳搶了，<span class="eng-word">please</span> 讓我出去吧……」</p>
+<p>我越過她，將聞堰拖到外面的甲板上。陽光照在臉上，聞堰從昏迷中迷迷糊糊睜開眼，本能地抬起 <span class="eng-word">hand</span> 遮住刺目的光，乾涸的唇吐出一個字：「水……」</p>
+<p>我趴在他耳邊小聲道：「我送你去一個 <span class="eng-word">all</span> 全是水的好 <span class="eng-word">place</span>。」</p>
+<p>聞堰聽到我的聲音，像是 <span class="eng-word">think of</span> 記起什麼恐怖的事，混沌的大腦清醒一瞬，掙扎著就想往遠處爬，可他實在沒有了力氣。我拖著他沉重的身體，來到甲板最邊緣——那裡的欄杆在我這幾 <span class="eng-word">days</span> 的努力下，已經被拆掉一部分。</p>
+<p>遠處的搜救艇越來越 <span class="eng-word">near</span>，那是聞家幾日聯繫不上大少爺、又丟失了遊艇的衛星 <span class="eng-word">sign</span> 信號跡象，派出來的專業搜救人員來接他回 <span class="eng-word">home</span>。</p>
+<p>「<span class="eng-word">When</span> 我什麼時候才能回家呢？」我好想念家裡的 <span class="eng-word">parents</span> 爸媽，<span class="eng-word">also</span> 也想念家裡的 <span class="eng-word">friends</span> 與 <span class="eng-word">classmates</span> 同學們，想念我熟悉的環境與熟悉的一切。</p>
+<p>搜救艇距離我越來越近，從一個 <span class="eng-word">small</span> 小小的黑點，逐漸變成可以窺見全貌的遊艇。聞堰被推到遊艇邊緣，腦袋一歪，<span class="eng-word">see</span> 看到了翻騰的海水，深不見底。他掙扎著卻沒有一絲力氣，乾渴的喉嚨發出「嗬嗬」聲。在他恐慌的眼神中，我輕輕一推，翻滾的海水迅速將人捲入浪潮中，瞬間消失不見蹤影。</p>
+<p>「愛你老聞，<span class="eng-word">next time</span> 下輩子記得不要騙我了。」</p>
+<hr/>
+<h3 class="orig-sec">【第 12 節】五周目：學校器材室的「Surprise」與忘記提問 `[15:45 - 17:27]`</h3>
+<p><span class="sec-badge">第 12 節 [15:45]</span></p>
+<p>搜救船在我面前破裂成一塊塊斑駁的碎片，茫茫大海逐漸歸於虛無。世界重新拼合，五周目開啟。</p>
+<p>碎片拼成一張張輕蔑的臉，有人在耳邊嬉笑道：「怎麼？聞哥約妳來這個 <span class="eng-word">place</span>，把妳 <span class="eng-word">happy</span> 高興壞了？」</p>
+<p>我晃了晃腦袋，左右 <span class="eng-word">look around</span> 四處瞧了瞧，是 <span class="eng-word">school</span> 學校裡人跡罕至、非常 <span class="eng-word">quiet</span> 安靜的體育器材倉庫。我拍了拍腦袋，想起來了：聞堰給我遞了紙條，說是約我 <span class="eng-word">after class</span> 下課後在這裡見面，說是有驚喜要告訴我。那時的我以為任務 <span class="eng-word">can</span> 完成了，臉上的興奮壓都壓不住，<span class="eng-word">in a hurry</span> 急匆匆興沖沖地趕來，看到的卻是他那群笑得前仰後合的 <span class="eng-word">guys</span>，以及坐在正中間 <span class="eng-word">between</span> 眾人之間揚揚得意的聞堰。</p>
+<p>第一世裡他說：「看到了沒？我說有驚喜給她，她就開心得跟個傻子似的馬不停蹄地趕來。<span class="eng-word">Surprise</span>！<span class="eng-word">Are you happy</span> 開心嗎？」一桶髒水兜頭澆下，將我澆了個透心涼。原來驚喜是一桶髒水，而不是我心心念念的表白。</p>
+<p>他兄弟在一旁嘲笑：「還真以為聞哥喜歡妳啊？實話告訴妳吧，聞哥在國外有個白月光，還有 six <span class="eng-word">months</span> 再過六個月就要回國了，等蓁姐留學回來，妳這替身也該滾遠些了！」</p>
+<p>這一次，我抬起頭 <span class="eng-word">look at</span> 聞堰，他本笑得猖狂的臉，驟然出現極度的恐懼，張大了嘴使勁呼吸著新鮮空氣，像是溺水的人終於得見天日，肺部貪婪地吮吸空氣。</p>
+<p>我眸子一暗，左右環顧一圈，抄起牆角堆放的槓鈴，狠狠往還未緩過神的聞堰砸去。聲響在 <span class="eng-word">quiet</span> 寂靜的器材室顯得格外清晰。周圍人怔愣一 <span class="eng-word">second</span>，才過了一秒，慘叫聲便此起彼伏：「殺人了！<span class="eng-word">Hurry</span> 快打 110，不是，快打 120！宋蘊秋妳怎麼這麼狠？聞哥就是跟妳開個玩笑 <span class="eng-word">only</span> 而已！」</p>
+<p>他們全 <span class="eng-word">run</span> 跑光了，聞堰已經倒在地上。</p>
+<p>系統崩潰大叫：「妳怎麼又解決了男主？這一世說不定他願意讓妳當他 <span class="eng-word">girlfriend</span> 呢！」</p>
+<p>我這才拍了拍腦袋，總覺得自己像是忘記了什麼——原來是一時 <span class="eng-word">in a hurry</span> 太趕時間，忘記問那個最 <span class="eng-word">important</span> 重要的問題了！我看著聞堰，誠心反思道：「<span class="eng-word">Sorry</span> 抱歉，這一周目忘記問了，<span class="eng-word">wait for</span> 等下一周目我們再見面吧，<span class="eng-word">next time</span> 下次我一定記得問！」</p>
+<hr/>
+<h3 class="orig-sec">【第 13～17 節】六周目：大一愛心蠟燭、保鏢搜捕與別墅反擊 `[17:27 - 22:52]`</h3>
+<p><span class="sec-badge">第 13 節 [17:27]</span></p>
+<p>器材室在眼前消失，天地破裂成無數細小的碎片。</p>
+<p>六周目開啟的 <span class="eng-word">time</span>，當我回過神時，發現自己正站在一圈愛心形蠟燭 <span class="eng-word">around</span> 之中，並向聞堰表白：「我 <span class="eng-word">can</span> 做你女朋友嗎？」</p>
+<p>這次的時間前移了足足兩年，這是大一 <span class="eng-word">in September</span> 九月剛剛開學的時候。我鼓足勇氣向聞堰表白，按照系統的說法，只要我成為他女朋友，就算完成任務可以重返原世界。</p>
+<p>第一世裡，聞堰哈哈大笑，連帶著周圍 <span class="eng-word">classmates</span> 全班同學們都嘲諷我異想天開，竟然妄圖勾搭聞家大少爺；聞堰更是毫不留情地踩熄蠟燭，居高臨下道：「就憑妳，也配當我女朋友？乖乖給老子當好舔狗才是妳該做的事！」</p>
+<p>這一周目開啟，我表白的話剛剛說完，聞堰突然猛地大叫一聲，<span class="eng-word">hand</span> 手忍不住撫上後腦勺，餘痛仍在。</p>
+<p>身旁有人起鬨：「聞哥，你的舔狗向你表白了，還不 <span class="eng-word">hurry up</span> 快點拒絕她，省得讓她惦記一些不屬於她的東西！」</p>
+<p>哄笑傳來，聞堰似乎剛意識到發生了什麼，他的目光瞥向我，恐懼佔據了 <span class="eng-word">all</span> 所有的理智，下意識脫口而出：「<span class="eng-word">I&#x27;m ready</span>！我準備好了！我願意妳當我女朋友，我真的願意！」</p>
+<p>所有人詫異的目光凝聚在聞堰身上。他不動聲色地後退了幾步，與我拉開距離，看準時機撥開人群，迅速向 <span class="eng-word">school</span> 校門外 <span class="eng-word">run</span> 拔腿狂奔，遠遠的聲音傳來：「宋蘊秋，這一世我一定會先解決妳！」</p>
+<p>系統忍不住提醒我：「男主跑了！他是聞家大少爺，想對付妳一個窮 <span class="eng-word">student</span> 學生還不容易？」</p>
+<p>我若有所思地 <span class="eng-word">watch</span> 看著他消失的背影，這一周目，確實要麻煩多了。</p>
+<p><span class="sec-badge">第 14 節 [18:48]</span></p>
+<p>我並沒有在學校住宿，聞堰曾經說過住校太麻煩了，讓我在校外 <span class="eng-word">near</span> 學校附近租了房子，方便隨叫隨到。夜幕降臨，我慢吞吞地回了自己的出租屋。</p>
+<p>手機裡還有聞堰發來的消息：【宋蘊秋，前幾世是我大意了，這次我倒要 <span class="eng-word">see</span> 瞧瞧，妳一個窮學生怎麼跟我們聞家抗衡。我們聞家捏死妳，像捏死一隻螞蟻一樣 <span class="eng-word">easy</span> 簡單。】</p>
+<p>系統忍不住在耳邊絮叨：「叫妳 <span class="eng-word">don&#x27;t</span> 別動男主妳非不聽，這下好了吧，以聞家的家世，想對付妳還不簡單？」</p>
+<p>我反問：「那你怎麼不給我安排一個厲害的身份，給男主一個食不果腹的人生呢？」</p>
+<p>我是魂穿進這本 <span class="eng-word">book</span> 的，至於原書裡的女主去了 <span class="eng-word">where</span> 哪裡，系統支支吾吾說不清楚。我從小生長的背景只能用「淒慘」二字來形容：父母不疼愛，從小把我丟在鄉下，磕磕絆絆長大，<span class="eng-word">only</span> 唯一的收入來源是 <span class="eng-word">grandma</span> 奶奶賣廢品換來的錢，能給我買幾顆廉價的水果糖，那是我人生唯一的甜。似乎我所經歷的 <span class="eng-word">all</span> 一切痛苦，都只是為了有一 <span class="eng-word">day</span> 等待 <span class="eng-word">wait for</span> 遇到優秀的男主。</p>
+<p>系統解釋：「女主都是慕強的，所以只能把她放在一個悲慘的境地裡，然後匹配一個 <span class="eng-word">great</span> 優秀棒透了的男主。」</p>
+<p>我破口大罵：「呸！女主喜歡強，你不把『強』給女主，反而給別的 <span class="eng-word">man</span>？就像我喜歡錢，所以你把錢給別的男人，然後扭頭告訴我是為了我好？當女主自己擁有了強，她才不會再慕強！」</p>
+<p>話音剛落，外面有雜亂的腳步聲正 <span class="eng-word">in a hurry</span> 急匆匆往樓上趕。我將手指放在嘴邊做出「噓，<span class="eng-word">be quiet</span>」的手勢示意系統安靜。我住在七樓，腳步聲越來越近，像是 <span class="eng-word">many</span> 很多訓練有素的人逼近我的屋子，完全不是普通住戶散漫的腳步聲。片刻後，年久失修、老舊的防盜門被狠狠一腳踹開。</p>
+<p><span class="sec-badge">第 15 節 [20:08]</span></p>
+<p>一群保鏢闖入我逼仄的出租屋，為首的是一個凶神惡煞的中年 <span class="eng-word">man</span>，大吼道：「給我搜！聞少爺說了，她就住在這個 <span class="eng-word">place</span>！」</p>
+<p><span class="eng-word">Small</span> 狹小破舊的屋子一覽無餘，散落著各種不值錢的生活用品，衣櫥櫃子被翻了個底朝天，沒有我的蹤跡。有保鏢去陽台 <span class="eng-word">take a look</span> 掃了一眼，<span class="eng-word">only</span> 只有零散幾件衣服，沒有任何人的身影。</p>
+<p>我的身子緊緊貼著牆壁，站在窗外 <span class="eng-word">outside</span> 的空調外機上，只要踏錯一步 <span class="eng-word">or</span> 腿一軟，那就從七樓跌落粉身碎骨。</p>
+<p>巡視找不到人，我聽到為首的那人道：「屋子還亮著燈，她 <span class="eng-word">sure</span> 肯定是下樓買東西去了，走不遠，都給我四下分散在小區 <span class="eng-word">around</span> 周圍附近找！聞少爺說了，找到這女人，直接就地解決！」</p>
+<p>凌亂的腳步聲逐漸遠去。我站在空調外機上一聲嘆息：「我 <span class="eng-word">now</span> 現在沒辦法了，聞家勢力大，我不是他們的對手，現在看來 <span class="eng-word">only</span> 只能想辦法攻略男主了。」</p>
+<p>系統終於長舒了口氣，吊著的心徹底安穩下來：「妳 <span class="eng-word">think about</span> 想通就好，我早說讓妳攻略男主妳非不聽。」</p>
+<p>我胡亂點頭，循循善誘道：「好了，我 <span class="eng-word">right now</span> 立刻就去攻略男主。系統，<span class="eng-word">please give me a hand</span> 幫我找一下男主 <span class="eng-word">where</span> 在哪裡吧，我只有 <span class="eng-word">see</span> 見到他本人才能攻略，不是嗎？」</p>
+<p><span class="sec-badge">第 16 節 [21:05]</span></p>
+<p>我喬裝打扮一番，離開家門。外面小區有零散幾個保鏢在 <span class="eng-word">careful</span> 小心仔細地辨認。我順利翻牆進入聞家別墅區，沿著牆根一路躲在窗 <span class="eng-word">under</span> 下方，聽到男主在客廳暴躁地打電話：</p>
+<p>「什麼叫找不到人？就一個破小區，你們居然找不到這麼大一個活人？那就再仔細找，直到找到為止！我還不信了我對付不了一個窮鬼女人！」聲音吼得震天響。</p>
+<p>我改了主意，轉身先去了車庫。</p>
+<p>系統不解：「妳不是要攻略男主嗎？<span class="eng-word">Hurry up</span> 趕緊上去討好他啊，跑車庫裡來幹什麼？」</p>
+<p>「我 <span class="eng-word">mom</span> 媽媽教過我，去別人家 <span class="eng-word">place</span> 作客一定要帶點禮物，這樣顯得有家教，空手上門是件很沒禮貌的事。」</p>
+<p>系統沉默一 <span class="eng-word">second</span>，在 <span class="eng-word">see</span> 看清我手上拎著的東西後，崩潰道：「<span class="eng-word">Oh my!</span> 天哪！那妳拎汽油桶 <span class="eng-word">can</span> 幹什麼？！」</p>
+<p><span class="sec-badge">第 17 節 [21:54]</span></p>
+<p>我沒有理會它的抓狂，帶著汽油桶沿著牆外的管道爬上 <span class="eng-word">third</span> 三樓——這樣厲害的攀爬本事，得益於這具身體小時候在農村度過整個童年的練習與記憶。翻進三樓陽台，手指撥弄幾下，陽台門輕鬆 <span class="eng-word">open</span> 打開。</p>
+<p>我悄悄溜到一樓，聞堰還在唾沫橫飛地打著電話，咆哮聲震耳欲聾：「養你們有什麼 <span class="eng-word">use</span>，一點用處都沒有，連一個人都找不到！」</p>
+<p>他的聲音突然驟止，似乎感受到身後 <span class="eng-word">behind</span> 有危險。聞堰緩緩 <span class="eng-word">turn</span> 轉過頭，我站在他身後，衝他咧嘴露出一個微笑：「這一世，你沒有真心答應我的表白喔。」</p>
+<p>我擰開桶蓋，聞堰見鬼似的尖叫聲在別墅響起。他身邊的保鏢大約都派出去找我了，又或者他認為躲在別墅裡很 <span class="eng-word">safe</span> 安全無虞，以至於偌大的別墅並沒有幾個活人。</p>
+<p>此刻，我覺得自己真像個強取豪奪的霸總：喜歡的男人，一定要得到。「聞堰，你逃不出我的 <span class="eng-word">hand</span> 手掌心。強扭的瓜甜不甜不知道，但 <span class="eng-word">for sure</span> 無庸置疑一定解渴！」</p>
+<p>下一刻，打火機在我手中摁下，火光在我面前碎裂成一片片。「我們第七周目 <span class="eng-word">see you</span>！」</p>
+<hr/>
+<h3 class="orig-sec">【第 18～19 節】七周目：高考升學宴與不被父母祝福的愛情 `[22:52 - 25:43]`</h3>
+<p><span class="sec-badge">第 18 節 [22:52]</span></p>
+<p>這次碎裂的世界紅得觸目，消退後我猛然回神，面前 <span class="eng-word">in front of</span> me 是一桌精美的 <span class="eng-word">dinner</span> 晚宴。有渾厚的中年男聲在台上響起：「很 <span class="eng-word">happy</span> 高興能邀請大家 <span class="eng-word">today</span> 今天來參加我兒子的升學 <span class="eng-word">party</span> 宴會！」</p>
+<p>這是第七周目，<span class="eng-word">time</span> 時間回到我與聞堰 <span class="eng-word">in August</span> 八月剛剛高考完那一年。哪怕我的成績考得比他高出 <span class="eng-word">many</span> 好幾十分，系統依然命令我報考 <span class="eng-word">with</span> 聞堰同一所大學。學費昂貴，這個暑假 <span class="eng-word">summer holiday</span> 我拼了命地打工、拼了命地討好聞堰，終於掙夠第一期的學費。</p>
+<p>聞父高高在上，鄙視的眼神掃過我，不鹹不淡道：「<span class="eng-word">These days</span> 如今現在的女孩認識一個有錢公子哥，就恬不知恥地死抓著不放，連升學宴都要死皮賴臉地混進來。」</p>
+<p>不是的，我壓根不想來。聞堰要求我來，說少了我這隻舔狗，感覺人生少了樂子；系統 <span class="eng-word">also</span> 也強制我來，不來就會懲罰我。如他們所願，我出現在這場名流雲集的升學宴，成為大家口中津津樂道攀高枝的女人。</p>
+<p>一輪輪羞辱後，聞堰臉上的笑容更甚：「放心吧，她怎麼趕都趕不走的，她沒辦法回去，留在這個 <span class="eng-word">place</span> 給我當舔狗，是她 <span class="eng-word">only</span> 唯一的選擇。」</p>
+<p>聞父 <span class="eng-word">look at</span> 他：「小堰，少跟這些窮人家的 <span class="eng-word">girls</span> 混在 <span class="eng-word">together</span> 一起，你楊叔叔家的女兒我瞧著很 <span class="eng-word">great</span>，人很棒，你多上上心。」</p>
+<p>剛說完，聞堰突然從座位翻滾到地上，嘴裡撕心裂肺地叫著：「火！<span class="eng-word">All</span> 全都是火！好燙，<span class="eng-word">give me a hand</span> 快救我！」現場亂作一團，眾人上去拼命按住他。</p>
+<p>聞堰這才逐漸從六周目的記憶中緩過神來，人依舊抖如篩糠，哆嗦著說不出一句話。在 <span class="eng-word">see</span> 看到我時，眸底只剩下畏懼，徹頭徹尾的惶恐，再無半分反抗的憤怒。</p>
+<p>我 <span class="eng-word">stand up</span> 站起身，笑著問道：「聞堰，我 <span class="eng-word">can</span> 當你女朋友嗎？」</p>
+<p><span class="sec-badge">第 19 節 [24:12]</span></p>
+<p>四下傳來竊竊私語與哄笑，聞父一拍 <span class="eng-word">table</span> 餐桌：「妳算個什麼身份？別以為認識我 <span class="eng-word">son</span> 兒子幾 <span class="eng-word">days</span> 就能上位，我告訴妳，我們聞家大門不是妳這種身份的人 <span class="eng-word">can</span> 進得來的！」</p>
+<p>可聞堰渾身抖得更厲害，他顫抖著身子，瘋了似的點頭：「<span class="eng-word">Sure</span> 可以！我同意了，<span class="eng-word">that&#x27;s for sure</span> 我千真萬確同意了！」</p>
+<p>原來，強取豪奪是這種感覺啊。我告訴系統：「我終於學會了強取豪奪，這滋味很 <span class="eng-word">great</span>。」系統徹底絕望。</p>
+<p>聞父倒吸一口涼氣，恨鐵不成鋼：「我早就 <span class="eng-word">talk to</span> 你講過了，你以後是要聯姻的，我絕不允許你跟外面的女人在一起！」</p>
+<p>聞堰拼命地搖頭，嘴裡不停地重複：「<span class="eng-word">I&#x27;m ready</span>，我準備好了，我真的願意，<span class="eng-word">please don&#x27;t</span> 拜託不要再追殺我了，我什麼都願意……」我一步步逼近，聞堰肉眼可見地顫抖起來，渾身僵硬，聲音幾乎不成調：「蘊秋，我真的願意，妳相信我！」</p>
+<p>我嘆了口氣，可憐巴巴地道：「聞堰，不被 <span class="eng-word">parents</span> 父母祝福的愛情是沒有結果的。罷了，<span class="eng-word">How about</span> 下周目裡記得 <span class="eng-word">before</span> 提前做好家裡的思想工作？那樣怎麼樣呢？」</p>
+<p>我迅速摔爛手邊的盤子 <span class="eng-word">dishes</span>，直接送他重開！升學宴亂成一團，尖叫聲此起彼伏。世界崩塌的前一刻，我看到聞父驚慌失措的臉，以及聞堰近乎麻木的神色。</p>
+<p>系統捂著腦袋：「男主 <span class="eng-word">this time</span> 這回真的答應了，妳為什麼還要動手？」</p>
+<p>我冷笑一聲：「你當我不知道任務的最終要求？不光要成為他的女朋友，還要結婚 <span class="eng-word">sign</span> 簽名領證才算任務圓滿完成！聞家長輩不同意我們的婚事，我成為聞堰的女朋友又有什麼 <span class="eng-word">use</span>？一點用處都沒有，到頭來還不是受盡羞辱，被隔離在聞家大門 <span class="eng-word">outside</span> 外面！我真是不明白，你們這些系統發布這樣的任務，偏偏又不給女主一個好出身，非要讓女主遭受本不該承受的羞辱。」</p>
+<p>許是系統能量已快耗光，它的聲音都虛弱很多：「那 <span class="eng-word">next</span> 下一周目總該可以達成任務要求了吧？」</p>
+<p>我蹙起眉：如果 <span class="eng-word">time</span> 時間線再向前推移，那會推移到哪個時間點呢？</p>
+<hr/>
+<h3 class="orig-sec">【第 20 節】八周目：貴族高中初見與「這個世界不需要男主」 `[25:43 - 27:50]`</h3>
+<p><span class="sec-badge">第 20 節 [25:43]</span></p>
+<p>這個問題我還未 <span class="eng-word">think about</span> 思考清楚，耳邊傳來稀稀拉拉的掌聲，幾下就沒了動靜，很快被奚落與譏諷所替代。</p>
+<p>我睜開眼，身旁 <span class="eng-word">teacher</span> 班導師毫無表情，臉上帶著一股不耐煩，公事公辦道：「這位是宋蘊秋同學，剛從縣城轉學來到咱們貴族高中，以後大家就是同班 <span class="eng-word">classmates</span> 了。」</p>
+<p>哄笑聲變大，夾雜著幾句：「原來來了個窮鬼！<span class="eng-word">Look at</span> 她那一身衣服，都洗變形了，領子鬆鬆垮垮。咱們這裡的校服一年得花上萬呢，她買得起嗎？我打賭她 <span class="eng-word">for sure</span> 無庸置疑是為了釣金龜婿來的！」</p>
+<p>時間回到了 <span class="eng-word">on Monday morning</span> 星期一早上，我與聞堰初見的 <span class="eng-word">first day</span> 第一天。系統綁定我，讓我轉學為攻略男主做準備。成績優異的我轉到貴族高中後，交不起學費成為被霸凌的對象，可系統卻興奮：「這樣多 <span class="eng-word">great</span> 棒啊，妳越可憐，男主越能在妳面前展露英雄氣概，這樣他才會更愛妳。」我並沒有得到愛，得到的只是數不清的霸凌，讓我優異的成績一落千丈。</p>
+<p>老師站在我身邊 <span class="eng-word">next to</span> me 道：「聞堰旁邊還空了一個座位，妳去那個 <span class="eng-word">place</span> 坐吧。」</p>
+<p>一片不懷好意的嘖嘖聲中，聞堰突然大叫著起身滾到地上，他像是有了刻入骨髓的應激反應，先是大叫有火，再去摸自己脖子、摸後腦勺，最後按上自己的腹部，甚至說不清身上的傷口到底 <span class="eng-word">where</span> 在哪裡。</p>
+<p>等勉強平復驚懼的情緒後，聞堰抬頭越過人群 <span class="eng-word">see</span> 看到了我，四目相對，平靜與懼怕。他大約 <span class="eng-word">think of</span> 記起來了，這是我們的 <span class="eng-word">first</span> 第一次見面。</p>
+<p>聞堰痛哭流涕地撲上前抓著我的褲腿：「宋蘊秋，我、我喜歡妳！我要 <span class="eng-word">with</span> 妳在一起，我們到了法定年齡就去結婚 <span class="eng-word">sign</span> 字！妳放心，我會處理好家裡人的態度，絕不會有人阻攔我們在 <span class="eng-word">together</span> 一起！我發誓，我說的每一句話都是真的，<span class="eng-word">please</span> 求求妳一定要答應我，我真的、真的很喜歡妳！」</p>
+<p>詫異的驚呼聲在 <span class="eng-word">classroom</span> 教室每個角落響起。我微笑著問系統：「<span class="eng-word">Take a look</span>，你瞧瞧，任務這就完成了，比當舔狗容易多了。」</p>
+<p>系統虛弱得已經 <span class="eng-word">can&#x27;t talk</span> 講不出話來，但它不得不承認，這樣完成任務的效率是真的高。</p>
+<p>我將書包 <span class="eng-word">bag</span> 拿下，在裡面一通亂翻。聞堰 <span class="eng-word">careful</span> 小心翼翼地問道：「蘊秋，妳在找什麼？」</p>
+<p>我掏出一把美工刀，驚喜道：「找到了！」我眼疾手快地送聞堰重開，他倒在我面前時，嘴裡還在喃喃：「我……我明明同意了……」</p>
+<p>教室裡亂成一團，<span class="eng-word">all</span> 所有人爭先恐後地 <span class="eng-word">run</span> 逃離教室。系統掙扎著問：「這一世 <span class="eng-word">sure</span> 肯定能完成任務，妳怎麼又解決了男主？」</p>
+<p>我抬頭 <span class="eng-word">look at</span> 碎裂的世界，告訴系統：「因為我 <span class="eng-word">think about</span> 思考了很久——我想要一個沒有男主的世界。這個世界不需要男主，<span class="eng-word">only</span> 只有女主就足夠了！」</p>
+<hr/>
+<h3 class="orig-sec">【第 21～22 節】九周目大結局：撕毀轉學申請、系統換綁與清北逆襲 `[27:50 - 30:22]`</h3>
+<p><span class="sec-badge">第 21 節 [27:50]</span></p>
+<p>一陣微弱的電流聲後，第九周目正式開啟。這是系統所能開啟的最後一 <span class="eng-word">time</span> 小世界，這次之後它的能量幾近清空。</p>
+<p>瘦弱的我正站在辦公室裡，<span class="eng-word">teacher</span> 老師語重心長道：「蘊秋啊，轉學這件事老師建議妳再 <span class="eng-word">think about</span> 考慮思考一下。如果生活上有什麼困難可以 <span class="eng-word">talk to</span> 老師說，<span class="eng-word">school</span> 學校一定會 <span class="eng-word">give you a hand</span> 幫妳解決。但妳要是轉到貴族高中，那裡學費昂貴就算了，裡面 <span class="eng-word">all</span> 都是有錢人家的孩子，妳進去很容易受欺負的。」</p>
+<p>我回神，<span class="eng-word">look at</span> 手裡捏著一張皺巴巴的轉學申請，倏忽笑了——這才是一切 <span class="eng-word">first</span> 最初的開始。</p>
+<p>我將申請表撕碎丟到垃圾桶裡，甜甜道：「老師您說得對，我不轉學了，我要留在咱們縣城一中好好 <span class="eng-word">study English</span> 與各科功課衝刺高考！」</p>
+<p>我回到了 <span class="eng-word">classroom</span> 教室，回到人生錯誤的開始，一點點修正原屬於我的人生。</p>
+<p>上午 <span class="eng-word">in the morning</span> 的最後一節 <span class="eng-word">class</span>，這堂課老師帶了一個 <span class="eng-word">boy</span> 男生走進教室，明明穿著一身名牌，舉止卻畏畏縮縮。老師站在講台上介紹：「這位同學是新轉來的，大家之後一定要好好相處，<span class="eng-word">let&#x27;s</span> 讓我們掌聲 <span class="eng-word">welcome</span> 歡迎新同學！」</p>
+<p>熱烈的掌聲後，新轉來的男生磕磕絆絆地自我介紹：「大家好，我……我叫聞堰。」他的目光 <span class="eng-word">see</span> 看到了我，像是發現了 <span class="eng-word">only</span> 唯一的救贖。</p>
+<p><span class="sec-badge">第 22 節 [28:46]</span></p>
+<p>聞堰坐到了我身旁 <span class="eng-word">next to</span> me，雖然怕我，但還是討好道：「我給妳帶了午飯，妳 <span class="eng-word">can</span> 嚐嚐好嗎？」</p>
+<p>我聽到他腦中有系統在叫：「我讓你親手 <span class="eng-word">cook</span> 下廚做飯你聽不懂嗎？<span class="eng-word">Next time</span> 下次再偷懶我可要懲罰你了！不彰顯誠意，怎麼攻略女主？如果女主對你的好感度達不到 100，那麼你將會被抹殺！女主當前好感度：負一百！」</p>
+<p>聞堰雙手 <span class="eng-word">hands</span> 抖了抖。我這才發現，這一周目我腦中的系統消失了。</p>
+<p>我問道：「你換人綁定了嗎？」</p>
+<p>系統聲音有氣無力：「是的，妳是這個世界 <span class="eng-word">only</span> 唯一的真女主，我 <span class="eng-word">can&#x27;t</span> 無法再綁定妳了。」</p>
+<p>我若有所思地點頭，又道：「既然他不是男主了，那他還有資格這麼富裕嗎？天涼了，聞家也該破產了吧。」</p>
+<p>「那是自然，他怎麼可能還有資格當首富之子呢？放心吧，兩年之後聞家就會破產，而妳的財富會以非人的速度增長。」</p>
+<p>「你既然這麼缺能量，<span class="eng-word">How about</span> 多綁定幾個人來攻略我？比如說聞堰那群 <span class="eng-word">guys</span> 兄弟們，那樣怎麼樣？不是獲取能量速度更快嗎？」系統直呼 <span class="eng-word">great</span> 好主意！</p>
+<p>我留在了這個世界，替原主修正好人生 <span class="eng-word">after</span> 之後再選擇離開。高中畢業那年，我以優異的成績考入清北。</p>
+<p>全校慶祝那 <span class="eng-word">day</span>，那天我悄悄避開人群去了空無一人的 <span class="eng-word">quiet</span> 安靜教室，掏出手機，撥下一長串爛熟於心的號碼：<code class="inline-code">011207</code> <span class="eng-word">birthday</span> 生日的主人。電話另一頭，一個尚且稚嫩的女聲響起：「<span class="eng-word">Who</span> 妳是誰？」</p>
+<p>我沒有回答這個問題，而是自顧自地說下去：「<span class="eng-word">Don&#x27;t talk</span>，妳先別說話，<span class="eng-word">listen to</span> 聽我說。我知道妳打算高考後的這個暑假出國留學，但在妳留學的 <span class="eng-word">second</span> 第二年，妳的 <span class="eng-word">family</span> 家族會破產，然後會有系統找上妳，它會逼妳當一個惡毒的白月光，去討好一個妳曾經無比嫌棄的富家公子哥。妳只要阻止家族的破產，讓自己氣運充盈，就 <span class="eng-word">can</span> 避開系統的綁定。而妳家族的破產，是因為你們接盤了聞家一塊無法開發的地皮。記住，這塊地讓聞家爛在 <span class="eng-word">hand</span> 手中，兩年後破產的就是他們。最後說一句，楊蓁，<span class="eng-word">don&#x27;t</span> 別老是節食減肥了，瘦得只剩一把骨頭，站在甲板上海風一吹搖搖欲墜，除了更耐餓以外，沒有任何 <span class="eng-word">use</span> 用處。」</p>
+<p>我掛了電話。老師推開教室門，臉上掛著激動的笑喊我：「蘊秋，<span class="eng-word">hurry up</span> 快點，來 <span class="eng-word">together</span> 一起 <span class="eng-word">take a picture</span> 合照了！」</p>
+<p>我招呼一聲：「<span class="eng-word">Sure</span>，馬上來！」外面人群熙攘，我也將奔赴嶄新的未來。</p>
+    </div>
+  </div>
+
+  <div id="tab-embedded" class="tab-panel">
+    <div class="loop-block"><h2 class="loop-title">🎬 第一周目（第 01 節）：天台上的表白與物理重開</h2>
+        <div class="line-card sys">
+            <div class="speaker-badge">【系統】</div>
+            <div class="line-body">
+                <p class="line-text">宿主請注意！妳必須 <span class="eng-word">follow</span> 攻略 <span class="eng-word">rules</span>，只有成為男主聞堰的 <span class="eng-word">girlfriend</span>，妳 <span class="eng-word">can</span> 完成任務回到原來的世界！現在是 <span class="eng-word">five o'clock p.m.</span>（❌ 考點陷阱抓包！），不對，是 <span class="eng-word">five p.m.</span>，快去天台向那個 <span class="eng-word">popular</span> 的 <span class="eng-word">guy</span> 表白！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">follow (遵守)</span><span class="v-tag">rule (規則)</span><span class="v-tag">can (可以/能夠)</span><span class="v-tag">p.m. (下午/不可配 o&#x27;clock)</span><span class="v-tag">popular (受歡迎的)</span><span class="v-tag">guy (傢伙/男人)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">我站在搖搖欲墜的天台 <span class="eng-word">place</span>，吹著傍晚的冷風。這個地方風大得要命，我卻得遵守那些荒唐的規定。我轉頭 <span class="eng-word">look at</span> 站在天台邊緣、全校最受歡迎的聞堰：「聞堰，我 <span class="eng-word">can</span> 當你女朋友嗎？<span class="eng-word">Please</span> 給我一個痛快的答案。」</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">place (地方)</span><span class="v-tag">look at (注視/看)</span><span class="v-tag">please (請/拜託)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card wen">
+            <div class="speaker-badge">【聞堰】</div>
+            <div class="line-body">
+                <p class="line-text">（鄙夷冷笑）<span class="eng-word">Take a look</span> at 妳自己！妳自己看一看，像妳這種毫無姿色的舔狗，怎麼配跟我走 <span class="eng-word">together</span>？想跟我在一起？<span class="eng-word">I don't think so</span>，我可不這麼認為！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">take a look (看一看)</span><span class="v-tag">together (一起)</span><span class="v-tag">I don&#x27;t think so (我不這麼認為)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">我面無表情地伸出 <span class="eng-word">hand</span>，直接推了一把：「那妳可要 <span class="eng-word">be careful</span> 了，沒站穩可是會掉下去的喔！愛你老聞，<span class="eng-word">see you</span> 下輩子見！」</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">hand (手)</span><span class="v-tag">be careful (小心)</span><span class="v-tag">see you (再見)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card sys">
+            <div class="speaker-badge">【系統】</div>
+            <div class="line-body">
+                <p class="line-text"><span class="eng-word">Oh my!</span> 天哪！聞堰摔到一樓去了！妳怎麼敢 <span class="eng-word">break the rules</span>？妳違反規定把男主推下天台了！我當初 <span class="eng-word">wake you up</span> 帶妳穿越過來時，明明說過妳是 <span class="eng-word">lucky</span> 的幸運兒！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">Oh my! (天哪)</span><span class="v-tag">break the rules (違反規定)</span><span class="v-tag">wake...up (叫醒/代名詞放中間)</span><span class="v-tag">lucky (幸運的)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">我在現實世界睡得好好的，一覺醒來被你綁架到這本書裡，這算哪門子好運？你指著隔壁穿越女去深山給七個野孩子當免費保母，那根本是人口拐賣！我乖乖當了五年舔狗，好感度 <span class="eng-word">only</span> 停在五十，僅僅五十分讓我怎麼回家？既然他不肯愛我，<span class="eng-word">let's</span> 開啟下一周目 <span class="eng-word">right now</span>，我們現在立刻重開，多刷幾次，他總會答應我的表白！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">only (只是/僅僅)</span><span class="v-tag">let&#x27;s (讓我們一起)</span><span class="v-tag">right now (立刻/現在)</span></div>
+            </div>
+        </div>
+        </div><div class="loop-block"><h2 class="loop-title">🎬 第二周目（第 02～03 節）：暴雨酒吧真心話大冒險</h2>
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">世界碎裂重組，<span class="eng-word">second</span> 周目啟動！系統能量不足，<span class="eng-word">time</span> 只倒退回三個月前的 <span class="eng-word">Friday night</span>。星期五晚上下著傾盆大雨，聞堰和他的兄弟們正在豪華酒吧包廂開 <span class="eng-word">party</span> 玩真心話大冒險。他跟白月光楊蓁打賭我能不能隨叫隨到，我不來系統就電擊我，害我淋成落湯雞出現在這場派對上。</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">second (第二)</span><span class="v-tag">time (時間)</span><span class="v-tag">on Friday night (在週五晚上)</span><span class="v-tag">party (派對)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card sys">
+            <div class="speaker-badge">【楊蓁】</div>
+            <div class="line-body">
+                <p class="line-text">（嬌笑倚靠）聞哥，<span class="eng-word">look at</span> 你的小舔狗，她盯著酒杯看半天了，該不會 <span class="eng-word">can't</span> 替我喝這三杯烈酒、喝不下去吧？</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">look at (注視)</span><span class="v-tag">can&#x27;t (不能/不會)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card wen">
+            <div class="speaker-badge">【聞堰】</div>
+            <div class="line-body">
+                <p class="line-text">（猛地慘叫起身、冷汗狂流）啊——！痛死我了！二十幾樓摔下來的聲音還在耳邊……宋蘊秋！因為系統能量不足，我也保留上一世的記憶！我沒有答應妳的表白，妳居然敢把我推下天台！<span class="eng-word">Don't talk to me</span>！別跟我講話，我怎麼可能眼瞎喜歡妳這種替身！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">Don&#x27;t + 原V (否定祈使句)</span><span class="v-tag">talk to (對…說話)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">我歪了歪頭，露出燦爛又核善的微笑：「聞堰，我 <span class="eng-word">can</span> 當你女朋友嗎？既然你破口大罵，那就是不同意囉？看來這場遊戲 <span class="eng-word">it's my turn</span>，輪到我出手了！」我抄起桌上的斷裂酒瓶，一擊送走剛重生一分鐘的男主！包廂裡的 <span class="eng-word">guys</span> 嚇得尖叫四散，那群傢伙還哭喊著跟聞堰不熟！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">turn (輪到的機會)</span><span class="v-tag">guys (大夥/那群傢伙)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card sys">
+            <div class="speaker-badge">【系統】</div>
+            <div class="line-body">
+                <p class="line-text">妳怎麼又淘汰男主了？！<span class="eng-word">Please don't fight with him</span>！拜託別再跟他動手了！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">Please don&#x27;t... (請不要…)</span><span class="v-tag">fight with (與…打架/爭鬥)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">我是在 <span class="eng-word">fight for</span> 我自己回家的人生！為了我的自由而戰，愛你老聞，我們下下輩子 <span class="eng-word">see you</span>！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">fight for (為…而戰)</span></div>
+            </div>
+        </div>
+        </div><div class="loop-block"><h2 class="loop-title">🎬 第三周目（第 04～05 節）：夏夜別墅與竄改的密碼鎖</h2>
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">世界再度重組，<span class="eng-word">third</span> 周目開啟！時間倒退回六個月前，正值 <span class="eng-word">June</span> 初夏的梅雨季。六月的江城大雨滂沱，我發著三十九度高燒，手裡卻拿著聞堰傳簡訊逼我跑腿買來的物品，站在他別墅大門 <span class="eng-word">in front of</span>。站在門口前，我按下門鈴。</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">third (第三)</span><span class="v-tag">in June (在六月)</span><span class="v-tag">in front of (在…前面)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card wen">
+            <div class="speaker-badge">【聞堰】</div>
+            <div class="line-body">
+                <p class="line-text">（雙腿發軟、沙啞驚吼）楊蓁，<span class="eng-word">don't open the door</span>！千萬不要開門！她已經淘汰我兩次了，快把門鎖死！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">don&#x27;t open (不要打開)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">太晚了！我早就知道別墅電子鎖的密碼是 <code class="inline-code">011207</code>——白月光楊蓁的 <span class="eng-word">birthday</span> <span class="eng-word">in December</span>，十二月七號的生日！聞堰為了讓我當二十四小時跑腿工具人，早就把密碼告訴我了。我推門走進黑暗的玄關，反手鎖門並改掉密碼，閃電照亮我的臉：「聞堰，我能當你女朋友嗎？」</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">birthday (生日)</span><span class="v-tag">in December (在十二月)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card wen">
+            <div class="speaker-badge">【聞堰】</div>
+            <div class="line-body">
+                <p class="line-text">（狂拉門把打不開、牙齒打顫）門怎麼鎖死了？！蘊秋，<span class="eng-word">wait a second</span>！等一下，妳別衝動，<span class="eng-word">let's have a talk</span>，我們好好談一談！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">wait a second (等一下)</span><span class="v-tag">have a talk (談一下/名詞用法)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">我拿起桌上那把曾經幫他削蘋果、還割傷我手指的水果刀：「有什麼好談的？去酒吧那天 <span class="eng-word">before</span> 我推門進去，在進門之前我就親耳聽到你跟兄弟炫耀，說在我 <span class="eng-word">before</span> 已經有三個攻略女因為任務失敗被系統抹殺！你明明知道我們不攻略就會死，卻把我們的求生當成你的樂子！既然你不肯答應，那我們就 <span class="eng-word">fourth</span> 周目見！」</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">before (在…之前)</span><span class="v-tag">fourth (第四)</span></div>
+            </div>
+        </div>
+        </div><div class="loop-block"><h2 class="loop-title">🎬 第四周目（第 06～11 節）：豪華郵輪假意妥協與斷電封艙</h2>
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">鹹腥的海風湧入鼻腔，<span class="eng-word">fourth</span> 周目降臨！時間回到一年前的 <span class="eng-word">weekend</span>，聞堰為了幫剛回國的楊蓁接風，特地包下豪華郵輪出海。第一世裡，他們在這艘船上捉弄我，把我丟進甲板 <span class="eng-word">under</span> 黑漆漆的貨艙關了整整 three <span class="eng-word">days</span>，害我得了幽閉恐懼症！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">weekend (週末)</span><span class="v-tag">under (在…下面)</span><span class="v-tag">day (天/日子)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">甲板上，聞堰一看到我就嚇得雙腿一軟跌坐在地，死死捂著肚子。他的小弟還在旁邊起鬨叫我過去 <span class="eng-word">give him a hand</span> 扶他一把。我站在原地動也不動，直視他的眼睛：「聞堰，我能當你女朋友嗎？」</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">give...a hand (幫忙/伸出援手)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card wen">
+            <div class="speaker-badge">【聞堰】</div>
+            <div class="line-body">
+                <p class="line-text">（環顧甲板發現沒有武器、眼底閃過陰狠）<span class="eng-word">Sure</span>……當然可以！我答應妳！從 <span class="eng-word">today</span> 開始，今天起妳就是我女朋友了！走，<span class="eng-word">follow me</span> 進船艙，跟著我進來，我有禮物要送給妳！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">sure (當然/肯定)</span><span class="v-tag">today (今天)</span><span class="v-tag">follow (跟隨/遵守)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">我轉頭調侃系統：「你瞧，與其當舔狗討好男主，不如直接物理攻打男主效率更高！」可聞堰牽我的手掌心全是冷汗，一進船艙，他居然從行李翻出一把尖刀朝我撲過來，大罵我憑什麼配當他女朋友！我早就防著他這一手，一個閃身衝出船艙，反手把防暴艙門死死反鎖！</p>
+                
+            </div>
+        </div>
+        
+        <div class="line-card sys">
+            <div class="speaker-badge">【系統】</div>
+            <div class="line-body">
+                <p class="line-text">妳把他們全鎖在船艙裡了！天快黑了，妳要去駕駛艙幹嘛？我警告妳，我要放電流懲罰妳了！</p>
+                
+            </div>
+        </div>
+        
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">我走進空無一人的駕駛艙，直接 <span class="eng-word">turn off</span> 整艘遊艇的總電源與衛星通訊，把所有設備通通關掉！系統電了我一下，卻像蚊子叮一樣微弱——重啟三次世界，系統早就沒電了！船艙玻璃是防風暴加固過的，裡面 <span class="eng-word">only</span> 幾瓶香檳和幾塊小蛋糕，就讓他們親自體驗我當年被關在黑艙裡三天三夜的絕望！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">turn off (關掉電器/設備)</span><span class="v-tag">only (只有/僅僅)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">關門第三天，聞堰的小弟們氣得把聞堰揍得鼻青臉腫；到了第五天，遠處聞家的搜救艇終於開過來了。我打開艙門，楊蓁哭著爬過來說再也不跟我搶了。我把虛脫的聞堰拖到甲板邊緣，他乾裂的嘴唇喊著要喝水。我輕聲對他說：「這就送你去一個全是水的好地方！」在搜救艇趕到 <span class="eng-word">before</span>，我輕輕一推：「愛你老聞，下輩子記得別騙我了！」</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">before (在…之前)</span></div>
+            </div>
+        </div>
+        </div><div class="loop-block"><h2 class="loop-title">🎬 第五周目（第 12 節）：學校器材室的惡作劇與忘記提問</h2>
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">第五周目開啟！我睜開眼，發現自己站在學校偏僻又 <span class="eng-word">quiet</span> 的體育器材室。第一世裡，聞堰傳紙條約我 <span class="eng-word">after class</span> 下課後在這裡見面，說有驚喜給我；結果我滿懷期待跑來，卻被他迎頭潑了一桶髒水，他的兄弟還嘲笑我說楊蓁半年後就要回國了！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">quiet (安靜的)</span><span class="v-tag">after class (下課後)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">這一次，聞堰剛從溺水的記憶中驚醒，張大嘴拼命喘氣。我二話不說，直接拿起牆角的器材送他重開！結果系統崩潰大喊：「妳怎麼沒問他就動手了？說不定這世他願意當妳男朋友呢！」我拍了拍腦袋：「糟糕，我一時 <span class="eng-word">in a hurry</span> 太匆忙，居然忘記問那個 <span class="eng-word">important</span> 的重要問題了！抱歉啦老聞，<span class="eng-word">next time</span> 下次我一定記得先問你！」</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">in a hurry (匆忙地)</span><span class="v-tag">important (重要的)</span><span class="v-tag">next time (下次)</span></div>
+            </div>
+        </div>
+        </div><div class="loop-block"><h2 class="loop-title">🎬 第六周目（第 13～17 節）：大一愛心蠟燭、保鏢搜捕與別墅反擊</h2>
+        <div class="line-card wen">
+            <div class="speaker-badge">【聞堰】</div>
+            <div class="line-body">
+                <p class="line-text">（摸著後腦勺驚恐尖叫）痛痛痛！<span class="eng-word">I'm ready</span>！我準備好了！宋蘊秋，我願意讓妳當我女朋友，我真的願意！（拔腿狂奔逃出校門）宋蘊秋妳給我等著，我們聞家捏死妳像捏死螞蟻一樣簡單！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">ready (準備好的)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">第六周目回到了兩年前的大一開學夜，聞堰嘴上喊著願意，人卻一溜煙逃出學校，還派了一群凶神惡煞的保鏢在 <span class="eng-word">around</span> 晚上八點左右踹開我七樓出租屋的大門！我屏住呼吸，整個人貼在七樓窗外的空調外機上，保鏢在陽台 <span class="eng-word">look around</span> 四處張望都沒發現我。等保鏢下樓搜尋，我故意嘆氣騙系統：「聞家勢力太大，看來我只能乖乖攻略他了——系統，快幫我定位聞堰現在在哪個 <span class="eng-word">place</span> 吧！」</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">around (大約/四處)</span><span class="v-tag">place (地方)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card sys">
+            <div class="speaker-badge">【系統】</div>
+            <div class="line-body">
+                <p class="line-text">妳想通就好！聞堰以為躲在別墅裡很 <span class="eng-word">safe</span>、很安全，把保鏢全派出去找妳了！咦？<span class="eng-word">Wait</span>！等等，妳不去客廳討好他，先跑去車庫拎一桶汽油幹什麼？！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">safe (安全的)</span><span class="v-tag">wait (等待/等等)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">我媽教過我，去別人家 <span class="eng-word">place</span> 作客一定要帶伴手禮才禮貌！我發揮小時候在鄉下練出的攀爬本領，順著水管爬上三樓陽台溜進客廳，對著還在咆哮講電話的聞堰一笑：「聞堰，這一世你剛剛是騙我的對吧？強扭的瓜甜不甜我不知道，但一定很解渴！」火光亮起，我們第七周目見！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">place (住家/一字多義)</span></div>
+            </div>
+        </div>
+        </div><div class="loop-block"><h2 class="loop-title">🎬 第七周目（第 18～19 節）：高考升學宴與不被父母祝福的愛情</h2>
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">第七周目回到了 <span class="eng-word">August</span> 八月的高考升學 <span class="eng-word">dinner</span> 晚宴！明明我的高考分數比聞堰高出一大截，系統卻逼我跟聞堰填同一所大學。晚宴上，聞堰爸爸高高在上地羞辱我攀高枝，要聞堰多跟楊家千金培養感情；話還沒說完，聞堰突然從椅子上滾到地上慘叫「好燙、全是火」！我站起身，微笑看向驚恐發抖的聞堰：「聞堰，我能當你女朋友嗎？」</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">in August (在八月)</span><span class="v-tag">dinner (晚餐/正餐宴席)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card wen">
+            <div class="speaker-badge">【聞堰】</div>
+            <div class="line-body">
+                <p class="line-text">（崩潰狂點頭）我同意！<span class="eng-word">That's for sure</span>！無庸置疑我同意！爸您別攔我，我什麼都願意答應她，求求妳別再追著我重開了！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">for sure (確切地/無庸置疑)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">看著聞父氣得拍桌大罵絕不准我進聞家大門，我嘆了一口氣：「聞堰，系統的最終任務是要結婚領證，不被父母祝福的愛情是沒有結果的。<span class="eng-word">How about</span> 下周目你提前做好家裡的思想工作？那樣怎麼樣呢？」我摔碎手邊的瓷盤，直接開啟第八周目！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">How about + N/V-ing (那…如何/怎麼樣)</span></div>
+            </div>
+        </div>
+        </div><div class="loop-block"><h2 class="loop-title">🎬 第八周目（第 20 節）：貴族高中初見與「這個世界不需要男主」</h2>
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">第八周目，時間回到了高一開學的 <span class="eng-word">Monday morning</span>。星期一早上，我穿著洗得發白的舊校服站在貴族高中的 <span class="eng-word">class</span> 班級講台上。第一世裡，系統逼我從縣城轉學過來，害我因為交不起天價學費被全班霸凌，原本優異的成績一落千丈。此時老師指著聞堰旁邊的空位叫我過去坐，聞堰卻突然尖叫著滾到地上，先摸脖子、再摸後腦勺、最後捂住肚子，痛哭流涕地撲過來抱住我的腿！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">on Monday morning (在週一早上)</span><span class="v-tag">class (班級/課堂)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card wen">
+            <div class="speaker-badge">【聞堰】</div>
+            <div class="line-body">
+                <p class="line-text">（痛哭流涕跪地）宋蘊秋！我喜歡妳！<span class="eng-word">Please</span> 答應我，我們一到法定年齡馬上結婚 <span class="eng-word">sign</span> 字領證！我會搞定我爸媽，求求妳相信我！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">please (拜託/請)</span><span class="v-tag">sign (簽名/動詞用法)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">全班同學下巴都掉下來了。我微笑著對系統說：「你看，任務這就完成了，比當五年舔狗容易多了吧？」一邊說，我一邊打開書包翻出美工刀。系統嚇瘋了：「他都發誓結婚了，妳為什麼還要重開？！」我抬頭看著碎裂的天空，平靜地說：「因為我 <span class="eng-word">think about</span> 思考了很久——我想要一個沒有男主的世界。這個世界不需要男主，<span class="eng-word">only</span> 有女主就足夠了！」</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">think about (思考/考慮)</span><span class="v-tag">only (只有/唯一)</span></div>
+            </div>
+        </div>
+        </div><div class="loop-block"><h2 class="loop-title">🎬 第九周目（第 21～22 節）：撕毀轉學單、系統換綁與清北逆襲</h2>
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">微弱的電流聲後，第九周目正式開啟！系統的能量已經徹底歸零。我站在縣城一中的老師辦公室裡，看著手裡那張皺巴巴的貴族高中轉學申請表——這才是一切錯誤最初的起點！我當場把轉學單撕成碎片丟進垃圾桶，笑著對老師說：「老師，我不轉學了！我要留在我們縣城一中好好 <span class="eng-word">study English</span> 跟各科功課，靠自己的實力衝刺高考！」</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">study (研讀/學習)</span><span class="v-tag">English (英文)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card wen">
+            <div class="speaker-badge">【聞堰】</div>
+            <div class="line-body">
+                <p class="line-text">（畏畏縮縮轉學進教室、雙手發抖遞便當）大、大家好，我是新轉來的聞堰……蘊秋同學，這是我給妳帶的午餐，妳 <span class="eng-word">can</span> 嚐一口嗎？</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">can (可以/請求許可)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card sys">
+            <div class="speaker-badge">【系統】</div>
+            <div class="line-body">
+                <p class="line-text">（在聞堰腦中咆哮）聞堰！我叫你親手做便當你聽不懂嗎？女主宋蘊秋是這個世界唯一的真女主，目前對你的好感度是負一百！要是好感度沒達到一百，你就等著被抹殺吧！還有，兩年後你們聞家就會徹底破產，她的財富會暴增百倍！</p>
+                
+            </div>
+        </div>
+        
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">聽到聞堰腦中系統的咆哮，我心情大好，還順便建議系統多綁定聞堰那群狐朋狗友一起來當工具人幫它補能量。三年後，我以全校第一的優異成績考進清北！畢業慶祝 <span class="eng-word">day</span> 那天，我走到空教室，撥通了熟記於心的號碼給尚未黑化的楊蓁：「楊蓁，<span class="eng-word">listen to</span> 我說，別接盤聞家那塊爛地皮，兩年後破產的就是聞家，妳也不用被系統綁定去當惡毒白月光了。還有，別老是節食減肥，站在甲板上海風一吹就倒！」</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">day (日子/天)</span></div>
+            </div>
+        </div>
+        
+        <div class="line-card song">
+            <div class="speaker-badge">【宋蘊秋】</div>
+            <div class="line-body">
+                <p class="line-text">掛上電話，班導師推開教室門笑著喊我：「蘊秋，全班都在等妳 <span class="eng-word">take a picture with</span> 大家拍畢業合照呢！<span class="eng-word">Hurry up</span>！」我揚起燦爛的笑容應道：「<span class="eng-word">Sure</span>！馬上來！」窗外陽光正好，這一次，我終於奪回屬於自己的滿分人生！</p>
+                <div class="tag-row">💡 嵌入考點：<span class="v-tag">take a picture with (與…拍照)</span><span class="v-tag">hurry up (快點)</span><span class="v-tag">sure (當然/沒問題)</span></div>
+            </div>
+        </div>
+        </div>
+  </div>
+
+  <div id="tab-original" class="tab-panel">
+    <div class="orig-box">
+      <h2>《九周目》（又名：《天嵐九周》／《天台推手》）YouTube 原劇完整語音劇本（全 22 節精校逐字稿）</h2>
+<p class="orig-meta">- **影片來源**：https://www.youtube.com/watch?v=QiwwoaWru8o</p>
+<p class="orig-meta">- **總片長**：30 分 28 秒（共 9 周目、22 節完整故事）</p>
+<p class="orig-meta">- **原著角色**：宋蘊秋（女主）、聞堰（男主）、攻略系統、楊蓁（白月光）、聞父、聞堰兄弟群、高中班導師</p>
+<p class="orig-meta">- **已下載原劇音檔**：`九周目_YouTube原劇語音_QiwwoaWru8o.mp3`</p>
+<hr/>
+<h3 class="orig-sec">【楔子與第 01 節】一周目終局：天台上的表白與物理重開 `[00:00 - 01:41]`</h3>
+<p>系統讓我攻略男主：「只有成為他的女朋友，你才能完成任務回到原世界。」</p>
+<p>我把聞堰約到搖搖欲墜的天台邊：「我能當你女朋友嗎？」</p>
+<p>聞堰鄙夷地笑：「像你這種前不凸後不翹的舔狗，我怎麼可能讓你當我女朋友？」</p>
+<p>我伸手輕輕一推。聞堰跌落天台，摔成一灘肉泥。</p>
+<p>「愛你老聞，下輩子見。」</p>
+<p>我扭頭對系統道：「我殺了男主，這一世的故事結束了。準備開啟下周目吧。多殺幾次，他總會答應我的表白。」</p>
+<p><span class="sec-badge">第 01 節 [00:25]</span></p>
+<p>四周尖叫聲此起彼伏。我站在天台上，探出身子往下瞧。</p>
+<p>聞堰躺在一樓水泥地上，身下洇出大片黏稠猩紅的血跡。他雙目圓睜，死死盯著上空，臉上還殘留著極致的驚懼，彷彿墜落的那一刻都不敢相信，我會把他推下天台。</p>
+<p>系統崩潰大喊：「你怎麼能沒經過我同意就殺了男主呢？」</p>
+<p>我面容平靜：「你帶我來這個世界時，也沒有經過我的同意。」</p>
+<p>我在現實世界待得好好的，一覺醒來，穿越到這本書中。系統手舞足蹈地告訴我是幸運兒，能得到它的綁定，換來一次穿越體驗人生的機會。</p>
+<p>它說：「你瞧，隔壁那個女生穿越到年代文，成為糙漢與七個孩子的後媽，日子過得紅紅火火。」</p>
+<p>我：「人販子拐賣女生進深山，給老鰥夫當媳婦養野種？」</p>
+<p>它叫嚷：「再看這個，穿到古代流放路上開荒養罪臣，終於幫助男主殺回京城。」</p>
+<p>我：「人販子拐賣女生丟到老林，榨乾價值給有前科的人當免費老媽子？」</p>
+<p>它破口大罵：「穿越的事兒，怎麼能叫拐賣呢？」</p>
+<p>系統逼我攻略男主，當一隻盡職盡責的舔狗，不舔就會有懲罰。我兢兢業業舔了五年，只為換來回家的機會。可好感度始終停在五十，回家的日子遙遙無期。</p>
+<p>我累了。既然聞堰不願意愛我，那我就殺到他願意愛為止。</p>
+<p>他的兄弟們已經紛紛跑上天台，驚恐中帶著憤怒：「你居然殺了聞哥！我一定要讓你給聞哥償命！」</p>
+<p>命大概是償不了了。他們在向我跑來時，小世界開始坍塌，眼前所有的一切都碎裂成無數帶著稜角的鏡面。</p>
+<p>碎片重組，二周目開啟。有道尖銳的女聲在我耳邊不滿：「聞哥讓你喝你就喝，矯情個什麼勁兒？」</p>
+<hr/>
+<h3 class="orig-sec">【第 02～03 節】二周目：暴雨酒吧真心話大冒險 `[01:42 - 04:07]`</h3>
+<p><span class="sec-badge">第 02 節 [01:42]</span></p>
+<p>我猛地一抬頭，碎裂的世界拼合。映入眼簾的是一個裝修富麗堂皇的酒吧包間，一群男男女女正圍成一圈，玩著真心話與大冒險。</p>
+<p>二周目啟動，但系統明顯能量不足，所以時間撥回到了三個月前。</p>
+<p>聞堰與他的兄弟們正在酒吧喝酒玩遊戲。外面瓢潑大雨，聞堰與他的白月光打賭，賭我能不能隨叫隨到。</p>
+<p>我本不想來，可系統說：「不去怎麼能攻略男主呢？」我被電得渾身寒毛直豎，渾身大雨淋得濕透出現在酒吧，成為包間裡人人嘲笑的舔狗。</p>
+<p>白月光撇著嘴，不願意喝這三杯烈酒，聞堰讓我替他的白月光喝下去。</p>
+<p>許是我沉默的時間太久，楊蓁倚靠在聞堰身邊，嬌笑道：「聞哥，看來你的小舔狗不願意替我喝這杯酒呢？」</p>
+<p>聞堰本該冷著神色讓我喝下去，等待我的，是胃痛到去醫院打點滴。</p>
+<p>可聞堰猛地慘叫一聲起身，額頭冷汗涔涔，眼底的驚懼殘留，像是想起什麼令他恐懼的事。</p>
+<p>楊蓁不明所以，聲音依然嬌柔：「聞哥你怎麼了？」</p>
+<p>聞堰大口大口地呼吸著新鮮空氣，被推下二十幾樓活活摔死的痛感還殘存在記憶裡，腦骨撞擊地面的聲音猶在耳畔。</p>
+<p>他倏忽抬頭看向我，眸底恐懼中帶著極致的憤怒。</p>
+<p>我頓時明瞭：系統能量不足，我能保留著上一周目的記憶，那麼身為男主的聞堰自然也能。</p>
+<p>我衝他露出一個猙獰的笑，用最直白、最不繞彎子的話問道：「聞堰，我能當你女朋友嗎？」</p>
+<p><span class="sec-badge">第 03 節 [02:54]</span></p>
+<p>像是惡鬼從地府來索命，聞堰臉上的恐懼更甚。</p>
+<p>楊蓁像是聽到什麼笑話，噗嗤一笑：「怎麼著？當了幾年的舔狗，還真以為自己拿到大結果了？聞哥不過是拿你當我的替身而已，自己還真覺得能上位？」</p>
+<p>其他兄弟也紛紛附和：「舔狗今兒把自己當人看了！」「也不拿鏡子照照自己的模樣，你也配得上聞哥？」「這樣的身材家世，能當聞哥舔狗已經是你八輩子修來的福氣了！」</p>
+<p>聞堰也逐漸從驚懼中緩過神來，對我破口大罵：「宋蘊秋，我沒有答應你的表白，你居然敢把我從天台上推下去！你也不看看自己算個什麼東西？我怎麼會眼瞎喜歡上你這種女人——」</p>
+<p>我歪歪頭：「那就是不同意囉？」</p>
+<p>他剩餘的話全部噎了回去，血紅的眼珠裡全是不可置信。目光下移，一截斷裂的酒瓶狠狠插入他脖頸處的動脈，鮮血四濺，靠在他身旁的楊蓁被濺了一臉溫熱鮮血。</p>
+<p>寂靜一瞬後，慘叫聲在小小的包間裡左衝右突，繼而變成此起彼伏的尖叫：</p>
+<p>「殺人了！快點打 120 啊！宋蘊秋你別過來，我……我跟聞堰不熟的，關係沒那麼好！」「殺完他就不能再殺我了……」「是楊蓁提議打電話讓你過來的，說要看舔狗……跟我沒有關係啊……」</p>
+<p>聞堰瞪大了眼，他不敢相信，剛剛重生一分鐘的他，再次死在我手裡。</p>
+<p>系統已經瀕臨崩潰：「你怎麼又殺了男主？」</p>
+<p>我糾正：「他不是男主。他只是與人販子勾搭的買家而已，偽裝成男主，攫取我的氣運。所以，愛你老聞，我們下下輩子見。」</p>
+<hr/>
+<h3 class="orig-sec">【第 04～05 節】三周目：夏夜別墅與竄改的密碼鎖 `[04:08 - 07:44]`</h3>
+<p><span class="sec-badge">第 04 節 [04:08]</span></p>
+<p>世界分崩離析，聞堰已經咽氣的臉在我面前分裂成無數細小的碎片，再次整合。三周目啟動。</p>
+<p>天上的雨綿綿不絕，我渾身濕透。入夏後，江城的雨開始頻繁起來。我的手中正拿著一盒超薄，手機裡還有聞堰發給我的短信：</p>
+<p>【宋蘊秋，去幫我買盒超薄送到別墅來。別自作多情，這是我與蓁蓁用的，你這樣的人只配跑腿送套。記住了，要給老子買最大號的。】</p>
+<p>時間線後退到六個月前。系統已經從最初的耀武揚威變成苦苦哀求：「你不能再殺男主了。」</p>
+<p>我點頭：「他只要答應成為我男朋友，我自然不會再殺他。」系統再無任何動靜。</p>
+<p>此刻，我已經站在聞堰的別墅外，手指摁上了門鈴。如果沒記錯的話，在第一周目裡，兩人乾柴烈火，在客廳就已經脫衣擁抱成一團。之前我送來時，楊蓁鄙夷地笑我：「賤不賤呢，眼巴巴地上趕著倒貼。你該不會以為自己也能分一杯羹吧，也不看看自己是什麼貨色。」聞堰對我這隻舔狗滿意得很，拿了東西就將我關在門外。</p>
+<p>這次，門鈴剛剛被摁響，楊蓁輕蔑的聲音傳來：「聞哥，你那隻舔狗還真眼巴巴地送過來了。」她似乎起身準備開門。</p>
+<p>我聽到聞堰陡然驚懼的叫喊，那是從喉嚨裡發出的「嗬嗬」聲，並大口大口喘著粗氣。驚懼與死亡還縈繞在心頭，令他手腳發軟，渾身止不住地哆嗦。他已經死了兩次了，第一次被推下天台，第二次被酒瓶碎片扎穿大動脈。</p>
+<p>眼看楊蓁已經起身去開門，聞堰沙啞著嗓子吼：「不要開！」</p>
+<p>晚了。因為我知道大門密碼：011207，白月光楊蓁的生日。聞堰很早就將密碼告訴了我，為了讓我給他買飯買藥送資料，當一隻隨叫隨到的舔狗。哪怕我燒到 39 度，他也要折騰我跑一趟。我拒絕，系統就會狠狠懲罰；我答應，高燒讓我住了三天的院，病好後繼續被聞堰折磨。怎麼做都是錯的。</p>
+<p>門已經打開，我立於黑暗中，身後是江城入夏的第一場雨，閃電劃過，照亮我陰森的臉。我舉起手裡的盒子，笑吟吟地問道：「聞堰，我能當你女朋友嗎？」</p>
+<p><span class="sec-badge">第 05 節 [05:53]</span></p>
+<p>楊蓁第一個反應過來，衝我翻了個白眼，整個人鑽進聞堰僵硬的懷抱：「你以為聞哥喊你來是為了表白的嗎？笑死了，遇到個有錢公子哥就像塊狗皮膏藥，死纏爛打不放。」</p>
+<p>聞堰渾身抖得越來越厲害，離得近，我甚至能聽到他上下牙輕微的磕碰聲。他一把推開楊蓁，不顧對方跌倒在地的痛呼，顫抖著手指向我：「宋蘊秋，你簡直就是個瘋子！不就是沒答應你的表白嗎？你居然殺了我兩次！今天，我絕不會讓你得逞！」</p>
+<p>聞堰壯著膽子，色厲內荏地喊出這些話，轉身就想越過我往大門處逃。</p>
+<p>晚了。我在進門時，順手鎖了門，還把密碼給改了。得益於我是隻呼來喝去的舔狗，對大門的密碼鎖比自家出租屋的門還要熟悉。</p>
+<p>聞堰絕望地擺弄幾下門鎖，毫無動靜。他的後背洇出一層冷汗，汗毛根根豎立。一回頭，我舉著尖刀站在距離他三米遠的地方。這是把水果刀，刀刃削鐵如泥，我曾拿著這把刀為聞堰削過蘋果，手指上留下一道至今未曾消退的疤痕。</p>
+<p>死亡的恐懼再次籠罩聞堰，他牙齒打顫：「蘊秋，你別衝動，咱們有話好好說。」</p>
+<p>「好好說？」我咧嘴露出森白牙齒，「聞堰，你不是早就知道我是攻略女了嗎？你不就是喜歡看我被迫當舔狗的模樣嗎？」</p>
+<p>聞堰很早就知道我是個攻略女，甚至在我之前，他遇到了好多攻略女，看著一個又一個的攻略女在系統的脅迫下，被逼對他露出笑臉、卑微討好。</p>
+<p>我去酒吧那晚，推門而入之前，我聽到聞堰與兄弟們調笑：「宋蘊秋一個攻略女，會不會被抹殺全看我的心情，下再大的雨，我一個電話她也得過來。等玩膩了這隻舔狗，找個理由一腳踢開她，她的系統很快會再綁定一個女主過來的。誰讓我是這個世界的男主呢？」</p>
+<p>他的兄弟們以為他喝多了說胡話，只有我知道，他說的是事實。在我之前，已經有三個攻略女因為沒有達成目標被抹殺掉了。</p>
+<p>所以，我現在想通了。既然他不同意做我男朋友，那我就殺到他同意為止。</p>
+<p>我高舉起刀，聞堰驚恐大叫：「宋蘊秋，你住手——」</p>
+<p>刀子貫穿他的腹部，楊蓁被嚇得尖叫聲幾欲震破耳膜。大股大股的鮮血湧出，聞堰還想再說些什麼，可是劇痛讓他一個字都說不出。面前的世界再次分崩離析，四周目降臨。</p>
+<hr/>
+<h3 class="orig-sec">【第 06～11 節】四周目：豪華郵輪假意妥協與斷電封艙 `[07:45 - 15:45]`</h3>
+<p><span class="sec-badge">第 06 節 [07:45]</span></p>
+<p>海水的鹹腥夾雜著潮濕湧入我的鼻孔。我再一睜眼，正站在一艘郵輪的甲板上。</p>
+<p>一旁，聞堰的兄弟們正圍著楊蓁恭維：「不容易啊，蓁蓁終於回國了，你知不知道，聞哥想你都要想瘋了。」「為了緩解思念，聞哥養了個替身在身邊，可替身永遠是替身，怎麼能跟正主比呢？」「你一回國，某些人的幻想可就要戳破了。」</p>
+<p>我這才想起，這是一年前，楊蓁剛剛回國的第二天，聞堰特意包了郵輪出海，為她接風洗塵。臨出發前，還特意給我打電話，讓我一定別遲到。</p>
+<p>我自然知道他們的目的，這趟出海，我存在的意義就是被他們捉弄取樂。通過貶低我，聞堰可以證明他心裡只有白月光一人，而楊蓁也樂見其成。她出國前還是大小姐，短短幾年家族企業破敗，留在這個圈子唯一的機會，那就是與聞堰聯姻，成為聞太太。</p>
+<p>這場郵輪之旅豪華奢靡，但又與我無關。因為第一世我被他們捉弄，丟到甲板下面，在黑漆漆的貨艙裡待了三天，使我徹底患上了幽閉恐懼症。</p>
+<p>我回神，看向聞堰。他猛地雙腿一軟，跌坐在地，手下意識地捂住腹部並不存在的傷口——與三周目裡死亡時的姿勢一模一樣，渾身被冷汗浸透。</p>
+<p>兄弟們笑著打圓場：「聞哥這是怎麼了？見了蓁姐開心得都站不穩了？」</p>
+<p>越過人群，我們四目相對，聞堰的臉上徹底染上驚懼。有人喊我：「舔狗呢？沒看見你主子摔倒了，還不趕緊過去扶？」</p>
+<p>我沒有動，而是不錯眼珠地盯著他，問出那句魔咒：「聞堰，我能當你女朋友嗎？」</p>
+<p><span class="sec-badge">第 07 節 [09:00]</span></p>
+<p>眾人一片哄笑，裹挾著海風吹到我的臉上：「你還真認不清自己是個什麼東西！」「蓁姐都回國了，你以為還有你什麼事？」「就是，聞哥可是心心念念一直等著蓁姐回國，你不過是個打發時間的玩意兒罷了。」</p>
+<p>楊蓁也是一臉不屑，等著我被打臉。唯有跌坐在地的聞堰驚魂未定，他使勁喘著粗氣，努力平復心底的恐懼，然後微微掃了眼四周：碩大的郵輪、平坦的甲板、一望無際的海洋，四周並沒有什麼趁手尖銳的利器，而他們人多，我只有一個人。</p>
+<p>一群人等著聞堰嘲笑我這隻舔狗，準備一起跟風羞辱。只見聞堰從地上緩緩起身，不動聲色地後退兩步，驚懼的眸底劃過一絲晦暗與憤懣，而後，竟然說出與前三周目完全不同的話：</p>
+<p>「好……我……我答應你。」</p>
+<p><span class="sec-badge">第 08 節 [09:40]</span></p>
+<p>事情似乎有了轉機，前三周目他不同意的事，這一次輕而易舉地答應了。</p>
+<p>我對系統道：「你瞧，比起我當舔狗攻略男主來換取成為他女朋友的結局，倒不如換成攻打男主來得更快。」系統徹底沉默。</p>
+<p>我露出久違的微笑：「好啊男朋友，餘生請多多指教。」</p>
+<p>聞堰乾咽了口唾沫。一旁的楊蓁急了，她抓住聞堰的胳膊不可置信道：「聞哥哥，你怎麼會喜歡她呢？你肯定是在跟她開玩笑的對吧？你明明說過只喜歡我一個人的！」</p>
+<p>一旁兄弟們也紛紛不解：「就是啊，聞哥你什麼時候喜歡這隻舔狗了？」「哎呀，聞哥肯定是在說笑話，之前不是說好了要把她關到甲板下面取樂嗎？」</p>
+<p>大家你一言我一語，沒有人注意到聞堰逐漸冷靜下來的眼眸。他看向我，眸底擠出幾分虛假的深情，海風吹動他垂落眉骨的瀏海，遮住了大半陰鷙。他甩開楊蓁的手，衝我深情道：「我喜歡的人只有蘊秋，才不會喜歡別人呢。既然我答應了蘊秋的表白，那從今天開始，她就是我女朋友了。女朋友，我有件禮物要送給你。」</p>
+<p>他在說這句話時，有一閃而過的狠厲，被我敏銳地捕捉到了。</p>
+<p><span class="sec-badge">第 09 節 [10:35]</span></p>
+<p>聞堰過來牽我的手，他的掌心全是濡濕的汗水，手指在微微發抖，這樣一個簡單的動作，似是用了全身的力氣控制。</p>
+<p>剛走進船艙，他便迫不及待地鬆開了我的手。身後跟著的，是一群一頭霧水的兄弟們，以及眼眶紅紅的楊蓁。</p>
+<p>聞堰說，要送我一件禮物，當成我們第一天成為男女朋友的紀念。我含笑看著他在船艙散落的行李中翻找。</p>
+<p>片刻後，聞堰驟然舉起一把尖刀，面目猙獰囂張地叫嚷：「臭女人，你殺了我三次，這一次，我一定不會讓你得逞了！」</p>
+<p>他的兄弟們嚇傻了，大家只是開著遊艇出海開 party，香檳美食，順便拿我找樂子，誰也沒打算鬧出人命。眾人驚呼著後退，就連楊蓁都忘記啜泣，發出我聽了三周目從未變過的尖叫，向後逃離時被凳子絆倒，摔到地上瑟瑟發抖。</p>
+<p>一片兵荒馬亂中，唯有我站在原處，露出失望的苦笑：「原來你答應我當你女朋友的話，是假的啊。」</p>
+<p>聞堰臉上表情愈發猙獰，額頭甚至有青筋暴出，握刀的手骨節咔咔作響：「也不照照鏡子看看自己是什麼貨色，憑你的家世也配當我女朋友？就你這樣的女人，能讓我玩幾天都是你的造化！」</p>
+<p>聞堰已經不耐煩，舉著尖刀衝我刺來。我快速閃身跑出船艙外，然後反手將門反鎖——這是我在跟著聞堰進船艙時早已想好的退路。</p>
+<p>裡面的人被困，聞堰怒氣更甚，瘋了似的捶打艙門：「宋蘊秋，快給老子開門！這一世，我一定不會饒了你！」</p>
+<p>真是失望，本以為這周目可以完成任務的。我去了駕駛艙，裡面空無一人，遊艇正停在寂靜的海面，茫茫大海，一片孤舟。我的嘴角掛上一絲玩味的笑：這一周目的男主居然敢反抗，那我不妨多幾分耐心與他玩玩。我抬手拉下整艘遊艇的電閘。頃刻間，本就晚霞落幕的天地，只剩一片寂靜的黑，與天邊一絲即將消失的微弱光線。</p>
+<p><span class="sec-badge">第 10 節 [12:08]</span></p>
+<p>系統捂著腦袋發出哀鳴：「你到底要幹什麼？難道是等天完全黑透再去船艙下手嗎？你要知道男女力量的懸殊，更何況聞堰現在手中有尖刀，你不是他的對手！」</p>
+<p>我看向天邊最後一絲光線消失，天地變成混沌的黑，水天一色，分不清海平面在哪：「今晚我沒有去船艙的打算。聞堰之所以敢先答應再動手，不就是仗著自己體力上的優勢以及人多勢眾嗎？他能想到的事，我難道想不到嗎？」</p>
+<p>系統語氣逐漸染上驚懼：「那你到底想怎麼樣？聽我的好好跪舔男主，等他發現你的好，自然而然就願意與你在一起了。你要是再這樣下去，別怪我懲罰你了！」</p>
+<p>我充耳不聞，駕駛著船繼續向深海航行，關閉了所有的通訊與衛星設備。</p>
+<p>系統忍不住給我懲罰：「檢測到宿主對男主有攻擊傾向，即將實施電刑！」熟悉的電流竄上我的脊椎，我弓起身子蜷縮在小小的駕駛艙。這次的電擊持續時間十分短，我抹了把額頭的汗水，輕蔑道：「你應該沒有多少能量了吧？」</p>
+<p>系統一頓。男主只要死亡，它就會被強制重啟小世界，三次下來能量早已耗費大半，哪裡還顧得上給我電刑。我緩了緩身體的麻木，勉強起身。</p>
+<p>系統聲音已經帶了哭腔：「那你到底想幹什麼？帶著這一船人去深海，等著浪把船打翻，然後全員覆滅嗎？你要知道，這艘遊艇帶著的柴油只能再跑兩百多海里，那裡的浪並不大，且未來十幾天都是晴朗天氣，壓根沒有掀翻船的大浪！」</p>
+<p>我目視前方：「我沒有想讓浪掀翻這艘遊艇。他們被關在船艙，之前為了防風暴，玻璃是加固過的，普通重物根本砸不穿，且船艙壓根沒有什麼趁手的破船利器，艙門更是砸上去毫無痕跡。而船艙裡只有幾瓶香檳與零散幾碟小蛋糕，僅夠一個人一天的食物——像極了我被關在甲板下的那三日，不吃不喝，硬生生挺了三天，被拖出來時陽光刺得睜不開眼，人幾乎脫水昏迷。」</p>
+<p><span class="sec-badge">第 11 節 [13:42]</span></p>
+<p>艙門被關閉的第一天，我還能聽到聞堰歇斯底里砸門窗的聲音，以及其他人的抱怨：「聞哥，你答應她不就完了？非要出爾反爾，害得我們也跟著受罪！」「就是啊，明明是你自己惹出來的事！」「我說什麼來著，明明是蓁姐的接風宴，你們非要喊宋蘊秋這隻舔狗一起來！」「她該不會要關我們一天一夜吧？不要啊，這裡除了香檳，沒有其他水可以喝了！」楊蓁哭得淒淒慘慘戚戚。</p>
+<p>艙門關閉的第三天，船艙裡的人焦躁了很多。我看到有人抓著聞堰的衣襟，一拳狠狠地砸到他的臉上：「宋蘊秋，我替你教訓過聞堰了，你快放我們出去吧！」他們砸窗戶與艙門的力氣都小了很多，聞堰在裡面成為眾矢之的，被人輪番打了幾次，鼻青臉腫，幾乎辨不出原本帥氣的模樣。</p>
+<p>第五日，船艙外的食物被我吃得乾乾淨淨，再拖下去我也要挨餓，遠處已經有搜救的遊艇往這邊開來。是時候結束了，船艙裡早已沒了動靜。</p>
+<p>我打開艙門，聞堰與幾個兄弟已幾近脫水昏迷，只有楊蓁還有一分力氣，嘴唇乾裂，常年節食減肥的她，尚能支撐著身子爬到我腳邊，抽噎著：「宋蘊秋，聞堰是你的了，我再也不跟你搶了，讓我出去吧……」</p>
+<p>我越過她，將聞堰拖到外面的甲板上。陽光照在臉上，聞堰從昏迷中迷迷糊糊睜開眼，本能地抬手遮住刺目的光，乾涸的唇吐出一個字：「水……」</p>
+<p>我趴在他耳邊小聲道：「我送你去一個全是水的地方。」</p>
+<p>聞堰聽到我的聲音，像是記起什麼恐怖的事，混沌的大腦清醒一瞬，掙扎著就想往遠處爬，可他實在沒有了力氣，胳膊連支撐身體的勁兒都沒有。我拖著他沉重的身體，來到甲板最邊緣——那裡的欄杆在我這幾日的努力下，已經被拆掉一部分。</p>
+<p>遠處的搜救艇越來越近，那是聞家幾日聯繫不上大少爺、又丟失了遊艇的衛星信號，派出來的專業搜救人員來接他回家。</p>
+<p>「我什麼時候才能回家呢？」我想念家裡的爸爸媽媽了，也想念家裡的朋友與同學們，想念我熟悉的環境與熟悉的一切人與事。</p>
+<p>搜救艇距離我越來越近，從一個小小的黑點，逐漸變成可以窺見全貌的遊艇。聞堰被推到遊艇邊緣，腦袋一歪，看到了翻騰的海水，深不見底、翻滾湧動。他掙扎著，卻沒有一絲力氣，乾渴的喉嚨發出「嗬嗬」聲。在他恐慌的眼神中，我輕輕一推，翻滾的海水迅速將人捲入浪潮中，瞬間消失不見蹤影。</p>
+<p>「愛你老聞，下下輩子記得不要騙我了。」</p>
+<hr/>
+<h3 class="orig-sec">【第 12 節】五周目：學校器材室的「Surprise」與忘記提問 `[15:45 - 17:27]`</h3>
+<p><span class="sec-badge">第 12 節 [15:45]</span></p>
+<p>搜救船在我面前破裂成一塊塊斑駁的碎片，茫茫大海逐漸歸於虛無。世界重新拼合，五周目開啟。</p>
+<p>碎片拼成一張張輕蔑的臉，有人在耳邊嬉笑道：「怎麼？聞哥約你來這裡，把你高興壞了？」</p>
+<p>我晃了晃腦袋，左右瞧了瞧，是學校人跡罕至的器材倉庫。我拍了拍腦袋，想起來了：聞堰給我遞了紙條，說是約我在這裡見面，說是有驚喜要告訴我。那時的我以為任務可以完成了，臉上的興奮壓都壓不住，興沖沖地趕來，看到的卻是他那群笑得前仰後合的兄弟，以及坐在正中間揚揚得意的聞堰。</p>
+<p>他說：「看到了沒？我說有驚喜給她，她就開心得跟個傻子似的馬不停蹄地趕來。Surprise！開心嗎？」一桶髒水兜頭澆下，將我澆了個透心涼。原來驚喜是一桶髒水，而不是我心心念念的表白。</p>
+<p>他兄弟在一旁嘲笑：「還真以為聞哥喜歡你啊？實話告訴你吧，聞哥在國外有個白月光，還有半年就要回國了，等蓁姐留學回來，你這替身也該滾遠些了！」</p>
+<p>我抬起頭看向聞堰，他本笑得猖狂的臉，驟然出現極度的恐懼，張大了嘴使勁呼吸著新鮮空氣，像是溺水的人終於得見天日，肺部貪婪地吮吸空氣。</p>
+<p>我眸子一暗，左右環顧一圈，抄起牆角堆放的槓鈴，狠狠往還未緩過神的聞堰腦袋上砸去。頭骨碎裂的聲音在寂靜的器材室顯得格外清晰。周圍人怔愣一瞬，慘叫聲此起彼伏：「殺人了！快打 110，不是，快打 120！宋蘊秋你怎麼這麼惡毒？聞哥就是跟你開個玩笑而已，你怎麼下手這麼狠！」</p>
+<p>他們全跑了，聞堰已經倒在地上，鮮血從腦後緩緩流淌，嘴唇還在蠕動說著些什麼，湊近了都無法聽清。</p>
+<p>系統崩潰大叫：「你怎麼又殺了男主？這一世說不定他願意讓你當他女朋友呢！」</p>
+<p>我這才拍了拍腦袋，總覺得自己像是忘記了什麼——原來是忘記問最重要的問題了！我看著聞堰逐漸渙散的瞳孔，誠心反思道：「抱歉，這一周目忘記問了，等下一周目我們再見面吧，下次我一定記得問。」</p>
+<hr/>
+<h3 class="orig-sec">【第 13～17 節】六周目：大一愛心蠟燭、保鏢搜捕與別墅反擊 `[17:27 - 22:52]`</h3>
+<p><span class="sec-badge">第 13 節 [17:27]</span></p>
+<p>器材室在眼前消失，天地破裂成無數細小的碎片，每一塊都照映出我平靜沾血的面容。</p>
+<p>六周目開啟的時候，我發現自己正站在愛心形蠟燭中，並向聞堰表白：「我能做你女朋友嗎？」</p>
+<p>這次的時間前移了足足兩年，這是大一剛剛開始的時候。我鼓足勇氣向聞堰表白，按照系統的說法，只要我成為他女朋友，就算我完成任務可以重返原世界，脫離這場荒唐的攻略。</p>
+<p>第一世裡，聞堰哈哈大笑，連帶著周圍同學都嘲諷我異想天開，竟然妄圖勾搭聞家大少爺；聞堰更是毫不留情地踩熄蠟燭，居高臨下道：「就憑你，也配當我女朋友？乖乖給老子當好舔狗才是你該做的事！」</p>
+<p>這一周目開啟，我表白的話剛剛說完，聞堰突然猛地大叫一聲，手忍不住撫上後腦勺，那裡沒有血窟窿，但他仍覺得那裡的頭骨好像斷裂了，餘痛仍在。</p>
+<p>身旁有人起鬨：「聞哥，你的舔狗向你表白了，還不快點拒絕她，省得讓她惦記一些不屬於她的東西！」</p>
+<p>哄笑傳來，聞堰似乎剛意識到發生了什麼，他的目光瞥向我，恐懼佔據了所有的理智，下意識脫口而出：「我願意！我願意你當我女朋友，我真的願意！」</p>
+<p>所有人詫異的目光凝聚在聞堰身上。他不動聲色地後退了幾步，與我拉開距離，蓄勢待發，看準時機撥開人群，迅速向學校外跑去，遠遠的聲音傳來：「宋蘊秋，你這賤女人，這一世我一定會先殺了你！」</p>
+<p>系統忍不住提醒我：「男主跑了！他是聞家大少爺，想對付你一個窮學生還不容易？」</p>
+<p>我若有所思地看著他消失的背影，這一周目，確實要麻煩多了。</p>
+<p><span class="sec-badge">第 14 節 [18:48]</span></p>
+<p>我並沒有在學校住宿，聞堰曾經說過住校太麻煩了，讓我在校外租了房子，方便隨叫隨到。夜幕降臨，我慢吞吞地回了自己的出租屋。</p>
+<p>手機裡還有聞堰發來的消息：【宋蘊秋，前幾世是我大意了，這次我倒要看看，你一個窮學生怎麼跟我們聞家抗衡。我們聞家捏死你，像捏死一隻螞蟻一樣簡單。】</p>
+<p>系統忍不住在耳邊絮叨：「不讓你殺男主你非不聽，這下好了吧，以聞家的家世，想對付你還不簡單？」</p>
+<p>我反問：「那你怎麼不給我安排一個牛逼的身份，給男主一個食不果腹的人生呢？」</p>
+<p>我是魂穿進這本書的，至於原女主去了哪裡，系統支支吾吾說不清楚。我從小生長的背景只能用「淒慘」二字來形容：父母不疼愛，從小把我丟在鄉下，磕磕絆絆長大，唯一的收入來源是奶奶賣廢品換來的錢，能給我買幾顆廉價、還帶著香精味的水果糖，那是我人生唯一的甜。似乎我所經歷的所有痛苦，都只是為了有一天等待遇到優秀的男主。</p>
+<p>系統解釋：「女主都是慕強的，所以只能把她放在一個悲慘的境地裡，然後匹配一個優秀的男主。」</p>
+<p>我破口大罵：「呸！女主喜歡強，你不把『強』給女主，反而給別的男人？就像我喜歡錢，所以你把錢給別人，然後扭頭告訴我是為了我好？當女主擁有了強，她才不會再慕強，而是去慕白幼瘦這種沒有任何威脅的男人！」</p>
+<p>話音剛落，外面有雜亂的腳步聲正急匆匆往樓上趕。我將手指放在嘴邊做出「噓」的動作。我住在七樓，腳步聲越來越近，像是很多訓練有素的人逼近我的屋子，完全不是普通住戶散漫的腳步聲。片刻後，年久失修、老舊的防盜門被狠狠一腳踹開。</p>
+<p><span class="sec-badge">第 15 節 [20:08]</span></p>
+<p>一群保鏢闖入我逼仄的出租屋，為首的是一個凶神惡煞的中年男人，大吼道：「給我搜！聞少爺說了，她就住在這裡！」</p>
+<p>小小的屋子一覽無餘，散落著各種不值錢的生活用品，衣櫥櫃子被翻了個底朝天，沒有我的蹤跡。有保鏢去陽台掃了眼，只有零散幾件衣服，沒有任何人的身影。</p>
+<p>我的身子緊緊貼著牆壁，站在空調外機上，只要踏錯一步或者腿一軟，那就從七樓跌落粉身碎骨。</p>
+<p>巡視找不到人，我聽到為首的那人道：「屋子還亮著燈，她肯定是下樓買東西去了，走不遠，都給我四下分散在小區附近找！聞少爺說了，找到這女人，直接就地打死！」</p>
+<p>凌亂的腳步聲逐漸遠去。我站在空調外機上一聲嘆息：「我現在沒辦法了，聞家勢力大，我不是他們的對手，現在看來只能想辦法攻略男主了。」</p>
+<p>系統終於長舒了口氣，吊著的心徹底安穩下來：「你想通就好，我早說讓你攻略男主你非不聽。」</p>
+<p>我胡亂點頭，循循善誘道：「好了，我現在就去攻略男主。系統，你幫我找一下男主在哪裡吧，我只有見到他才能攻略，不是嗎？」</p>
+<p><span class="sec-badge">第 16 節 [21:05]</span></p>
+<p>我喬裝打扮一番，離開家門。外面小區有零散幾個保鏢在仔細辨認。我順利翻牆進入聞家別墅區，沿著牆根一路躲在窗下，聽到男主在客廳暴躁地打電話：</p>
+<p>「什麼叫找不到人？就一個破小區，你們居然找不到這麼大一個活人？那就再仔細找，直到找到為止！活要見人，死要見屍，我還不信了我對付不了一個窮鬼女人！」聲音吼得震天響。</p>
+<p>我改了主意，轉身先去了車庫。</p>
+<p>系統不解：「你不是要攻略男主嗎？趕緊上去舔啊，跑車庫裡來幹什麼？」</p>
+<p>「我媽教過我，上門作客一定要帶點禮物，這樣顯得有家教，空手上門是件很沒禮貌的事。」</p>
+<p>系統沉默一瞬，在看清我手上拎著的東西後，崩潰道：「那你拎汽油幹什麼？！」</p>
+<p><span class="sec-badge">第 17 節 [21:54]</span></p>
+<p>我沒有理會它的抓狂，帶著汽油沿著牆外的管道爬上三樓——這樣厲害的攀爬本事，得益於這具身體小時候在農村度過整個童年的練習與記憶。翻進三樓陽台，手指撥弄幾下，陽台門輕鬆打開。</p>
+<p>我悄悄溜到一樓，聞堰還在唾沫橫飛地打著電話，咆哮聲震耳欲聾：「養你們有什麼用，連一個人都找不到！」</p>
+<p>他的聲音突然驟止，似乎感受到身後有危險。聞堰緩緩回頭，我站在他身後，衝他咧嘴露出一個陰森的笑：「這一世，你沒有答應我的表白喔。」</p>
+<p>我擰開桶蓋，衝他潑了過去。聞堰見鬼似的尖叫聲在別墅響起。他身邊的保鏢大約都派出去找我了，又或者他認為躲在別墅裡是安全的，以至於偌大的別墅並沒有幾個活人。</p>
+<p>此刻，我覺得自己真像個強取豪奪的瘋子：喜歡的男人，一定要得到。「聞堰，你逃不出我的手掌心。強扭的瓜甜不甜不知道，但一定解渴。」</p>
+<p>下一刻，打火機在我手中摁下，慘叫聲混合著衝天火光在我面前碎裂成一片片。「不愛我，就該死。」</p>
+<hr/>
+<h3 class="orig-sec">【第 18～19 節】七周目：高考升學宴與不被父母祝福的愛情 `[22:52 - 25:43]`</h3>
+<p><span class="sec-badge">第 18 節 [22:52]</span></p>
+<p>這次碎裂的世界紅得觸目，一片血紅消退後，我猛然回神，面前是一桌精美的宴席。有渾厚的中年男聲在台上響起：「很開心能邀請大家來參加我兒子的升學宴！」</p>
+<p>這是第七周目，時間回到我與聞堰剛剛高考完那一年。哪怕我的成績考得比他高出很多分，系統依然命令我報考與聞堰同一所大學。學費昂貴，這個暑假我拼了命地打工、拼了命地討好聞堰，終於掙夠第一期的學費。</p>
+<p>聞父高高在上，鄙視的眼神掃過我，不鹹不淡道：「現在的女孩認識一個有錢公子哥，就恬不知恥地死抓著不放，連升學宴都要死皮賴臉地混進來。」</p>
+<p>不是的，我壓根不想來。聞堰要求我來，說少了我這隻舔狗，感覺人生少了樂子；系統也強制我來，不來就會懲罰我。如他們所願，我出現在這場名流雲集的升學宴，成為大家口中津津樂道攀高枝的女人。</p>
+<p>一輪輪羞辱後，聞堰臉上的笑容更甚：「放心吧，她怎麼趕都趕不走的，她沒辦法回去，留在這裡給我當舔狗，是她唯一的選擇。」</p>
+<p>聞父看向他：「小堰，少跟這些窮人家的女孩混在一起，你楊叔叔家的女兒我瞧著不錯，你多上上心。」</p>
+<p>剛說完，聞堰突然從座位翻滾到地上，嘴裡撕心裂肺地叫著：「火！全是火！好燙，救我！」現場亂作一團，眾人上去拼命按住他。</p>
+<p>聞堰這才逐漸從六周目的死亡中緩過神來，人依舊抖如篩糠，哆嗦著說不出一句話。在看到我時，眸底只剩下畏懼，徹頭徹尾的惶恐，再無半分反抗的憤怒。</p>
+<p>我起身，笑著問道：「聞堰，我能當你女朋友嗎？」</p>
+<p><span class="sec-badge">第 19 節 [24:12]</span></p>
+<p>四下傳來竊竊私語與哄笑，聞父一拍桌子：「你算個什麼身份？別以為認識我兒子幾天就能上位，我告訴你，我們聞家大門不是你這種身份的人可以進的！」</p>
+<p>可聞堰渾身抖得更厲害，他顫抖著身子，瘋了似的點頭：「可以！我同意了，我真的同意了！」</p>
+<p>原來，強取豪奪是這種感覺啊。我告訴系統：「我終於學會了強取豪奪，這滋味不錯。」系統徹底絕望。</p>
+<p>聞父倒吸一口涼氣，恨鐵不成鋼：「我早就告訴過你了，你以後是要聯姻的，我絕不允許你跟外面的女人在一起！」</p>
+<p>聞堰拼命地搖頭，嘴裡不停地重複：「我願意，我真的願意，不要再追殺我了，我什麼都願意……」我一步步逼近，聞堰肉眼可見地顫抖起來，渾身僵硬，聲音幾乎不成調：「蘊秋，我真的願意，你相信我！」</p>
+<p>我嘆了口氣，可憐巴巴地道：「聞堰，不被父母祝福的愛情是沒有結果的。罷了，下周目裡記得提前做好家裡的思想工作。」</p>
+<p>我迅速摔爛手邊的盤子，捏著一塊邊緣鋒利的碎瓷器劃破他的脖頸。升學宴亂成一團，尖叫聲此起彼伏。世界崩塌的前一刻，我看到聞父驚慌失措的臉，以及聞堰近乎麻木的神色。</p>
+<p>系統捂著腦袋：「男主這次真的答應了，你為什麼還要殺他？」</p>
+<p>我冷笑一聲：「你當我不知道任務的最終要求？不光要成為他的女朋友，還要結婚領證才算任務圓滿完成。聞家長輩不同意我們的婚事，我成為聞堰的女朋友又有什麼用？到頭來還不是受盡羞辱，被隔離在聞家大門外！我真是不明白，你們這些系統發布這樣的任務，偏偏又不給女主一個好出身，非要讓女主遭受本不該承受的羞辱。」</p>
+<p>許是系統能量已快耗光，它的聲音都虛弱很多：「那下一周目總該可以達成任務要求了吧？」</p>
+<p>我蹙起眉：如果時間線再向前推移，那會推移到哪個時間點呢？</p>
+<hr/>
+<h3 class="orig-sec">【第 20 節】八周目：貴族高中初見與「這個世界不需要男主」 `[25:43 - 27:50]`</h3>
+<p><span class="sec-badge">第 20 節 [25:43]</span></p>
+<p>這個問題我還未想清楚，耳邊傳來稀稀拉拉的掌聲，幾下就沒了動靜，很快被奚落與譏諷所替代。</p>
+<p>我睜開眼，身旁老師毫無表情，臉上帶著一股不耐煩，公事公辦道：「這位是宋蘊秋同學，剛從縣城轉學來到咱們貴族高中，以後大家就是同班同學了。」</p>
+<p>哄笑聲變大，夾雜著幾句：「原來來了個窮鬼！你瞧她那一身衣服，都洗變形了，領子鬆鬆垮垮。咱們這裡的校服一年得花上萬呢，她買得起嗎？我打賭她肯定是為了釣金龜婿來的！」</p>
+<p>時間回到了我與聞堰初見的第一日。系統綁定我，讓我轉學為攻略男主做準備。成績優異的我轉到貴族高中後，交不起學費成為被霸凌的對象，可系統卻興奮：「這樣多好啊，你越可憐，男主越能在你面前展露英雄氣概，這樣他才會更愛你。」我並沒有得到愛，得到的只是數不清的霸凌，讓我優異的成績一落千丈。</p>
+<p>老師站在我身邊道：「聞堰身邊還空了一個座位，你去那裡坐吧。」</p>
+<p>一片不懷好意的嘖嘖聲中，聞堰突然大叫著起身滾到地上，他像是有了刻入骨髓的應激反應，先是大叫有火，再去摸自己脖子、摸後腦勺，最後按上自己的腹部，甚至說不清身上的傷口到底在哪。</p>
+<p>等勉強平復驚懼的情緒後，聞堰抬頭越過人群看到了我，四目相對，平靜與懼怕。他大約想起來了，這是我們的第一次見面。</p>
+<p>聞堰痛哭流涕地撲上前抓著我的褲腿：「宋蘊秋，我、我喜歡你！我要與你在一起，我們到了法定年齡就去結婚！你放心，我會處理好家裡人的態度，絕不會有人阻攔我們在一起！我發誓，我說的每一句話都是真的，求求你一定要答應我，我真的、真的很喜歡你！」</p>
+<p>詫異的驚呼聲在教室每個角落響起。我微笑著問系統：「你瞧，任務這就完成了，比當舔狗容易多了。」</p>
+<p>系統虛弱得已經說不了話，但它不得不承認，這樣完成任務的效率是真的高。</p>
+<p>我將書包拿下，在裡面一通亂翻。聞堰小心翼翼地問道：「蘊秋，你在找什麼？」</p>
+<p>我掏出一把美工刀，驚喜道：「找到了！」刀刃鋒利，我握著刀柄，眼疾手快地劃破聞堰的脖子。他倒在我面前時，嘴裡還在喃喃：「我……我明明同意了……」</p>
+<p>教室裡亂成一團，所有人爭先恐後地逃離教室。系統掙扎著問：「這一世肯定能完成任務，你怎麼又殺了男主？」</p>
+<p>我抬頭看向碎裂的世界，告訴系統：「我想要一個沒有男主的世界。這個世界不需要男主，只有女主就足夠了。」</p>
+<hr/>
+<h3 class="orig-sec">【第 21～22 節】九周目大結局：撕毀轉學申請、系統換綁與清北逆襲 `[27:50 - 30:22]`</h3>
+<p><span class="sec-badge">第 21 節 [27:50]</span></p>
+<p>一陣微弱的電流聲後，九周目正式開啟。這是系統所能開啟的最後一次小世界，它的能量幾近清空。</p>
+<p>瘦弱的我正站在辦公室裡，老師語重心長道：「蘊秋啊，轉學這件事老師建議你再考慮一下。如果生活上有什麼困難可以告訴老師，學校一定會幫你解決。但你要是轉到貴族高中，那裡學費昂貴就算了，裡面都是有錢人家的孩子，你進去很容易受欺負的。」</p>
+<p>我回神，看向手裡捏著一張皺巴巴的轉學申請，倏忽笑了——這才是一切最初的開始。</p>
+<p>我將申請表撕碎丟到垃圾桶裡，甜甜道：「老師您說得對，我不轉學了，我要留在咱們縣城一中高考！」</p>
+<p>我回到了教室，回到人生錯誤的開始，一點點修正原屬於我的人生。</p>
+<p>上午的最後一節課，老師帶了一個男生走進教室，明明穿著一身名牌，舉止卻畏畏縮縮。老師站在講台上介紹：「這位同學是新轉來的，大家之後一定要好好相處，讓我們掌聲歡迎新同學！」</p>
+<p>熱烈的掌聲後，新轉來的男生磕磕絆絆地自我介紹：「大家好，我……我叫聞堰。」他的目光看到了我，像是發現了唯一的救贖。</p>
+<p><span class="sec-badge">第 22 節 [28:46]</span></p>
+<p>聞堰坐到了我身旁，雖然怕我，但還是討好道：「我給你帶了午飯，你嚐嚐好嗎？」</p>
+<p>我聽到他腦中有系統在叫：「我讓你親手做你聽不懂嗎？下次再偷懶我可要懲罰你了！不彰顯誠意，怎麼攻略女主？如果女主對你的好感度達不到 100，那麼你將會被抹殺！女主當前好感度：負一百！」</p>
+<p>聞堰雙手抖了抖。我這才發現，這一周目我腦中的系統消失了。</p>
+<p>我問道：「你換人綁定了嗎？」</p>
+<p>系統聲音有氣無力：「是的，你是這個世界唯一的女主，我無法再綁定你了。」</p>
+<p>我若有所思地點頭，又道：「既然他不是男主了，那他還有資格這麼富裕嗎？天涼了，聞家也該破產了吧。」</p>
+<p>「那是自然，他怎麼可能還有資格當首富之子呢？放心吧，兩年之後聞家就會破產，而你的財富會以非人的速度增長。」</p>
+<p>「你既然這麼缺能量，不如多綁定幾個人攻略我，比如說聞堰那群兄弟，這樣不是獲取能量速度更快嗎？」系統直呼好主意。</p>
+<p>我留在了這個世界，替原主修正好人生之後再選擇離開。高中畢業那年，我以優異的成績考入清北。</p>
+<p>全校慶祝那日，我悄悄避開人群去了空無一人的教室，掏出手機，撥下一長串爛熟於心的號碼：011207 生日的主人。電話另一頭，一個尚且稚嫩的女聲響起：「你是誰？」</p>
+<p>我沒有回答這個問題，而是自顧自地說下去：「你不用說話，聽我說。我知道你打算高考後的這個暑假出國留學，但在你留學的第二年，你的家族會破產，然後會有系統找上你，它會逼你當一個惡毒的白月光，去討好一個你曾經無比嫌棄的富家紈絝公子哥。你只要阻止家族的破產，讓自己自身氣運充盈，就能避開系統的綁定。而你家族的破產，是因為你們接盤了聞家一塊無法開發的地皮。記住，這塊地讓聞家爛在手中，兩年後破產的就是他們。最後說一句，楊蓁，別老是節食減肥了，瘦得只剩一把骨頭，站在甲板上海風一吹搖搖欲墜，除了更耐餓以外，沒有任何用處。」</p>
+<p>我掛了電話。老師推開教室門，臉上掛著激動的笑喊我：「蘊秋，來一起合照了！」</p>
+<p>我招呼一聲：「馬上來！」外面人群熙攘，我也將奔赴新的未來。</p>
+    </div>
+  </div>
+</div>
+
+<script>
+function switchTab(name, btn) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  btn.classList.add('active');
+}
+</script>
+</body>
+</html>
